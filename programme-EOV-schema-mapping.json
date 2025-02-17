@@ -1,22 +1,26 @@
+// https://geonode.goosocean.org/layers/geonode_data:geonode:integrated_marine_observing_system
 {
     "@context": {
         "@vocab": "https://schema.org/"
     },
-    "@type": "Programme",
-    "@id": "https://oceanexpert.org/institution/16179", // Ocean Expert ID
-    "name": "Centro Interdisciplinar de Investigação Marinha e Ambiental (CIIMAR)",
-    "description": "Interdisciplinary Centre of Marine and Environmental Research is a leading research and advanced training institution of the University of Porto, working at the frontier of Ocean Knowledge and Innovation.",
-    "url": "https://obis.org/dataset/dcbb8f12-c869-4d31-aa8b-23abb27898ce",
-    "license": "This work is licensed under a  Creative Commons Attribution (CC-BY) 4.0 License",
-    "citation": "Ampela, K. and G. Miller-Francisco. 2017. MIRC NAVFAC MISTCS Vessel Surveys Jan-Apr 2007. Data downloaded from OBIS-SEAMAP (http://seamap.env.duke.edu/dataset/1519) on yyyy-mm-dd.",
+    "@type": "Programme", //I changed the type to Programme
+    "@id": "", // ID needed
+    "name": "Integrated Marine Observing System",
+    "description": "IMOS operates a wide range of observing equipment throughout Australia's vast and valuable coastal and open ocean estate.",
+    "url": "https://imos.org.au/",
+    "license": "",
+    "citation": "Data were sourced from Australia’s Integrated Marine Observing System (IMOS) – IMOS is enabled by the National Collaborative Research Infrastructure Strategy (NCRIS). It is operated by a consortium of institutions as an unincorporated joint venture, with the University of Tasmania as Lead Agent.",
     "version": "2021-04-24T06:34:56.000Z",
     "keywords": [
-        "Sea State",
-        "Mariana Islands Range Complex",
-        "Oceanography",
-        "Marine Physics"
+         //Is there a place we're recommedning for controlled vocab for keywords?
+        "fish",
+        "hard coral",
+        "macroalgae",
+        "marine mammals",
+        "phytoplankton",
+        "zooplankton"
     ],
-    "variableMeasured": [
+    "variableMeasured": [ //this section probably isn't needed at the programme level (?)
         {
             "@type": "PropertyValue",
             "name": "Sea State",
@@ -25,68 +29,79 @@
                 "http://purl.obolibrary.org/obo/ENVO_01001374",
                 "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all/11aca777-8a01-42ce-b076-b3059c3d8cae?gtm_keyword=SEA%20STATE&gtm_scheme=Earth%20Science"
             ]
-        },
-        {
-            "@type": "PropertyValue",
-            "name": "Ocean Surface Stress",
-            "description": "The 2-dimensional horizontal vector Ocean Surface Stress is the rate per unit area at which momentum is transferred from the atmosphere to the ocean.",
-            "propertyID": "http://purl.obolibrary.org/obo/ENVO_01001844",
-            "value": 0.2,
-            "unitCode": "http://qudt.org/vocab/unit/N-PER-M2"
         }
     ],
     "measurementTechnique": [
-        "http://dx.doi.org/10.1002/exampleMethodsSeaStateDOI.ch1",
-        "http://dx.doi.org/10.1002/exampleMethodsOceanStressDOI.ch1"
+        "https://repository.oceanbestpractices.org/handle/11329/556" //OBP IMOS community
     ],
     "publishingPrinciples": [
         {
             "@type": "CreativeWork",
-            "url": "http://www.goosocean.org/components/com_oe/oe.php?task=download&id=34494&version=1.0&lang=1&format=1",
-            "name": "Ocean Observations Physics and Climate Panel (OOPC) Sea State GOOS EOV Specification Sheet",
-            "description": "This is the EOV specification sheet released by GOOS for Sea State.  It was composed by the Ocean Observations Panel for Climate.  OOPC is sponsored by the Global Ocean Observing System the Global Climate Observing System and the World Climate Research Program. OOPC provides advice on scientific requirements to the Joint Commission for Oceanography and Marine Meteorology. "
+            "url": "https://goosocean.org/document/17510",
+            "name": "Fish Abundance and Distribution GOOS EOV Specification Sheet",
+            "description": "This is the EOV specification sheet released by GOOS for Fish Abundance and Distribution."
         },
         {
             "@type": "CreativeWork",
-            "url": "http://www.goosocean.org/components/com_oe/oe.php?task=download&id=34507&version=1.0&lang=1&format=1",
-            "name": "Ocean Observations Physics and Climate Panel (OOPC) Ocean Surface Stress GOOS EOV Specification Sheet",
-            "description": "This is the EOV specification sheet released by GOOS for Ocean Surface Stress.  It was composed by the Ocean Observations Panel for Climate.  OOPC is sponsored by the Global Ocean Observing System the Global Climate Observing System and the World Climate Research Program. OOPC provides advice on scientific requirements to the Joint Commission for Oceanography and Marine Meteorology. "
+            "url": "https://goosocean.org/document/17512",
+            "name": "Hard Coral cover and composition GOOS EOV Specification Sheet",
+            "description": "This is the EOV specification sheet released by GOOS for Hard Coral cover and composition."
         },
         {
             "@type": "CreativeWork",
-            "url": "http://example.org/id/doc/ID",
-            "name": "QA/QC guidance",
-            "description": "QA/QC  - EOV data and the methods used to generate them should have been vetted through some QA/QC methods, ideally performed by an independent third-party. These should be included in a dedicated JSON-LD block, even if it points to the same methodology linked to in the measurementTechnique block. "
+            "url": "https://goosocean.org/document/17515",
+            "name": "Macroalgal Canopy Cover and Composition GOOS EOV Specification Sheet",
+            "description": "This is the EOV specification sheet released by GOOS for Macroalgal Canopy Cover and Composition."
+        },
+        {
+            "@type": "CreativeWork",
+            "url": "https://goosocean.org/document/17511",
+            "name": "Marine turtles, birds, mammals abundance and distribution GOOS EOV Specification Sheet",
+            "description": "This is the EOV specification sheet released by GOOS for Marine turtles, birds, mammals abundance and distribution"
+        },
+        {
+            "@type": "CreativeWork",
+            "url": "https://goosocean.org/document/17507",
+            "name": "Phytoplankton biomass and diversity GOOS EOV Specification Sheet",
+            "description": "This is the EOV specification sheet released by GOOS for Phytoplankton biomass and diversity"
+        },
+        {
+            "@type": "CreativeWork",
+            "url": "https://goosocean.org/document/17509",
+            "name": "Zooplankton Biomass and Diversity GOOS EOV Specification Sheet",
+            "description": "This is the EOV specification sheet released by GOOS for Zooplankton Biomass and Diversity"
+        },
+        {
+            "@type": "CreativeWork",
+            "url": "https://imos.org.au/data/about-the-australian-ocean-data-network/data-management-standards-and-policies/quality-assurance-and-quality-control",
+            "name": "IMOS QA/QC guidance",
+            "description": "The IMOS QA/QC Framework document outlines IMOS QA/QC requirements for IMOS data streams."
         }
     ],
-    "distribution": {
-        "@type": "DataDownload",
-        "contentUrl": "http://example.org/archive.do?r=zd_1519",
+    "distribution": { //also likely not needed at the programme level but will need a spot to put outputs
+        "@type": "DataDistribution",
+        "contentUrl": "https://portal.aodn.org.au/",
         "encodingFormat": "application/zip"
     },
-    "spatialCoverage": {
+    "spatialCoverage": { // compare to areaServed? which is better?
         "@type": "Place",
+        "name": "Australia",
         "geo": {
             "@type": "GeoShape",
             "description": "schema.org expects lat long (Y X) coordinate order",
-            "polygon": "10.161667 142.014,18.033833 142.014,18.033833 147.997833,10.161667 147.997833,10.161667 142.014"
-        },
-        "additionalProperty": {
-            "@type": "PropertyValue",
-            "propertyID": "https://dbpedia.org/page/Spatial_reference_system",
-            "value": "https://www.w3.org/2003/01/geo/wgs84_pos"
+            "polygon": "" //wasn't given for this example
         }
     },
-    "provider": [
+    "provider": [ // who should the provider be for programmes? individual? parent institution?
         {
-            "@id": "https://oceanexpert.org/institution/INSTITUTE_ID",
+            "@id": "",
             "@type": "Organization",
-            "legalName": "Example University",
-            "name": "Example University",
-            "url": "https://oceanexpert.org/institution/INSTITUTE_ID"
+            "legalName": "University of Tasmania",
+            "name": "University of Tasmania",
+            "url": "https://www.utas.edu.au/"
         }
     ],
-    "about": {
+    "about": { // what info would go here, sampling instruments? may not be relevant at programme level. I left the example data
         "@type": "Event",
         "description": "describe the activity, might include name here too.",
         "name": "Measurement of sea state",
@@ -113,7 +128,45 @@
             }
         ]
     },
-    "datePublished": "2018-07-29",
-    "dateModified": "2018-07-30T14:30Z",
-    "temporalCoverage": "2012-09-20/2016-01-22"
+    "datePublished": "2025-02-17", //just put today's date
+    "dateModified": "2025-02-17T14:55", 
+    "temporalCoverage": "2007-01/2025-02-17", // how to indicate ongoing?
+    
+    // adding the below from the proj schema
+
+    "funder": { //what is the difference between funder and funding? do you need both?
+        "@type": "FundingAgency",
+        "name": "Austrlian Government",
+        "legalName": "Australian Government",
+        "alternateName": "",
+        "url": "https://www.education.gov.au/",
+        "identifier": {
+            "@type": "PropertyValue",
+            "propertyID": "",
+            "value": "",
+            "url": ""
+            }
+    },
+    "funding": [
+        {
+            "@type": "MonetaryGrant",
+            "url": "http://www.someinstitute.edu",
+            "name": "National Collaborative Research Infrastructure Strategy (NCRIS)",
+            "identifier": "",
+            "funder": [
+                {
+                    "@type": "FundingAgency",
+                    "name": "Australian Government",
+                    "url": "https://www.education.gov.au/",
+                    "identifier": {
+                        "@type": "PropertyValue",
+                        "propertyID": "",
+                        "value": "",
+                        "url": ""
+                        }
+                }
+            ]
+        }
+    ]
 }
+// need places for recording people as well
