@@ -3,16 +3,18 @@
     "@context": {
         "@vocab": "https://schema.org/"
     },
-    "@type": "Programme", //I changed the type to Programme
-    "@id": "", // ID needed
+    "@type": "Organization", //I changed the type to Programme
+    "additionalType": 
+    "@id": "", // ID of the document
     "name": "Integrated Marine Observing System",
     "description": "IMOS operates a wide range of observing equipment throughout Australia's vast and valuable coastal and open ocean estate.",
     "url": "https://imos.org.au/",
-    "license": "",
-    "citation": "Data were sourced from Australia’s Integrated Marine Observing System (IMOS) – IMOS is enabled by the National Collaborative Research Infrastructure Strategy (NCRIS). It is operated by a consortium of institutions as an unincorporated joint venture, with the University of Tasmania as Lead Agent.",
-    "version": "2021-04-24T06:34:56.000Z",
+    "license": "", //not needed. 
+    "citation": "Data were sourced from Australia’s Integrated Marine Observing System (IMOS) – IMOS is enabled by the National Collaborative Research Infrastructure Strategy (NCRIS). It is operated by a consortium of institutions as an unincorporated joint venture, with the University of Tasmania as Lead Agent.", //put a a list of things that cite this. change this to creditText but check if its valid for Org
+    "version": "",
     "keywords": [
          //Is there a place we're recommedning for controlled vocab for keywords?
+        // can add the type defined term to attach controlled vocab. ENVO is official source for EOVs. can also use BODC
         "fish",
         "hard coral",
         "macroalgae",
@@ -20,8 +22,10 @@
         "phytoplankton",
         "zooplankton"
     ],
-    "variableMeasured": [ //this section probably isn't needed at the programme level (?)
-        {
+    "variableMeasured": [ //this section probably isn't needed at the programme level (?) --> it is not
+        { // let the dataset metadata connect
+            // property value has measurement technique and measurement method
+            // so the potentialAction section could be incorporated into this area
             "@type": "PropertyValue",
             "name": "Sea State",
             "description": "Sea State is the characterization of wave and swell, typically in terms of height, wavelength, period, and directional wave energy flux ",
@@ -34,7 +38,7 @@
     "measurementTechnique": [
         "https://repository.oceanbestpractices.org/handle/11329/556" //OBP IMOS community
     ],
-    "publishingPrinciples": [
+    "publishingPrinciples": [ // this can link to organizations publishing prin
         {
             "@type": "CreativeWork",
             "url": "https://goosocean.org/document/17510",
@@ -83,16 +87,20 @@
         "contentUrl": "https://portal.aodn.org.au/",
         "encodingFormat": "application/zip"
     },
-    "spatialCoverage": { // compare to areaServed? which is better?
+    "spatialCoverage": { // compare to areaServed? which is better? --> areaServed
+        // areaserved = the intended scope is this area. but spatialcoverage is they have ACTUALLY done something there
+        // use areaserved as spatialcoverage isn't a thing for org. 
         "@type": "Place",
         "name": "Australia",
-        "geo": {
+        "geo": { //does not support multi polygons. better to use geoJSON with property values, see ODIS for examples
             "@type": "GeoShape",
             "description": "schema.org expects lat long (Y X) coordinate order",
             "polygon": "" //wasn't given for this example
         }
     },
     "provider": [ // who should the provider be for programmes? individual? parent institution?
+        // probably better to use ContactPoint, funder and funding
+        //if there's a list of organizations,  one record of JSON per org, then can just point to that JSON-LD when calling the org
         {
             "@id": "",
             "@type": "Organization",
@@ -102,10 +110,11 @@
         }
     ],
     "about": { // what info would go here, sampling instruments? may not be relevant at programme level. I left the example data
+        // cut this section not rel for projects
         "@type": "Event",
         "description": "describe the activity, might include name here too.",
         "name": "Measurement of sea state",
-        "potentialAction": [
+        "potentialAction": [ // could keep. this would be actions associated with the organization e.g. if they do an audit, mid-term review
             {
                 "@type": "Action",
                 "name": "Measurement of sea state",
@@ -131,10 +140,16 @@
     "datePublished": "2025-02-17", //just put today's date
     "dateModified": "2025-02-17T14:55", 
     "temporalCoverage": "2007-01/2025-02-17", // how to indicate ongoing?
+// founding date and dissolution date for organization to indicate the organizational lifetime of the program
+// within program can use startdate enddate in the action block and in individual projects or actions under
+// a project in schema is a kind of organization. project would be a suborganization
+// Pieter exported BioEco Portal as researchprojects
+// can moel them all as type project
     
     // adding the below from the proj schema
 
     "funder": { //what is the difference between funder and funding? do you need both?
+        // funder is the org that does it
         "@type": "FundingAgency",
         "name": "Austrlian Government",
         "legalName": "Australian Government",
@@ -153,7 +168,8 @@
             "url": "http://www.someinstitute.edu",
             "name": "National Collaborative Research Infrastructure Strategy (NCRIS)",
             "identifier": "",
-            "funder": [
+            "funder": [ // don't have to have to have this block e.g. if you know the funder but not the grant #
+                // can have multiple blocks with identifiers that point to each other
                 {
                     "@type": "FundingAgency",
                     "name": "Australian Government",
