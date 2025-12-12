@@ -1,0 +1,26 @@
+﻿VariableName,VocabExists,VocabID,Comments
+abundance,y,,
+acoustic_diversity,,,
+benthic carbon fluxes,,,
+benthic nutrient fluxes,,,
+biomass,y/m,,
+canopy height,?,,
+Density of Macrofauna,,,
+multispecral bands & RGB data,,,
+number of individuals,y,,
+Organic Carbon,y,https://vocab.nerc.ac.uk/collection/P01/current/OCCNXXXX/ or https://vocab.nerc.ac.uk/collection/P01/current/IC000118/,wet or dry weight?
+percent cover,y,http://vocab.nerc.ac.uk/collection/P01/current/PCOV7736/ or https://vocab.nerc.ac.uk/collection/P01/current/PCOVRCK1/,need to specify whether bed/rock and if we need to include methods
+phytoplankton pigment concentration,,,
+Presence/absence,y,,
+shoot density,,,
+size of fish,,,
+Species composition,y,,
+spectral signature,,,
+Stable Isotopes of C,,,which ones? both 14 and 15?
+Stable Isotopes of N,,,"which ones? all of 12, 13, 14 ?"
+"Total Carbon, ",,https://vocab.nerc.ac.uk/collection/P01/current/TCCNXXXX/,This is for dry weight
+water_depth,y,,
+water_temperature,y,,
+carbon concentrations in water,?,,need to know if any filters
+oxygen concentrations in water,?,,need to know if any filters
+nutrient concentrations in water,?,,need specific nutrients
