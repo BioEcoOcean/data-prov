@@ -1,26 +1,42 @@
-﻿VariableName,VocabExists,VocabID,Comments
-abundance,y,,
-acoustic_diversity,,,
-benthic carbon fluxes,,,
-benthic nutrient fluxes,,,
-biomass,y/m,,
-canopy height,?,,
-Density of Macrofauna,,,
-multispecral bands & RGB data,,,
-number of individuals,y,,
-Organic Carbon,y,https://vocab.nerc.ac.uk/collection/P01/current/OCCNXXXX/ or https://vocab.nerc.ac.uk/collection/P01/current/IC000118/,wet or dry weight?
-percent cover,y,http://vocab.nerc.ac.uk/collection/P01/current/PCOV7736/ or https://vocab.nerc.ac.uk/collection/P01/current/PCOVRCK1/,need to specify whether bed/rock and if we need to include methods
-phytoplankton pigment concentration,,,
-Presence/absence,y,,
-shoot density,,,
-size of fish,,,
-Species composition,y,,
-spectral signature,,,
-Stable Isotopes of C,,,which ones? both 14 and 15?
-Stable Isotopes of N,,,"which ones? all of 12, 13, 14 ?"
-"Total Carbon, ",,https://vocab.nerc.ac.uk/collection/P01/current/TCCNXXXX/,This is for dry weight
-water_depth,y,,
-water_temperature,y,,
-carbon concentrations in water,?,,need to know if any filters
-oxygen concentrations in water,?,,need to know if any filters
-nutrient concentrations in water,?,,need specific nutrients
+﻿VariableName,Unit,VocabExists,VocabID,FullVocabName,Comments
+abundance,individuals,y,http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/,Count of biological entity specified elsewhere,
+abundance,per unit area of the seabed,y,http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/,Abundance of biological entity specified elsewhere per unit volume of the water body,
+abundance,per unit area of the water,y,http://vocab.nerc.ac.uk/collection/P01/current/ABIOLA01/,Abundance of biological entity specified elsewhere per unit area of the water body,
+abundance,per unit volume,y,http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/,Abundance of biological entity specified elsewhere per unit volume of the water body,
+abundance,per unit sampling time,y,http://vocab.nerc.ac.uk/collection/P01/current/ADBIOL02/,Abundance of biological entity specified elsewhere per unit of sampling time in the water body,
+abundance,per unit volume of sediment,y,http://vocab.nerc.ac.uk/collection/P01/current/USPBIOSV/,Abundance of biological entity specified elsewhere per unit volume of the sediment,
+acoustic_diversity,,n,,,need clarification
+benthic carbon fluxes,,,,,need clarification
+benthic nutrient fluxes,,,,,need clarification
+biomass,,y,http://vocab.nerc.ac.uk/collection/P01/current/OWETBM01/,Wet weight biomass (in a sample) of biological entity specified elsewhere,
+biomass,,y,http://vocab.nerc.ac.uk/collection/P01/current/ODRYBM01/,Dry weight biomass (in a sample) of biological entity specified elsewhere,
+biomass,,y,http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL05/,Wet weight biomass of biological entity specified elsewhere per unit area of the bed,
+biomass,,y,http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL08/,Dry weight biomass of biological entity specified elsewhere per unit area of the bed,
+biomass,,y,http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL12/,Biomass as carbon of biological entity specified elsewhere per unit volume of the water body by computation,
+canopy height,,?,http://vocab.nerc.ac.uk/collection/P01/current/SPHGXX01/,Specimen height of biological entity specified elsewhere,generic height - may need specific for canopy
+Density of Macrofauna,individuals per square metre,y,http://vocab.nerc.ac.uk/collection/P01/current/SDBIOL01/,Abundance of biological entity specified elsewhere per unit volume of the water body,same as abundance
+multispecral bands & RGB data,,,,,need clarification
+number of individuals,individuals,y,http://vocab.nerc.ac.uk/collection/P01/current/OCOUNT01/ ,,
+Organic Carbon,,y,https://vocab.nerc.ac.uk/collection/P01/current/OCCNXXXX/ or https://vocab.nerc.ac.uk/collection/P01/current/IC000118/,,wet or dry weight?
+percent cover,percent,y,http://vocab.nerc.ac.uk/collection/P01/current/PCOV7736/,Proportion coverage of biological entity specified elsewhere within a given area of the bed,need to specify whether bed/rock and if we need to include methods
+percent cover,percent,y,http://vocab.nerc.ac.uk/collection/P01/current/PCOVRCK1/,Proportion coverage of biological entity specified elsewhere on the rock,
+percent cover,proportion,y,http://vocab.nerc.ac.uk/collection/P01/current/RCOV7736/,Relative cover of biological entity specified elsewhere within a given area of the bed,
+phytoplankton pigment concentration,,,,,need clarification
+Presence/absence,P or N,y,http://vocab.nerc.ac.uk/collection/P01/current/PRESABS2/,Presence or absence of biological entity specified elsewhere by using P or N binary classification,also inferred in the DwC: occurrenceStatus
+Presence/absence,0 or 1,y,http://vocab.nerc.ac.uk/collection/P01/current/PRESABS1/,Presence or absence of biological entity specified elsewhere by using 0 or 1 binary classification,also inferred in the DwC: occurrenceStatus
+shoot density,#shoots/quadrat,?,,,do we need a specific subcomponent for count? or can use general?
+size of fish,cm,y,http://vocab.nerc.ac.uk/collection/P01/current/OBSINDLX/,Length of biological entity specified elsewhere,BUT - what kind of size?
+Species composition,# of species,y,http://purl.obolibrary.org/obo/PCO_0000010,community species richness,is also inferred for OBIS datasets but the spp records. but if we need a specific term for spp richness. also will need to confirm richness = composition
+species evenness,,y,http://purl.obolibrary.org/obo/PCO_0000023,community species evenness,alternative over spp richness
+spectral signature,,,,,need clarification
+Stable Isotopes of C,,y,http://vocab.nerc.ac.uk/collection/P01/current/C13BTX01/,Enrichment with respect to Vienna Pee Dee Belemnite (VPDB) of carbon-13 {13C CAS 14762-74-4} {delta(13)C} in biota {biological entity specified elsewhere} by mass spectrometry,need to confirm if this is correct
+Stable Isotopes of N,,y,http://vocab.nerc.ac.uk/collection/P01/current/N15BTX01/,Enrichment of nitrogen-15 {15N CAS 14390-96-6} {delta(15)N} in biota {biological entity specified elsewhere} by mass spectrometry,need to confirm if this is correct
+"Total Carbon, ",per unit dry weight of sediment,,https://vocab.nerc.ac.uk/collection/P01/current/TCCNXXXX/,Concentration of total carbon {total_C CAS 7440-44-0} per unit dry weight of sediment,need clarification
+"Total Carbon, ",per unit volume of the wet sediment by model prediction,,http://vocab.nerc.ac.uk/collection/P01/current/CTOCWSM1/,Concentration of total carbon {total_C CAS 7440-44-0} per unit volume of the wet sediment by model prediction,need clarification
+"Total Carbon, ",Grams per square metre,,,,need clarification
+water_depth,Bathymetric depth (bottom depth),y,http://vocab.nerc.ac.uk/collection/P01/current/MBANZZZZ/,Bathymetric depth of seafloor relative to instantaneous sea level {sea-floor depth} in the water body,bottom depth
+water_temperature,,y,http://vocab.nerc.ac.uk/collection/P01/current/PSSTTS01/,Temperature of the water body by in-situ thermometer,
+water_temperature,,y,http://vocab.nerc.ac.uk/collection/P01/current/TEMPPR01/,Temperature of the water body,
+carbon concentrations in water,,?,,,need clarification
+oxygen concentrations in water,,?,,,need clarification
+nutrient concentrations in water,,?,,,need clarification
