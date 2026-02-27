@@ -1,0 +1,2041 @@
+{
+  "@context": [
+    "https://schema.org/",
+    {
+      "@vocab": "https://schema.org/"
+    }
+  ],
+  "@graph": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/13911286",
+      "name": "Data Management Plan by BioEcoOcean - Towards Integrated, FAIR and Inclusive Ocean Data Management",
+      "identifier": "https://doi.org/10.5281/zenodo.13911286",
+      "url": "https://zenodo.org/record/13911286",
+      "datePublished": "2026-01-31",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Lawrence, Elizabeth"
+        },
+        {
+          "@type": "Person",
+          "name": "Formel, Stephen"
+        },
+        {
+          "@type": "Person",
+          "name": "Mtwana Nordlund, Lina"
+        }
+      ],
+      "keywords": [
+        "data management plan",
+        "Horizon Europe",
+        "essential ocean variables"
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/18672397",
+      "name": "OCEANIS Quick Start guide: A Collaborative Planning tool for Integrated Ocean Action",
+      "identifier": "https://doi.org/10.5281/zenodo.18672397",
+      "url": "https://zenodo.org/record/18672397",
+      "description": "<p><span>A workshop quick start guiding tool to encourage cross-domain thinking and develop action plans</span></p>",
+      "datePublished": "2026-02-17",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Lawrence, Elizabeth"
+        },
+        {
+          "@type": "Person",
+          "name": "Nordlund, Lina Mtwana"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/18407772",
+      "name": "Hands On Darwin Core Data Standardization Exercise",
+      "identifier": "https://doi.org/10.5281/zenodo.18407772",
+      "url": "https://zenodo.org/record/18407772",
+      "description": "<p>Instructional materials for a hands-on workshop designed to practice standardizing field biodiversity data to Darwin Core (DwC). The materials include an instructional presentation, a printable exercise where participants manually map data into Darwin Core tables, and a document with completed solutions.</p>",
+      "datePublished": "2026-01-28",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Lawrence, Elizabeth"
+        }
+      ],
+      "keywords": [
+        "Darwin Core"
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/18018256",
+      "name": "Sensing the Ocean through the Exquisite Corpse ArtScience method",
+      "identifier": "https://doi.org/10.1525/elementa.2024.00051",
+      "url": "https://zenodo.org/record/18018256",
+      "datePublished": "2025-12-22",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Jung, Julia"
+        },
+        {
+          "@type": "Person",
+          "name": "Cherkasheva, Alexandra"
+        },
+        {
+          "@type": "Person",
+          "name": "Corporeau, charlotte"
+        },
+        {
+          "@type": "Person",
+          "name": "Mistry, Jayalaxshmi"
+        },
+        {
+          "@type": "Person",
+          "name": "Narvaez, Diego"
+        },
+        {
+          "@type": "Person",
+          "name": "Owens, Dwight"
+        },
+        {
+          "@type": "Person",
+          "name": "Parrain, Camille"
+        },
+        {
+          "@type": "Person",
+          "name": "Riddel, David J"
+        },
+        {
+          "@type": "Person",
+          "name": "Zivian, Anna"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/15480849",
+      "name": "Updated EOV specification sheets",
+      "identifier": "https://doi.org/10.5281/zenodo.15480849",
+      "url": "https://zenodo.org/record/15480849",
+      "datePublished": "2025-05-21",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Lara-Lopez, Ana"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/15655871",
+      "name": "Initial conceptual design of the Blueprint for Integrated Ocean Science",
+      "identifier": "https://doi.org/10.5281/zenodo.15655871",
+      "url": "https://zenodo.org/record/15655871",
+      "description": "<p>The sustainable management and conservation of the ocean depend increasingly on our ability to observe and understand biological and ecosystem processes. While global coordination around physical and biogeochemical ocean observing has advanced significantly over the past decades, biology and ecosystems (BioEco) observations remain fragmented, unevenly<br>implemented, and often disconnected from policy needs. The BioEcoOcean project seeksaddress this gap by developing a Blueprint for Integrated Ocean Science - a practical, co-created support tool to strengthen collaboration, integration, and impact across the ocean observing system.</p>\n<p>This deliverable presents the initial conceptual design of the Blueprint. It is grounded incomprehensive overview of the BioEco ocean observing landscape and informed by several co-creative workshops, where experts critically examined and contributed to the Blueprint components and their interconnections. The results highlighted the need for interoperability,<br>multi-level governance, and meaningful stakeholder engagement, particularly in under-resourced regions.</p>",
+      "datePublished": "2025-06-16",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Mtwana Nordlund, Lina"
+        },
+        {
+          "@type": "Person",
+          "name": "Hashim, Said"
+        },
+        {
+          "@type": "Person",
+          "name": "Lawrence, Elizabeth"
+        },
+        {
+          "@type": "Person",
+          "name": "Lepola, Nina"
+        },
+        {
+          "@type": "Person",
+          "name": "Lara-Lopez, Ana"
+        },
+        {
+          "@type": "Person",
+          "name": "Palacz, Artur"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/16630482",
+      "name": "Novel Monitoring Technologies -  an integrated overview of traditional and emerging methods for monitoring marine biodiversity. Deliverable 3.1_BioEcoOcean",
+      "identifier": "https://doi.org/10.5281/zenodo.16630482",
+      "url": "https://zenodo.org/record/16630482",
+      "description": "<p>This report provides an integrated overview of traditional and emerging methods for monitoring marine biodiversity, with emphasis on Essential Ocean Variables (EOVs). Traditional visual sampling methods such as underwater visual census (UVC), quadrat surveys, and net tows have long formed the backbone of biodiversity monitoring, offering high taxonomic resolution and compatibility with historical data.</p>\n<p>Emerging technologies&mdash;including environmental DNA (eDNA), imaging&nbsp;combined with Artificial Intelligence (AI) analysis, and remote sensing (satellites and drones)&mdash;promise to boost biodiversity observations by increasing spatial and temporal coverage, automating labor-intensive processes, and reducing environmental impact. eDNA enables non-invasive detection of cryptic species, while AI image analysis automates species identification and habitat quantification. Remote platforms such as Unmanned Aerial Vehicles (UAVs) and Remotely Operated Vehicles (ROVs) extend survey capabilities into deep or otherwise inaccessible environments.</p>\n<p>Key findings highlight the strengths and limitations of each method. eDNA excels in sensitivity but faces challenges in assigning species to sampling sites and in abundance estimation. AI imaging supports scalable monitoring, but requires large, annotated training sets. Acoustic methods offer large-scale tracking of biomass via proxies, but they still lack taxonomic precision. Hybrid approaches are emerging as best practice: combining traditional methods with novel tools is necessary for cross-validation and to maximize spatial and temporal coverage. Calibration remains essential, as it requires reference libraries and standardized protocols. The combination of traditional and emerging biodiversity observing technologies aligns with ethical research principles, such as the 3Rs (Replacement, Reduction, Refinement), especially by reducing the impact associated with destructive sampling.</p>\n<p>We recommend adopting integrated monitoring frameworks that combine in situ, genetic, and remote sensing data collection, tailored to the goals and constraints of each project. Supporting policy development and training efforts will be key to mainstreaming these approaches across the EU and global marine monitoring networks.</p>\n<p>&nbsp;</p>\n<div>&nbsp;</div>\n<p>&nbsp;</p>",
+      "datePublished": "2025-07-31",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Benedetti-Cecchi, Lisandro"
+        },
+        {
+          "@type": "Person",
+          "name": "Rindi, Luca"
+        },
+        {
+          "@type": "Person",
+          "name": "McGrath, Alexander"
+        },
+        {
+          "@type": "Person",
+          "name": "Olatoye, Dolapo Salim"
+        },
+        {
+          "@type": "Person",
+          "name": "Lüskow, Florian"
+        },
+        {
+          "@type": "Person",
+          "name": "Lehodey, Patrick"
+        },
+        {
+          "@type": "Person",
+          "name": "Borges, Débora"
+        },
+        {
+          "@type": "Person",
+          "name": "Reis, Bianca"
+        },
+        {
+          "@type": "Person",
+          "name": "Valente, André"
+        },
+        {
+          "@type": "Person",
+          "name": "Mtwana Nordlund, Lina"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/17789946",
+      "name": "Clustering Event I - Co-production of Policy Recommendations - Bridging Physics and Biology & Ecosystem Ocean Science - Deliverable 6.3",
+      "identifier": "https://doi.org/10.5281/zenodo.17789946",
+      "url": "https://zenodo.org/record/17789946",
+      "datePublished": "2025-12-02",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Karaca, Deniz"
+        },
+        {
+          "@type": "Person",
+          "name": "Hashim, Said"
+        },
+        {
+          "@type": "Person",
+          "name": "Benedetti-Cecchi, Lisandro"
+        },
+        {
+          "@type": "Person",
+          "name": "Lehodey, Patrick"
+        },
+        {
+          "@type": "Person",
+          "name": "Lepola, Nina"
+        },
+        {
+          "@type": "Person",
+          "name": "Lüskow, Florian"
+        },
+        {
+          "@type": "Person",
+          "name": "Lawrence, Elizabeth"
+        },
+        {
+          "@type": "Person",
+          "name": "Reis, Bianca"
+        },
+        {
+          "@type": "Person",
+          "name": "Koski, Marja"
+        },
+        {
+          "@type": "Person",
+          "name": "Kedra, Monika"
+        },
+        {
+          "@type": "Person",
+          "name": "Poursanidis, Dimitris"
+        },
+        {
+          "@type": "Person",
+          "name": "McAdam, Ronan"
+        },
+        {
+          "@type": "Person",
+          "name": "Soares, Joana"
+        },
+        {
+          "@type": "Person",
+          "name": "Mtwana Nordlund, Lina"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/17786843",
+      "name": "BioEcoOcean Initial Dissemination, Exploitation and Communication Plan Plan - Deliverable 6.2",
+      "identifier": "https://doi.org/10.5281/zenodo.17786843",
+      "url": "https://zenodo.org/record/17786843",
+      "datePublished": "2025-12-02",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Palacz, Artur"
+        },
+        {
+          "@type": "Person",
+          "name": "Krzymiński, Dominik"
+        },
+        {
+          "@type": "Person",
+          "name": "Soares, Joana"
+        },
+        {
+          "@type": "Person",
+          "name": "Karaca, H. Deniz"
+        },
+        {
+          "@type": "Person",
+          "name": "Lepola, Nina"
+        },
+        {
+          "@type": "Person",
+          "name": "Mtwana Nordlund, Lina"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/17786530",
+      "name": "BioEcoOcean Project Website - Deliverable 6.1",
+      "identifier": "https://doi.org/10.5281/zenodo.17786530",
+      "url": "https://zenodo.org/record/17786530",
+      "datePublished": "2025-12-02",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Palacz, Artur"
+        },
+        {
+          "@type": "Person",
+          "name": "Krzymiński, Dominik"
+        },
+        {
+          "@type": "Person",
+          "name": "Lepola, Nina"
+        },
+        {
+          "@type": "Person",
+          "name": "Mtwana Nordlund, Lina"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/17864822",
+      "name": "Report of the workshop \"Data Product Development for Modeling Benthic Carbon Processes in the Arctic\"",
+      "identifier": "https://doi.org/10.5281/zenodo.17864822",
+      "url": "https://zenodo.org/record/17864822",
+      "description": "<p>The workshop &ldquo;Data Product Development for Modelling Benthic Carbon Processes in the Arctic&rdquo; was held online on 8th and 10th October 2025. It was organised by the EU-funded BioEcoOcean project in collaboration with EU funded projects POMP, SEA-Quester and NECCTON. The workshop gathered experts in Arctic marine biogeochemistry, benthic ecology, and modeling to identify gaps and develop a roadmap for generating benthic carbon data products suitable for model applications. The event consisted of two 3-hour online sessions combining plenary discussions and collaborative group work using Miro boards. In total 30 participants from 15 countries and 20 institutions attended.</p>",
+      "datePublished": "2025-12-09",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Szczepanek, Marta"
+        },
+        {
+          "@type": "Person",
+          "name": "Palacz, Artur"
+        },
+        {
+          "@type": "Person",
+          "name": "Kedra, Monika"
+        },
+        {
+          "@type": "Person",
+          "name": "Krzymiński, Dominik"
+        },
+        {
+          "@type": "Person",
+          "name": "Bluhm, Bodil"
+        },
+        {
+          "@type": "Person",
+          "name": "Dannheim, Jennifer"
+        },
+        {
+          "@type": "Person",
+          "name": "Gregoire, Marilaure"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/17776002",
+      "name": "Guide on EOVs. Deliverable 2.1_BioEcoOcean",
+      "identifier": "https://doi.org/10.5281/zenodo.17776002",
+      "url": "https://zenodo.org/record/17776002",
+      "description": "<p>The purpose of the Essential Ocean Variables specification guide is to outline and translate the information requested in each field of the EOV specification sheets to facilitate their update and use.</p>\n<p>The process to create this guide included a complete re-structure of the EOV specification sheet template to simplify the information provided. The creation of this new template considered the following:</p>\n<p>1) The audiences it aims to inform, including decision-makers and policymakers, funders, ocean observers, technologists, and data managers.<br>2) The needs of the different expert panels, i.e. physics, biogeochemistry (BGC) and biology and ecosystems panels, who will be using this standardised template<br>3) Simplification of the terminology used to make the information more accessible<br>4) The addition of a thorough metadata and data management section that provides the necessary information to contribute data to global ocean observing.</p>\n<p>From the restructuring of the EOV specification sheet template, an interactive guide (this deliverable) was created. The guide allows users to understand the information within the EOV specification sheets. Further refinements may be undertaken from additional feedback from the BGC and physics expert panels or from within the BioEcoOcean consortium.</p>\n<p>&nbsp;</p>\n<div>&nbsp;</div>\n<p>&nbsp;</p>",
+      "datePublished": "2025-01-17",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Lara-Lopez, Ana"
+        },
+        {
+          "@type": "Person",
+          "name": "Lawrence, Elizabeth"
+        },
+        {
+          "@type": "Person",
+          "name": "Appeltans, Ward"
+        },
+        {
+          "@type": "Person",
+          "name": "Heslop, Emma"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/17779538",
+      "name": "Revising Carbon Uptake Estimates in the European Arctic with a regional satellite algorithm and BGC-Argo data",
+      "identifier": "https://doi.org/10.5281/zenodo.17779538",
+      "url": "https://zenodo.org/record/17779538",
+      "datePublished": "2025-12-01",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Cherkasheva, Alexandra"
+        },
+        {
+          "@type": "Person",
+          "name": "Palacz, Artur"
+        },
+        {
+          "@type": "Person",
+          "name": "Manurov, Rustam"
+        },
+        {
+          "@type": "Person",
+          "name": "Kowalczuk, Piotr"
+        },
+        {
+          "@type": "Person",
+          "name": "Loginova, Alexandra"
+        },
+        {
+          "@type": "Person",
+          "name": "Bracher, Astrid"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/17076486",
+      "name": "The Global Lipid Pump",
+      "identifier": "https://doi.org/10.5281/zenodo.17076486",
+      "url": "https://zenodo.org/record/17076486",
+      "datePublished": "2025-09-08",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Visser, Andre"
+        },
+        {
+          "@type": "Person",
+          "name": "Jonasdottir, Sigrun"
+        },
+        {
+          "@type": "Person",
+          "name": "Pinti, Jérôme"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/17417069",
+      "name": "Bridging the Gap: Simplifying Metadata Flows with an EOV Application",
+      "identifier": "https://doi.org/10.5281/zenodo.17417069",
+      "url": "https://zenodo.org/record/17417069",
+      "description": "<p>Presentation given during Living Data 2025 conference, Bogota, Colombia. Presentation was part of the session #6802990 Trust, Traceability &amp; Transparency: Tackling biodiversity data provenance.</p>",
+      "datePublished": "2025-10-23",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Lawrence, Elizabeth"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/17410456",
+      "name": "From Observation to Impact:  Co-created tools emphasize the role of data management in global biodiversity observing systems",
+      "identifier": "https://doi.org/10.5281/zenodo.17410456",
+      "url": "https://zenodo.org/record/17410456",
+      "description": "<p>Presentation given during Living Data 2025 conference, Bogota, Colombia. Presentation was part of the session #6803154 A Global Ocean Biodiversity Observing System supporting governance framework implementation.</p>",
+      "datePublished": "2025-10-21",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Lawrence, Elizabeth"
+        },
+        {
+          "@type": "Person",
+          "name": "Mtwana Nordlund, Lina"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/17341127",
+      "name": "Taking advantage of open data in coastal science and conservation",
+      "identifier": "https://doi.org/10.1016/j.scitotenv.2025.180276",
+      "url": "https://zenodo.org/record/17341127",
+      "description": "<p><strong>Abstract</strong><br>Human society relies on, and interacts with, a diverse assortment of organisms and ecological systems, from the local to the global level. Research and management of these coupled social-ecological systems requires data that speaks to the variety of processes, statuses, and situations defined by them. Effective stewardship is enhanced by interdisciplinary thinking and, critically, access to interoperable data describing human society and governance and ecological and environmental conditions. Such approaches are inherently challenging, especially for those without broad training. In this paper, we propose a workflow harnessing the Social-Ecological System Framework to identify, access, and utilize geospatial data from across a spectrum of social and ecological indicators. We demonstrate the application of this workflow using Tropical Indo-Pacific seagrasses as an example system and in doing so, demonstrate the wealth of available open-data which can support an enhanced understanding of social-ecological system dynamics. With this workflow, we provide a readily applicable tool for use by coastal researchers and managers to support more inclusive social-ecological decision making.</p>",
+      "datePublished": "2025-09-01",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Hoad, Nicholas"
+        },
+        {
+          "@type": "Person",
+          "name": "Lefcheck, Jonathan"
+        },
+        {
+          "@type": "Person",
+          "name": "Alexandridis, Nikolaos"
+        },
+        {
+          "@type": "Person",
+          "name": "Jones, Benjamin Lawrence Hopper"
+        },
+        {
+          "@type": "Person",
+          "name": "Eklöf, Johan"
+        },
+        {
+          "@type": "Person",
+          "name": "Mtwana Nordlund, Lina"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/17209942",
+      "name": "Dissemination, Exploitation and Communication Plan",
+      "identifier": "https://doi.org/10.5281/zenodo.17209942",
+      "url": "https://zenodo.org/record/17209942",
+      "datePublished": "2025-07-31",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Palacz, Artur"
+        },
+        {
+          "@type": "Person",
+          "name": "Krzymiński, Dominik"
+        },
+        {
+          "@type": "Person",
+          "name": "Soares, Joana"
+        },
+        {
+          "@type": "Person",
+          "name": "Karaca Halen, Deniz"
+        },
+        {
+          "@type": "Person",
+          "name": "Lepola, Nina"
+        },
+        {
+          "@type": "Person",
+          "name": "Mtwana Nordlund, Lina"
+        }
+      ],
+      "keywords": [
+        "DEC Plan"
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/10972535",
+      "name": "Seagrass Synergy: Collaborate for Global Observing and Understanding",
+      "identifier": "https://doi.org/10.5281/zenodo.10972535",
+      "url": "https://zenodo.org/record/10972535",
+      "description": "<p><a href=\"https://goosocean.org/webinars/seagrass-synergy-collaborate-for-global-observing-and-understanding/\" target=\"_blank\" rel=\"noopener\"><strong>Global Ocean Observing System webinar</strong></a></p>\n<p><strong>Presenters:</strong>&nbsp;Lina Mtwana Nordlund and Emmett Duffy</p>\n<p><strong>Date and Time:</strong> 27 March 2024, 15:00 CET</p>\n<p>Join us in envisioning a world with comparable seagrass data across the globe. Explore the journey from the development of the Seagrass Essential Ocean Variable to the importance of standardized measurement, data availability, and the transformative impact of openly accessible seagrass data on global biodiversity indicators. Be part of the conversation as we discuss the evolving landscape of seagrass monitoring, from essential variables and open repositories to global collaborations shaping the future of seagrass research.</p>",
+      "datePublished": "2024-03-27",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Nordlund, Lina Mtwana"
+        },
+        {
+          "@type": "Person",
+          "name": "Duffy, J. Emmett"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/17106055",
+      "name": "Advancing ocean observations of marine life through collaboration and integration",
+      "identifier": "https://doi.org/10.5281/zenodo.17106055",
+      "url": "https://zenodo.org/record/17106055",
+      "description": "<p>ABSTRACT: Are you working to understand and protect marine life? Do you think that fragmented data, disconnected initiatives, and communication barriers hold us back? This workshop offers a chance to be part of changing this narrative. Led by the BioEcoOcean project, this interactive session invites you to take an active role in co-creating the Blueprint for Integrated Ocean Science - a pioneering global support tool designed to transform how we observe, understand, and manage marine ecosystems. The Blueprint is not a framework imposed from elsewhere. It is being built collaboratively, and this workshop is a key moment to ensure that the priorities, challenges, and ambitions of early career researchers are also firmly embedded in its design. Through structured discussions, participants will shape a practical tool encouraging communication that strengthens biological and ecosystem observations, connects fragmented efforts, and guides future partnerships, funding strategies, and management actions. The Blueprint will directly support regional and global marine conservation goals, ecosystem-based management, and policy implementation, aligned with frameworks such as the Convention on Biological Diversity and the Sustainable Development Goals. The insights generated here will feed directly into the Blueprint, which will launch in 2027 as an open-access, interactive platform endorsed by the Global Ocean Observing System (GOOS) under IOC-UNESCO. This is your opportunity to ensure that the voice of early career researchers helps lead and define the future of integrated ocean observation. Join us - and be part of building a tool that serves both the region and the world.</p>",
+      "datePublished": "2025-09-12",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Nordlund, Lina Mtwana"
+        },
+        {
+          "@type": "Person",
+          "name": "Lepola, Nina"
+        },
+        {
+          "@type": "Person",
+          "name": "Hashim, Said"
+        },
+        {
+          "@type": "Person",
+          "name": "Montesano, Valentina"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/16928804",
+      "name": "The Marine Organic Carbon Atlas Living Lab (MOCA)",
+      "identifier": "https://doi.org/10.5281/zenodo.16928804",
+      "url": "https://zenodo.org/record/16928804",
+      "datePublished": "2025-03-11",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Cherkasheva, Alexandra"
+        },
+        {
+          "@type": "Person",
+          "name": "Draganska-Deja, Katarzyna"
+        },
+        {
+          "@type": "Person",
+          "name": "Szczepanek, Marta"
+        },
+        {
+          "@type": "Person",
+          "name": "Szeligowska, Marlena"
+        },
+        {
+          "@type": "Person",
+          "name": "Palacz, Artur"
+        }
+      ],
+      "keywords": [
+        "Marine Organic Carbon Atlas"
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/16928709",
+      "name": "Marine Organic Carbon Atlas (MOCA) for the Arctic: contributions from EU HE BioEcoOcean & SEA-Quester",
+      "identifier": "https://doi.org/10.5281/zenodo.16928709",
+      "url": "https://zenodo.org/record/16928709",
+      "datePublished": "2024-12-12",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Palacz, Artur"
+        },
+        {
+          "@type": "Person",
+          "name": "Cherkasheva, Alexandra"
+        },
+        {
+          "@type": "Person",
+          "name": "Draganska-Deja, Katarzyna"
+        },
+        {
+          "@type": "Person",
+          "name": "Szczepanek, Marta"
+        },
+        {
+          "@type": "Person",
+          "name": "Szeligowska, Marlena"
+        },
+        {
+          "@type": "Person",
+          "name": "Kedra, Monika"
+        },
+        {
+          "@type": "Person",
+          "name": "Krzymiński, Dominik"
+        },
+        {
+          "@type": "Person",
+          "name": "GRIGORATOU, MARIA"
+        }
+      ],
+      "keywords": [
+        "Marine Organic Carbon Atlas"
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/16928353",
+      "name": "The Role Of Earth Observations in Developing a Pilot Demonstration of the Marine Organic Carbon Atlas for the Arctic Ocean",
+      "identifier": "https://doi.org/10.5281/zenodo.16928353",
+      "url": "https://zenodo.org/record/16928353",
+      "datePublished": "2025-06-25",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Palacz, Artur"
+        },
+        {
+          "@type": "Person",
+          "name": "Cherkasheva, Aleksandra"
+        },
+        {
+          "@type": "Person",
+          "name": "Darecki, Mirosław"
+        },
+        {
+          "@type": "Person",
+          "name": "Stoń-Egiert, Joanna"
+        },
+        {
+          "@type": "Person",
+          "name": "Szeligowska, Marlena"
+        },
+        {
+          "@type": "Person",
+          "name": "Szczepanek, Marta"
+        },
+        {
+          "@type": "Person",
+          "name": "Telszewski, Maciej"
+        }
+      ],
+      "keywords": [
+        "Marine Organic Carbon Atlas"
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/16911238",
+      "name": "Sequestration by the biological carbon pump: Do we really know what we are talking about?",
+      "identifier": "https://doi.org/10.1002/lol2.70053",
+      "url": "https://zenodo.org/record/16911238",
+      "datePublished": "2025-08-20",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Visser, Andre W"
+        }
+      ],
+      "keywords": [
+        "S-Q WP6"
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/15969408",
+      "name": "Pelagic tunicate assemblages along two latitudinal transects across the Sargasso Sea in spring 2023 – ecology linked to oceanography",
+      "identifier": "https://doi.org/10.5281/zenodo.15969408",
+      "url": "https://zenodo.org/record/15969408",
+      "datePublished": "2025-07-16",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Lüskow, Florian"
+        },
+        {
+          "@type": "Person",
+          "name": "Blancke, Tina"
+        },
+        {
+          "@type": "Person",
+          "name": "Freese, Marko"
+        },
+        {
+          "@type": "Person",
+          "name": "Mańko, Maciej K."
+        },
+        {
+          "@type": "Person",
+          "name": "Marohn, Lasse"
+        },
+        {
+          "@type": "Person",
+          "name": "Hanel, Reinhold"
+        },
+        {
+          "@type": "Person",
+          "name": "Pakhomov, Evgeny"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/15855747",
+      "name": "The immeasurable value of plankton to humanity",
+      "identifier": "https://doi.org/10.1093/biosci/biaf049",
+      "url": "https://zenodo.org/record/15855747",
+      "description": "<p>Abstract</p>\n<p>Plankton, a diverse group of aquatic organisms, make Earth livable, regulate aquatic life, and provide benefits to human societies such as access to clean water, food security, and well-being. They also support economies and inspire biotechnological innovations. This article aims to raise awareness of the value of plankton to humanity and serves as an informative guide for aquatic professionals, policymakers, and anyone interested in plankton. We present the value of plankton across six themes of human interest: biogeochemistry; ecology; climate; the evolution of science; economy; and culture, recreation, and well-being. Guided by the 2022 Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services values assessment, we introduce the six themes under the Life Framework of Values to offer a comprehensive summary of the significance of plankton to humanity. In addition, we provide examples of plankton variables used in policy frameworks and recommendations for enhancing understanding of their value through long-term sustainable research and monitoring.</p>",
+      "datePublished": "2025-06-24",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "GRIGORATOU, MARIA"
+        },
+        {
+          "@type": "Person",
+          "name": "Menden-Deuer, Susanne"
+        },
+        {
+          "@type": "Person",
+          "name": "McQuatters-Gollop, Abigail"
+        },
+        {
+          "@type": "Person",
+          "name": "Arhonditsis, George"
+        },
+        {
+          "@type": "Person",
+          "name": "Artigas, Luis Felipe"
+        },
+        {
+          "@type": "Person",
+          "name": "Ayata, Sakina-Dorothée"
+        },
+        {
+          "@type": "Person",
+          "name": "Bedikoğlu, Dalida"
+        },
+        {
+          "@type": "Person",
+          "name": "Beisner, Beatrix"
+        },
+        {
+          "@type": "Person",
+          "name": "Chen, Bingzhang"
+        },
+        {
+          "@type": "Person",
+          "name": "davies, claire"
+        },
+        {
+          "@type": "Person",
+          "name": "Diarra, Lillian"
+        },
+        {
+          "@type": "Person",
+          "name": "Elegbeleye, Owoyemi W"
+        },
+        {
+          "@type": "Person",
+          "name": "Everett, Jason D."
+        },
+        {
+          "@type": "Person",
+          "name": "Garcia, Tatiane M."
+        },
+        {
+          "@type": "Person",
+          "name": "Gentleman, Wendy C."
+        },
+        {
+          "@type": "Person",
+          "name": "Gonçalves, Rodrigo Javier"
+        },
+        {
+          "@type": "Person",
+          "name": "Guy-Haim, Tamar"
+        },
+        {
+          "@type": "Person",
+          "name": "Halfter, Svenja"
+        },
+        {
+          "@type": "Person",
+          "name": "Hinners, Jana"
+        },
+        {
+          "@type": "Person",
+          "name": "Horaeb, Richard R."
+        },
+        {
+          "@type": "Person",
+          "name": "Huggett, Jenny A."
+        },
+        {
+          "@type": "Person",
+          "name": "Johnson, Catherine L."
+        },
+        {
+          "@type": "Person",
+          "name": "Kavanaugh, Maria T."
+        },
+        {
+          "@type": "Person",
+          "name": "Lindemann, Christian"
+        },
+        {
+          "@type": "Person",
+          "name": "López-Abbate, María Celeste"
+        },
+        {
+          "@type": "Person",
+          "name": "Messié, Monique"
+        },
+        {
+          "@type": "Person",
+          "name": "Möller, Klas Ove"
+        },
+        {
+          "@type": "Person",
+          "name": "Montes, Enrique"
+        },
+        {
+          "@type": "Person",
+          "name": "Muller-Karger, Frank E."
+        },
+        {
+          "@type": "Person",
+          "name": "Neeley, Aimee"
+        },
+        {
+          "@type": "Person",
+          "name": "Olaleye, Yusuf"
+        },
+        {
+          "@type": "Person",
+          "name": "Palacz, Artur"
+        },
+        {
+          "@type": "Person",
+          "name": "Poulton, Alex J."
+        },
+        {
+          "@type": "Person",
+          "name": "Prowe, A. E. Friederike"
+        },
+        {
+          "@type": "Person",
+          "name": "Ratnarajah, Lavenia"
+        },
+        {
+          "@type": "Person",
+          "name": "RODRIGUEZ QUISPE, LUZMILA"
+        },
+        {
+          "@type": "Person",
+          "name": "RODRIGUEZ-FLOREZ, CLARA NATALIA"
+        },
+        {
+          "@type": "Person",
+          "name": "Rodriguez-Santiago, Aurea"
+        },
+        {
+          "@type": "Person",
+          "name": "Rousseaux, Cecile S."
+        },
+        {
+          "@type": "Person",
+          "name": "Saad, Juan Francisco"
+        },
+        {
+          "@type": "Person",
+          "name": "Santi, Ioulia"
+        },
+        {
+          "@type": "Person",
+          "name": "Soccodato, Alice"
+        },
+        {
+          "@type": "Person",
+          "name": "Stern, Rowena"
+        },
+        {
+          "@type": "Person",
+          "name": "Våge, Selina"
+        },
+        {
+          "@type": "Person",
+          "name": "Varkitzi, Ioanna"
+        },
+        {
+          "@type": "Person",
+          "name": "Richardson, Anthony"
+        }
+      ],
+      "keywords": [
+        "Plankton"
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/15674614",
+      "name": "Tuscan Archipelago Living Lab",
+      "identifier": "https://doi.org/10.5281/zenodo.15674614",
+      "url": "https://zenodo.org/record/15674614",
+      "datePublished": "2025-03-10",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Rindi, Luca"
+        },
+        {
+          "@type": "Person",
+          "name": "Mintrone, Caterina"
+        },
+        {
+          "@type": "Person",
+          "name": "McGrath, Alexander"
+        },
+        {
+          "@type": "Person",
+          "name": "Bertocci, Iacopo"
+        },
+        {
+          "@type": "Person",
+          "name": "Olatoye, Dolapo Salim"
+        },
+        {
+          "@type": "Person",
+          "name": "Benedetti-Cecchi, Lisandro"
+        }
+      ],
+      "keywords": [
+        "Tuscan Archipelago Living Lab"
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/15656907",
+      "name": "Report on the Focus Group on Co-Creating a Blueprint for Integrated Ocean Science: Fostering Collaboration for a Sustainable Future at the 7th International Marine Conservation Congress",
+      "identifier": "https://doi.org/10.5281/zenodo.15656907",
+      "url": "https://zenodo.org/record/15656907",
+      "datePublished": "2025-06-13",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Palacz, Artur"
+        },
+        {
+          "@type": "Person",
+          "name": "Mtwana Nordlund, Lina"
+        },
+        {
+          "@type": "Person",
+          "name": "Krzymiński, Dominik"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/15656733",
+      "name": "Blueprint for Integrated Ocean Science (BIOS): Advancing Harmonised Observation Systems and Policy Coordination for Sustainable Ecosystem Management",
+      "identifier": "https://doi.org/10.5281/zenodo.15656733",
+      "url": "https://zenodo.org/record/15656733",
+      "description": "<p>To effectively address the challenges of biodiversity loss and the compounded impacts of various anthropogenic stressors, including climate change and ecosystem disturbances, a coordinated and systematic approach to ocean observation and policy alignment is essential. The current fragmented landscape of observation efforts hinders collective progress in advancing scientific understanding and responding to critical ecosystem tipping points.</p>\n<p>To bridge these gaps, we are co-designing a comprehensive strategy that integrates policy recommendations with the development of standardized guidelines and regulations aimed at harmonizing and strengthening global and regional observation networks. This strategy focuses on enhancing evidence-based decision-making by fostering the co-creation and demonstration of operational, interconnected workflows. These workflows will cover the entire spectrum from observation system assessment and design to policy application, ensuring that collected data is robust, accessible, and directly applicable to management and governance frameworks in alignment with FAIR data principles.</p>\n<p>Central to this vision is the co-creation of a comprehensive, fit-for-purpose, and inclusive Blueprint for Integrated Ocean Science (BIOS). This blueprint promotes a holistic approach and encourages effective communication and collaboration among stakeholders and sectors, enabling interoperability across systems. The production of white papers and policy recommendations will bolster European leadership in the ocean-climate-biodiversity nexus.</p>\n<p>The EU-funded Co-Creating Transformative Pathways to Biological and Ecosystem Ocean Observations (BioEcoOcean) project leverage collaborative networks to promote best practices aligned with EU directives, such as the EU Marine Strategy Framework Directive (MSFD), focusing on enhanced ocean observation, data curation, and standardization. A Community of Practice Forum (CoPF) will coordinate multi-disciplinary ocean observing efforts, engaging researchers, NGOs, industries and authorities. This co-creative approach bridges scientific research with practical application, fostering evidence-based policymaking and sustainable solutions. By integrating regional knowledge and promoting cross-sectoral partnerships, it enhances ecosystem services, socio-economic resilience, and long-term human well-being through impactful, science-based policies and sustainable environmental stewardship.</p>\n<div>\n<p><strong>How to cite:</strong> Karaca Hal&eacute;n, D., Palacz, A., Soares, J., Krzymiński, D., Lepola, N., and Mtwana Nordlund, L.: Blueprint for Integrated Ocean Science (BIOS): Advancing Harmonized Observation Systems and Policy Coordination for Sustainable Ecosystem Management, One Ocean Science Congress 2025, Nice, France, 3&ndash;6 Jun 2025, OOS2025-1320, https://doi.org/10.5194/oos2025-1320, 2025.</p>\n</div>",
+      "datePublished": "2025-06-05",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Karaca Halen, Deniz"
+        },
+        {
+          "@type": "Person",
+          "name": "Krzymiński, Dominik"
+        },
+        {
+          "@type": "Person",
+          "name": "Soares, Joana"
+        },
+        {
+          "@type": "Person",
+          "name": "Lepola, Nina"
+        },
+        {
+          "@type": "Person",
+          "name": "Mtwana Nordlund, Lina"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/15355912",
+      "name": "A picture-based field guide. Shallow coastal communities around Gotland, Sweden.",
+      "identifier": "https://doi.org/10.5281/zenodo.15355912",
+      "url": "https://zenodo.org/record/15355912",
+      "description": "<p><strong>The shallow coastal environments around Gotland: a vital link between nature and </strong><strong>people</strong><br>The island of Gotland lies in the heart of the Baltic Sea, surrounded by shallow coastal waters<br>that are both ecologically rich and deeply connected to local culture and livelihoods. These<br>nearshore environments, with their exposed rocky areas, as well as calm, sheltered bays,<br>underwater meadows, and sandy seafloors, are essential to a wide range of plants, animals,<br>and human activities. For centuries, these ecosystems have provided food, recreation, and<br>natural beauty, and they continue to do so today.</p>",
+      "datePublished": "2025-06-12",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "D'Agata, Chiara"
+        },
+        {
+          "@type": "Person",
+          "name": "Lüskow, Florian"
+        },
+        {
+          "@type": "Person",
+          "name": "Mtwana Nordlund, Lina"
+        }
+      ],
+      "keywords": [
+        "Baltic Sea Living Lab"
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/15625289",
+      "name": "Pelagic Ocean Living Lab 2:  Zooplankton for carbon sequestration",
+      "identifier": "https://doi.org/10.5281/zenodo.15625289",
+      "url": "https://zenodo.org/record/15625289",
+      "datePublished": "2025-03-10",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Koski, Marja"
+        },
+        {
+          "@type": "Person",
+          "name": "Sommer, Alma Madita"
+        },
+        {
+          "@type": "Person",
+          "name": "Asiedu, Delove"
+        },
+        {
+          "@type": "Person",
+          "name": "Kandylas, Athanasios"
+        },
+        {
+          "@type": "Person",
+          "name": "Visser, Andre"
+        },
+        {
+          "@type": "Person",
+          "name": "Jonasdottir, Sigrun"
+        }
+      ],
+      "keywords": [
+        "Pelagic Ocean Living Lab 2"
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/15624146",
+      "name": "Pelagic Ocean Living Lab 1: Zooplankton and Ecosystems",
+      "identifier": "https://doi.org/10.5281/zenodo.15624146",
+      "url": "https://zenodo.org/record/15624146",
+      "datePublished": "2025-03-10",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Lehodey, Patrick"
+        },
+        {
+          "@type": "Person",
+          "name": "Ciavatta, Stefano"
+        },
+        {
+          "@type": "Person",
+          "name": "Boyer, Julien Temple"
+        },
+        {
+          "@type": "Person",
+          "name": "Mignot, Alexandre"
+        },
+        {
+          "@type": "Person",
+          "name": "Lehodey, Jules"
+        },
+        {
+          "@type": "Person",
+          "name": "Misi, Quentin"
+        }
+      ],
+      "keywords": [
+        "Pelagic Ocean Living Lab 1"
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/15527675",
+      "name": "Knowns and unknowns of gelatinous zooplankton in the central Baltic Sea – a comprehensive overview",
+      "identifier": "https://doi.org/10.5281/zenodo.15527675",
+      "url": "https://zenodo.org/record/15527675",
+      "datePublished": "2025-05-27",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Lüskow, Florian"
+        },
+        {
+          "@type": "Person",
+          "name": "Mtwana Nordlund, Lina"
+        }
+      ],
+      "keywords": [
+        "Baltic Sea Living Lab"
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/15373663",
+      "name": "The Atlantic Living Lab",
+      "identifier": "https://doi.org/10.5281/zenodo.15373663",
+      "url": "https://zenodo.org/record/15373663",
+      "datePublished": "2025-03-10",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Borges, Débora"
+        },
+        {
+          "@type": "Person",
+          "name": "Reis, Bianca"
+        },
+        {
+          "@type": "Person",
+          "name": "Valente, André"
+        },
+        {
+          "@type": "Person",
+          "name": "Sousa Pinto, Isabel"
+        }
+      ],
+      "keywords": [
+        "Atlantic Living Lab"
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/15282928",
+      "name": "Jellyfish and Ctenophores Around Gotland in the Baltic Sea—Local Data Contributing to Global Assessments",
+      "identifier": "https://doi.org/10.3390/jmse13050852",
+      "url": "https://zenodo.org/record/15282928",
+      "description": "<p>In this study, we investigate the diversity and spatiotemporal distribution of gelatinous zooplankton (GZ) in the central Baltic Sea (coastal waters of Gotland and adjacent Eastern and Western Gotland Basins), a region characterised by low salinity and ecological sensitivity. Despite the Baltic Sea being the largest brackish water body globally, knowledge about its GZ, specifically, medusae and ctenophores, is limited. Our research synthesises the existing literature, open-access data, and local reports. Three to five GZ species occur within the studied area, with the common jellyfish Aurelia aurita dominating. Peak sightings of A. aurita happen between July and October, whereas the ctenophore Mertensia ovum and scyphozoan Cyanea capillata display sporadic occurrences. We identify notable gaps in understanding GZ phenology and food web impacts due to historical neglect and insufficient monitoring, particularly under low-salinity conditions (between 5 and 8), which restricts species richness. Jellyfish and ctenophores fall under the Essential Ocean Variable (EOV) &ldquo;Zooplankton Biomass and Diversity&rdquo; governed by the Global Ocean Observing System, UNESCO-IOC. EOVs are an approach for globally usable data and adhere to Findable, Accessible, Interoperable, and Reusable (FAIR) data principles. Including EOVs in routine collection and reporting would significantly enhance regional and global understanding, contributing to a holistic ecosystem view. Thus, we advocate for global ocean observation frameworks to comprehensively monitor GZ populations and their ecological, biogeochemical, and socioeconomic roles. Our findings serve as a crucial step towards understanding the implications of climate change for GZ assemblages in the Baltic Sea, promoting a holistic approach to marine ecosystem management.</p>\n<p>Associated data has been shared through OBIS: <a href=\"https://doi.org/10.25607/skulof\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.25607/skulof</a></p>",
+      "datePublished": "2025-04-25",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Lüskow, Florian"
+        },
+        {
+          "@type": "Person",
+          "name": "Neitzel, Philipp"
+        },
+        {
+          "@type": "Person",
+          "name": "Lawrence, Elizabeth R."
+        },
+        {
+          "@type": "Person",
+          "name": "Mtwana Nordlund, Lina"
+        }
+      ],
+      "keywords": [
+        "Baltic Sea Living Lab"
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/15282851",
+      "name": "Marine heatwaves in the Baltic Sea",
+      "identifier": "https://doi.org/10.5281/zenodo.15282851",
+      "url": "https://zenodo.org/record/15282851",
+      "description": "<p>Presentation on marine heatwaves (MHW) in the Baltic Sea, delivered at the ObsSea4Clim - BioEcoOcean Clustering Event I, that took place on 11-12 March 2025 in Sopot, Poland.</p>\n<p>The presentation was delivered by Veera Haapaniemi (FMI), representing the ObsSea4Clim project.</p>\n<p>This presentation was part of Session 3: \"Marine heatwaves (MHW) in space and time: understanding thermal anomalies at ecologically relevant scales\".</p>",
+      "datePublished": "2025-04-25",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Haapaniemi, Veera"
+        },
+        {
+          "@type": "Person",
+          "name": "Siiriä, Simo-Matti"
+        },
+        {
+          "@type": "Person",
+          "name": "Nummelin, Aleksi"
+        },
+        {
+          "@type": "Person",
+          "name": "Haapala, Jari"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/15282791",
+      "name": "EOV speed dating",
+      "identifier": "https://doi.org/10.5281/zenodo.15282791",
+      "url": "https://zenodo.org/record/15282791",
+      "datePublished": "2025-04-25",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Nordlund, Lina Mtwana"
+        },
+        {
+          "@type": "Person",
+          "name": "Lepola, Nina"
+        },
+        {
+          "@type": "Person",
+          "name": "Olsen, Steffen"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/15282690",
+      "name": "Marine Heat Waves",
+      "identifier": "https://doi.org/10.5281/zenodo.15282690",
+      "url": "https://zenodo.org/record/15282690",
+      "datePublished": "2025-04-25",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Lehodey, Patrick"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/15282616",
+      "name": "The Blob and Pyrosomes",
+      "identifier": "https://doi.org/10.5281/zenodo.15282616",
+      "url": "https://zenodo.org/record/15282616",
+      "datePublished": "2025-04-25",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Lüskow, Florian"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/15282547",
+      "name": "Understanding marine heatwaves at relevant ecological scales",
+      "identifier": "https://doi.org/10.5281/zenodo.15282547",
+      "url": "https://zenodo.org/record/15282547",
+      "datePublished": "2025-04-25",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Benedetti-Cecchi, Lisandro"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/15275398",
+      "name": "Integrating land and coastal systems: Linking glacier runoff and atmospheric inputs with marine data – Arctic case studies.",
+      "identifier": "https://doi.org/10.5281/zenodo.15275398",
+      "url": "https://zenodo.org/record/15275398",
+      "datePublished": "2025-04-24",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Draganska-Deja, Katarzyna"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/15279654",
+      "name": "Assessing the Frequency and the Intensity of Marine Heatwaves in the Barents Sea",
+      "identifier": "https://doi.org/10.5281/zenodo.15279654",
+      "url": "https://zenodo.org/record/15279654",
+      "description": "<p>Presentation on \"Assessing the Frequency and the Intensity of Marine Heatwaves in the Barents Sea\" delivered at the ObsSea4Clim - BioEcoOcean Clustering Event I, that took place on 11-12 March 2025 in Sopot, Poland.</p>\n<p>The presentation was delivered by Ajith Joseph Kochuparampil (NERCI), presenting work done in ObsSea4Clim project.</p>\n<p>This presentation was part of Session 3: \"Marine heatwaves (MHW) in space and time: understanding thermal anomalies at ecologically relevant scales\".&nbsp;</p>",
+      "datePublished": "2025-04-25",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Joseph Kochuparampil, Ajith"
+        },
+        {
+          "@type": "Person",
+          "name": "Surendran, Saradhy"
+        },
+        {
+          "@type": "Person",
+          "name": "Chatterjee, Sourav"
+        },
+        {
+          "@type": "Person",
+          "name": "P. Raj, Roshin"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/14864756",
+      "name": "Combining Unoccupied Aerial Vehicles and Satellite Multispectral Data to Improve Mapping of Intertidal Seaweed Habitats",
+      "identifier": "https://doi.org/10.5281/zenodo.14864756",
+      "url": "https://zenodo.org/record/14864756",
+      "description": "<p>Seaweed assemblages are essential components of coastal ecosystems, providing numerous ecological, economic, and social benefits. Unoccupied Aerial Vehicles (UAV) with different sensors, have been increasingly applied in the recent years to locally map seaweed coverage and habitats. Satellite multispectral data, on the other hand, covers wide areas but has coarser resolutions which limits their use in the narrow and complex intertidal zones. Our methodology combines high-resolution UAV multispectral data, in situ precise georeferencing and lower-resolution Sentinel 2 imagery from Copernicus to provide improved spatial estimates of intertidal seaweed habitats over larger areas.</p>",
+      "datePublished": "2025-02-13",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Borges, Débora"
+        },
+        {
+          "@type": "Person",
+          "name": "Gonçalves, José Alberto"
+        },
+        {
+          "@type": "Person",
+          "name": "Sousa-Pinto, Isabel"
+        },
+        {
+          "@type": "Person",
+          "name": "Giusti, Andrea"
+        },
+        {
+          "@type": "Person",
+          "name": "Valente, André"
+        }
+      ],
+      "keywords": [
+        "Atlantic Living Lab"
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/14610655",
+      "name": "Adaptation of global primary production model to the Greenland Sea conditions: parameterization and monitoring for 1998-2022",
+      "identifier": "https://doi.org/10.3389/fmars.2024.1491180",
+      "url": "https://zenodo.org/record/14610655",
+      "description": "<p>Phytoplankton are responsible for releasing half of the world&rsquo;s oxygen and for removing large amounts of carbon dioxide from surface waters. Despite many studies on the topic conducted in the past decades, we are still far from a good understanding of ongoing rapid changes in the Arctic Ocean and how they will affect phytoplankton and the whole ecosystem. An example is the difference in net primary production modelling estimates, which differ twice globally and fifty times when only the Arctic region is considered. Here, we aim to improve the quality of Greenland Sea primary production estimates, by testing different versions of primary production model against&nbsp;<em>in situ</em>&nbsp;data and then calculating regional estimates and trends for 1998-2022 for those performing best. As a baseline, we chose the commonly used global primary production model and tested it with different combinations of empirical relationships and input data. Local empirical relationships were taken from measurements by the literature and derived from the unpublished data of Institute of Oceanology of Polish Academy of Sciences across the Fram Strait. For validation, we took historical net primary production&nbsp;<sup>14</sup>C data from literature and added to it our own gross primary production O<sub>2</sub>&nbsp;measurements. Field data showed good agreement between primary production measured with&nbsp;<sup>14</sup>C and O<sub>2</sub>&nbsp;evolution methods. From all the model setups, those including local chlorophyll&nbsp;<em>a</em>&nbsp;profile and local absorption spectrum best reproduced&nbsp;<em>in situ</em> data. Our modelled regional annual primary production estimates are equal to 346 TgC/year for the Nordic Seas region and 342 TgC/year for the Greenland Sea sector of the Arctic defined as 45&deg;W-15&deg;E, 66&deg;33&prime;N-90&deg;N. These values are higher than those previously reported. Monthly values show a seasonal cycle with less monthly variability than previously reported. No significant increase or decrease in primary production was observed when studying regionally averaged trends. The accuracy of the selected here model setups to reproduce the field data in terms of Root Mean Square Difference is better than in the related Arctic studies. The improved primary production estimates strengthen researchers&rsquo; ability to assess carbon flux and understand biogeochemical processes in the Greenland Sea.</p>",
+      "datePublished": "2025-01-07",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Cherkasheva, Alexandra"
+        },
+        {
+          "@type": "Person",
+          "name": "Manurov, Rustam"
+        },
+        {
+          "@type": "Person",
+          "name": "Kowalczuk, Piotr"
+        },
+        {
+          "@type": "Person",
+          "name": "Loginova, Alexandra"
+        },
+        {
+          "@type": "Person",
+          "name": "Zabłocka, Monika"
+        },
+        {
+          "@type": "Person",
+          "name": "Bracher, Astrid"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/14202516",
+      "name": "New ways are urgently needed for gelatinous zooplankton monitoring in the Baltic Sea",
+      "identifier": "https://doi.org/10.5281/zenodo.14202516",
+      "url": "https://zenodo.org/record/14202516",
+      "description": "<p>Our understanding of gelatinous macro-zooplankton (jellyfish and comb jellies; GZ), in the Baltic Sea is limited. While GZ organisms can be a nuisance, they play essential roles in regional food webs and biogeochemical cycles. These organisms are known to tolerate increasing temperature and dropping oxygen concentration better than other invertebrates and fish. There is much speculation about recent increases in seasonal bloom extent and frequency. However, the lack of long-term data and consistent sampling protocols makes projections and distribution models unreliable. Research has focussed mainly on western Baltic native species, leaving central and eastern regions and additional species understudied. Recently introduced species like <em>Blackfordia</em>, <em>Maeotias</em>, and <em>Craspedacusta</em> have highlighted the need for further research. Furthermore, new approaches are required to enable marine ecologists, stakeholders, and policymakers to acquire data. Essential Ocean Variables (EOVs), identified by the Global Ocean Observing System (IOC-UNESCO), are key for globally coordinated marine data. GZ fall under the zooplankton EOV and the recommended variables to be measured are overall biomass, biomass or abundance (or presence/absence) by taxon, functional group or size class and should follow the data standards. By following FAIR data standards (Findable, Accessible, Interoperable, and Reusable), GZ monitoring could significantly enhance global understanding. It is recommended that these variables are incorporated in existing/planned observations and/or monitoring of GZ along with locally/regionally relevant variables. The coordinated observations along with innovative ideas and combinations of approaches (e.g., large-scale polls, fishers, ferries), social media data mining, and sampling for environmental DNA may provide new platforms for studying spatial and temporal distributions of GZ in the central and eastern Baltic Sea.</p>",
+      "datePublished": "2024-11-26",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Lüskow, Florian"
+        },
+        {
+          "@type": "Person",
+          "name": "Mtwana Nordlund, Lina"
+        }
+      ],
+      "keywords": [
+        "Baltic Sea Living Lab"
+      ],
+      "license": {
+        "id": "cc-by-nd-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/14043729",
+      "name": "In search for the strategy to include the role of benthos in the modeling of organic carbon cycle",
+      "identifier": "https://doi.org/10.5281/zenodo.14043729",
+      "url": "https://zenodo.org/record/14043729",
+      "description": "<p>The organic carbon cycle is one of the most critical biogeochemical processes sustaining ecosystem function on Earth. In the face of climate change and biodiversity loss, it is essential to deepen our understanding of the mechanisms governing this cycle and its role in maintaining marine ecosystem health. Thus, harmonizing and standardizing international efforts in this area is indispensable. Under the aegis of the \"BioEcoOcean &ndash; Co-creating Transformative Pathways to Biological and Ecosystem Ocean Observations\" project, a focal living lab of Marine Organic Carbon Atlas (MOCA) has been established. The aim of MOCA is to develop strategies for collecting and integrating extensive data and metadata on organic carbon cycle observations into standardized formats, ensuring broad applicability for various stakeholder groups.</p>\n<p>One of MOCA's milestones is the development of a strategy to better incorporate seafloor observations, including the role of benthic organisms, into carbon cycle modeling. The benthos plays a fundamental role in the marine organic carbon cycle by processing organic matter, bioturbating sediment, sequestering carbon, and transferring it to higher trophic levels. However, the complexity of the benthic role in the carbon cycle significantly complicates the selection of suitable parameters for modeling, underscoring the ongoing need for consultation across scientific communities.</p>\n<p>Creating a cohesive strategy that includes the selection of parameters, standardization of data collection methods, promotion of data sharing, and implementation of these actions will enable a more comprehensive representation of benthic roles in carbon cycle modeling. This will contribute to more accurate predictions and a deeper understanding of marine ecosystem functioning.</p>",
+      "datePublished": "2024-11-06",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Szczepanek, Marta"
+        },
+        {
+          "@type": "Person",
+          "name": "Palacz, Artur"
+        },
+        {
+          "@type": "Person",
+          "name": "Kędra, Monika"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/13927820",
+      "name": "W poszukiwaniu strategii na uwzględnienie roli bentosu w modelowaniu obiegu węgla organicznego",
+      "identifier": "https://doi.org/10.5281/zenodo.13927820",
+      "url": "https://zenodo.org/record/13927820",
+      "description": "<p>Obieg węgla organicznego jest jednym z najważniejszych proces&oacute;w biogeochemicznych podtrzymujących funkcjonowanie ekosystem&oacute;w na ziemi. W obliczu zmian klimatycznych i utraty bior&oacute;żnorodności konieczne jest głębsze zrozumienie mechanizm&oacute;w go regulujących oraz jego roli w utrzymaniu zdrowia ekosystem&oacute;w morskich. Harmonizacja i standaryzacja międzynarodowych wysiłk&oacute;w na ten cel jest więc niezbędna. Pod egidą projektu &bdquo;BioEcoOcean &ndash; Wsp&oacute;łtworzenie strategii na rzecz zintegrowanych obserwacji oceanicznych&rdquo; powołane zostało żywe laboratorium - Morski Atlas Węgla Organicznego (z ang. <strong>MOCA </strong>&ndash; Marine Organic Carbon Atlas). <span>&nbsp;</span>Celem MOCA jest stworzenie strategii na zebranie jak największej ilości danych i metadanych o obserwacjach oceanicznych, dotyczących obiegu węgla organicznego, oraz ich integracji do standardowych format&oacute;w z myślą o ich jak najszerszym zastosowaniu przez r&oacute;żne grupy interesariuszy. Dodatkowo, zaprezentowany zostanie pilotażowy zestaw danych na przykładzie Oceanu Arktycznego. Rezultatem MOCA będzie zwiększenie naszej zdolności do regularnego i sp&oacute;jnego mapowania zasob&oacute;w i obiegu węgla pod kątem proces&oacute;w biologicznych (organicznych), a w efekcie do oceny zmian zachodzących w ekosystemach morskich.</p>\n<p>Jednym z kamieni milowych MOCA jest opracowanie strategii na lepsze uwzględnienie obserwacji dna morskiego, w tym roli organizm&oacute;w bentosowych, w modelowaniu obiegu węgla. Bentos odgrywa fundamentalną rolę w obiegu węgla organicznego w ekosystemach morskich poprzez przetwarzanie materii organicznej i bioturbację osadu, a także sekwestrację węgla i jego transfer do wyższych poziom&oacute;w troficznych. Niemniej jednak, złożoność roli bentosu w obiegu węgla znacznie utrudnia wyb&oacute;r odpowiednich parametr&oacute;w pomocnych w jego modelowaniu co podkreśla wciąż istniejącą potrzebę konsultacji r&oacute;żnych środowisk naukowych.</p>\n<p>Stworzenie sp&oacute;jnej strategii, obejmującej wyb&oacute;r parametr&oacute;w, standaryzację metod zbierania danych i promowanie ich udostępniania oraz implementacja tych działań pozwoli na pełniejsze uwzględnienie roli bentosu w modelowaniu obiegu węgla. Przyczyni się to do bardziej precyzyjnych prognoz i lepszego zrozumienia funkcjonowania ekosystem&oacute;w morskich.</p>",
+      "datePublished": "2024-10-14",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Szczepanek, Marta"
+        },
+        {
+          "@type": "Person",
+          "name": "Kędra, Monika"
+        },
+        {
+          "@type": "Person",
+          "name": "Palacz, Artur"
+        }
+      ],
+      "keywords": [
+        "Marine Organic Carbon Atlas"
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/13968019",
+      "name": "What are biology and ecosystem Essential Ocean Variables (EOVs) and how can they be used in conservation?",
+      "identifier": "https://doi.org/10.5281/zenodo.13968019",
+      "url": "https://zenodo.org/record/13968019",
+      "description": "<p><span><span>Imagine</span></span> <span><span>if</span></span> <span><span>we</span></span> <span><span>had</span></span> <span><span>some</span></span> <span><span>key</span></span> <span><span>biology</span></span><span><span> and </span></span><span><span>ecosystem</span></span> <span><span>variables</span></span> <span><span>that</span></span> <span><span>are</span></span> <span><span>collected</span></span><span><span> in the same </span></span><span><span>way</span></span><span><span>, </span></span><span><span>and </span></span><span><span>made</span></span> <span><span>openly</span></span> <span><span>available</span></span><span><span>. </span></span><span><span>Then</span></span> <span><span>we</span></span> <span><span>would</span></span><span><span> be </span></span><span><span>able</span></span><span><span> to </span></span><span><span>use</span></span> <span><span>this</span></span> <span><span>comparable</span></span><span><span> data from </span></span><span><span>around</span></span><span><span> the </span></span><span><span>world</span></span><span><span> to </span></span><span><span>advance</span></span> <span><span>our</span></span> <span><span>understanding</span></span> <span><span>of</span></span><span><span> the ocean </span></span><span><span>but</span></span> <span><span>also</span></span><span><span> to </span></span><span><span>create</span></span> <span><span>products</span></span> <span><span>that</span></span> <span><span>would</span></span><span><span> be </span></span><span><span>very</span></span> <span><span>useful</span></span><span><span> in </span></span><span><span>conservation</span></span><span><span>. For </span></span><span><span>example</span></span><span><span>, distribution </span></span><span><span>maps</span></span> <span><span>that</span></span> <span><span>could</span></span> <span><span>indicate</span></span><span><span> areas in </span></span><span><span>decline</span></span> <span><span>but</span></span> <span><span>also</span></span> <span><span>areas </span></span><span><span>that</span></span> <span><span>are</span></span> <span><span>recovering</span></span><span><span> or </span></span><span><span>flourishing</span></span><span><span>, or as </span></span><span><span>early</span></span> <span><span>warning</span></span><span><span> systems </span></span><span><span>of</span></span> <span><span>e.g</span></span><span><span>. </span></span><span><span>invasive</span></span><span><span> species.&nbsp; A </span></span><span><span>global </span></span><span><span>view</span></span><span><span>, in </span></span><span><span>other</span></span> <span><span>words</span></span> <span><span>adopting</span></span><span><span> a global </span></span><span><span>framework</span></span><span><span>, </span></span><span><span>will</span></span> <span><span>also</span></span> <span><span>provide</span></span> <span><span>insights</span></span> <span><span>into</span></span> <span><span>similarities</span></span> <span><span>among</span></span><span><span> areas to </span></span><span><span>find</span></span><span><span> common solutions and </span></span><span><span>learn</span></span><span><span> from </span></span><span><span>each</span></span> <span><span>other</span></span><span><span>.&nbsp;</span></span><span><span></span><br></span></p>\n<p><span><span>The idea&nbsp;</span></span><span><span>behind</span></span><span><span> the </span></span><span><span>biology</span></span><span><span> and </span></span><span><span>ecosystem</span></span> <span><span>Essential</span></span><span><span> Ocean </span></span><span><span>Variables</span></span><span><span> (</span></span><span><span>EOVs</span></span><span><span>), is to </span></span><span><span>enable</span></span><span><span> this </span></span><span><span>globally</span></span> <span><span>coordinated</span></span><span><span> and </span></span><span><span>comparable</span></span><span><span> approach to observations, data management and </span></span><span><span>delivery</span></span> <span><span>of</span></span> <span><span>products</span></span><span><span> and services. The </span></span><span><span>EOVs</span></span> <span><span>are</span></span> <span><span>coordinated</span></span><span><span> by the Global Ocean Observing System, IOC-</span></span><span><span>UNESCO, and everyone is </span></span><span><span>encouraged</span></span><span><span> to take part. We </span></span><span><span>will</span></span> <span><span>use</span></span><span><span> the Seagrass cover and </span></span><span><span>composition</span></span> <span><span>EOV to </span></span><span><span>illustrate</span></span><span><span> this vision and how </span></span><span><span>collaboration</span></span> <span><span>can</span></span> <span><span>advance</span></span><span><span> our understanding </span></span><span><span>of</span></span><span><span> the ocean and </span></span><span><span>marine </span></span><span><span>conservation</span></span><span><span>. </span></span></p>",
+      "datePublished": "2024-10-22",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Nordlund, Lina Mtwana"
+        },
+        {
+          "@type": "Person",
+          "name": "Palacz, Artur P."
+        },
+        {
+          "@type": "Person",
+          "name": "Duffy, J. Emmett"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/13967583",
+      "name": "Advancing marine conservation through the Marine Organic Carbon Atlas: addressing metazoan roles in ocean carbon sequestration",
+      "identifier": "https://doi.org/10.5281/zenodo.13967583",
+      "url": "https://zenodo.org/record/13967583",
+      "description": "<p>Marine conservation efforts targeting metazoans, including plankton, are crucial for maintaining marine ecosystem functions and services, such as ocean carbon sequestration. Vertical migration and trophic interactions involving metazoans significantly contribute to ocean carbon sequestration, with mesopelagic fishes and zooplankton playing key roles. Proposed expansions in fishing, targeting both mesopelagic fishes and krill, raise concerns about ecosystem impacts. However, gaps in data persist regarding how changes in metazoan abundance and biodiversity will affect carbon sequestration. To address this, we present the concept and early implementation steps of a Marine Organic Carbon Atlas which aims to synthesize data and develop ecosystem models for selected Essential Ocean Variables (EOVs) like phyto- and zooplankton, and fish abundance and diversity. Incorporating habitat-forming variables like seagrass and macroalgae highlights their role in carbon sequestration. The atlas pilot demonstration, tested against modeling and science advisory needs, in particular those of integrated ecosystem assessments, aims to inform science-based conservation decisions, such as regulating emerging fishing of krill and mesopelagic fish to ensure ecosystem health and sustainable harvesting levels.</p>",
+      "datePublished": "2024-10-22",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Palacz, Artur P."
+        },
+        {
+          "@type": "Person",
+          "name": "Grigoratou, Maria"
+        },
+        {
+          "@type": "Person",
+          "name": "Koski, Marja"
+        },
+        {
+          "@type": "Person",
+          "name": "Nordlund, Lina Mtwana"
+        },
+        {
+          "@type": "Person",
+          "name": "Visser, Andre"
+        }
+      ],
+      "keywords": [
+        "carbon sequestration",
+        "blue carbon",
+        "Marine Organic Carbon Atlas",
+        "krill"
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/13781347",
+      "name": "Qualitative variability of dissolved organic matter in the Baltic Sea sediments apparent from fluxes and optical properties",
+      "identifier": "https://doi.org/10.3389/fmars.2024.1433199",
+      "url": "https://zenodo.org/record/13781347",
+      "datePublished": "2024-09-17",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Loginova N., Alexandra"
+        },
+        {
+          "@type": "Person",
+          "name": "Wunsch, Urban J."
+        },
+        {
+          "@type": "Person",
+          "name": "Zablocka, Monika"
+        },
+        {
+          "@type": "Person",
+          "name": "Cherkasheva, Aleksandra"
+        },
+        {
+          "@type": "Person",
+          "name": "Szymczycha, Beata"
+        },
+        {
+          "@type": "Person",
+          "name": "Kulinski, Karol"
+        },
+        {
+          "@type": "Person",
+          "name": "Winogradow, Aleksandra"
+        },
+        {
+          "@type": "Person",
+          "name": "Kowalczuk, Piotr"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/10927052",
+      "name": "Towards a Blueprint for Integrated Ocean Science",
+      "identifier": "https://doi.org/10.5281/zenodo.10927052",
+      "url": "https://zenodo.org/record/10927052",
+      "description": "<p>How do we integrate and collaborate across sectors and nations for a better understanding of the ocean and its marine life? In this poster presented at the 2024 UN Ocean Decade Conference in Barcelona, we introduce the concept of the Blueprint for Integrated Ocean Science which is being developed under the EU BioEcoOcean Project. The Blueprint is being designed as a support tool (guiding document) which will pose complex, \"catch-all\" questions, encouraging collaboration and holistic thinking across diverse environments and sectors. We invite participants from around the world who are interested in contributing to the co-creation of the Blueprint, and who are involved in any part of the ocean observing value chain: whether you are reviewing ocean data, planning observations, collecting, managing and reporting data, or developing data synthesis and modeling products, or work with policy or management.</p>",
+      "datePublished": "2024-04-10",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Nordlund, Lina Mtwana"
+        },
+        {
+          "@type": "Person",
+          "name": "Palacz, Artur Piotr"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/10908471",
+      "name": "Towards a Marine Organic Carbon Atlas: A case study for the Arctic Ocean",
+      "identifier": "https://doi.org/10.5281/zenodo.10908471",
+      "url": "https://zenodo.org/record/10908471",
+      "description": "<p>Oral presentation given during the Joint Community Meeting for the pan-Arctic network of Distributed Biological Observatories (DBOs) organized as part of the 2024 Arctic Science Summit Week (ASSW) on 21 March 2024 in Edinburgh, the UK.&nbsp;</p>",
+      "datePublished": "2024-04-02",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Palacz, Artur Piotr"
+        },
+        {
+          "@type": "Person",
+          "name": "GRIGORATOU, MARIA"
+        },
+        {
+          "@type": "Person",
+          "name": "Kędra, Monika"
+        },
+        {
+          "@type": "Person",
+          "name": "Koski, Marja"
+        },
+        {
+          "@type": "Person",
+          "name": "Kuliński, Karol"
+        },
+        {
+          "@type": "Person",
+          "name": "Nordlund, Lina Mtwana"
+        },
+        {
+          "@type": "Person",
+          "name": "Telszewski, Maciej"
+        },
+        {
+          "@type": "Person",
+          "name": "Visser, Andre"
+        }
+      ],
+      "keywords": [
+        "Marine Organic Carbon Atlas",
+        "Arctic",
+        "S-Q WP7"
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/17581392",
+      "name": "Blueprint workshop at WIOMSA symposium 2025, Kenya",
+      "identifier": "https://doi.org/10.5281/zenodo.17581392",
+      "url": "https://zenodo.org/record/17581392",
+      "description": "<p>This presentation was delivered during a workshop at the 13th Western Indian Ocean Marine Science Association (WIOMSA) Scientific Symposium, focusing on the development and implementation of the Blueprint for Integrated Ocean Science (the Blueprint) under the BioEcoOcean project.</p>\n<p>The session introduced the Blueprint as a co-designed framework aimed at strengthening coordination, interoperability, and collaboration across the various components of the Biological and Ecosystem (BioEco) Ocean Observing System. The presentation highlighted how the Blueprint seeks to bridge gaps between scientific research, policy, and societal needs by fostering communication and collaboration among the various components of the ocean observation system.</p>\n<p>The workshop provided a platform for participants from diverse sectors&mdash;including science, policy, and management&mdash;to engage in dialogue, share experiences, and identify pathways toward more fit-for-purpose, inclusive, and sustained BioEco ocean observation systems.&nbsp;</p>",
+      "datePublished": "2025-11-11",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Mtwana Nordlund, Lina"
+        },
+        {
+          "@type": "Person",
+          "name": "Hashim, Said"
+        },
+        {
+          "@type": "Person",
+          "name": "Lepola, Nina"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/16966990",
+      "name": "Report on the Special Session 'Co-creation for advancing ocean observations of marine life – connecting the Baltic Sea to the global ocean'",
+      "identifier": "https://doi.org/10.5281/zenodo.16966990",
+      "url": "https://zenodo.org/record/16966990",
+      "description": "<p><span lang=\"EN-GB\">The special session entitled &lsquo;Co-creation for advancing ocean observations of marine life &ndash; connecting the Baltic Sea to the global ocean&rsquo; took place on Thursday, 29 May 2025. The session comprised an invited plenary contribution as part of the 2025 Baltic Sea Science Congress, which took place on 26&ndash;30 May 2025 in Sopot, Poland. This report summarizes the proceedings and outcomes of this special session, reflecting on the expert and audience perception of the state and future of Baltic Sea observations with a focus on marine life.</span></p>",
+      "datePublished": "2025-08-27",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Hashim, Said"
+        },
+        {
+          "@type": "Person",
+          "name": "Palacz, Artur"
+        },
+        {
+          "@type": "Person",
+          "name": "Mtwana Nordlund, Lina"
+        },
+        {
+          "@type": "Person",
+          "name": "Nina, Lepola"
+        },
+        {
+          "@type": "Person",
+          "name": "Krzymiński, Dominik"
+        },
+        {
+          "@type": "Person",
+          "name": "Lüskow, Florian"
+        }
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "CreativeWork",
+      "@id": "https://zenodo.org/record/15662449",
+      "name": "Summarising the main findings of a Global Survey to Advance Ocean Observations",
+      "identifier": "https://doi.org/10.5281/zenodo.15662449",
+      "url": "https://zenodo.org/record/15662449",
+      "description": "<p>This is a summary of a global survey conducted to gather the perspectives of diverse stakeholders on the current state of ocean observations worldwide. The survey formed part of the BioEcoOcean project: Co-Creating Transformative Pathways to Biological and Ecosystem Ocean Observations, funded by Horizon Europe (Grant Agreement Number: 101136748). The survey represented the initial, foundational step towards identifying the gaps, challenges, and opportunities that the Blueprint needs to address.</p>",
+      "datePublished": "2025-06-14",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Hashim, Said"
+        },
+        {
+          "@type": "Person",
+          "name": "Palacz, Artur"
+        },
+        {
+          "@type": "Person",
+          "name": "Mtwana Nordlund, Lina"
+        }
+      ],
+      "keywords": [
+        "Biological and ecosystem ocean observation",
+        "Findable Accessible Interoperable and Reusable (FAIR) data",
+        "Ocean Information Services",
+        "Data products",
+        "Citizen Science",
+        "Ocean observing stakeholders"
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      }
+    },
+    {
+      "@context": "https://schema.org/",
+      "@type": "Dataset",
+      "name": "Gelatinous Zooplankton in Gotland, Sweden, 2022 - Version 2.0",
+      "description": "- added locationID to Event table - added date ranges in eventDate for parent events - added habitat and samplingProtocol to Event and eMoF, as well as life stage to eMoF",
+      "url": "https://ipt.obis.org/bioecoocean/resource?r=gelatinous-zooplankton-gotland_2022",
+      "identifier": {
+        "@type": "PropertyValue",
+        "description": "OBIS IPT resource",
+        "propertyID": "url",
+        "url": "https://ipt.obis.org/bioecoocean/eml.do?r=gelatinous-zooplankton-gotland_2022",
+        "value": "https://ipt.obis.org/bioecoocean/eml.do?r=gelatinous-zooplankton-gotland_2022"
+      },
+      "datePublished": "2025-05-08",
+      "distribution": [
+        {
+          "@type": "DataDownload",
+          "name": "EML metadata",
+          "encodingFormat": "application/xml",
+          "contentUrl": "https://ipt.obis.org/bioecoocean/eml.do?r=gelatinous-zooplankton-gotland_2022"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "Darwin Core Archive",
+          "encodingFormat": "application/zip",
+          "contentUrl": "https://ipt.obis.org/bioecoocean/archive.do?r=gelatinous-zooplankton-gotland_2022"
+        }
+      ]
+    }
+  ]
+}
