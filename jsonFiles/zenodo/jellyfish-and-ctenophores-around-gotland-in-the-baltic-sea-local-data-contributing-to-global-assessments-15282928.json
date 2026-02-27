@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "Jellyfish and Ctenophores Around Gotland in the Baltic Sea—Local Data Contributing to Global Assessments",
+  "description": "<p>In this study, we investigate the diversity and spatiotemporal distribution of gelatinous zooplankton (GZ) in the central Baltic Sea (coastal waters of Gotland and adjacent Eastern and Western Gotland Basins), a region characterised by low salinity and ecological sensitivity. Despite the Baltic Sea being the largest brackish water body globally, knowledge about its GZ, specifically, medusae and ctenophores, is limited. Our research synthesises the existing literature, open-access data, and local reports. Three to five GZ species occur within the studied area, with the common jellyfish Aurelia aurita dominating. Peak sightings of A. aurita happen between July and October, whereas the ctenophore Mertensia ovum and scyphozoan Cyanea capillata display sporadic occurrences. We identify notable gaps in understanding GZ phenology and food web impacts due to historical neglect and insufficient monitoring, particularly under low-salinity conditions (between 5 and 8), which restricts species richness. Jellyfish and ctenophores fall under the Essential Ocean Variable (EOV) &ldquo;Zooplankton Biomass and Diversity&rdquo; governed by the Global Ocean Observing System, UNESCO-IOC. EOVs are an approach for globally usable data and adhere to Findable, Accessible, Interoperable, and Reusable (FAIR) data principles. Including EOVs in routine collection and reporting would significantly enhance regional and global understanding, contributing to a holistic ecosystem view. Thus, we advocate for global ocean observation frameworks to comprehensively monitor GZ populations and their ecological, biogeochemical, and socioeconomic roles. Our findings serve as a crucial step towards understanding the implications of climate change for GZ assemblages in the Baltic Sea, promoting a holistic approach to marine ecosystem management.</p>\n<p>Associated data has been shared through OBIS: <a href=\"https://doi.org/10.25607/skulof\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.25607/skulof</a></p>",
+  "url": "https://zenodo.org/record/15282928",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.3390/jmse13050852",
+    "value": "10.3390/jmse13050852"
+  },
+  "keywords": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Baltic Sea Living Lab"
+    }
+  ],
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/jellyfish-and-ctenophores-around-gotland-in-the-baltic-sea-local-data-contributing-to-global-assessments-15282928.json"
+}

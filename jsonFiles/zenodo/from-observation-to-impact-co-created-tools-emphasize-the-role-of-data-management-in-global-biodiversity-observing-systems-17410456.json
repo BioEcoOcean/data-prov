@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "From Observation to Impact:  Co-created tools emphasize the role of data management in global biodiversity observing systems",
+  "description": "<p>Presentation given during Living Data 2025 conference, Bogota, Colombia. Presentation was part of the session #6803154 A Global Ocean Biodiversity Observing System supporting governance framework implementation.</p>",
+  "url": "https://zenodo.org/record/17410456",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.17410456",
+    "value": "10.5281/zenodo.17410456"
+  },
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/from-observation-to-impact-co-created-tools-emphasize-the-role-of-data-management-in-global-biodiversity-observing-systems-17410456.json"
+}

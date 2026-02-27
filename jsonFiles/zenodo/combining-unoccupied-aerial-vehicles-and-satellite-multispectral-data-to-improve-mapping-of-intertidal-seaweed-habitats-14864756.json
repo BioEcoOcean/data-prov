@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "Combining Unoccupied Aerial Vehicles and Satellite Multispectral Data to Improve Mapping of Intertidal Seaweed Habitats",
+  "description": "<p>Seaweed assemblages are essential components of coastal ecosystems, providing numerous ecological, economic, and social benefits. Unoccupied Aerial Vehicles (UAV) with different sensors, have been increasingly applied in the recent years to locally map seaweed coverage and habitats. Satellite multispectral data, on the other hand, covers wide areas but has coarser resolutions which limits their use in the narrow and complex intertidal zones. Our methodology combines high-resolution UAV multispectral data, in situ precise georeferencing and lower-resolution Sentinel 2 imagery from Copernicus to provide improved spatial estimates of intertidal seaweed habitats over larger areas.</p>",
+  "url": "https://zenodo.org/record/14864756",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.14864756",
+    "value": "10.5281/zenodo.14864756"
+  },
+  "keywords": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Atlantic Living Lab"
+    }
+  ],
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/combining-unoccupied-aerial-vehicles-and-satellite-multispectral-data-to-improve-mapping-of-intertidal-seaweed-habitats-14864756.json"
+}

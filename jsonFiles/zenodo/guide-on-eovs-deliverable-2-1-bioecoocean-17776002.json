@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "Guide on EOVs. Deliverable 2.1_BioEcoOcean",
+  "description": "<p>The purpose of the Essential Ocean Variables specification guide is to outline and translate the information requested in each field of the EOV specification sheets to facilitate their update and use.</p>\n<p>The process to create this guide included a complete re-structure of the EOV specification sheet template to simplify the information provided. The creation of this new template considered the following:</p>\n<p>1) The audiences it aims to inform, including decision-makers and policymakers, funders, ocean observers, technologists, and data managers.<br>2) The needs of the different expert panels, i.e. physics, biogeochemistry (BGC) and biology and ecosystems panels, who will be using this standardised template<br>3) Simplification of the terminology used to make the information more accessible<br>4) The addition of a thorough metadata and data management section that provides the necessary information to contribute data to global ocean observing.</p>\n<p>From the restructuring of the EOV specification sheet template, an interactive guide (this deliverable) was created. The guide allows users to understand the information within the EOV specification sheets. Further refinements may be undertaken from additional feedback from the BGC and physics expert panels or from within the BioEcoOcean consortium.</p>\n<p>&nbsp;</p>\n<div>&nbsp;</div>\n<p>&nbsp;</p>",
+  "url": "https://zenodo.org/record/17776002",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.17776002",
+    "value": "10.5281/zenodo.17776002"
+  },
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/guide-on-eovs-deliverable-2-1-bioecoocean-17776002.json"
+}

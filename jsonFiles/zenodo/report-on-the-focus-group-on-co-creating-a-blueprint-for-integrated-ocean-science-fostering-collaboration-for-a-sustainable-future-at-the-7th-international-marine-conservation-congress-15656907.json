@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "Report on the Focus Group on Co-Creating a Blueprint for Integrated Ocean Science: Fostering Collaboration for a Sustainable Future at the 7th International Marine Conservation Congress",
+  "description": "",
+  "url": "https://zenodo.org/record/15656907",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.15656907",
+    "value": "10.5281/zenodo.15656907"
+  },
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/report-on-the-focus-group-on-co-creating-a-blueprint-for-integrated-ocean-science-fostering-collaboration-for-a-sustainable-future-at-the-7th-international-marine-conservation-congress-15656907.json"
+}

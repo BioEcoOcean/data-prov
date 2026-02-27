@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "Advancing marine conservation through the Marine Organic Carbon Atlas: addressing metazoan roles in ocean carbon sequestration",
+  "description": "<p>Marine conservation efforts targeting metazoans, including plankton, are crucial for maintaining marine ecosystem functions and services, such as ocean carbon sequestration. Vertical migration and trophic interactions involving metazoans significantly contribute to ocean carbon sequestration, with mesopelagic fishes and zooplankton playing key roles. Proposed expansions in fishing, targeting both mesopelagic fishes and krill, raise concerns about ecosystem impacts. However, gaps in data persist regarding how changes in metazoan abundance and biodiversity will affect carbon sequestration. To address this, we present the concept and early implementation steps of a Marine Organic Carbon Atlas which aims to synthesize data and develop ecosystem models for selected Essential Ocean Variables (EOVs) like phyto- and zooplankton, and fish abundance and diversity. Incorporating habitat-forming variables like seagrass and macroalgae highlights their role in carbon sequestration. The atlas pilot demonstration, tested against modeling and science advisory needs, in particular those of integrated ecosystem assessments, aims to inform science-based conservation decisions, such as regulating emerging fishing of krill and mesopelagic fish to ensure ecosystem health and sustainable harvesting levels.</p>",
+  "url": "https://zenodo.org/record/13967583",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.13967583",
+    "value": "10.5281/zenodo.13967583"
+  },
+  "keywords": [
+    {
+      "@type": "DefinedTerm",
+      "name": "carbon sequestration"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "blue carbon"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Marine Organic Carbon Atlas"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "krill"
+    }
+  ],
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/advancing-marine-conservation-through-the-marine-organic-carbon-atlas-addressing-metazoan-roles-in-ocean-carbon-sequestration-13967583.json"
+}

@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "Bridging the Gap: Simplifying Metadata Flows with an EOV Application",
+  "description": "<p>Presentation given during Living Data 2025 conference, Bogota, Colombia. Presentation was part of the session #6802990 Trust, Traceability &amp; Transparency: Tackling biodiversity data provenance.</p>",
+  "url": "https://zenodo.org/record/17417069",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.17417069",
+    "value": "10.5281/zenodo.17417069"
+  },
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/bridging-the-gap-simplifying-metadata-flows-with-an-eov-application-17417069.json"
+}

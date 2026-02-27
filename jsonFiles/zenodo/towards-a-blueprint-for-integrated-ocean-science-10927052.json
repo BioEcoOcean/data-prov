@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "Towards a Blueprint for Integrated Ocean Science",
+  "description": "<p>How do we integrate and collaborate across sectors and nations for a better understanding of the ocean and its marine life? In this poster presented at the 2024 UN Ocean Decade Conference in Barcelona, we introduce the concept of the Blueprint for Integrated Ocean Science which is being developed under the EU BioEcoOcean Project. The Blueprint is being designed as a support tool (guiding document) which will pose complex, \"catch-all\" questions, encouraging collaboration and holistic thinking across diverse environments and sectors. We invite participants from around the world who are interested in contributing to the co-creation of the Blueprint, and who are involved in any part of the ocean observing value chain: whether you are reviewing ocean data, planning observations, collecting, managing and reporting data, or developing data synthesis and modeling products, or work with policy or management.</p>",
+  "url": "https://zenodo.org/record/10927052",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.10927052",
+    "value": "10.5281/zenodo.10927052"
+  },
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/towards-a-blueprint-for-integrated-ocean-science-10927052.json"
+}

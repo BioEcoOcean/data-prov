@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "In search for the strategy to include the role of benthos in the modeling of organic carbon cycle",
+  "description": "<p>The organic carbon cycle is one of the most critical biogeochemical processes sustaining ecosystem function on Earth. In the face of climate change and biodiversity loss, it is essential to deepen our understanding of the mechanisms governing this cycle and its role in maintaining marine ecosystem health. Thus, harmonizing and standardizing international efforts in this area is indispensable. Under the aegis of the \"BioEcoOcean &ndash; Co-creating Transformative Pathways to Biological and Ecosystem Ocean Observations\" project, a focal living lab of Marine Organic Carbon Atlas (MOCA) has been established. The aim of MOCA is to develop strategies for collecting and integrating extensive data and metadata on organic carbon cycle observations into standardized formats, ensuring broad applicability for various stakeholder groups.</p>\n<p>One of MOCA's milestones is the development of a strategy to better incorporate seafloor observations, including the role of benthic organisms, into carbon cycle modeling. The benthos plays a fundamental role in the marine organic carbon cycle by processing organic matter, bioturbating sediment, sequestering carbon, and transferring it to higher trophic levels. However, the complexity of the benthic role in the carbon cycle significantly complicates the selection of suitable parameters for modeling, underscoring the ongoing need for consultation across scientific communities.</p>\n<p>Creating a cohesive strategy that includes the selection of parameters, standardization of data collection methods, promotion of data sharing, and implementation of these actions will enable a more comprehensive representation of benthic roles in carbon cycle modeling. This will contribute to more accurate predictions and a deeper understanding of marine ecosystem functioning.</p>",
+  "url": "https://zenodo.org/record/14043729",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.14043729",
+    "value": "10.5281/zenodo.14043729"
+  },
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/in-search-for-the-strategy-to-include-the-role-of-benthos-in-the-modeling-of-organic-carbon-cycle-14043729.json"
+}

@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "Tuscan Archipelago Living Lab",
+  "description": "",
+  "url": "https://zenodo.org/record/15674614",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.15674614",
+    "value": "10.5281/zenodo.15674614"
+  },
+  "keywords": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Tuscan Archipelago Living Lab"
+    }
+  ],
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/tuscan-archipelago-living-lab-15674614.json"
+}

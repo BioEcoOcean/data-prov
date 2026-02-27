@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "Qualitative variability of dissolved organic matter in the Baltic Sea sediments apparent from fluxes and optical properties",
+  "description": "",
+  "url": "https://zenodo.org/record/13781347",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.3389/fmars.2024.1433199",
+    "value": "10.3389/fmars.2024.1433199"
+  },
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/qualitative-variability-of-dissolved-organic-matter-in-the-baltic-sea-sediments-apparent-from-fluxes-and-optical-properties-13781347.json"
+}

@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "Towards a Marine Organic Carbon Atlas: A case study for the Arctic Ocean",
+  "description": "<p>Oral presentation given during the Joint Community Meeting for the pan-Arctic network of Distributed Biological Observatories (DBOs) organized as part of the 2024 Arctic Science Summit Week (ASSW) on 21 March 2024 in Edinburgh, the UK.&nbsp;</p>",
+  "url": "https://zenodo.org/record/10908471",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.10908471",
+    "value": "10.5281/zenodo.10908471"
+  },
+  "keywords": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Marine Organic Carbon Atlas"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Arctic"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "S-Q WP7"
+    }
+  ],
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/towards-a-marine-organic-carbon-atlas-a-case-study-for-the-arctic-ocean-10908471.json"
+}

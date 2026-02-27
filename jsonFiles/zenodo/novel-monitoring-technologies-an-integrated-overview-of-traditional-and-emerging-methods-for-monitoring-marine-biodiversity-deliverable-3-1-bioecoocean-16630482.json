@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "Novel Monitoring Technologies -  an integrated overview of traditional and emerging methods for monitoring marine biodiversity. Deliverable 3.1_BioEcoOcean",
+  "description": "<p>This report provides an integrated overview of traditional and emerging methods for monitoring marine biodiversity, with emphasis on Essential Ocean Variables (EOVs). Traditional visual sampling methods such as underwater visual census (UVC), quadrat surveys, and net tows have long formed the backbone of biodiversity monitoring, offering high taxonomic resolution and compatibility with historical data.</p>\n<p>Emerging technologies&mdash;including environmental DNA (eDNA), imaging&nbsp;combined with Artificial Intelligence (AI) analysis, and remote sensing (satellites and drones)&mdash;promise to boost biodiversity observations by increasing spatial and temporal coverage, automating labor-intensive processes, and reducing environmental impact. eDNA enables non-invasive detection of cryptic species, while AI image analysis automates species identification and habitat quantification. Remote platforms such as Unmanned Aerial Vehicles (UAVs) and Remotely Operated Vehicles (ROVs) extend survey capabilities into deep or otherwise inaccessible environments.</p>\n<p>Key findings highlight the strengths and limitations of each method. eDNA excels in sensitivity but faces challenges in assigning species to sampling sites and in abundance estimation. AI imaging supports scalable monitoring, but requires large, annotated training sets. Acoustic methods offer large-scale tracking of biomass via proxies, but they still lack taxonomic precision. Hybrid approaches are emerging as best practice: combining traditional methods with novel tools is necessary for cross-validation and to maximize spatial and temporal coverage. Calibration remains essential, as it requires reference libraries and standardized protocols. The combination of traditional and emerging biodiversity observing technologies aligns with ethical research principles, such as the 3Rs (Replacement, Reduction, Refinement), especially by reducing the impact associated with destructive sampling.</p>\n<p>We recommend adopting integrated monitoring frameworks that combine in situ, genetic, and remote sensing data collection, tailored to the goals and constraints of each project. Supporting policy development and training efforts will be key to mainstreaming these approaches across the EU and global marine monitoring networks.</p>\n<p>&nbsp;</p>\n<div>&nbsp;</div>\n<p>&nbsp;</p>",
+  "url": "https://zenodo.org/record/16630482",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.16630482",
+    "value": "10.5281/zenodo.16630482"
+  },
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/novel-monitoring-technologies-an-integrated-overview-of-traditional-and-emerging-methods-for-monitoring-marine-biodiversity-deliverable-3-1-bioecoocean-16630482.json"
+}

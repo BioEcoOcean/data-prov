@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "The Role Of Earth Observations in Developing a Pilot Demonstration of the Marine Organic Carbon Atlas for the Arctic Ocean",
+  "description": "",
+  "url": "https://zenodo.org/record/16928353",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.16928353",
+    "value": "10.5281/zenodo.16928353"
+  },
+  "keywords": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Marine Organic Carbon Atlas"
+    }
+  ],
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/the-role-of-earth-observations-in-developing-a-pilot-demonstration-of-the-marine-organic-carbon-atlas-for-the-arctic-ocean-16928353.json"
+}

@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "W poszukiwaniu strategii na uwzględnienie roli bentosu w modelowaniu obiegu węgla organicznego",
+  "description": "<p>Obieg węgla organicznego jest jednym z najważniejszych proces&oacute;w biogeochemicznych podtrzymujących funkcjonowanie ekosystem&oacute;w na ziemi. W obliczu zmian klimatycznych i utraty bior&oacute;żnorodności konieczne jest głębsze zrozumienie mechanizm&oacute;w go regulujących oraz jego roli w utrzymaniu zdrowia ekosystem&oacute;w morskich. Harmonizacja i standaryzacja międzynarodowych wysiłk&oacute;w na ten cel jest więc niezbędna. Pod egidą projektu &bdquo;BioEcoOcean &ndash; Wsp&oacute;łtworzenie strategii na rzecz zintegrowanych obserwacji oceanicznych&rdquo; powołane zostało żywe laboratorium - Morski Atlas Węgla Organicznego (z ang. <strong>MOCA </strong>&ndash; Marine Organic Carbon Atlas). <span>&nbsp;</span>Celem MOCA jest stworzenie strategii na zebranie jak największej ilości danych i metadanych o obserwacjach oceanicznych, dotyczących obiegu węgla organicznego, oraz ich integracji do standardowych format&oacute;w z myślą o ich jak najszerszym zastosowaniu przez r&oacute;żne grupy interesariuszy. Dodatkowo, zaprezentowany zostanie pilotażowy zestaw danych na przykładzie Oceanu Arktycznego. Rezultatem MOCA będzie zwiększenie naszej zdolności do regularnego i sp&oacute;jnego mapowania zasob&oacute;w i obiegu węgla pod kątem proces&oacute;w biologicznych (organicznych), a w efekcie do oceny zmian zachodzących w ekosystemach morskich.</p>\n<p>Jednym z kamieni milowych MOCA jest opracowanie strategii na lepsze uwzględnienie obserwacji dna morskiego, w tym roli organizm&oacute;w bentosowych, w modelowaniu obiegu węgla. Bentos odgrywa fundamentalną rolę w obiegu węgla organicznego w ekosystemach morskich poprzez przetwarzanie materii organicznej i bioturbację osadu, a także sekwestrację węgla i jego transfer do wyższych poziom&oacute;w troficznych. Niemniej jednak, złożoność roli bentosu w obiegu węgla znacznie utrudnia wyb&oacute;r odpowiednich parametr&oacute;w pomocnych w jego modelowaniu co podkreśla wciąż istniejącą potrzebę konsultacji r&oacute;żnych środowisk naukowych.</p>\n<p>Stworzenie sp&oacute;jnej strategii, obejmującej wyb&oacute;r parametr&oacute;w, standaryzację metod zbierania danych i promowanie ich udostępniania oraz implementacja tych działań pozwoli na pełniejsze uwzględnienie roli bentosu w modelowaniu obiegu węgla. Przyczyni się to do bardziej precyzyjnych prognoz i lepszego zrozumienia funkcjonowania ekosystem&oacute;w morskich.</p>",
+  "url": "https://zenodo.org/record/13927820",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.13927820",
+    "value": "10.5281/zenodo.13927820"
+  },
+  "keywords": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Marine Organic Carbon Atlas"
+    }
+  ],
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/w-poszukiwaniu-strategii-na-uwzgl-dnienie-roli-bentosu-w-modelowaniu-obiegu-w-gla-organicznego-13927820.json"
+}

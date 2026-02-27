@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "Pelagic Ocean Living Lab 1: Zooplankton and Ecosystems",
+  "description": "",
+  "url": "https://zenodo.org/record/15624146",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.15624146",
+    "value": "10.5281/zenodo.15624146"
+  },
+  "keywords": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Pelagic Ocean Living Lab 1"
+    }
+  ],
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/pelagic-ocean-living-lab-1-zooplankton-and-ecosystems-15624146.json"
+}

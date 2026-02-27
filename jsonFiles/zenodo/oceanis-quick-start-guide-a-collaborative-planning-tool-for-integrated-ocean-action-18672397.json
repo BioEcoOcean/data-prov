@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "OCEANIS Quick Start guide: A Collaborative Planning tool for Integrated Ocean Action",
+  "description": "<p><span>A workshop quick start guiding tool to encourage cross-domain thinking and develop action plans</span></p>",
+  "url": "https://zenodo.org/record/18672397",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.18672397",
+    "value": "10.5281/zenodo.18672397"
+  },
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/oceanis-quick-start-guide-a-collaborative-planning-tool-for-integrated-ocean-action-18672397.json"
+}

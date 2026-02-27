@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "Integrating land and coastal systems: Linking glacier runoff and atmospheric inputs with marine data – Arctic case studies.",
+  "description": "",
+  "url": "https://zenodo.org/record/15275398",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.15275398",
+    "value": "10.5281/zenodo.15275398"
+  },
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/integrating-land-and-coastal-systems-linking-glacier-runoff-and-atmospheric-inputs-with-marine-data-arctic-case-studies-15275398.json"
+}

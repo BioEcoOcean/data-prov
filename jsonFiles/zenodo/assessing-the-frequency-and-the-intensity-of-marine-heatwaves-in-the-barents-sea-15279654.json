@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "Assessing the Frequency and the Intensity of Marine Heatwaves in the Barents Sea",
+  "description": "<p>Presentation on \"Assessing the Frequency and the Intensity of Marine Heatwaves in the Barents Sea\" delivered at the ObsSea4Clim - BioEcoOcean Clustering Event I, that took place on 11-12 March 2025 in Sopot, Poland.</p>\n<p>The presentation was delivered by Ajith Joseph Kochuparampil (NERCI), presenting work done in ObsSea4Clim project.</p>\n<p>This presentation was part of Session 3: \"Marine heatwaves (MHW) in space and time: understanding thermal anomalies at ecologically relevant scales\".&nbsp;</p>",
+  "url": "https://zenodo.org/record/15279654",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.15279654",
+    "value": "10.5281/zenodo.15279654"
+  },
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/assessing-the-frequency-and-the-intensity-of-marine-heatwaves-in-the-barents-sea-15279654.json"
+}

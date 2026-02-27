@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "Seagrass Synergy: Collaborate for Global Observing and Understanding",
+  "description": "<p><a href=\"https://goosocean.org/webinars/seagrass-synergy-collaborate-for-global-observing-and-understanding/\" target=\"_blank\" rel=\"noopener\"><strong>Global Ocean Observing System webinar</strong></a></p>\n<p><strong>Presenters:</strong>&nbsp;Lina Mtwana Nordlund and Emmett Duffy</p>\n<p><strong>Date and Time:</strong> 27 March 2024, 15:00 CET</p>\n<p>Join us in envisioning a world with comparable seagrass data across the globe. Explore the journey from the development of the Seagrass Essential Ocean Variable to the importance of standardized measurement, data availability, and the transformative impact of openly accessible seagrass data on global biodiversity indicators. Be part of the conversation as we discuss the evolving landscape of seagrass monitoring, from essential variables and open repositories to global collaborations shaping the future of seagrass research.</p>",
+  "url": "https://zenodo.org/record/10972535",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.10972535",
+    "value": "10.5281/zenodo.10972535"
+  },
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/seagrass-synergy-collaborate-for-global-observing-and-understanding-10972535.json"
+}

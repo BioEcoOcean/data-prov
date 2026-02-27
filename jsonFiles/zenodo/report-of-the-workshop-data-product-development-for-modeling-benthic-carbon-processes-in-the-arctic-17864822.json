@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "Report of the workshop \"Data Product Development for Modeling Benthic Carbon Processes in the Arctic\"",
+  "description": "<p>The workshop &ldquo;Data Product Development for Modelling Benthic Carbon Processes in the Arctic&rdquo; was held online on 8th and 10th October 2025. It was organised by the EU-funded BioEcoOcean project in collaboration with EU funded projects POMP, SEA-Quester and NECCTON. The workshop gathered experts in Arctic marine biogeochemistry, benthic ecology, and modeling to identify gaps and develop a roadmap for generating benthic carbon data products suitable for model applications. The event consisted of two 3-hour online sessions combining plenary discussions and collaborative group work using Miro boards. In total 30 participants from 15 countries and 20 institutions attended.</p>",
+  "url": "https://zenodo.org/record/17864822",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.17864822",
+    "value": "10.5281/zenodo.17864822"
+  },
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/report-of-the-workshop-data-product-development-for-modeling-benthic-carbon-processes-in-the-arctic-17864822.json"
+}

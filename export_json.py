@@ -13,6 +13,7 @@ import re
 import sys
 from pathlib import Path
 from typing import Iterable, List, Dict, Any
+import html
 
 
 # Simple BioEcoOcean funding block reused for all project entries coming
@@ -183,15 +184,18 @@ def dataset_to_project(
     return project
 
 
-def build_sitemap(ids: Iterable[str]) -> Dict[str, Any]:
-    """Simple JSON-LD sitemap as an ItemList of @id entries."""
+def build_sitemap_xml(ids: Iterable[str]) -> str:
+    """Build a simple XML sitemap over the given @id URLs."""
     id_list = [i for i in ids if i]
-    return {
-        "@context": "https://schema.org/",
-        "@type": "ItemList",
-        "numberOfItems": len(id_list),
-        "itemListElement": [{"@type": "Thing", "@id": i} for i in id_list],
-    }
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+    ]
+    for loc in id_list:
+        esc = html.escape(loc, quote=True)
+        lines.append(f"  <url><loc>{esc}</loc></url>")
+    lines.append("</urlset>")
+    return "\n".join(lines)
 
 
 def main() -> int:
@@ -228,8 +232,8 @@ def main() -> int:
         type=Path,
         default=None,
         help=(
-            "Optional path to write a JSON-LD sitemap (ItemList) listing all "
-            "per-record @id values."
+            "Optional path to write an XML sitemap listing all per-record @id URLs "
+            "(e.g. sitemap.xml)."
         ),
     )
 
@@ -273,10 +277,10 @@ def main() -> int:
     print(f"Wrote {len(records)} project JSON file(s) under {out_dir}", file=sys.stderr)
 
     if args.sitemap:
-        sitemap_obj = build_sitemap(ids)
+        sitemap_xml = build_sitemap_xml(ids)
         args.sitemap.parent.mkdir(parents=True, exist_ok=True)
         with args.sitemap.open("w", encoding="utf-8") as f:
-            json.dump(sitemap_obj, f, indent=2, ensure_ascii=False)
+            f.write(sitemap_xml)
         print(f"Wrote sitemap with {len(ids)} entries to {args.sitemap}", file=sys.stderr)
 
     return 0

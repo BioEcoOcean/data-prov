@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "Blueprint for Integrated Ocean Science (BIOS): Advancing Harmonised Observation Systems and Policy Coordination for Sustainable Ecosystem Management",
+  "description": "<p>To effectively address the challenges of biodiversity loss and the compounded impacts of various anthropogenic stressors, including climate change and ecosystem disturbances, a coordinated and systematic approach to ocean observation and policy alignment is essential. The current fragmented landscape of observation efforts hinders collective progress in advancing scientific understanding and responding to critical ecosystem tipping points.</p>\n<p>To bridge these gaps, we are co-designing a comprehensive strategy that integrates policy recommendations with the development of standardized guidelines and regulations aimed at harmonizing and strengthening global and regional observation networks. This strategy focuses on enhancing evidence-based decision-making by fostering the co-creation and demonstration of operational, interconnected workflows. These workflows will cover the entire spectrum from observation system assessment and design to policy application, ensuring that collected data is robust, accessible, and directly applicable to management and governance frameworks in alignment with FAIR data principles.</p>\n<p>Central to this vision is the co-creation of a comprehensive, fit-for-purpose, and inclusive Blueprint for Integrated Ocean Science (BIOS). This blueprint promotes a holistic approach and encourages effective communication and collaboration among stakeholders and sectors, enabling interoperability across systems. The production of white papers and policy recommendations will bolster European leadership in the ocean-climate-biodiversity nexus.</p>\n<p>The EU-funded Co-Creating Transformative Pathways to Biological and Ecosystem Ocean Observations (BioEcoOcean) project leverage collaborative networks to promote best practices aligned with EU directives, such as the EU Marine Strategy Framework Directive (MSFD), focusing on enhanced ocean observation, data curation, and standardization. A Community of Practice Forum (CoPF) will coordinate multi-disciplinary ocean observing efforts, engaging researchers, NGOs, industries and authorities. This co-creative approach bridges scientific research with practical application, fostering evidence-based policymaking and sustainable solutions. By integrating regional knowledge and promoting cross-sectoral partnerships, it enhances ecosystem services, socio-economic resilience, and long-term human well-being through impactful, science-based policies and sustainable environmental stewardship.</p>\n<div>\n<p><strong>How to cite:</strong> Karaca Hal&eacute;n, D., Palacz, A., Soares, J., Krzymiński, D., Lepola, N., and Mtwana Nordlund, L.: Blueprint for Integrated Ocean Science (BIOS): Advancing Harmonized Observation Systems and Policy Coordination for Sustainable Ecosystem Management, One Ocean Science Congress 2025, Nice, France, 3&ndash;6 Jun 2025, OOS2025-1320, https://doi.org/10.5194/oos2025-1320, 2025.</p>\n</div>",
+  "url": "https://zenodo.org/record/15656733",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.15656733",
+    "value": "10.5281/zenodo.15656733"
+  },
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/blueprint-for-integrated-ocean-science-bios-advancing-harmonised-observation-systems-and-policy-coordination-for-sustainable-ecosystem-management-15656733.json"
+}

@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "The immeasurable value of plankton to humanity",
+  "description": "<p>Abstract</p>\n<p>Plankton, a diverse group of aquatic organisms, make Earth livable, regulate aquatic life, and provide benefits to human societies such as access to clean water, food security, and well-being. They also support economies and inspire biotechnological innovations. This article aims to raise awareness of the value of plankton to humanity and serves as an informative guide for aquatic professionals, policymakers, and anyone interested in plankton. We present the value of plankton across six themes of human interest: biogeochemistry; ecology; climate; the evolution of science; economy; and culture, recreation, and well-being. Guided by the 2022 Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services values assessment, we introduce the six themes under the Life Framework of Values to offer a comprehensive summary of the significance of plankton to humanity. In addition, we provide examples of plankton variables used in policy frameworks and recommendations for enhancing understanding of their value through long-term sustainable research and monitoring.</p>",
+  "url": "https://zenodo.org/record/15855747",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.1093/biosci/biaf049",
+    "value": "10.1093/biosci/biaf049"
+  },
+  "keywords": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Plankton"
+    }
+  ],
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/the-immeasurable-value-of-plankton-to-humanity-15855747.json"
+}

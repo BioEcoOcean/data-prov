@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "A picture-based field guide. Shallow coastal communities around Gotland, Sweden.",
+  "description": "<p><strong>The shallow coastal environments around Gotland: a vital link between nature and </strong><strong>people</strong><br>The island of Gotland lies in the heart of the Baltic Sea, surrounded by shallow coastal waters<br>that are both ecologically rich and deeply connected to local culture and livelihoods. These<br>nearshore environments, with their exposed rocky areas, as well as calm, sheltered bays,<br>underwater meadows, and sandy seafloors, are essential to a wide range of plants, animals,<br>and human activities. For centuries, these ecosystems have provided food, recreation, and<br>natural beauty, and they continue to do so today.</p>",
+  "url": "https://zenodo.org/record/15355912",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.15355912",
+    "value": "10.5281/zenodo.15355912"
+  },
+  "keywords": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Baltic Sea Living Lab"
+    }
+  ],
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/a-picture-based-field-guide-shallow-coastal-communities-around-gotland-sweden-15355912.json"
+}

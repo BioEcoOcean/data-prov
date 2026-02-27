@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "Blueprint workshop at WIOMSA symposium 2025, Kenya",
+  "description": "<p>This presentation was delivered during a workshop at the 13th Western Indian Ocean Marine Science Association (WIOMSA) Scientific Symposium, focusing on the development and implementation of the Blueprint for Integrated Ocean Science (the Blueprint) under the BioEcoOcean project.</p>\n<p>The session introduced the Blueprint as a co-designed framework aimed at strengthening coordination, interoperability, and collaboration across the various components of the Biological and Ecosystem (BioEco) Ocean Observing System. The presentation highlighted how the Blueprint seeks to bridge gaps between scientific research, policy, and societal needs by fostering communication and collaboration among the various components of the ocean observation system.</p>\n<p>The workshop provided a platform for participants from diverse sectors&mdash;including science, policy, and management&mdash;to engage in dialogue, share experiences, and identify pathways toward more fit-for-purpose, inclusive, and sustained BioEco ocean observation systems.&nbsp;</p>",
+  "url": "https://zenodo.org/record/17581392",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.17581392",
+    "value": "10.5281/zenodo.17581392"
+  },
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/blueprint-workshop-at-wiomsa-symposium-2025-kenya-17581392.json"
+}

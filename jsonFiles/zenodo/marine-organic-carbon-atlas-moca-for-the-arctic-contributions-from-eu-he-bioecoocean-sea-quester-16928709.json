@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "Marine Organic Carbon Atlas (MOCA) for the Arctic: contributions from EU HE BioEcoOcean & SEA-Quester",
+  "description": "",
+  "url": "https://zenodo.org/record/16928709",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.16928709",
+    "value": "10.5281/zenodo.16928709"
+  },
+  "keywords": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Marine Organic Carbon Atlas"
+    }
+  ],
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/marine-organic-carbon-atlas-moca-for-the-arctic-contributions-from-eu-he-bioecoocean-sea-quester-16928709.json"
+}

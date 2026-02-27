@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "Data Management Plan by BioEcoOcean - Towards Integrated, FAIR and Inclusive Ocean Data Management",
+  "description": "",
+  "url": "https://zenodo.org/record/13911286",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.13911286",
+    "value": "10.5281/zenodo.13911286"
+  },
+  "keywords": [
+    {
+      "@type": "DefinedTerm",
+      "name": "data management plan"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Horizon Europe"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "essential ocean variables"
+    }
+  ],
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/data-management-plan-by-bioecoocean-towards-integrated-fair-and-inclusive-ocean-data-management-13911286.json"
+}

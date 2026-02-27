@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "Adaptation of global primary production model to the Greenland Sea conditions: parameterization and monitoring for 1998-2022",
+  "description": "<p>Phytoplankton are responsible for releasing half of the world&rsquo;s oxygen and for removing large amounts of carbon dioxide from surface waters. Despite many studies on the topic conducted in the past decades, we are still far from a good understanding of ongoing rapid changes in the Arctic Ocean and how they will affect phytoplankton and the whole ecosystem. An example is the difference in net primary production modelling estimates, which differ twice globally and fifty times when only the Arctic region is considered. Here, we aim to improve the quality of Greenland Sea primary production estimates, by testing different versions of primary production model against&nbsp;<em>in situ</em>&nbsp;data and then calculating regional estimates and trends for 1998-2022 for those performing best. As a baseline, we chose the commonly used global primary production model and tested it with different combinations of empirical relationships and input data. Local empirical relationships were taken from measurements by the literature and derived from the unpublished data of Institute of Oceanology of Polish Academy of Sciences across the Fram Strait. For validation, we took historical net primary production&nbsp;<sup>14</sup>C data from literature and added to it our own gross primary production O<sub>2</sub>&nbsp;measurements. Field data showed good agreement between primary production measured with&nbsp;<sup>14</sup>C and O<sub>2</sub>&nbsp;evolution methods. From all the model setups, those including local chlorophyll&nbsp;<em>a</em>&nbsp;profile and local absorption spectrum best reproduced&nbsp;<em>in situ</em> data. Our modelled regional annual primary production estimates are equal to 346 TgC/year for the Nordic Seas region and 342 TgC/year for the Greenland Sea sector of the Arctic defined as 45&deg;W-15&deg;E, 66&deg;33&prime;N-90&deg;N. These values are higher than those previously reported. Monthly values show a seasonal cycle with less monthly variability than previously reported. No significant increase or decrease in primary production was observed when studying regionally averaged trends. The accuracy of the selected here model setups to reproduce the field data in terms of Root Mean Square Difference is better than in the related Arctic studies. The improved primary production estimates strengthen researchers&rsquo; ability to assess carbon flux and understand biogeochemical processes in the Greenland Sea.</p>",
+  "url": "https://zenodo.org/record/14610655",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.3389/fmars.2024.1491180",
+    "value": "10.3389/fmars.2024.1491180"
+  },
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/adaptation-of-global-primary-production-model-to-the-greenland-sea-conditions-parameterization-and-monitoring-for-1998-2022-14610655.json"
+}

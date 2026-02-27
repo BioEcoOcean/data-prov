@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "Clustering Event I - Co-production of Policy Recommendations - Bridging Physics and Biology & Ecosystem Ocean Science - Deliverable 6.3",
+  "description": "",
+  "url": "https://zenodo.org/record/17789946",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.17789946",
+    "value": "10.5281/zenodo.17789946"
+  },
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/clustering-event-i-co-production-of-policy-recommendations-bridging-physics-and-biology-ecosystem-ocean-science-deliverable-6-3-17789946.json"
+}

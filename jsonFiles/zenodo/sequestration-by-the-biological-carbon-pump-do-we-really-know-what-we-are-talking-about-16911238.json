@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "Sequestration by the biological carbon pump: Do we really know what we are talking about?",
+  "description": "",
+  "url": "https://zenodo.org/record/16911238",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.1002/lol2.70053",
+    "value": "10.1002/lol2.70053"
+  },
+  "keywords": [
+    {
+      "@type": "DefinedTerm",
+      "name": "S-Q WP6"
+    }
+  ],
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/sequestration-by-the-biological-carbon-pump-do-we-really-know-what-we-are-talking-about-16911238.json"
+}

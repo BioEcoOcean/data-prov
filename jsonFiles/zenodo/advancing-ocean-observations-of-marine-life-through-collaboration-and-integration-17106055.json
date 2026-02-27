@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "Advancing ocean observations of marine life through collaboration and integration",
+  "description": "<p>ABSTRACT: Are you working to understand and protect marine life? Do you think that fragmented data, disconnected initiatives, and communication barriers hold us back? This workshop offers a chance to be part of changing this narrative. Led by the BioEcoOcean project, this interactive session invites you to take an active role in co-creating the Blueprint for Integrated Ocean Science - a pioneering global support tool designed to transform how we observe, understand, and manage marine ecosystems. The Blueprint is not a framework imposed from elsewhere. It is being built collaboratively, and this workshop is a key moment to ensure that the priorities, challenges, and ambitions of early career researchers are also firmly embedded in its design. Through structured discussions, participants will shape a practical tool encouraging communication that strengthens biological and ecosystem observations, connects fragmented efforts, and guides future partnerships, funding strategies, and management actions. The Blueprint will directly support regional and global marine conservation goals, ecosystem-based management, and policy implementation, aligned with frameworks such as the Convention on Biological Diversity and the Sustainable Development Goals. The insights generated here will feed directly into the Blueprint, which will launch in 2027 as an open-access, interactive platform endorsed by the Global Ocean Observing System (GOOS) under IOC-UNESCO. This is your opportunity to ensure that the voice of early career researchers helps lead and define the future of integrated ocean observation. Join us - and be part of building a tool that serves both the region and the world.</p>",
+  "url": "https://zenodo.org/record/17106055",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.17106055",
+    "value": "10.5281/zenodo.17106055"
+  },
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/advancing-ocean-observations-of-marine-life-through-collaboration-and-integration-17106055.json"
+}

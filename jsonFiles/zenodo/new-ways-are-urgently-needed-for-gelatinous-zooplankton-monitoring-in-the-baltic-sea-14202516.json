@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "Project",
+  "name": "New ways are urgently needed for gelatinous zooplankton monitoring in the Baltic Sea",
+  "description": "<p>Our understanding of gelatinous macro-zooplankton (jellyfish and comb jellies; GZ), in the Baltic Sea is limited. While GZ organisms can be a nuisance, they play essential roles in regional food webs and biogeochemical cycles. These organisms are known to tolerate increasing temperature and dropping oxygen concentration better than other invertebrates and fish. There is much speculation about recent increases in seasonal bloom extent and frequency. However, the lack of long-term data and consistent sampling protocols makes projections and distribution models unreliable. Research has focussed mainly on western Baltic native species, leaving central and eastern regions and additional species understudied. Recently introduced species like <em>Blackfordia</em>, <em>Maeotias</em>, and <em>Craspedacusta</em> have highlighted the need for further research. Furthermore, new approaches are required to enable marine ecologists, stakeholders, and policymakers to acquire data. Essential Ocean Variables (EOVs), identified by the Global Ocean Observing System (IOC-UNESCO), are key for globally coordinated marine data. GZ fall under the zooplankton EOV and the recommended variables to be measured are overall biomass, biomass or abundance (or presence/absence) by taxon, functional group or size class and should follow the data standards. By following FAIR data standards (Findable, Accessible, Interoperable, and Reusable), GZ monitoring could significantly enhance global understanding. It is recommended that these variables are incorporated in existing/planned observations and/or monitoring of GZ along with locally/regionally relevant variables. The coordinated observations along with innovative ideas and combinations of approaches (e.g., large-scale polls, fishers, ferries), social media data mining, and sampling for environmental DNA may provide new platforms for studying spatial and temporal distributions of GZ in the central and eastern Baltic Sea.</p>",
+  "url": "https://zenodo.org/record/14202516",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.14202516",
+    "value": "10.5281/zenodo.14202516"
+  },
+  "keywords": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Baltic Sea Living Lab"
+    }
+  ],
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/new-ways-are-urgently-needed-for-gelatinous-zooplankton-monitoring-in-the-baltic-sea-14202516.json"
+}
