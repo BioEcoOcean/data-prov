@@ -1,0 +1,45 @@
+{
+  "@type": "CreativeWork",
+  "name": "The Fantastic Baltic Four: A field sampling approach for four Biology and Ecosystem Essential Ocean Variables (EOVs)",
+  "url": "https://zenodo.org/record/19000761",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.19000761",
+    "value": "10.5281/zenodo.19000761"
+  },
+  "description": "As part of the EU Horizon project BioEcoOcean, the Baltic Sea Living Lab (BSLL) , implements a novel framework for coastal monitoring around the island of Gotland, Sweden, including the Eastern and Western Gotland Basins. Our research focusses on a set of Biology and Ecosystem Essential Ocean Variables (EOVs) nicknamed the &ldquo;Fantastic Baltic Four&rdquo; (FBF). These are 1) seagrass cover and composition , 2) macroalgal cover and composition , 3) fish abundance and distribution , and 4) benthic invertebrate abundance and distribution . The mission of the BSLL is to provide a holistic understanding of the coastal zone (&lt; 7 m bottom depth) by integrating socio-economic variables, environmental drivers, and ecosystem services such as Blue Foods perspectives. Guided by the 3R principle (Replace, Refine, Reduce) , we aim to minimise the impact of environmental monitoring on marine biota while ensuring scientifically robust observations.",
+  "datePublished": "2026-02-24",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Lüskow, Florian"
+    },
+    {
+      "@type": "Person",
+      "name": "Mtwana Nordlund, Lina"
+    }
+  ],
+  "keywords": [
+    "Baltic Sea Living Lab"
+  ],
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/the-fantastic-baltic-four-a-field-sampling-approach-for-four-biology-and-ecosystem-essential-ocean-variables-eovs-19000761.json"
+}

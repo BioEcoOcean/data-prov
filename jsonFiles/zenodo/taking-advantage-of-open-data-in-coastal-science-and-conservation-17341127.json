@@ -1,8 +1,6 @@
 {
-  "@context": "https://schema.org/",
-  "@type": "Project",
+  "@type": "CreativeWork",
   "name": "Taking advantage of open data in coastal science and conservation",
-  "description": "<p><strong>Abstract</strong><br>Human society relies on, and interacts with, a diverse assortment of organisms and ecological systems, from the local to the global level. Research and management of these coupled social-ecological systems requires data that speaks to the variety of processes, statuses, and situations defined by them. Effective stewardship is enhanced by interdisciplinary thinking and, critically, access to interoperable data describing human society and governance and ecological and environmental conditions. Such approaches are inherently challenging, especially for those without broad training. In this paper, we propose a workflow harnessing the Social-Ecological System Framework to identify, access, and utilize geospatial data from across a spectrum of social and ecological indicators. We demonstrate the application of this workflow using Tropical Indo-Pacific seagrasses as an example system and in doing so, demonstrate the wealth of available open-data which can support an enhanced understanding of social-ecological system dynamics. With this workflow, we provide a readily applicable tool for use by coastal researchers and managers to support more inclusive social-ecological decision making.</p>",
   "url": "https://zenodo.org/record/17341127",
   "identifier": {
     "@type": "PropertyValue",
@@ -10,6 +8,37 @@
     "propertyID": "https://registry.identifiers.org/registry/doi",
     "url": "https://doi.org/10.1016/j.scitotenv.2025.180276",
     "value": "10.1016/j.scitotenv.2025.180276"
+  },
+  "description": "Abstract Human society relies on, and interacts with, a diverse assortment of organisms and ecological systems, from the local to the global level. Research and management of these coupled social-ecological systems requires data that speaks to the variety of processes, statuses, and situations defined by them. Effective stewardship is enhanced by interdisciplinary thinking and, critically, access to interoperable data describing human society and governance and ecological and environmental conditions. Such approaches are inherently challenging, especially for those without broad training. In this paper, we propose a workflow harnessing the Social-Ecological System Framework to identify, access, and utilize geospatial data from across a spectrum of social and ecological indicators. We demonstrate the application of this workflow using Tropical Indo-Pacific seagrasses as an example system and in doing so, demonstrate the wealth of available open-data which can support an enhanced understanding of social-ecological system dynamics. With this workflow, we provide a readily applicable tool for use by coastal researchers and managers to support more inclusive social-ecological decision making.",
+  "datePublished": "2025-09-01",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Hoad, Nicholas"
+    },
+    {
+      "@type": "Person",
+      "name": "Lefcheck, Jonathan"
+    },
+    {
+      "@type": "Person",
+      "name": "Alexandridis, Nikolaos"
+    },
+    {
+      "@type": "Person",
+      "name": "Jones, Benjamin Lawrence Hopper"
+    },
+    {
+      "@type": "Person",
+      "name": "Eklöf, Johan"
+    },
+    {
+      "@type": "Person",
+      "name": "Mtwana Nordlund, Lina"
+    }
+  ],
+  "license": {
+    "id": "cc-by-4.0"
   },
   "funding": [
     {
@@ -24,5 +53,6 @@
       }
     }
   ],
+  "@context": "https://schema.org/",
   "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/taking-advantage-of-open-data-in-coastal-science-and-conservation-17341127.json"
 }

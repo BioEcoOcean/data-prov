@@ -1,8 +1,6 @@
 {
-  "@context": "https://schema.org/",
-  "@type": "Project",
+  "@type": "CreativeWork",
   "name": "Assessing the Frequency and the Intensity of Marine Heatwaves in the Barents Sea",
-  "description": "<p>Presentation on \"Assessing the Frequency and the Intensity of Marine Heatwaves in the Barents Sea\" delivered at the ObsSea4Clim - BioEcoOcean Clustering Event I, that took place on 11-12 March 2025 in Sopot, Poland.</p>\n<p>The presentation was delivered by Ajith Joseph Kochuparampil (NERCI), presenting work done in ObsSea4Clim project.</p>\n<p>This presentation was part of Session 3: \"Marine heatwaves (MHW) in space and time: understanding thermal anomalies at ecologically relevant scales\".&nbsp;</p>",
   "url": "https://zenodo.org/record/15279654",
   "identifier": {
     "@type": "PropertyValue",
@@ -10,6 +8,29 @@
     "propertyID": "https://registry.identifiers.org/registry/doi",
     "url": "https://doi.org/10.5281/zenodo.15279654",
     "value": "10.5281/zenodo.15279654"
+  },
+  "description": "Presentation on \"Assessing the Frequency and the Intensity of Marine Heatwaves in the Barents Sea\" delivered at the ObsSea4Clim - BioEcoOcean Clustering Event I, that took place on 11-12 March 2025 in Sopot, Poland. The presentation was delivered by Ajith Joseph Kochuparampil (NERCI), presenting work done in ObsSea4Clim project. This presentation was part of Session 3: \"Marine heatwaves (MHW) in space and time: understanding thermal anomalies at ecologically relevant scales\".&nbsp;",
+  "datePublished": "2025-04-25",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Joseph Kochuparampil, Ajith"
+    },
+    {
+      "@type": "Person",
+      "name": "Surendran, Saradhy"
+    },
+    {
+      "@type": "Person",
+      "name": "Chatterjee, Sourav"
+    },
+    {
+      "@type": "Person",
+      "name": "P. Raj, Roshin"
+    }
+  ],
+  "license": {
+    "id": "cc-by-4.0"
   },
   "funding": [
     {
@@ -24,5 +45,6 @@
       }
     }
   ],
+  "@context": "https://schema.org/",
   "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/assessing-the-frequency-and-the-intensity-of-marine-heatwaves-in-the-barents-sea-15279654.json"
 }

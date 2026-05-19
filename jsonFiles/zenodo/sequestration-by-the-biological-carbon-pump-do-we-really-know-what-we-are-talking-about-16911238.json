@@ -1,8 +1,6 @@
 {
-  "@context": "https://schema.org/",
-  "@type": "Project",
+  "@type": "CreativeWork",
   "name": "Sequestration by the biological carbon pump: Do we really know what we are talking about?",
-  "description": "",
   "url": "https://zenodo.org/record/16911238",
   "identifier": {
     "@type": "PropertyValue",
@@ -11,12 +9,19 @@
     "url": "https://doi.org/10.1002/lol2.70053",
     "value": "10.1002/lol2.70053"
   },
-  "keywords": [
+  "datePublished": "2025-08-20",
+  "creator": [
     {
-      "@type": "DefinedTerm",
-      "name": "S-Q WP6"
+      "@type": "Person",
+      "name": "Visser, Andre W"
     }
   ],
+  "keywords": [
+    "S-Q WP6"
+  ],
+  "license": {
+    "id": "cc-by-4.0"
+  },
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -30,5 +35,6 @@
       }
     }
   ],
+  "@context": "https://schema.org/",
   "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/sequestration-by-the-biological-carbon-pump-do-we-really-know-what-we-are-talking-about-16911238.json"
 }

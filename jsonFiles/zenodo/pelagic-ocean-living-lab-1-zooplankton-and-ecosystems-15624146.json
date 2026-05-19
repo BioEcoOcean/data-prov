@@ -1,8 +1,6 @@
 {
-  "@context": "https://schema.org/",
-  "@type": "Project",
+  "@type": "CreativeWork",
   "name": "Pelagic Ocean Living Lab 1: Zooplankton and Ecosystems",
-  "description": "",
   "url": "https://zenodo.org/record/15624146",
   "identifier": {
     "@type": "PropertyValue",
@@ -11,12 +9,39 @@
     "url": "https://doi.org/10.5281/zenodo.15624146",
     "value": "10.5281/zenodo.15624146"
   },
-  "keywords": [
+  "datePublished": "2025-03-10",
+  "creator": [
     {
-      "@type": "DefinedTerm",
-      "name": "Pelagic Ocean Living Lab 1"
+      "@type": "Person",
+      "name": "Lehodey, Patrick"
+    },
+    {
+      "@type": "Person",
+      "name": "Ciavatta, Stefano"
+    },
+    {
+      "@type": "Person",
+      "name": "Boyer, Julien Temple"
+    },
+    {
+      "@type": "Person",
+      "name": "Mignot, Alexandre"
+    },
+    {
+      "@type": "Person",
+      "name": "Lehodey, Jules"
+    },
+    {
+      "@type": "Person",
+      "name": "Misi, Quentin"
     }
   ],
+  "keywords": [
+    "Pelagic Ocean Living Lab 1"
+  ],
+  "license": {
+    "id": "cc-by-4.0"
+  },
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -30,5 +55,6 @@
       }
     }
   ],
+  "@context": "https://schema.org/",
   "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/pelagic-ocean-living-lab-1-zooplankton-and-ecosystems-15624146.json"
 }

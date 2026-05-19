@@ -1,8 +1,6 @@
 {
-  "@context": "https://schema.org/",
-  "@type": "Project",
+  "@type": "CreativeWork",
   "name": "The Atlantic Living Lab",
-  "description": "",
   "url": "https://zenodo.org/record/15373663",
   "identifier": {
     "@type": "PropertyValue",
@@ -11,12 +9,31 @@
     "url": "https://doi.org/10.5281/zenodo.15373663",
     "value": "10.5281/zenodo.15373663"
   },
-  "keywords": [
+  "datePublished": "2025-03-10",
+  "creator": [
     {
-      "@type": "DefinedTerm",
-      "name": "Atlantic Living Lab"
+      "@type": "Person",
+      "name": "Borges, Débora"
+    },
+    {
+      "@type": "Person",
+      "name": "Reis, Bianca"
+    },
+    {
+      "@type": "Person",
+      "name": "Valente, André"
+    },
+    {
+      "@type": "Person",
+      "name": "Sousa Pinto, Isabel"
     }
   ],
+  "keywords": [
+    "Atlantic Living Lab"
+  ],
+  "license": {
+    "id": "cc-by-4.0"
+  },
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -30,5 +47,6 @@
       }
     }
   ],
+  "@context": "https://schema.org/",
   "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/the-atlantic-living-lab-15373663.json"
 }

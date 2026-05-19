@@ -1,19 +1,20 @@
 {
   "@type": "CreativeWork",
-  "name": "Integrating land and coastal systems: Linking glacier runoff and atmospheric inputs with marine data – Arctic case studies.",
-  "url": "https://zenodo.org/record/15275398",
+  "name": "BioEcoOcean an overview - webinar presentation at BlueCloud 2026",
+  "url": "https://zenodo.org/record/19879598",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
     "propertyID": "https://registry.identifiers.org/registry/doi",
-    "url": "https://doi.org/10.5281/zenodo.15275398",
-    "value": "10.5281/zenodo.15275398"
+    "url": "https://doi.org/10.5281/zenodo.19879598",
+    "value": "10.5281/zenodo.19879598"
   },
-  "datePublished": "2025-04-24",
+  "description": "Presentation prepared for Blue-Cloud 2026 Ocean Observers Webinar titled Marine Environmental Indicators Virtual Lab where BioEcoOcean project was presented.",
+  "datePublished": "2026-04-29",
   "creator": [
     {
       "@type": "Person",
-      "name": "Draganska-Deja, Katarzyna"
+      "name": "Mtwana Nordlund, Lina"
     }
   ],
   "license": {
@@ -33,5 +34,5 @@
     }
   ],
   "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/integrating-land-and-coastal-systems-linking-glacier-runoff-and-atmospheric-inputs-with-marine-data-arctic-case-studies-15275398.json"
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/bioecoocean-an-overview-webinar-presentation-at-bluecloud-2026-19879598.json"
 }

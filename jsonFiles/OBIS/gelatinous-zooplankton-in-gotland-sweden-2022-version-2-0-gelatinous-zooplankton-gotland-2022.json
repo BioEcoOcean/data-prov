@@ -1,0 +1,43 @@
+{
+  "@type": "Dataset",
+  "name": "Gelatinous Zooplankton in Gotland, Sweden, 2022 - Version 2.0",
+  "description": "- added locationID to Event table - added date ranges in eventDate for parent events - added habitat and samplingProtocol to Event and eMoF, as well as life stage to eMoF",
+  "url": "https://ipt.obis.org/bioecoocean/resource?r=gelatinous-zooplankton-gotland_2022",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "OBIS IPT resource",
+    "propertyID": "url",
+    "url": "https://ipt.obis.org/bioecoocean/eml.do?r=gelatinous-zooplankton-gotland_2022",
+    "value": "https://ipt.obis.org/bioecoocean/eml.do?r=gelatinous-zooplankton-gotland_2022"
+  },
+  "datePublished": "2025-05-08",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "EML metadata",
+      "encodingFormat": "application/xml",
+      "contentUrl": "https://ipt.obis.org/bioecoocean/eml.do?r=gelatinous-zooplankton-gotland_2022"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Darwin Core Archive",
+      "encodingFormat": "application/zip",
+      "contentUrl": "https://ipt.obis.org/bioecoocean/archive.do?r=gelatinous-zooplankton-gotland_2022"
+    }
+  ],
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/OBIS/gelatinous-zooplankton-in-gotland-sweden-2022-version-2-0-gelatinous-zooplankton-gotland-2022.json"
+}

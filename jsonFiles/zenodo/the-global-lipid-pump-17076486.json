@@ -1,8 +1,6 @@
 {
-  "@context": "https://schema.org/",
-  "@type": "Project",
+  "@type": "CreativeWork",
   "name": "The Global Lipid Pump",
-  "description": "",
   "url": "https://zenodo.org/record/17076486",
   "identifier": {
     "@type": "PropertyValue",
@@ -10,6 +8,24 @@
     "propertyID": "https://registry.identifiers.org/registry/doi",
     "url": "https://doi.org/10.5281/zenodo.17076486",
     "value": "10.5281/zenodo.17076486"
+  },
+  "datePublished": "2025-09-08",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Visser, Andre"
+    },
+    {
+      "@type": "Person",
+      "name": "Jonasdottir, Sigrun"
+    },
+    {
+      "@type": "Person",
+      "name": "Pinti, Jérôme"
+    }
+  ],
+  "license": {
+    "id": "cc-by-4.0"
   },
   "funding": [
     {
@@ -24,5 +40,6 @@
       }
     }
   ],
+  "@context": "https://schema.org/",
   "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/the-global-lipid-pump-17076486.json"
 }

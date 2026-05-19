@@ -1,8 +1,6 @@
 {
-  "@context": "https://schema.org/",
-  "@type": "Project",
+  "@type": "CreativeWork",
   "name": "Report on the Special Session 'Co-creation for advancing ocean observations of marine life – connecting the Baltic Sea to the global ocean'",
-  "description": "<p><span lang=\"EN-GB\">The special session entitled &lsquo;Co-creation for advancing ocean observations of marine life &ndash; connecting the Baltic Sea to the global ocean&rsquo; took place on Thursday, 29 May 2025. The session comprised an invited plenary contribution as part of the 2025 Baltic Sea Science Congress, which took place on 26&ndash;30 May 2025 in Sopot, Poland. This report summarizes the proceedings and outcomes of this special session, reflecting on the expert and audience perception of the state and future of Baltic Sea observations with a focus on marine life.</span></p>",
   "url": "https://zenodo.org/record/16966990",
   "identifier": {
     "@type": "PropertyValue",
@@ -10,6 +8,37 @@
     "propertyID": "https://registry.identifiers.org/registry/doi",
     "url": "https://doi.org/10.5281/zenodo.16966990",
     "value": "10.5281/zenodo.16966990"
+  },
+  "description": "The special session entitled &lsquo;Co-creation for advancing ocean observations of marine life &ndash; connecting the Baltic Sea to the global ocean&rsquo; took place on Thursday, 29 May 2025. The session comprised an invited plenary contribution as part of the 2025 Baltic Sea Science Congress, which took place on 26&ndash;30 May 2025 in Sopot, Poland. This report summarizes the proceedings and outcomes of this special session, reflecting on the expert and audience perception of the state and future of Baltic Sea observations with a focus on marine life.",
+  "datePublished": "2025-08-27",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Hashim, Said"
+    },
+    {
+      "@type": "Person",
+      "name": "Palacz, Artur"
+    },
+    {
+      "@type": "Person",
+      "name": "Mtwana Nordlund, Lina"
+    },
+    {
+      "@type": "Person",
+      "name": "Nina, Lepola"
+    },
+    {
+      "@type": "Person",
+      "name": "Krzymiński, Dominik"
+    },
+    {
+      "@type": "Person",
+      "name": "Lüskow, Florian"
+    }
+  ],
+  "license": {
+    "id": "cc-by-4.0"
   },
   "funding": [
     {
@@ -24,5 +53,6 @@
       }
     }
   ],
+  "@context": "https://schema.org/",
   "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/report-on-the-special-session-co-creation-for-advancing-ocean-observations-of-marine-life-connecting-the-baltic-sea-to-the-global-ocean-16966990.json"
 }

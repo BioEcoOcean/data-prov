@@ -1,8 +1,6 @@
 {
-  "@context": "https://schema.org/",
-  "@type": "Project",
+  "@type": "CreativeWork",
   "name": "The Blob and Pyrosomes",
-  "description": "",
   "url": "https://zenodo.org/record/15282616",
   "identifier": {
     "@type": "PropertyValue",
@@ -10,6 +8,16 @@
     "propertyID": "https://registry.identifiers.org/registry/doi",
     "url": "https://doi.org/10.5281/zenodo.15282616",
     "value": "10.5281/zenodo.15282616"
+  },
+  "datePublished": "2025-04-25",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Lüskow, Florian"
+    }
+  ],
+  "license": {
+    "id": "cc-by-4.0"
   },
   "funding": [
     {
@@ -24,5 +32,6 @@
       }
     }
   ],
+  "@context": "https://schema.org/",
   "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/the-blob-and-pyrosomes-15282616.json"
 }

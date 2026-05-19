@@ -1,0 +1,57 @@
+name: Update Zenodo Catalogue
+
+on:
+  # Run weekly on Sunday at 0 AM UTC
+  schedule:
+    - cron: '0 0 * * 0'
+  # Allow manual trigger from Actions tab
+  workflow_dispatch:
+
+jobs:
+  harvest-and-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run catalogue harvest
+        env:
+          BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/refs/heads/${{ github.ref_name }}
+        run: python metadata-cat.py --base-url "$BASE_URL"
+
+      - name: Update sitemap
+        env:
+          BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/refs/heads/${{ github.ref_name }}
+        run: python update_sitemap.py --base-url "$BASE_URL"
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet -- bioecoocean-catalogue.jsonld jsonFiles/zenodo jsonFiles/OBIS sitemap.xml; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add bioecoocean-catalogue.jsonld jsonFiles/zenodo jsonFiles/OBIS sitemap.xml
+          git commit -m "chore: update BioEcoOcean catalogue, JSON files, and sitemap"
+          git push

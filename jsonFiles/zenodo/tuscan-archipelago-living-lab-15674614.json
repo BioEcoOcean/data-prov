@@ -1,8 +1,6 @@
 {
-  "@context": "https://schema.org/",
-  "@type": "Project",
+  "@type": "CreativeWork",
   "name": "Tuscan Archipelago Living Lab",
-  "description": "",
   "url": "https://zenodo.org/record/15674614",
   "identifier": {
     "@type": "PropertyValue",
@@ -11,12 +9,39 @@
     "url": "https://doi.org/10.5281/zenodo.15674614",
     "value": "10.5281/zenodo.15674614"
   },
-  "keywords": [
+  "datePublished": "2025-03-10",
+  "creator": [
     {
-      "@type": "DefinedTerm",
-      "name": "Tuscan Archipelago Living Lab"
+      "@type": "Person",
+      "name": "Rindi, Luca"
+    },
+    {
+      "@type": "Person",
+      "name": "Mintrone, Caterina"
+    },
+    {
+      "@type": "Person",
+      "name": "McGrath, Alexander"
+    },
+    {
+      "@type": "Person",
+      "name": "Bertocci, Iacopo"
+    },
+    {
+      "@type": "Person",
+      "name": "Olatoye, Dolapo Salim"
+    },
+    {
+      "@type": "Person",
+      "name": "Benedetti-Cecchi, Lisandro"
     }
   ],
+  "keywords": [
+    "Tuscan Archipelago Living Lab"
+  ],
+  "license": {
+    "id": "cc-by-4.0"
+  },
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -30,5 +55,6 @@
       }
     }
   ],
+  "@context": "https://schema.org/",
   "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/tuscan-archipelago-living-lab-15674614.json"
 }

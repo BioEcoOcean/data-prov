@@ -1,8 +1,6 @@
 {
-  "@context": "https://schema.org/",
-  "@type": "Project",
+  "@type": "CreativeWork",
   "name": "Towards a Marine Organic Carbon Atlas: A case study for the Arctic Ocean",
-  "description": "<p>Oral presentation given during the Joint Community Meeting for the pan-Arctic network of Distributed Biological Observatories (DBOs) organized as part of the 2024 Arctic Science Summit Week (ASSW) on 21 March 2024 in Edinburgh, the UK.&nbsp;</p>",
   "url": "https://zenodo.org/record/10908471",
   "identifier": {
     "@type": "PropertyValue",
@@ -11,20 +9,50 @@
     "url": "https://doi.org/10.5281/zenodo.10908471",
     "value": "10.5281/zenodo.10908471"
   },
-  "keywords": [
+  "description": "Oral presentation given during the Joint Community Meeting for the pan-Arctic network of Distributed Biological Observatories (DBOs) organized as part of the 2024 Arctic Science Summit Week (ASSW) on 21 March 2024 in Edinburgh, the UK.&nbsp;",
+  "datePublished": "2024-04-02",
+  "creator": [
     {
-      "@type": "DefinedTerm",
-      "name": "Marine Organic Carbon Atlas"
+      "@type": "Person",
+      "name": "Palacz, Artur Piotr"
     },
     {
-      "@type": "DefinedTerm",
-      "name": "Arctic"
+      "@type": "Person",
+      "name": "GRIGORATOU, MARIA"
     },
     {
-      "@type": "DefinedTerm",
-      "name": "S-Q WP7"
+      "@type": "Person",
+      "name": "Kędra, Monika"
+    },
+    {
+      "@type": "Person",
+      "name": "Koski, Marja"
+    },
+    {
+      "@type": "Person",
+      "name": "Kuliński, Karol"
+    },
+    {
+      "@type": "Person",
+      "name": "Nordlund, Lina Mtwana"
+    },
+    {
+      "@type": "Person",
+      "name": "Telszewski, Maciej"
+    },
+    {
+      "@type": "Person",
+      "name": "Visser, Andre"
     }
   ],
+  "keywords": [
+    "Marine Organic Carbon Atlas",
+    "Arctic",
+    "S-Q WP7"
+  ],
+  "license": {
+    "id": "cc-by-4.0"
+  },
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -38,5 +66,6 @@
       }
     }
   ],
+  "@context": "https://schema.org/",
   "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/towards-a-marine-organic-carbon-atlas-a-case-study-for-the-arctic-ocean-10908471.json"
 }

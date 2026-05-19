@@ -1,8 +1,6 @@
 {
-  "@context": "https://schema.org/",
-  "@type": "Project",
+  "@type": "CreativeWork",
   "name": "Knowns and unknowns of gelatinous zooplankton in the central Baltic Sea – a comprehensive overview",
-  "description": "",
   "url": "https://zenodo.org/record/15527675",
   "identifier": {
     "@type": "PropertyValue",
@@ -11,12 +9,23 @@
     "url": "https://doi.org/10.5281/zenodo.15527675",
     "value": "10.5281/zenodo.15527675"
   },
-  "keywords": [
+  "datePublished": "2025-05-27",
+  "creator": [
     {
-      "@type": "DefinedTerm",
-      "name": "Baltic Sea Living Lab"
+      "@type": "Person",
+      "name": "Lüskow, Florian"
+    },
+    {
+      "@type": "Person",
+      "name": "Mtwana Nordlund, Lina"
     }
   ],
+  "keywords": [
+    "Baltic Sea Living Lab"
+  ],
+  "license": {
+    "id": "cc-by-4.0"
+  },
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -30,5 +39,6 @@
       }
     }
   ],
+  "@context": "https://schema.org/",
   "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/knowns-and-unknowns-of-gelatinous-zooplankton-in-the-central-baltic-sea-a-comprehensive-overview-15527675.json"
 }

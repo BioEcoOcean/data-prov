@@ -1,8 +1,6 @@
 {
-  "@context": "https://schema.org/",
-  "@type": "Project",
+  "@type": "CreativeWork",
   "name": "Initial conceptual design of the Blueprint for Integrated Ocean Science",
-  "description": "<p>The sustainable management and conservation of the ocean depend increasingly on our ability to observe and understand biological and ecosystem processes. While global coordination around physical and biogeochemical ocean observing has advanced significantly over the past decades, biology and ecosystems (BioEco) observations remain fragmented, unevenly<br>implemented, and often disconnected from policy needs. The BioEcoOcean project seeksaddress this gap by developing a Blueprint for Integrated Ocean Science - a practical, co-created support tool to strengthen collaboration, integration, and impact across the ocean observing system.</p>\n<p>This deliverable presents the initial conceptual design of the Blueprint. It is grounded incomprehensive overview of the BioEco ocean observing landscape and informed by several co-creative workshops, where experts critically examined and contributed to the Blueprint components and their interconnections. The results highlighted the need for interoperability,<br>multi-level governance, and meaningful stakeholder engagement, particularly in under-resourced regions.</p>",
   "url": "https://zenodo.org/record/15655871",
   "identifier": {
     "@type": "PropertyValue",
@@ -10,6 +8,37 @@
     "propertyID": "https://registry.identifiers.org/registry/doi",
     "url": "https://doi.org/10.5281/zenodo.15655871",
     "value": "10.5281/zenodo.15655871"
+  },
+  "description": "The sustainable management and conservation of the ocean depend increasingly on our ability to observe and understand biological and ecosystem processes. While global coordination around physical and biogeochemical ocean observing has advanced significantly over the past decades, biology and ecosystems (BioEco) observations remain fragmented, unevenly implemented, and often disconnected from policy needs. The BioEcoOcean project seeksaddress this gap by developing a Blueprint for Integrated Ocean Science - a practical, co-created support tool to strengthen collaboration, integration, and impact across the ocean observing system. This deliverable presents the initial conceptual design of the Blueprint. It is grounded incomprehensive overview of the BioEco ocean observing landscape and informed by several co-creative workshops, where experts critically examined and contributed to the Blueprint components and their interconnections. The results highlighted the need for interoperability, multi-level governance, and meaningful stakeholder engagement, particularly in under-resourced regions.",
+  "datePublished": "2025-06-16",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Mtwana Nordlund, Lina"
+    },
+    {
+      "@type": "Person",
+      "name": "Hashim, Said"
+    },
+    {
+      "@type": "Person",
+      "name": "Lawrence, Elizabeth"
+    },
+    {
+      "@type": "Person",
+      "name": "Lepola, Nina"
+    },
+    {
+      "@type": "Person",
+      "name": "Lara-Lopez, Ana"
+    },
+    {
+      "@type": "Person",
+      "name": "Palacz, Artur"
+    }
+  ],
+  "license": {
+    "id": "cc-by-4.0"
   },
   "funding": [
     {
@@ -24,5 +53,6 @@
       }
     }
   ],
+  "@context": "https://schema.org/",
   "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/initial-conceptual-design-of-the-blueprint-for-integrated-ocean-science-15655871.json"
 }

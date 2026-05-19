@@ -1,8 +1,6 @@
 {
-  "@context": "https://schema.org/",
-  "@type": "Project",
+  "@type": "CreativeWork",
   "name": "Marine heatwaves in the Baltic Sea",
-  "description": "<p>Presentation on marine heatwaves (MHW) in the Baltic Sea, delivered at the ObsSea4Clim - BioEcoOcean Clustering Event I, that took place on 11-12 March 2025 in Sopot, Poland.</p>\n<p>The presentation was delivered by Veera Haapaniemi (FMI), representing the ObsSea4Clim project.</p>\n<p>This presentation was part of Session 3: \"Marine heatwaves (MHW) in space and time: understanding thermal anomalies at ecologically relevant scales\".</p>",
   "url": "https://zenodo.org/record/15282851",
   "identifier": {
     "@type": "PropertyValue",
@@ -10,6 +8,29 @@
     "propertyID": "https://registry.identifiers.org/registry/doi",
     "url": "https://doi.org/10.5281/zenodo.15282851",
     "value": "10.5281/zenodo.15282851"
+  },
+  "description": "Presentation on marine heatwaves (MHW) in the Baltic Sea, delivered at the ObsSea4Clim - BioEcoOcean Clustering Event I, that took place on 11-12 March 2025 in Sopot, Poland. The presentation was delivered by Veera Haapaniemi (FMI), representing the ObsSea4Clim project. This presentation was part of Session 3: \"Marine heatwaves (MHW) in space and time: understanding thermal anomalies at ecologically relevant scales\".",
+  "datePublished": "2025-04-25",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Haapaniemi, Veera"
+    },
+    {
+      "@type": "Person",
+      "name": "Siiriä, Simo-Matti"
+    },
+    {
+      "@type": "Person",
+      "name": "Nummelin, Aleksi"
+    },
+    {
+      "@type": "Person",
+      "name": "Haapala, Jari"
+    }
+  ],
+  "license": {
+    "id": "cc-by-4.0"
   },
   "funding": [
     {
@@ -24,5 +45,6 @@
       }
     }
   ],
+  "@context": "https://schema.org/",
   "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/marine-heatwaves-in-the-baltic-sea-15282851.json"
 }

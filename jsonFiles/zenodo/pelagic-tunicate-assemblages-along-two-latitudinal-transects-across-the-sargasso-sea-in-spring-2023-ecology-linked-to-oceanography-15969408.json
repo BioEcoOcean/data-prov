@@ -1,8 +1,6 @@
 {
-  "@context": "https://schema.org/",
-  "@type": "Project",
+  "@type": "CreativeWork",
   "name": "Pelagic tunicate assemblages along two latitudinal transects across the Sargasso Sea in spring 2023 – ecology linked to oceanography",
-  "description": "",
   "url": "https://zenodo.org/record/15969408",
   "identifier": {
     "@type": "PropertyValue",
@@ -10,6 +8,40 @@
     "propertyID": "https://registry.identifiers.org/registry/doi",
     "url": "https://doi.org/10.5281/zenodo.15969408",
     "value": "10.5281/zenodo.15969408"
+  },
+  "datePublished": "2025-07-16",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Lüskow, Florian"
+    },
+    {
+      "@type": "Person",
+      "name": "Blancke, Tina"
+    },
+    {
+      "@type": "Person",
+      "name": "Freese, Marko"
+    },
+    {
+      "@type": "Person",
+      "name": "Mańko, Maciej K."
+    },
+    {
+      "@type": "Person",
+      "name": "Marohn, Lasse"
+    },
+    {
+      "@type": "Person",
+      "name": "Hanel, Reinhold"
+    },
+    {
+      "@type": "Person",
+      "name": "Pakhomov, Evgeny"
+    }
+  ],
+  "license": {
+    "id": "cc-by-4.0"
   },
   "funding": [
     {
@@ -24,5 +56,6 @@
       }
     }
   ],
+  "@context": "https://schema.org/",
   "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/pelagic-tunicate-assemblages-along-two-latitudinal-transects-across-the-sargasso-sea-in-spring-2023-ecology-linked-to-oceanography-15969408.json"
 }

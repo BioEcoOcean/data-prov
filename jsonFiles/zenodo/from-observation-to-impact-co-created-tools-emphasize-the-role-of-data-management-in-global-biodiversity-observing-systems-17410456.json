@@ -1,8 +1,6 @@
 {
-  "@context": "https://schema.org/",
-  "@type": "Project",
+  "@type": "CreativeWork",
   "name": "From Observation to Impact:  Co-created tools emphasize the role of data management in global biodiversity observing systems",
-  "description": "<p>Presentation given during Living Data 2025 conference, Bogota, Colombia. Presentation was part of the session #6803154 A Global Ocean Biodiversity Observing System supporting governance framework implementation.</p>",
   "url": "https://zenodo.org/record/17410456",
   "identifier": {
     "@type": "PropertyValue",
@@ -10,6 +8,21 @@
     "propertyID": "https://registry.identifiers.org/registry/doi",
     "url": "https://doi.org/10.5281/zenodo.17410456",
     "value": "10.5281/zenodo.17410456"
+  },
+  "description": "Presentation given during Living Data 2025 conference, Bogota, Colombia. Presentation was part of the session #6803154 A Global Ocean Biodiversity Observing System supporting governance framework implementation.",
+  "datePublished": "2025-10-21",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Lawrence, Elizabeth"
+    },
+    {
+      "@type": "Person",
+      "name": "Mtwana Nordlund, Lina"
+    }
+  ],
+  "license": {
+    "id": "cc-by-4.0"
   },
   "funding": [
     {
@@ -24,5 +37,6 @@
       }
     }
   ],
+  "@context": "https://schema.org/",
   "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/from-observation-to-impact-co-created-tools-emphasize-the-role-of-data-management-in-global-biodiversity-observing-systems-17410456.json"
 }

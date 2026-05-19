@@ -1,8 +1,6 @@
 {
-  "@context": "https://schema.org/",
-  "@type": "Project",
+  "@type": "CreativeWork",
   "name": "OCEANIS Quick Start guide: A Collaborative Planning tool for Integrated Ocean Action",
-  "description": "<p><span>A workshop quick start guiding tool to encourage cross-domain thinking and develop action plans</span></p>",
   "url": "https://zenodo.org/record/18672397",
   "identifier": {
     "@type": "PropertyValue",
@@ -10,6 +8,21 @@
     "propertyID": "https://registry.identifiers.org/registry/doi",
     "url": "https://doi.org/10.5281/zenodo.18672397",
     "value": "10.5281/zenodo.18672397"
+  },
+  "description": "A workshop quick start guiding tool to encourage cross-domain thinking and develop action plans",
+  "datePublished": "2026-02-17",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Lawrence, Elizabeth"
+    },
+    {
+      "@type": "Person",
+      "name": "Nordlund, Lina Mtwana"
+    }
+  ],
+  "license": {
+    "id": "cc-by-4.0"
   },
   "funding": [
     {
@@ -24,5 +37,6 @@
       }
     }
   ],
+  "@context": "https://schema.org/",
   "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/oceanis-quick-start-guide-a-collaborative-planning-tool-for-integrated-ocean-action-18672397.json"
 }

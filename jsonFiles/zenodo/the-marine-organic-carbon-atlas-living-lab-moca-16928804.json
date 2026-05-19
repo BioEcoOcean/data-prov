@@ -1,8 +1,6 @@
 {
-  "@context": "https://schema.org/",
-  "@type": "Project",
+  "@type": "CreativeWork",
   "name": "The Marine Organic Carbon Atlas Living Lab (MOCA)",
-  "description": "",
   "url": "https://zenodo.org/record/16928804",
   "identifier": {
     "@type": "PropertyValue",
@@ -11,12 +9,35 @@
     "url": "https://doi.org/10.5281/zenodo.16928804",
     "value": "10.5281/zenodo.16928804"
   },
-  "keywords": [
+  "datePublished": "2025-03-11",
+  "creator": [
     {
-      "@type": "DefinedTerm",
-      "name": "Marine Organic Carbon Atlas"
+      "@type": "Person",
+      "name": "Cherkasheva, Alexandra"
+    },
+    {
+      "@type": "Person",
+      "name": "Draganska-Deja, Katarzyna"
+    },
+    {
+      "@type": "Person",
+      "name": "Szczepanek, Marta"
+    },
+    {
+      "@type": "Person",
+      "name": "Szeligowska, Marlena"
+    },
+    {
+      "@type": "Person",
+      "name": "Palacz, Artur"
     }
   ],
+  "keywords": [
+    "Marine Organic Carbon Atlas"
+  ],
+  "license": {
+    "id": "cc-by-4.0"
+  },
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -30,5 +51,6 @@
       }
     }
   ],
+  "@context": "https://schema.org/",
   "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/the-marine-organic-carbon-atlas-living-lab-moca-16928804.json"
 }

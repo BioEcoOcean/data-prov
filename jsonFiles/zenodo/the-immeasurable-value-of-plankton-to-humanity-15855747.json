@@ -1,8 +1,6 @@
 {
-  "@context": "https://schema.org/",
-  "@type": "Project",
+  "@type": "CreativeWork",
   "name": "The immeasurable value of plankton to humanity",
-  "description": "<p>Abstract</p>\n<p>Plankton, a diverse group of aquatic organisms, make Earth livable, regulate aquatic life, and provide benefits to human societies such as access to clean water, food security, and well-being. They also support economies and inspire biotechnological innovations. This article aims to raise awareness of the value of plankton to humanity and serves as an informative guide for aquatic professionals, policymakers, and anyone interested in plankton. We present the value of plankton across six themes of human interest: biogeochemistry; ecology; climate; the evolution of science; economy; and culture, recreation, and well-being. Guided by the 2022 Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services values assessment, we introduce the six themes under the Life Framework of Values to offer a comprehensive summary of the significance of plankton to humanity. In addition, we provide examples of plankton variables used in policy frameworks and recommendations for enhancing understanding of their value through long-term sustainable research and monitoring.</p>",
   "url": "https://zenodo.org/record/15855747",
   "identifier": {
     "@type": "PropertyValue",
@@ -11,12 +9,200 @@
     "url": "https://doi.org/10.1093/biosci/biaf049",
     "value": "10.1093/biosci/biaf049"
   },
-  "keywords": [
+  "description": "Abstract Plankton, a diverse group of aquatic organisms, make Earth livable, regulate aquatic life, and provide benefits to human societies such as access to clean water, food security, and well-being. They also support economies and inspire biotechnological innovations. This article aims to raise awareness of the value of plankton to humanity and serves as an informative guide for aquatic professionals, policymakers, and anyone interested in plankton. We present the value of plankton across six themes of human interest: biogeochemistry; ecology; climate; the evolution of science; economy; and culture, recreation, and well-being. Guided by the 2022 Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services values assessment, we introduce the six themes under the Life Framework of Values to offer a comprehensive summary of the significance of plankton to humanity. In addition, we provide examples of plankton variables used in policy frameworks and recommendations for enhancing understanding of their value through long-term sustainable research and monitoring.",
+  "datePublished": "2025-06-24",
+  "creator": [
     {
-      "@type": "DefinedTerm",
-      "name": "Plankton"
+      "@type": "Person",
+      "name": "GRIGORATOU, MARIA"
+    },
+    {
+      "@type": "Person",
+      "name": "Menden-Deuer, Susanne"
+    },
+    {
+      "@type": "Person",
+      "name": "McQuatters-Gollop, Abigail"
+    },
+    {
+      "@type": "Person",
+      "name": "Arhonditsis, George"
+    },
+    {
+      "@type": "Person",
+      "name": "Artigas, Luis Felipe"
+    },
+    {
+      "@type": "Person",
+      "name": "Ayata, Sakina-Dorothée"
+    },
+    {
+      "@type": "Person",
+      "name": "Bedikoğlu, Dalida"
+    },
+    {
+      "@type": "Person",
+      "name": "Beisner, Beatrix"
+    },
+    {
+      "@type": "Person",
+      "name": "Chen, Bingzhang"
+    },
+    {
+      "@type": "Person",
+      "name": "davies, claire"
+    },
+    {
+      "@type": "Person",
+      "name": "Diarra, Lillian"
+    },
+    {
+      "@type": "Person",
+      "name": "Elegbeleye, Owoyemi W"
+    },
+    {
+      "@type": "Person",
+      "name": "Everett, Jason D."
+    },
+    {
+      "@type": "Person",
+      "name": "Garcia, Tatiane M."
+    },
+    {
+      "@type": "Person",
+      "name": "Gentleman, Wendy C."
+    },
+    {
+      "@type": "Person",
+      "name": "Gonçalves, Rodrigo Javier"
+    },
+    {
+      "@type": "Person",
+      "name": "Guy-Haim, Tamar"
+    },
+    {
+      "@type": "Person",
+      "name": "Halfter, Svenja"
+    },
+    {
+      "@type": "Person",
+      "name": "Hinners, Jana"
+    },
+    {
+      "@type": "Person",
+      "name": "Horaeb, Richard R."
+    },
+    {
+      "@type": "Person",
+      "name": "Huggett, Jenny A."
+    },
+    {
+      "@type": "Person",
+      "name": "Johnson, Catherine L."
+    },
+    {
+      "@type": "Person",
+      "name": "Kavanaugh, Maria T."
+    },
+    {
+      "@type": "Person",
+      "name": "Lindemann, Christian"
+    },
+    {
+      "@type": "Person",
+      "name": "López-Abbate, María Celeste"
+    },
+    {
+      "@type": "Person",
+      "name": "Messié, Monique"
+    },
+    {
+      "@type": "Person",
+      "name": "Möller, Klas Ove"
+    },
+    {
+      "@type": "Person",
+      "name": "Montes, Enrique"
+    },
+    {
+      "@type": "Person",
+      "name": "Muller-Karger, Frank E."
+    },
+    {
+      "@type": "Person",
+      "name": "Neeley, Aimee"
+    },
+    {
+      "@type": "Person",
+      "name": "Olaleye, Yusuf"
+    },
+    {
+      "@type": "Person",
+      "name": "Palacz, Artur"
+    },
+    {
+      "@type": "Person",
+      "name": "Poulton, Alex J."
+    },
+    {
+      "@type": "Person",
+      "name": "Prowe, A. E. Friederike"
+    },
+    {
+      "@type": "Person",
+      "name": "Ratnarajah, Lavenia"
+    },
+    {
+      "@type": "Person",
+      "name": "RODRIGUEZ QUISPE, LUZMILA"
+    },
+    {
+      "@type": "Person",
+      "name": "RODRIGUEZ-FLOREZ, CLARA NATALIA"
+    },
+    {
+      "@type": "Person",
+      "name": "Rodriguez-Santiago, Aurea"
+    },
+    {
+      "@type": "Person",
+      "name": "Rousseaux, Cecile S."
+    },
+    {
+      "@type": "Person",
+      "name": "Saad, Juan Francisco"
+    },
+    {
+      "@type": "Person",
+      "name": "Santi, Ioulia"
+    },
+    {
+      "@type": "Person",
+      "name": "Soccodato, Alice"
+    },
+    {
+      "@type": "Person",
+      "name": "Stern, Rowena"
+    },
+    {
+      "@type": "Person",
+      "name": "Våge, Selina"
+    },
+    {
+      "@type": "Person",
+      "name": "Varkitzi, Ioanna"
+    },
+    {
+      "@type": "Person",
+      "name": "Richardson, Anthony"
     }
   ],
+  "keywords": [
+    "Plankton"
+  ],
+  "license": {
+    "id": "cc-by-4.0"
+  },
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -30,5 +216,6 @@
       }
     }
   ],
+  "@context": "https://schema.org/",
   "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/the-immeasurable-value-of-plankton-to-humanity-15855747.json"
 }

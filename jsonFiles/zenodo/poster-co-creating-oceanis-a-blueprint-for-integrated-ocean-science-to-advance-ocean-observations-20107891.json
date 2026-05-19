@@ -1,0 +1,54 @@
+{
+  "@type": "CreativeWork",
+  "name": "Poster: Co-creating OCEANIS -  A Blueprint for Integrated Ocean Science to Advance Ocean Observations",
+  "url": "https://zenodo.org/record/20107891",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.20107891",
+    "value": "10.5281/zenodo.20107891"
+  },
+  "description": "Understanding and managing the ocean depends on coordinated, long-term observing. Yet these efforts&nbsp; remain &nbsp;fragmented across disciplines, sectors, and regions, limiting their ability to address challenges such as biodiversity loss, climate change, and ecosystem degradation. To address this, the EU-funded&nbsp; BioEcoOcean &nbsp;project is co-creating&nbsp; OCEANIS &nbsp;(formerly the Blueprint for Integrated Ocean Science), a general operational framework implemented as a question-based support tool to strengthen the coherence and effectiveness of ocean observing initiatives. &nbsp; OCEANIS is developed collaboratively with diverse users and evolves through iterative application and feedback. Its question-based approach enables users to systematically assess, design, and refine projects, programmes, and partnerships. Structured as a multidimensional &ldquo;spiderweb&rdquo; of interconnected components, OCEANIS helps&nbsp; identify &nbsp;gaps, clarify priorities, and navigate interdependencies often overlooked in linear planning approaches. The framework is applicable across all stages, from early concept development to implementation and evaluation, and is designed for repeated use to support adaptive learning. &nbsp; OCEANIS is relevant for ocean&nbsp; observing &nbsp;and other complex, multi-actor collaborations. By providing a shared structure and common language, it enhances coordination, alignment, and the societal relevance of ocean knowledge. &nbsp;",
+  "datePublished": "2026-05-18",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Mtwana Nordlund, Lina"
+    },
+    {
+      "@type": "Person",
+      "name": "Hashim, Said"
+    },
+    {
+      "@type": "Person",
+      "name": "Palacz, Artur"
+    }
+  ],
+  "keywords": [
+    "Ocean Observing",
+    "stakeholder involvement",
+    "OCEANIS",
+    "Global Operational Framwork",
+    "Support tool",
+    "co-creation"
+  ],
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/poster-co-creating-oceanis-a-blueprint-for-integrated-ocean-science-to-advance-ocean-observations-20107891.json"
+}

@@ -1,8 +1,6 @@
 {
-  "@context": "https://schema.org/",
-  "@type": "Project",
+  "@type": "CreativeWork",
   "name": "Pelagic Ocean Living Lab 2:  Zooplankton for carbon sequestration",
-  "description": "",
   "url": "https://zenodo.org/record/15625289",
   "identifier": {
     "@type": "PropertyValue",
@@ -11,12 +9,39 @@
     "url": "https://doi.org/10.5281/zenodo.15625289",
     "value": "10.5281/zenodo.15625289"
   },
-  "keywords": [
+  "datePublished": "2025-03-10",
+  "creator": [
     {
-      "@type": "DefinedTerm",
-      "name": "Pelagic Ocean Living Lab 2"
+      "@type": "Person",
+      "name": "Koski, Marja"
+    },
+    {
+      "@type": "Person",
+      "name": "Sommer, Alma Madita"
+    },
+    {
+      "@type": "Person",
+      "name": "Asiedu, Delove"
+    },
+    {
+      "@type": "Person",
+      "name": "Kandylas, Athanasios"
+    },
+    {
+      "@type": "Person",
+      "name": "Visser, Andre"
+    },
+    {
+      "@type": "Person",
+      "name": "Jonasdottir, Sigrun"
     }
   ],
+  "keywords": [
+    "Pelagic Ocean Living Lab 2"
+  ],
+  "license": {
+    "id": "cc-by-4.0"
+  },
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -30,5 +55,6 @@
       }
     }
   ],
+  "@context": "https://schema.org/",
   "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/pelagic-ocean-living-lab-2-zooplankton-for-carbon-sequestration-15625289.json"
 }

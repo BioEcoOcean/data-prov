@@ -1,8 +1,6 @@
 {
-  "@context": "https://schema.org/",
-  "@type": "Project",
+  "@type": "CreativeWork",
   "name": "Summarising the main findings of a Global Survey to Advance Ocean Observations",
-  "description": "<p>This is a summary of a global survey conducted to gather the perspectives of diverse stakeholders on the current state of ocean observations worldwide. The survey formed part of the BioEcoOcean project: Co-Creating Transformative Pathways to Biological and Ecosystem Ocean Observations, funded by Horizon Europe (Grant Agreement Number: 101136748). The survey represented the initial, foundational step towards identifying the gaps, challenges, and opportunities that the Blueprint needs to address.</p>",
   "url": "https://zenodo.org/record/15662449",
   "identifier": {
     "@type": "PropertyValue",
@@ -11,32 +9,33 @@
     "url": "https://doi.org/10.5281/zenodo.15662449",
     "value": "10.5281/zenodo.15662449"
   },
-  "keywords": [
+  "description": "This is a summary of a global survey conducted to gather the perspectives of diverse stakeholders on the current state of ocean observations worldwide. The survey formed part of the BioEcoOcean project: Co-Creating Transformative Pathways to Biological and Ecosystem Ocean Observations, funded by Horizon Europe (Grant Agreement Number: 101136748). The survey represented the initial, foundational step towards identifying the gaps, challenges, and opportunities that the Blueprint needs to address.",
+  "datePublished": "2025-06-14",
+  "creator": [
     {
-      "@type": "DefinedTerm",
-      "name": "Biological and ecosystem ocean observation"
+      "@type": "Person",
+      "name": "Hashim, Said"
     },
     {
-      "@type": "DefinedTerm",
-      "name": "Findable Accessible Interoperable and Reusable (FAIR) data"
+      "@type": "Person",
+      "name": "Palacz, Artur"
     },
     {
-      "@type": "DefinedTerm",
-      "name": "Ocean Information Services"
-    },
-    {
-      "@type": "DefinedTerm",
-      "name": "Data products"
-    },
-    {
-      "@type": "DefinedTerm",
-      "name": "Citizen Science"
-    },
-    {
-      "@type": "DefinedTerm",
-      "name": "Ocean observing stakeholders"
+      "@type": "Person",
+      "name": "Mtwana Nordlund, Lina"
     }
   ],
+  "keywords": [
+    "Biological and ecosystem ocean observation",
+    "Findable Accessible Interoperable and Reusable (FAIR) data",
+    "Ocean Information Services",
+    "Data products",
+    "Citizen Science",
+    "Ocean observing stakeholders"
+  ],
+  "license": {
+    "id": "cc-by-4.0"
+  },
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -50,5 +49,6 @@
       }
     }
   ],
+  "@context": "https://schema.org/",
   "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/summarising-the-main-findings-of-a-global-survey-to-advance-ocean-observations-15662449.json"
 }

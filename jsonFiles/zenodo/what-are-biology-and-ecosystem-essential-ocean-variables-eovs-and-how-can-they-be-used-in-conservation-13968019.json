@@ -1,8 +1,6 @@
 {
-  "@context": "https://schema.org/",
-  "@type": "Project",
+  "@type": "CreativeWork",
   "name": "What are biology and ecosystem Essential Ocean Variables (EOVs) and how can they be used in conservation?",
-  "description": "<p><span><span>Imagine</span></span> <span><span>if</span></span> <span><span>we</span></span> <span><span>had</span></span> <span><span>some</span></span> <span><span>key</span></span> <span><span>biology</span></span><span><span> and </span></span><span><span>ecosystem</span></span> <span><span>variables</span></span> <span><span>that</span></span> <span><span>are</span></span> <span><span>collected</span></span><span><span> in the same </span></span><span><span>way</span></span><span><span>, </span></span><span><span>and </span></span><span><span>made</span></span> <span><span>openly</span></span> <span><span>available</span></span><span><span>. </span></span><span><span>Then</span></span> <span><span>we</span></span> <span><span>would</span></span><span><span> be </span></span><span><span>able</span></span><span><span> to </span></span><span><span>use</span></span> <span><span>this</span></span> <span><span>comparable</span></span><span><span> data from </span></span><span><span>around</span></span><span><span> the </span></span><span><span>world</span></span><span><span> to </span></span><span><span>advance</span></span> <span><span>our</span></span> <span><span>understanding</span></span> <span><span>of</span></span><span><span> the ocean </span></span><span><span>but</span></span> <span><span>also</span></span><span><span> to </span></span><span><span>create</span></span> <span><span>products</span></span> <span><span>that</span></span> <span><span>would</span></span><span><span> be </span></span><span><span>very</span></span> <span><span>useful</span></span><span><span> in </span></span><span><span>conservation</span></span><span><span>. For </span></span><span><span>example</span></span><span><span>, distribution </span></span><span><span>maps</span></span> <span><span>that</span></span> <span><span>could</span></span> <span><span>indicate</span></span><span><span> areas in </span></span><span><span>decline</span></span> <span><span>but</span></span> <span><span>also</span></span> <span><span>areas </span></span><span><span>that</span></span> <span><span>are</span></span> <span><span>recovering</span></span><span><span> or </span></span><span><span>flourishing</span></span><span><span>, or as </span></span><span><span>early</span></span> <span><span>warning</span></span><span><span> systems </span></span><span><span>of</span></span> <span><span>e.g</span></span><span><span>. </span></span><span><span>invasive</span></span><span><span> species.&nbsp; A </span></span><span><span>global </span></span><span><span>view</span></span><span><span>, in </span></span><span><span>other</span></span> <span><span>words</span></span> <span><span>adopting</span></span><span><span> a global </span></span><span><span>framework</span></span><span><span>, </span></span><span><span>will</span></span> <span><span>also</span></span> <span><span>provide</span></span> <span><span>insights</span></span> <span><span>into</span></span> <span><span>similarities</span></span> <span><span>among</span></span><span><span> areas to </span></span><span><span>find</span></span><span><span> common solutions and </span></span><span><span>learn</span></span><span><span> from </span></span><span><span>each</span></span> <span><span>other</span></span><span><span>.&nbsp;</span></span><span><span></span><br></span></p>\n<p><span><span>The idea&nbsp;</span></span><span><span>behind</span></span><span><span> the </span></span><span><span>biology</span></span><span><span> and </span></span><span><span>ecosystem</span></span> <span><span>Essential</span></span><span><span> Ocean </span></span><span><span>Variables</span></span><span><span> (</span></span><span><span>EOVs</span></span><span><span>), is to </span></span><span><span>enable</span></span><span><span> this </span></span><span><span>globally</span></span> <span><span>coordinated</span></span><span><span> and </span></span><span><span>comparable</span></span><span><span> approach to observations, data management and </span></span><span><span>delivery</span></span> <span><span>of</span></span> <span><span>products</span></span><span><span> and services. The </span></span><span><span>EOVs</span></span> <span><span>are</span></span> <span><span>coordinated</span></span><span><span> by the Global Ocean Observing System, IOC-</span></span><span><span>UNESCO, and everyone is </span></span><span><span>encouraged</span></span><span><span> to take part. We </span></span><span><span>will</span></span> <span><span>use</span></span><span><span> the Seagrass cover and </span></span><span><span>composition</span></span> <span><span>EOV to </span></span><span><span>illustrate</span></span><span><span> this vision and how </span></span><span><span>collaboration</span></span> <span><span>can</span></span> <span><span>advance</span></span><span><span> our understanding </span></span><span><span>of</span></span><span><span> the ocean and </span></span><span><span>marine </span></span><span><span>conservation</span></span><span><span>. </span></span></p>",
   "url": "https://zenodo.org/record/13968019",
   "identifier": {
     "@type": "PropertyValue",
@@ -10,6 +8,25 @@
     "propertyID": "https://registry.identifiers.org/registry/doi",
     "url": "https://doi.org/10.5281/zenodo.13968019",
     "value": "10.5281/zenodo.13968019"
+  },
+  "description": "Imagine if we had some key biology and ecosystem variables that are collected in the same way , and made openly available . Then we would be able to use this comparable data from around the world to advance our understanding of the ocean but also to create products that would be very useful in conservation . For example , distribution maps that could indicate areas in decline but also areas that are recovering or flourishing , or as early warning systems of e.g . invasive species.&nbsp; A global view , in other words adopting a global framework , will also provide insights into similarities among areas to find common solutions and learn from each other .&nbsp; The idea&nbsp; behind the biology and ecosystem Essential Ocean Variables ( EOVs ), is to enable this globally coordinated and comparable approach to observations, data management and delivery of products and services. The EOVs are coordinated by the Global Ocean Observing System, IOC- UNESCO, and everyone is encouraged to take part. We will use the Seagrass cover and composition EOV to illustrate this vision and how collaboration can advance our understanding of the ocean and marine conservation .",
+  "datePublished": "2024-10-22",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Nordlund, Lina Mtwana"
+    },
+    {
+      "@type": "Person",
+      "name": "Palacz, Artur P."
+    },
+    {
+      "@type": "Person",
+      "name": "Duffy, J. Emmett"
+    }
+  ],
+  "license": {
+    "id": "cc-by-4.0"
   },
   "funding": [
     {
@@ -24,5 +41,6 @@
       }
     }
   ],
+  "@context": "https://schema.org/",
   "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/what-are-biology-and-ecosystem-essential-ocean-variables-eovs-and-how-can-they-be-used-in-conservation-13968019.json"
 }

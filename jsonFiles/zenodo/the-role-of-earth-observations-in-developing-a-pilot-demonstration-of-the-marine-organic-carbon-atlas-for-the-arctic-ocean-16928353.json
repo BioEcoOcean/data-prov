@@ -1,8 +1,6 @@
 {
-  "@context": "https://schema.org/",
-  "@type": "Project",
+  "@type": "CreativeWork",
   "name": "The Role Of Earth Observations in Developing a Pilot Demonstration of the Marine Organic Carbon Atlas for the Arctic Ocean",
-  "description": "",
   "url": "https://zenodo.org/record/16928353",
   "identifier": {
     "@type": "PropertyValue",
@@ -11,12 +9,43 @@
     "url": "https://doi.org/10.5281/zenodo.16928353",
     "value": "10.5281/zenodo.16928353"
   },
-  "keywords": [
+  "datePublished": "2025-06-25",
+  "creator": [
     {
-      "@type": "DefinedTerm",
-      "name": "Marine Organic Carbon Atlas"
+      "@type": "Person",
+      "name": "Palacz, Artur"
+    },
+    {
+      "@type": "Person",
+      "name": "Cherkasheva, Aleksandra"
+    },
+    {
+      "@type": "Person",
+      "name": "Darecki, Mirosław"
+    },
+    {
+      "@type": "Person",
+      "name": "Stoń-Egiert, Joanna"
+    },
+    {
+      "@type": "Person",
+      "name": "Szeligowska, Marlena"
+    },
+    {
+      "@type": "Person",
+      "name": "Szczepanek, Marta"
+    },
+    {
+      "@type": "Person",
+      "name": "Telszewski, Maciej"
     }
   ],
+  "keywords": [
+    "Marine Organic Carbon Atlas"
+  ],
+  "license": {
+    "id": "cc-by-4.0"
+  },
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -30,5 +59,6 @@
       }
     }
   ],
+  "@context": "https://schema.org/",
   "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/the-role-of-earth-observations-in-developing-a-pilot-demonstration-of-the-marine-organic-carbon-atlas-for-the-arctic-ocean-16928353.json"
 }
