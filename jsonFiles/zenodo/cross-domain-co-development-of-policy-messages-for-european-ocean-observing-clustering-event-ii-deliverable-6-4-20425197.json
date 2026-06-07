@@ -1,0 +1,62 @@
+{
+  "@type": "CreativeWork",
+  "name": "Cross-domain co-development of policy messages for European ocean observing - Clustering Event II - Deliverable 6.4",
+  "url": "https://zenodo.org/record/20425197",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.20425197",
+    "value": "10.5281/zenodo.20425197"
+  },
+  "description": "How can collaboration across biology &amp; ecosystems, biogeochemistry, and physics be operationalised to support integrated ocean observing? This deliverable presents the outcomes of Clustering Event II, a cross-domain co-design and co-production process developed through the EOV Network by the Horizon Europe projects BioEcoOcean, ObsSea4Clim, and BioGeoSea. While the need for integration across ocean observing domains is widely recognised, practical examples of how such collaboration can be organised remain limited. This report provides one such example. Through a sequence of workshops, policy dialogues, and stakeholder engagement activities, participants jointly identified barriers, enabling conditions, and priorities for a more integrated, operational, and policy-relevant European Ocean Observing System. The resulting policy messages highlight the importance of phenomena-based observing approaches, interoperability and FAIR data, stronger science-policy interfaces, sustained governance and investment, and closer collaboration across observing communities. The deliverable contributes to ongoing European discussions on ocean observation, marine knowledge, climate resilience, biodiversity conservation, and sustainable ocean management, while demonstrating the value of structured cross-domain collaboration for co-developing policy messages.",
+  "datePublished": "2026-05-29",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Eparkhina, Dina"
+    },
+    {
+      "@type": "Person",
+      "name": "Hashim, Said"
+    },
+    {
+      "@type": "Person",
+      "name": "Chellini, Giovanni"
+    },
+    {
+      "@type": "Person",
+      "name": "Lawrence, Elizabeth"
+    },
+    {
+      "@type": "Person",
+      "name": "Soares, Joana"
+    },
+    {
+      "@type": "Person",
+      "name": "Mtwana Nordlund, Lina"
+    }
+  ],
+  "keywords": [
+    "Essential Ocean Variables",
+    "Global Ocean Observing System"
+  ],
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/cross-domain-co-development-of-policy-messages-for-european-ocean-observing-clustering-event-ii-deliverable-6-4-20425197.json"
+}

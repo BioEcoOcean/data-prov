@@ -1,0 +1,86 @@
+{
+  "@type": "CreativeWork",
+  "name": "EOV Network Clustering Event Nr 2: Collection of the presentations",
+  "url": "https://zenodo.org/record/20325734",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "DOI",
+    "propertyID": "https://registry.identifiers.org/registry/doi",
+    "url": "https://doi.org/10.5281/zenodo.20325734",
+    "value": "10.5281/zenodo.20325734"
+  },
+  "description": "These are the presentations given at the Clustering event Nr 2. Clustering Event Nr 2 re-convened the three sister projects, ObsSea4Clim, BioEcoOcean, and BioGeoSea, in a beautiful setting of the Royal Belgian Institute of Natural Sciences in Brussels. Clustering Event Nr 2 took was held on 20-21 April 2026. The event provided space for discussions and decision-making between the three projects to ensure streamlined project outcomes and policy recommendations. The Clustering Event Nr 2 focused on the following overarching main topics: Interoperability of data and indicators; Coordination of stakeholder and policy engagement, The definition of a&nbsp; legacy pathway anchored in European ocean observing governance through EuroGOOS, The gathering of community feedback on the European Ocean Pact and upcoming policy developments. https://obssea4clim.eu/2026/04/22/clustering-event-nr-2/&nbsp;",
+  "datePublished": "2026-05-21",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Sala Perez, Manuel"
+    },
+    {
+      "@type": "Person",
+      "name": "Olsen, Steffen Malskaer"
+    },
+    {
+      "@type": "Person",
+      "name": "Bekier, Justyna"
+    },
+    {
+      "@type": "Person",
+      "name": "Mtwana Nordlund, Lina"
+    },
+    {
+      "@type": "Person",
+      "name": "Hashim, Said"
+    },
+    {
+      "@type": "Person",
+      "name": "Lepola, Nina"
+    },
+    {
+      "@type": "Person",
+      "name": "Eparkhina, Dina"
+    },
+    {
+      "@type": "Person",
+      "name": "Chellini, Giovanni"
+    },
+    {
+      "@type": "Person",
+      "name": "Blanco-Fernández, Alicia"
+    },
+    {
+      "@type": "Person",
+      "name": "Tanhua, Toste"
+    },
+    {
+      "@type": "Person",
+      "name": "Speich, Sabrina"
+    },
+    {
+      "@type": "Person",
+      "name": "Köstner, Nicole"
+    },
+    {
+      "@type": "Person",
+      "name": "Telszewski, Maciej"
+    }
+  ],
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/eov-network-clustering-event-nr-2-collection-of-the-presentations-20325734.json"
+}

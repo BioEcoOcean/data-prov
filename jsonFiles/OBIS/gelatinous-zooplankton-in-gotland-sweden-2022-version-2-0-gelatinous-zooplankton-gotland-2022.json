@@ -1,7 +1,7 @@
 {
   "@type": "Dataset",
-  "name": "Gelatinous Zooplankton in Gotland, Sweden, 2022 - Version 2.0",
-  "description": "- added locationID to Event table - added date ranges in eventDate for parent events - added habitat and samplingProtocol to Event and eMoF, as well as life stage to eMoF",
+  "name": "Gelatinous Zooplankton in Gotland, Sweden, 2022 - Version 2.2",
+  "description": "fix duplicate and blank \"organization\" creator",
   "url": "https://ipt.obis.org/bioecoocean/resource?r=gelatinous-zooplankton-gotland_2022",
   "identifier": {
     "@type": "PropertyValue",
@@ -10,7 +10,7 @@
     "url": "https://ipt.obis.org/bioecoocean/eml.do?r=gelatinous-zooplankton-gotland_2022",
     "value": "https://ipt.obis.org/bioecoocean/eml.do?r=gelatinous-zooplankton-gotland_2022"
   },
-  "datePublished": "2025-05-08",
+  "datePublished": "2026-06-05",
   "distribution": [
     {
       "@type": "DataDownload",
