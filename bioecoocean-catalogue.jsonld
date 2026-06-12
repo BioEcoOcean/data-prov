@@ -3424,6 +3424,63 @@
       ],
       "@context": "https://schema.org/",
       "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/OBIS/gelatinous-zooplankton-in-gotland-sweden-2022-version-2-0-gelatinous-zooplankton-gotland-2022.json"
+    },
+    {
+      "@type": "Dataset",
+      "name": "Greenland Sea primary production for 2021-2022 from oxygen evolution",
+      "url": "https://doi.org/10.1594/PANGAEA.965985",
+      "identifier": {
+        "@type": "PropertyValue",
+        "description": "DOI",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "url": "https://doi.org/10.1594/PANGAEA.965985",
+        "value": "10.1594/PANGAEA.965985"
+      },
+      "description": "Gross Primary Production (GPP) measurements from oxygen evaluation for four stations in August 2021 and eight stations in August 2022 are presented in this dataset. The samples were collected from surface, 15 m and 25 m in case of 2021 cruise and surface, 40 m and 60 m in case of 2022 cruise. GPP estimation from optode oxygen measurements was derived with the method adapted from Campbell et al (2016), and also described in section 6 of IOCCG Protocol Series (2022). Determination of the gross primary production by oxygen modification was carried out with an Optical oxygen sensor, Fixbox4, PreSens HMbH, which noninvasively utilizes optical oxygen sensor spots installed into the 250 ml white glass bottles. Oxygen respiration was determined in foil-wrapped bottles of the same volume with the same optical sensor. These samples were collected in the Greenland Sea during RV \"Kronprinz Haakon\" 2021 Fram Strait cruise and RV \"Maria S Merian\" 2022 Greenland Fjords cruise. The data was collected to validate the satellite primary production model that the authors are developing for the Greenland Sea. We measured oxygen concentration [mg/l] with Optical oxygen sensor, Fixbox4, PreSens HMbH at times T=0, 6, 12, 18, 24, 30 and 36 h. Each depth has one light and one dark bottle, with three replicates, and within each of these 6 readings the measurements were repeated 10 times.",
+      "datePublished": "2025",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Cherkasheva, Alexandra",
+          "identifier": "0000-0003-0717-361X"
+        },
+        {
+          "@type": "Person",
+          "name": "Manurov, Rustam"
+        },
+        {
+          "@type": "Person",
+          "name": "Kowalczuk, Piotr"
+        }
+      ],
+      "keywords": [
+        "Greenland Sea",
+        "oxygen evolution",
+        "Primary production"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "publishingPrinciples": [
+        {
+          "@type": "CreativeWork",
+          "name": "CC-BY: Creative Commons Attribution 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funding": [
+        {
+          "@type": "MonetaryGrant",
+          "name": "BioEcoOcean (Horizon Europe)",
+          "identifier": "101136748",
+          "funder": {
+            "@type": "FundingAgency",
+            "name": "European Commission",
+            "legalName": "European Commission",
+            "url": "https://commission.europa.eu/index_en"
+          }
+        }
+      ],
+      "@context": "https://schema.org/",
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/pangaea/greenland-sea-primary-production-for-2021-2022-from-oxygen-evolution-pangaea965985.json"
     }
   ]
 }
