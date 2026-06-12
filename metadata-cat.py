@@ -42,7 +42,9 @@ DEFAULT_COMMUNITY = "bioecoocean"
 REQUEST_DELAY_S = 1.2
 DEFAULT_ZENODO_DIR = Path("jsonFiles/zenodo")
 DEFAULT_OBIS_DIR = Path("jsonFiles/OBIS")
+DEFAULT_PANGAEA_DIR = Path("jsonFiles/pangaea")
 DEFAULT_BASE_URL = "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main"
+PANGAEA_QUERY = "BioEcoOcean"
 
 BIOECOOCEAN_FUNDING: dict[str, Any] = {
     "@type": "MonetaryGrant",
@@ -350,9 +352,131 @@ def harvest_obis_rss(rss_url: str = OBIS_IPT_RSS) -> list[dict]:
     return datasets
 
 
+def _pangaea_dataset_to_schema(ds: Any) -> dict[str, Any]:
+    """Map a PanDataSet object to a schema.org JSON-LD stub."""
+    doi = getattr(ds, "doi", None) or ""
+    uri = getattr(ds, "uri", None) or ""
+    url = uri or (f"https://doi.pangaea.de/{doi}" if doi else "")
+
+    record: dict[str, Any] = {
+        "@type": "Dataset",
+        "name": getattr(ds, "title", None) or f"PANGAEA {doi or 'dataset'}",
+        "url": url,
+    }
+
+    if doi:
+        record["identifier"] = _doi_property_value(doi)
+
+    abstract = getattr(ds, "abstract", None)
+    if abstract:
+        record["description"] = abstract
+
+    year = getattr(ds, "year", None)
+    if year:
+        record["datePublished"] = str(year)
+
+    authors = getattr(ds, "authors", None) or []
+    creators: list[dict[str, Any]] = []
+    for a in authors:
+        name = getattr(a, "fullname", "") or ""
+        if not name:
+            continue
+        creator: dict[str, Any] = {"@type": "Person", "name": name}
+        orcid = getattr(a, "ORCID", None)
+        if orcid:
+            creator["identifier"] = orcid
+        creators.append(creator)
+    if creators:
+        record["creator"] = creators
+
+    keywords = getattr(ds, "keywords", None)
+    if keywords:
+        record["keywords"] = list(keywords)
+
+    licence = getattr(ds, "licence", None)
+    if licence:
+        lic_uri = getattr(licence, "URI", None)
+        if lic_uri:
+            record["license"] = lic_uri
+
+    return record
+
+
+def harvest_pangaea(query: str = PANGAEA_QUERY) -> list[dict]:
+    """Search Pangaea for datasets matching query and return schema.org records."""
+    try:
+        from pangaeapy.panquery import PanQuery
+        from pangaeapy.pandataset import PanDataSet
+    except ImportError:
+        print(
+            "Warning: pangaeapy not installed; skipping Pangaea harvest. "
+            "Run: pip install pangaeapy",
+            file=sys.stderr,
+        )
+        return []
+
+    all_uris: list[str] = []
+    offset = 0
+    per_page = 500
+
+    while True:
+        try:
+            pq = PanQuery(query, limit=per_page, offset=offset)
+        except Exception as exc:
+            print(f"Warning: Pangaea search failed at offset {offset} ({exc})", file=sys.stderr)
+            break
+
+        results = pq.result or []
+        if not results:
+            break
+
+        for r in results:
+            uri = r.get("URI")
+            if uri:
+                all_uris.append(uri)
+
+        total = int(getattr(pq, "totalcount", 0) or 0)
+        offset += len(results)
+        if offset >= total or len(results) < per_page:
+            break
+        time.sleep(REQUEST_DELAY_S)
+
+    if not all_uris:
+        print("Pangaea: no results found", file=sys.stderr)
+        return []
+
+    print(f"Pangaea: loading metadata for {len(all_uris)} record(s)", file=sys.stderr)
+
+    datasets: list[dict] = []
+    for i, uri in enumerate(all_uris, 1):
+        try:
+            ds = PanDataSet(uri, include_data=False)
+        except Exception as exc:
+            print(f"Warning: could not load Pangaea dataset {uri} ({exc})", file=sys.stderr)
+            time.sleep(REQUEST_DELAY_S)
+            continue
+        datasets.append(_pangaea_dataset_to_schema(ds))
+        if i < len(all_uris):
+            time.sleep(REQUEST_DELAY_S)
+
+    return datasets
+
+
 def _obis_resource_slug(url: str) -> str | None:
     if "resource?r=" in url:
         return url.split("resource?r=", 1)[1].split("&", 1)[0]
+    return None
+
+
+def _pangaea_id_from_record(record: dict) -> str | None:
+    """Extract numeric PANGAEA dataset ID from a record's url, @id, or identifier."""
+    for field in ("url", "@id", "identifier"):
+        val = record.get(field)
+        if isinstance(val, dict):
+            val = val.get("value") or val.get("url") or ""
+        m = re.search(r"PANGAEA\.(\d+)", str(val or ""))
+        if m:
+            return m.group(1)
     return None
 
 
@@ -371,6 +495,9 @@ def _stable_record_key(record: dict) -> str | None:
     obis_slug = _obis_resource_slug(url)
     if obis_slug:
         return f"obis:{obis_slug}"
+    pangaea_id = _pangaea_id_from_record(record)
+    if pangaea_id:
+        return f"pangaea:{pangaea_id}"
     return None
 
 
@@ -391,6 +518,11 @@ def _find_existing_path(record_dir: Path, record: dict) -> Path | None:
     if obis_slug:
         suffix = slugify(obis_slug)
         matches = sorted(record_dir.glob(f"*-{suffix}.json"))
+        if matches:
+            return matches[0]
+    pangaea_id = _pangaea_id_from_record(record)
+    if pangaea_id:
+        matches = sorted(record_dir.glob(f"*-pangaea{pangaea_id}.json"))
         if matches:
             return matches[0]
     return None
@@ -441,6 +573,9 @@ def _record_filename(record: dict) -> str:
         obis_slug = _obis_resource_slug(src)
         if obis_slug:
             return f"{base_slug}-{slugify(obis_slug)}.json"
+    pangaea_id = _pangaea_id_from_record(record)
+    if pangaea_id:
+        return f"{base_slug}-pangaea{pangaea_id}.json"
     return f"{base_slug}.json"
 
 
@@ -490,6 +625,7 @@ def build_catalogue(
     *,
     zenodo_dir: Path | None = DEFAULT_ZENODO_DIR,
     obis_dir: Path | None = DEFAULT_OBIS_DIR,
+    pangaea_dir: Path | None = DEFAULT_PANGAEA_DIR,
     base_url: str | None = None,
     cwd: Path | None = None,
     write_json: bool = True,
@@ -533,6 +669,18 @@ def build_catalogue(
         if obis_records:
             print(f"Processed {len(obis_records)} OBIS IPT dataset(s)", file=sys.stderr)
 
+        pangaea_records = harvest_pangaea(PANGAEA_QUERY)
+        for dataset in pangaea_records:
+            record = enrich_record(dataset, add_funding=add_funding)
+            if write_json and pangaea_dir is not None:
+                record, action = _sync_record_file(
+                    record, pangaea_dir, base_url=base_url, cwd=cwd, source_label="pangaea"
+                )
+                stats[action] += 1
+            catalogue.append(record)
+        if pangaea_records:
+            print(f"Processed {len(pangaea_records)} Pangaea dataset(s)", file=sys.stderr)
+
     if write_json:
         print(
             f"JSON files: {stats['created']} created, {stats['updated']} updated, "
@@ -566,6 +714,12 @@ def main() -> int:
         help=f"Directory for OBIS IPT JSON files (default: {DEFAULT_OBIS_DIR}).",
     )
     parser.add_argument(
+        "--pangaea-dir",
+        type=Path,
+        default=DEFAULT_PANGAEA_DIR,
+        help=f"Directory for Pangaea JSON files (default: {DEFAULT_PANGAEA_DIR}).",
+    )
+    parser.add_argument(
         "--no-json-files",
         action="store_true",
         help="Skip writing per-record JSON files under jsonFiles/.",
@@ -595,6 +749,7 @@ def main() -> int:
         max_pages=args.max_pages,
         zenodo_dir=None if args.no_json_files else args.zenodo_dir,
         obis_dir=None if args.no_json_files else args.obis_dir,
+        pangaea_dir=None if args.no_json_files else args.pangaea_dir,
         base_url=base_url,
         write_json=not args.no_json_files,
         add_funding=not args.no_funding,
@@ -613,6 +768,7 @@ def main() -> int:
     if not args.no_json_files:
         print(f"Zenodo JSON: {args.zenodo_dir}", file=sys.stderr)
         print(f"OBIS JSON: {args.obis_dir}", file=sys.stderr)
+        print(f"Pangaea JSON: {args.pangaea_dir}", file=sys.stderr)
         print("Run update_sitemap.py after harvest to refresh sitemap.xml.", file=sys.stderr)
 
     return 0
