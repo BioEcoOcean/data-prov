@@ -1,0 +1,43 @@
+{
+  "@type": "Dataset",
+  "name": "Invertebrate eDNA Gotland Summer 2021 - Version 2.0",
+  "description": "eDNA sampling of invertebrates in summer 2021 around Gotland, the central Baltic Sea",
+  "url": "https://ipt.obis.org/bioecoocean/resource?r=biodiversity_survey_gotland_summer_2021",
+  "identifier": {
+    "@type": "PropertyValue",
+    "description": "OBIS IPT resource",
+    "propertyID": "url",
+    "url": "https://ipt.obis.org/bioecoocean/eml.do?r=biodiversity_survey_gotland_summer_2021",
+    "value": "https://ipt.obis.org/bioecoocean/eml.do?r=biodiversity_survey_gotland_summer_2021"
+  },
+  "datePublished": "2026-06-19",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "EML metadata",
+      "encodingFormat": "application/xml",
+      "contentUrl": "https://ipt.obis.org/bioecoocean/eml.do?r=biodiversity_survey_gotland_summer_2021"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Darwin Core Archive",
+      "encodingFormat": "application/zip",
+      "contentUrl": "https://ipt.obis.org/bioecoocean/archive.do?r=biodiversity_survey_gotland_summer_2021"
+    }
+  ],
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/OBIS/invertebrate-edna-gotland-summer-2021-version-2-0-biodiversity-survey-gotland-summer-2021.json"
+}

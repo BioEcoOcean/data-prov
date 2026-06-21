@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/OBIS/gelatinous-zooplankton-in-gotland-sweden-2022-version-2-0-gelatinous-zooplankton-gotland-2022.json</loc></url>
+  <url><loc>https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/OBIS/invertebrate-edna-gotland-summer-2021-version-2-0-biodiversity-survey-gotland-summer-2021.json</loc></url>
   <url><loc>https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/a-picture-based-field-guide-shallow-coastal-communities-around-gotland-sweden-15355912.json</loc></url>
   <url><loc>https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/adaptation-of-global-primary-production-model-to-the-greenland-sea-conditions-parameterization-and-monitoring-for-1998-2022-14610655.json</loc></url>
   <url><loc>https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/advancing-marine-conservation-through-the-marine-organic-carbon-atlas-addressing-metazoan-roles-in-ocean-carbon-sequestration-13967583.json</loc></url>
