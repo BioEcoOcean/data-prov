@@ -3384,7 +3384,7 @@
     },
     {
       "@type": "Dataset",
-      "name": "Invertebrate eDNA Gotland Summer 2021 - Version 2.0",
+      "name": "Invertebrate eDNA Gotland Summer 2021 - Version 2.1",
       "description": "eDNA sampling of invertebrates in summer 2021 around Gotland, the central Baltic Sea",
       "url": "https://ipt.obis.org/bioecoocean/resource?r=biodiversity_survey_gotland_summer_2021",
       "identifier": {
@@ -3394,7 +3394,7 @@
         "url": "https://ipt.obis.org/bioecoocean/eml.do?r=biodiversity_survey_gotland_summer_2021",
         "value": "https://ipt.obis.org/bioecoocean/eml.do?r=biodiversity_survey_gotland_summer_2021"
       },
-      "datePublished": "2026-06-19",
+      "datePublished": "2026-06-21",
       "distribution": [
         {
           "@type": "DataDownload",
