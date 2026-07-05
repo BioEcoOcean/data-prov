@@ -5,6 +5,47 @@
   "@graph": [
     {
       "@type": "CreativeWork",
+      "name": "Morskie dane bentosowe w otwartym dostępie: od obserwacji bioróżnorodności do interoperacyjnych produktów danych",
+      "url": "https://zenodo.org/record/21127607",
+      "identifier": {
+        "@type": "PropertyValue",
+        "description": "DOI",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "url": "https://doi.org/10.5281/zenodo.21127607",
+        "value": "10.5281/zenodo.21127607"
+      },
+      "description": "Marine benthic biodiversity data provide a clear example of ecological observations whose value depends on more than open access alone. Benthic records are embedded in complex sampling workflows and are linked to quantitative measurements, methodological information, environmental context, and ecological interpretation. This contribution discusses the transition from accessible biodiversity records toward interoperable ecological data products. It highlights the importance of taxonomic consistency, harmonized observations, ecological information, and links between biological and environmental data layers. Marine benthos is used as a case example to show why well-documented, multi-layered data are essential for ecosystem assessment, benthic carbon research, and future environmental modeling.",
+      "datePublished": "2026-07-02",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Szczepanek, Marta"
+        }
+      ],
+      "keywords": [
+        "Marine Organic Carbon Atlas"
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "funding": [
+        {
+          "@type": "MonetaryGrant",
+          "name": "BioEcoOcean (Horizon Europe)",
+          "identifier": "101136748",
+          "funder": {
+            "@type": "FundingAgency",
+            "name": "European Commission",
+            "legalName": "European Commission",
+            "url": "https://commission.europa.eu/index_en"
+          }
+        }
+      ],
+      "@context": "https://schema.org/",
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/morskie-dane-bentosowe-w-otwartym-dost-pie-od-obserwacji-bior-norodno-ci-do-interoperacyjnych-produkt-w-danych-21127607.json"
+    },
+    {
+      "@type": "CreativeWork",
       "name": "The Fantastic Baltic Four: A field sampling approach for four Biology and Ecosystem Essential Ocean Variables (EOVs)",
       "url": "https://zenodo.org/record/20529957",
       "identifier": {
