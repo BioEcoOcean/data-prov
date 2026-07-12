@@ -5,6 +5,58 @@
   "@graph": [
     {
       "@type": "CreativeWork",
+      "name": "Shifting dominance in the Southern Ocean: Ecological and societal implications of the Antarctic krill-salp dynamic under climate change",
+      "url": "https://zenodo.org/record/21223344",
+      "identifier": {
+        "@type": "PropertyValue",
+        "description": "DOI",
+        "propertyID": "https://registry.identifiers.org/registry/doi",
+        "url": "https://doi.org/10.5281/zenodo.21223344",
+        "value": "10.5281/zenodo.21223344"
+      },
+      "datePublished": "2026-07-01",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "Lüskow, Florian"
+        },
+        {
+          "@type": "Person",
+          "name": "Bahl, Alexis"
+        },
+        {
+          "@type": "Person",
+          "name": "Pakhomov, Evgeny"
+        },
+        {
+          "@type": "Person",
+          "name": "Mtwana Nordlund, Lina"
+        }
+      ],
+      "keywords": [
+        "Baltic Sea Living Lab"
+      ],
+      "license": {
+        "id": "cc-by-4.0"
+      },
+      "funding": [
+        {
+          "@type": "MonetaryGrant",
+          "name": "BioEcoOcean (Horizon Europe)",
+          "identifier": "101136748",
+          "funder": {
+            "@type": "FundingAgency",
+            "name": "European Commission",
+            "legalName": "European Commission",
+            "url": "https://commission.europa.eu/index_en"
+          }
+        }
+      ],
+      "@context": "https://schema.org/",
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/shifting-dominance-in-the-southern-ocean-ecological-and-societal-implications-of-the-antarctic-krill-salp-dynamic-under-climate-change-21223344.json"
+    },
+    {
+      "@type": "CreativeWork",
       "name": "Morskie dane bentosowe w otwartym dostępie: od obserwacji bioróżnorodności do interoperacyjnych produktów danych",
       "url": "https://zenodo.org/record/21127607",
       "identifier": {
