@@ -9,6 +9,7 @@ and optional per-record JSON files.
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import re
 import sys
@@ -33,7 +34,7 @@ except Exception as exc:  # pragma: no cover
 ZENODO_API = "https://zenodo.org/api"
 RECORDS_URL = f"{ZENODO_API}/records"
 # Schema.org JSON-LD export (record id in path)
-EXPORT_TEMPLATE = "https://zenodo.org/record/{record_id}/export/schemaorg_jsonld"
+EXPORT_TEMPLATE = "https://zenodo.org/records/{record_id}/export/json-ld"
 # OBIS IPT BioEcoOcean RSS
 OBIS_IPT_RSS = "https://ipt.obis.org/bioecoocean/rss.do"
 # Default: BioEcoOcean community
@@ -45,6 +46,23 @@ DEFAULT_OBIS_DIR = Path("jsonFiles/OBIS")
 DEFAULT_PANGAEA_DIR = Path("jsonFiles/pangaea")
 DEFAULT_BASE_URL = "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main"
 PANGAEA_QUERY = "BioEcoOcean"
+
+# Source catalogues, attached to each record as schema.org includedInDataCatalog
+ZENODO_CATALOG: dict[str, Any] = {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean",
+}
+OBIS_CATALOG: dict[str, Any] = {
+    "@type": "DataCatalog",
+    "name": "OBIS",
+    "url": "https://ipt.obis.org/bioecoocean/",
+}
+PANGAEA_CATALOG: dict[str, Any] = {
+    "@type": "DataCatalog",
+    "name": "PANGAEA",
+    "url": "https://www.pangaea.de/",
+}
 
 BIOECOOCEAN_FUNDING: dict[str, Any] = {
     "@type": "MonetaryGrant",
@@ -71,7 +89,7 @@ LICENSE_MAP: dict[str, tuple[str, str]] = {
 
 
 def _strip_html(text: str) -> str:
-    no_tags = re.sub(r"<[^>]+>", " ", text)
+    no_tags = html.unescape(re.sub(r"<[^>]+>", " ", text))
     return re.sub(r"\s+", " ", no_tags).strip()
 
 
@@ -81,11 +99,38 @@ def slugify(text: str) -> str:
     return re.sub(r"-+", "-", text).strip("-") or "record"
 
 
+def _zenodo_resource_type(metadata: dict) -> dict:
+    """Zenodo resource_type, e.g. {"type": "publication", "subtype": "article", "title": "Journal article"}."""
+    rt = metadata.get("resource_type")
+    return rt if isinstance(rt, dict) else {}
+
+
 def _zenodo_schema_type(metadata: dict) -> str:
     """Dataset for data uploads; otherwise CreativeWork (publications, posters, etc.)."""
-    if (metadata.get("upload_type") or "").lower() == "dataset":
+    if (_zenodo_resource_type(metadata).get("type") or "").lower() == "dataset":
         return "Dataset"
     return "CreativeWork"
+
+
+def _short_schema_type(value: Any) -> Any:
+    """'https://schema.org/ScholarlyArticle' -> 'ScholarlyArticle'."""
+    if isinstance(value, str):
+        return re.sub(r"^https?://schema\.org/", "", value)
+    return value
+
+
+def _apply_zenodo_metadata(record: dict, metadata: dict) -> dict:
+    """Fill fields from the Zenodo API metadata that the JSON-LD export omits or flattens."""
+    out = dict(record)
+    out["@type"] = _short_schema_type(out.get("@type"))
+    # Export joins keywords into one comma-separated string; the API keeps the list
+    if metadata.get("keywords"):
+        out["keywords"] = metadata["keywords"]
+    rt_title = _zenodo_resource_type(metadata).get("title")
+    if rt_title:
+        out["additionalType"] = rt_title
+    out["includedInDataCatalog"] = ZENODO_CATALOG
+    return out
 
 
 def _doi_property_value(doi: str) -> dict[str, Any]:
@@ -173,11 +218,23 @@ def enrich_record(record: dict[str, Any], *, add_funding: bool = True) -> dict[s
         if principles:
             out["publishingPrinciples"] = principles
 
-    if add_funding and "funding" not in out:
-        out["funding"] = [BIOECOOCEAN_FUNDING]
+    if add_funding:
+        funding = out.get("funding") or []
+        if isinstance(funding, dict):
+            funding = [funding]
+        # Replace Zenodo's own entry for the BioEcoOcean grant (e.g. identifier
+        # "00k4n6c32::101136748") with the canonical block; keep co-funders.
+        grant_id = BIOECOOCEAN_FUNDING["identifier"]
+        others = [
+            f for f in funding
+            if not (isinstance(f, dict) and (
+                str(f.get("identifier") or "").endswith(grant_id)
+                or grant_id in str(f.get("name") or "")
+            ))
+        ]
+        out["funding"] = [BIOECOOCEAN_FUNDING, *others]
 
-    if "@context" not in out:
-        out["@context"] = "https://schema.org/"
+    out["@context"] = "https://schema.org/"
 
     return out
 
@@ -238,7 +295,7 @@ def fetch_record_jsonld(record_id: int | str) -> dict | None:
 
 
 def _metadata_to_schema_stub(rec_id: int | str, metadata: dict) -> dict:
-    url = f"https://zenodo.org/record/{rec_id}"
+    url = f"https://zenodo.org/records/{rec_id}"
     doi = metadata.get("doi")
     stub: dict[str, Any] = {
         "@type": _zenodo_schema_type(metadata),
@@ -264,6 +321,79 @@ def _metadata_to_schema_stub(rec_id: int | str, metadata: dict) -> dict:
     if metadata.get("license"):
         stub["license"] = metadata["license"]
     return stub
+
+
+def _eml_text(el: Any) -> str:
+    """All text inside an EML element (e.g. <abstract><para>…</para></abstract>), whitespace-collapsed."""
+    if el is None:
+        return ""
+    return re.sub(r"\s+", " ", "".join(el.itertext())).strip()
+
+
+def fetch_obis_eml(eml_url: str) -> dict[str, Any]:
+    """Read dataset-level fields from an IPT EML document; empty dict on failure."""
+    try:
+        resp = requests.get(eml_url, timeout=30)
+        resp.raise_for_status()
+        dataset_el = ET.fromstring(resp.content).find("dataset")
+    except Exception as exc:
+        print(f"Warning: could not read OBIS EML {eml_url} ({exc})", file=sys.stderr)
+        return {}
+    if dataset_el is None:
+        return {}
+
+    fields: dict[str, Any] = {}
+
+    title = _eml_text(dataset_el.find("title"))
+    if title:
+        fields["name"] = title
+
+    abstract_el = dataset_el.find("abstract")
+    if abstract_el is not None:
+        paras = [_eml_text(p) for p in abstract_el.findall("para")] or [_eml_text(abstract_el)]
+        abstract = " ".join(p for p in paras if p)
+        if abstract:
+            fields["description"] = abstract
+
+    creators: list[dict[str, Any]] = []
+    for c in dataset_el.findall("creator"):
+        given = _eml_text(c.find("individualName/givenName"))
+        sur = _eml_text(c.find("individualName/surName"))
+        name = ", ".join(p for p in (sur, given) if p) or _eml_text(c.find("organizationName"))
+        if not name:
+            continue
+        creator: dict[str, Any] = {"@type": "Person" if sur else "Organization", "name": name}
+        if given and sur:
+            creator["givenName"] = given
+            creator["familyName"] = sur
+        orcid = _eml_text(c.find("userId"))
+        if "orcid.org" in orcid:
+            creator["@id"] = orcid
+        org = _eml_text(c.find("organizationName"))
+        if sur and org:
+            creator["affiliation"] = {"@type": "Organization", "name": org}
+        creators.append(creator)
+    if creators:
+        fields["creator"] = creators
+
+    keywords: list[str] = []
+    for ks in dataset_el.findall("keywordSet"):
+        # Skip the GBIF dataset-type vocabulary (e.g. "Samplingevent")
+        if "GBIF Dataset Type" in _eml_text(ks.find("keywordThesaurus")):
+            continue
+        for kw in ks.findall("keyword"):
+            # NERC terms come as "Label: http://vocab…"
+            label = _eml_text(kw).split(": http", 1)[0].strip()
+            if label and label not in keywords:
+                keywords.append(label)
+    if keywords:
+        fields["keywords"] = keywords
+
+    ulink = dataset_el.find("intellectualRights/para/ulink")
+    if ulink is not None and ulink.get("url"):
+        fields["license"] = ulink.get("url")
+
+    return fields
 
 
 def harvest_obis_rss(rss_url: str = OBIS_IPT_RSS) -> list[dict]:
@@ -312,12 +442,24 @@ def harvest_obis_rss(rss_url: str = OBIS_IPT_RSS) -> list[dict]:
         elif link:
             identifier_val = link
 
+        # RSS titles carry " - Version X.Y"; keep the version as its own field
+        version_match = re.search(r"\s+-\s+Version\s+(\S+)$", title)
+
         dataset: dict[str, Any] = {
             "@type": "Dataset",
             "name": title or "OBIS IPT resource",
             "description": desc,
             "url": link or identifier_val,
+            "additionalType": "Dataset",
+            "includedInDataCatalog": OBIS_CATALOG,
         }
+        if version_match:
+            dataset["version"] = version_match.group(1)
+        # RSS <description> is the version change note; the dataset abstract,
+        # title, creators, keywords and license live in the EML document
+        if eml_el is not None and eml_el.text:
+            dataset.update(fetch_obis_eml(eml_el.text.strip()))
+            time.sleep(REQUEST_DELAY_S)
         if identifier_val:
             dataset["identifier"] = {
                 "@type": "PropertyValue",
@@ -362,6 +504,8 @@ def _pangaea_dataset_to_schema(ds: Any) -> dict[str, Any]:
         "@type": "Dataset",
         "name": getattr(ds, "title", None) or f"PANGAEA {doi or 'dataset'}",
         "url": url,
+        "additionalType": "Dataset",
+        "includedInDataCatalog": PANGAEA_CATALOG,
     }
 
     if doi:
@@ -482,9 +626,8 @@ def _pangaea_id_from_record(record: dict) -> str | None:
 
 def _zenodo_rec_id_from_record(record: dict) -> str | None:
     src = record.get("url") or record.get("@id") or ""
-    if isinstance(src, str) and "zenodo.org/record/" in src:
-        return src.split("zenodo.org/record/", 1)[1].split("/", 1)[0].split("?", 1)[0]
-    return None
+    m = re.search(r"zenodo\.org/records?/(\d+)", src) if isinstance(src, str) else None
+    return m.group(1) if m else None
 
 
 def _stable_record_key(record: dict) -> str | None:
@@ -565,10 +708,10 @@ def _prepare_record_for_path(
 def _record_filename(record: dict) -> str:
     name = record.get("name") or record.get("@id") or "record"
     base_slug = slugify(str(name))
-    src = record.get("@id") or record.get("url") or ""
-    if isinstance(src, str) and "zenodo.org/record/" in src:
-        rec_id = src.split("zenodo.org/record/", 1)[1].split("/", 1)[0].split("?", 1)[0]
+    rec_id = _zenodo_rec_id_from_record(record)
+    if rec_id:
         return f"{base_slug}-{rec_id}.json"
+    src = record.get("@id") or record.get("url") or ""
     if isinstance(src, str):
         obis_slug = _obis_resource_slug(src)
         if obis_slug:
@@ -646,6 +789,7 @@ def build_catalogue(
                 record["name"] = meta["title"]
         else:
             record = _metadata_to_schema_stub(rec_id, meta)
+        record = _apply_zenodo_metadata(record, meta)
 
         record = enrich_record(record, add_funding=add_funding)
         if write_json and zenodo_dir is not None:

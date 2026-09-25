@@ -16,6 +16,7 @@ from typing import Iterable
 
 DEFAULT_ZENODO_DIR = Path("jsonFiles/zenodo")
 DEFAULT_OBIS_DIR = Path("jsonFiles/OBIS")
+DEFAULT_PANGAEA_DIR = Path("jsonFiles/pangaea")
 DEFAULT_OUTPUT = Path("sitemap.xml")
 
 
@@ -52,7 +53,7 @@ def build_sitemap_xml(urls: Iterable[str]) -> str:
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Build XML sitemap from jsonFiles/zenodo and jsonFiles/OBIS JSON records.",
+        description="Build XML sitemap from jsonFiles/zenodo, jsonFiles/OBIS and jsonFiles/pangaea JSON records.",
     )
     parser.add_argument(
         "--base-url",
@@ -75,6 +76,12 @@ def main() -> int:
         help=f"OBIS JSON directory (default: {DEFAULT_OBIS_DIR}).",
     )
     parser.add_argument(
+        "--pangaea-dir",
+        type=Path,
+        default=DEFAULT_PANGAEA_DIR,
+        help=f"Pangaea JSON directory (default: {DEFAULT_PANGAEA_DIR}).",
+    )
+    parser.add_argument(
         "-o", "--output",
         type=Path,
         default=DEFAULT_OUTPUT,
@@ -83,7 +90,7 @@ def main() -> int:
     args = parser.parse_args()
 
     cwd = Path.cwd().resolve()
-    dirs = [args.zenodo_dir.resolve(), args.obis_dir.resolve()]
+    dirs = [args.zenodo_dir.resolve(), args.obis_dir.resolve(), args.pangaea_dir.resolve()]
     urls = collect_json_file_urls(args.base_url, dirs, cwd)
 
     if not urls:

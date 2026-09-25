@@ -7,6 +7,10 @@ on:
   # Allow manual trigger from Actions tab
   workflow_dispatch:
 
+permissions:
+  contents: write
+  actions: write
+
 jobs:
   harvest-and-commit:
     runs-on: ubuntu-latest
@@ -41,7 +45,7 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          if git diff --quiet -- bioecoocean-catalogue.jsonld jsonFiles/zenodo jsonFiles/OBIS sitemap.xml; then
+          if git diff --quiet -- bioecoocean-catalogue.jsonld jsonFiles/zenodo jsonFiles/OBIS jsonFiles/pangaea sitemap.xml; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
             echo "has_changes=true" >> $GITHUB_OUTPUT
@@ -52,6 +56,19 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add bioecoocean-catalogue.jsonld jsonFiles/zenodo jsonFiles/OBIS sitemap.xml
+          git add bioecoocean-catalogue.jsonld jsonFiles/zenodo jsonFiles/OBIS jsonFiles/pangaea sitemap.xml
           git commit -m "chore: update BioEcoOcean catalogue, JSON files, and sitemap"
           git push
+
+      # GitHub disables scheduled workflows after 60 days without repository activity. Weeks with no new records produce no commits, so re-enable this workflow each run to reset that timer. After KEEPALIVE_UNTIL (end of the BioEcoOcean project) the renewal stops, so GitHub will disable the schedule ~60 days after the last commit. Manual runs keep working.
+      - name: Keep scheduled workflow enabled
+        if: github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          KEEPALIVE_UNTIL: '2028-06-30'
+        run: |
+          if [ "$(date -u +%F)" \> "$KEEPALIVE_UNTIL" ]; then
+            echo "Past $KEEPALIVE_UNTIL; not renewing the schedule."
+            exit 0
+          fi
+          gh api -X PUT "repos/${{ github.repository }}/actions/workflows/update-catalogue.yml/enable"
