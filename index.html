@@ -22,6 +22,16 @@
     <div class="search-wrap">
       <input type="search" class="search-box" id="search" placeholder="Search by title, description, keywords…" aria-label="Search outputs">
     </div>
+    <div class="filters">
+      <div class="filter-group" role="group" aria-labelledby="type-label">
+        <span class="filter-label" id="type-label">Type</span>
+        <div class="chips" id="type-filters"></div>
+      </div>
+      <div class="filter-group" role="group" aria-labelledby="source-label">
+        <span class="filter-label" id="source-label">Source</span>
+        <div class="chips" id="source-filters"></div>
+      </div>
+    </div>
     <p class="count" id="count" aria-live="polite">Loading catalogue…</p>
     <div class="list" id="list" role="list"></div>
     <div class="no-results" id="no-results" hidden>No outputs match your search.</div>
@@ -32,8 +42,41 @@
       const countEl = document.getElementById('count');
       const listEl = document.getElementById('list');
       const noResultsEl = document.getElementById('no-results');
+      const typeFiltersEl = document.getElementById('type-filters');
+      const sourceFiltersEl = document.getElementById('source-filters');
+
+      const TYPE_ORDER = ['Dataset', 'Document', 'Presentation', 'Poster', 'Other'];
+      const SOURCE_ORDER = ['Zenodo', 'OBIS', 'PANGAEA'];
 
       let items = [];
+      let activeType = '';
+      let activeSource = '';
+
+      // Coarse type from schema.org @type plus the Zenodo resource type in additionalType
+      function typeCategory(record) {
+        const t = String(record['@type'] || '');
+        const a = String(record.additionalType || '').toLowerCase();
+        if (t === 'Dataset' || a.includes('dataset')) return 'Dataset';
+        if (t === 'PresentationDigitalDocument' || a.includes('presentation')) return 'Presentation';
+        if (a.includes('poster')) return 'Poster';
+        if (a === 'other') return 'Other';
+        return 'Document';
+      }
+
+      function sourceName(record) {
+        const cat = record.includedInDataCatalog;
+        if (cat && cat.name) return cat.name;
+        const url = String(record.url || '');
+        if (url.includes('zenodo.org')) return 'Zenodo';
+        if (url.includes('obis.org')) return 'OBIS';
+        if (url.includes('pangaea.de')) return 'PANGAEA';
+        return 'Other';
+      }
+
+      function doiUrl(identifier) {
+        if (identifier && typeof identifier === 'object') identifier = identifier.url || identifier.value || '';
+        return (typeof identifier === 'string' && identifier.includes('doi.org')) ? identifier : null;
+      }
 
       function getSearchableText(record) {
         const keywordsRaw = Array.isArray(record.keywords) ? record.keywords : [];
@@ -54,8 +97,9 @@
       function renderRecord(record) {
         const name = record.name || 'Untitled';
         const url = record.url || record['@id'] || '#';
-        const identifier = record.identifier || '';
-        const doi = typeof identifier === 'string' && identifier.includes('doi.org') ? identifier : null;
+        const doi = doiUrl(record.identifier);
+        const typeLabel = record.additionalType || typeCategory(record);
+        const source = sourceName(record);
         let desc = record.description;
         if (desc && typeof desc === 'object' && desc['@value']) desc = desc['@value'];
         if (typeof desc === 'string') {
@@ -79,6 +123,8 @@
           '<h2 class="card-title"><a href="' + escapeAttr(url) + '" target="_blank" rel="noopener">' + escapeHtml(name) + '</a></h2>' +
           (desc ? '<p class="card-desc">' + escapeHtml(desc) + '</p>' : '') +
           '<div class="card-meta">' +
+            '<span class="badge badge-type">' + escapeHtml(typeLabel) + '</span>' +
+            '<span class="badge badge-source badge-' + escapeAttr(source.toLowerCase()) + '">' + escapeHtml(source) + '</span>' +
             (doi ? '<a href="' + escapeAttr(doi) + '" target="_blank" rel="noopener">' + escapeHtml(shortDoi(doi)) + '</a>' : '') +
             (firstAuthor ? '<span>' + escapeHtml(firstAuthor) + '</span>' : '') +
             (year ? '<span>' + escapeHtml(year) + '</span>' : (date ? '<span>' + escapeHtml(date) + '</span>' : '')) +
@@ -98,11 +144,36 @@
         return m ? m[1] : url;
       }
 
+      function renderChips(container, order, counts, active, onSelect) {
+        const values = order.filter(v => counts[v]).concat(Object.keys(counts).filter(v => !order.includes(v)));
+        container.innerHTML = '';
+        [''].concat(values).forEach(v => {
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'chip';
+          btn.setAttribute('aria-pressed', String(v === active));
+          const total = v ? counts[v] : Object.values(counts).reduce((a, b) => a + b, 0);
+          btn.innerHTML = escapeHtml(v || 'All') + ' <span class="chip-count">' + total + '</span>';
+          btn.addEventListener('click', () => onSelect(v));
+          container.appendChild(btn);
+        });
+      }
+
+      function countBy(list, fn) {
+        return list.reduce((acc, r) => { const k = fn(r); acc[k] = (acc[k] || 0) + 1; return acc; }, {});
+      }
+
       function filterAndRender() {
         const q = (searchEl.value || '').trim().toLowerCase();
-        const filtered = q
-          ? items.filter(r => getSearchableText(r).includes(q))
-          : items;
+        const matchesQuery = q ? items.filter(r => getSearchableText(r).includes(q)) : items;
+        // Each chip group's counts reflect the search and the other group's selection
+        const bySource = matchesQuery.filter(r => !activeSource || sourceName(r) === activeSource);
+        const byType = matchesQuery.filter(r => !activeType || typeCategory(r) === activeType);
+        renderChips(typeFiltersEl, TYPE_ORDER, countBy(bySource, typeCategory), activeType,
+          v => { activeType = v; filterAndRender(); });
+        renderChips(sourceFiltersEl, SOURCE_ORDER, countBy(byType, sourceName), activeSource,
+          v => { activeSource = v; filterAndRender(); });
+        const filtered = bySource.filter(r => !activeType || typeCategory(r) === activeType);
 
         if (filtered.length === items.length) {
           countEl.innerHTML = '<strong>' + items.length + '</strong> output' + (items.length !== 1 ? 's' : '');

@@ -20,29 +20,40 @@ The script `metadata-cat.py` connects to the Zenodo REST API, lists all records 
    pip install -r requirements.txt
    ```
 
-2. Harvest the full BioEcoOcean community (writes `bioecoocean-catalogue.jsonld` by default):
+2. Harvest the full BioEcoOcean community (catalogue + per-record JSON):
    ```bash
-   python metadata-cat.py
+   python metadata-cat.py --base-url "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main"
    ```
 
-3. Options:
+   By default this writes:
+   - `bioecoocean-catalogue.jsonld` — combined catalogue (rewritten each run)
+   - `jsonFiles/zenodo/*.json` — one file per Zenodo record
+   - `jsonFiles/OBIS/*.json` — one file per OBIS IPT dataset
+   - `jsonFiles/pangaea/*.json` — one file per PANGAEA dataset matching "BioEcoOcean"
+
+   Re-runs **update only changed** per-record JSON files (matched by Zenodo record id or OBIS resource slug). The terminal prints `created`, `updated`, or `skipped` for each file, plus a summary count.
+
+3. Build the XML sitemap from those JSON files (raw GitHub URLs, not Zenodo links):
+   ```bash
+   python update_sitemap.py --base-url "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main"
+   ```
+   Writes `sitemap.xml` with one `<loc>` per JSON file under `jsonFiles/zenodo/`, `jsonFiles/OBIS/` and `jsonFiles/pangaea/`.
+
+4. Options (`metadata-cat.py`):
    - `--community ID` — Zenodo community identifier (default: `bioecoocean`)
-   - `-o FILE` — Output path (default: `bioecoocean-catalogue.jsonld`)
-   - `--max-pages N` — Limit to N pages of results (for testing; 25 records per page)
+   - `-o FILE` — Output catalogue path (default: `bioecoocean-catalogue.jsonld`)
+   - `--zenodo-dir` / `--obis-dir` / `--pangaea-dir` — Output folders (defaults: `jsonFiles/zenodo`, `jsonFiles/OBIS`, `jsonFiles/pangaea`)
+   - `--base-url URL` — Prefix for each record’s `@id` (defaults to raw GitHub URL of that JSON file; see `DEFAULT_BASE_URL` in `metadata-cat.py`)
+   - `--no-json-files` — Skip writing per-record JSON files
+   - `--max-pages N` — Limit Zenodo pages (testing; 25 records per page)
+   - `--no-funding` — Omit the BioEcoOcean funding block
 
-   Example for another community and custom output:
+   Example (catalogue only, no JSON files):
    ```bash
-   python metadata-cat.py --community my-community -o my-catalogue.jsonld
+   python metadata-cat.py --no-json-files
    ```
 
-The output is a JSON-LD document with an `@graph` of schema.org `Dataset` (or other) entities, each with `@id`, `name`, `identifier`, `url`, and when available from Zenodo, `description`, `datePublished`, `creator`, `keywords`, and `license`. No API token is required for public records.
-
-4. Export json into schema format
-  `python export_json.py \`
-  `--input bioecoocean-catalogue.jsonld \`
-  `--out-dir jsonFiles/zenodo \`
-  `--base-url "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main" \`
-  `--sitemap sitemap.jsonld` 
+The output is a JSON-LD document with an `@graph` of schema.org entries. Zenodo entries come from Zenodo's JSON-LD export (`/records/{id}/export/json-ld`), so `@type` follows the upload (`ScholarlyArticle`, `PresentationDigitalDocument`, `CreativeWork`, `Dataset`, …); OBIS IPT and PANGAEA resources are `Dataset`. Each entry includes `@id`, `name`, `identifier` (DOI as `PropertyValue` when available), `url`, `additionalType` (the Zenodo resource type, e.g. "Poster", "Project deliverable", or "Dataset"), `includedInDataCatalog` (Zenodo, OBIS or PANGAEA), and when available `description`, `datePublished`, `creator` (with ORCID and affiliation from Zenodo), plain-string `keywords`, `publishingPrinciples` (from license), and `funding` (BioEcoOcean grant first, plus any co-funders listed on Zenodo). Use `--no-funding` to omit the funding block. No API token is required for public records.
 
 ### Landing page (list and search outputs)
 
