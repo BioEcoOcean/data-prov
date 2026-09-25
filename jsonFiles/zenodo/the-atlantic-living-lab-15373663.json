@@ -1,7 +1,7 @@
 {
-  "@type": "CreativeWork",
-  "name": "The Atlantic Living Lab",
-  "url": "https://zenodo.org/record/15373663",
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/the-atlantic-living-lab-15373663.json",
+  "@type": "PresentationDigitalDocument",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,31 +9,126 @@
     "url": "https://doi.org/10.5281/zenodo.15373663",
     "value": "10.5281/zenodo.15373663"
   },
-  "datePublished": "2025-03-10",
+  "name": "The Atlantic Living Lab",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Borges, Débora"
+      "name": "Borges, Débora",
+      "givenName": "Débora",
+      "familyName": "Borges",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Interdisciplinary Centre of Marine and Environmental Research",
+          "@id": "https://edmo.seadatanet.org/report/5568"
+        }
+      ],
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Reis, Bianca"
+      "name": "Reis, Bianca",
+      "givenName": "Bianca",
+      "familyName": "Reis",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Interdisciplinary Centre of Marine and Environmental Research",
+          "@id": "https://edmo.seadatanet.org/report/5568"
+        }
+      ],
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Valente, André"
+      "name": "Valente, André",
+      "givenName": "André",
+      "familyName": "Valente",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "AIR Centre - Atlantic International Research Centre"
+        }
+      ],
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Sousa Pinto, Isabel"
+      "name": "Sousa Pinto, Isabel",
+      "givenName": "Isabel",
+      "familyName": "Sousa Pinto",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Interdisciplinary Centre of Marine and Environmental Research",
+          "@id": "https://edmo.seadatanet.org/report/5568"
+        }
+      ],
+      "@type": "Person"
     }
   ],
+  "author": [
+    {
+      "name": "Borges, Débora",
+      "givenName": "Débora",
+      "familyName": "Borges",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Interdisciplinary Centre of Marine and Environmental Research",
+          "@id": "https://edmo.seadatanet.org/report/5568"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Reis, Bianca",
+      "givenName": "Bianca",
+      "familyName": "Reis",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Interdisciplinary Centre of Marine and Environmental Research",
+          "@id": "https://edmo.seadatanet.org/report/5568"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Valente, André",
+      "givenName": "André",
+      "familyName": "Valente",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "AIR Centre - Atlantic International Research Centre"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Sousa Pinto, Isabel",
+      "givenName": "Isabel",
+      "familyName": "Sousa Pinto",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Interdisciplinary Centre of Marine and Environmental Research",
+          "@id": "https://edmo.seadatanet.org/report/5568"
+        }
+      ],
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
   "keywords": [
     "Atlantic Living Lab"
   ],
-  "license": {
-    "id": "cc-by-4.0"
-  },
+  "dateCreated": "2025-05-09T13:14:29.616877+00:00",
+  "dateModified": "2025-08-28T08:37:37.779215+00:00",
+  "datePublished": "2025-03-10",
+  "contentSize": "47.88 MB",
+  "size": "47.88 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -47,6 +142,18 @@
       }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/the-atlantic-living-lab-15373663.json"
+  "url": "https://zenodo.org/records/15373663",
+  "additionalType": "Presentation",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

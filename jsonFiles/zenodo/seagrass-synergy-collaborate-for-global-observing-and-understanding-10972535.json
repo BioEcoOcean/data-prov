@@ -1,7 +1,7 @@
 {
-  "@type": "CreativeWork",
-  "name": "Seagrass Synergy: Collaborate for Global Observing and Understanding",
-  "url": "https://zenodo.org/record/10972535",
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/seagrass-synergy-collaborate-for-global-observing-and-understanding-10972535.json",
+  "@type": "PresentationDigitalDocument",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,21 +9,87 @@
     "url": "https://doi.org/10.5281/zenodo.10972535",
     "value": "10.5281/zenodo.10972535"
   },
-  "description": "Global Ocean Observing System webinar Presenters: &nbsp;Lina Mtwana Nordlund and Emmett Duffy Date and Time: 27 March 2024, 15:00 CET Join us in envisioning a world with comparable seagrass data across the globe. Explore the journey from the development of the Seagrass Essential Ocean Variable to the importance of standardized measurement, data availability, and the transformative impact of openly accessible seagrass data on global biodiversity indicators. Be part of the conversation as we discuss the evolving landscape of seagrass monitoring, from essential variables and open repositories to global collaborations shaping the future of seagrass research.",
-  "datePublished": "2024-03-27",
+  "name": "Seagrass Synergy: Collaborate for Global Observing and Understanding",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Nordlund, Lina Mtwana"
+      "name": "Nordlund, Lina Mtwana",
+      "givenName": "Lina Mtwana",
+      "familyName": "Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Duffy, J. Emmett"
+      "name": "Duffy, J. Emmett",
+      "givenName": "J. Emmett",
+      "familyName": "Duffy",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Smithsonian Institution",
+          "@id": "https://ror.org/01pp8nd67"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-8595-6391",
+      "@type": "Person"
     }
   ],
-  "license": {
-    "id": "cc-by-4.0"
+  "author": [
+    {
+      "name": "Nordlund, Lina Mtwana",
+      "givenName": "Lina Mtwana",
+      "familyName": "Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
+    },
+    {
+      "name": "Duffy, J. Emmett",
+      "givenName": "J. Emmett",
+      "familyName": "Duffy",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Smithsonian Institution",
+          "@id": "https://ror.org/01pp8nd67"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-8595-6391",
+      "@type": "Person"
+    }
+  ],
+  "editor": [
+    {
+      "name": "Global Ocean Observing System",
+      "@type": "Organization"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
   },
+  "dateCreated": "2025-09-24T12:56:14.227949+00:00",
+  "dateModified": "2025-09-24T12:56:14.713434+00:00",
+  "datePublished": "2024-03-27",
+  "temporal": [
+    "2024-03-27"
+  ],
+  "contentSize": "24.04 MB",
+  "size": "24.04 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "description": "Global Ocean Observing System webinar Presenters: Lina Mtwana Nordlund and Emmett Duffy Date and Time: 27 March 2024, 15:00 CET Join us in envisioning a world with comparable seagrass data across the globe. Explore the journey from the development of the Seagrass Essential Ocean Variable to the importance of standardized measurement, data availability, and the transformative impact of openly accessible seagrass data on global biodiversity indicators. Be part of the conversation as we discuss the evolving landscape of seagrass monitoring, from essential variables and open repositories to global collaborations shaping the future of seagrass research.",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -37,6 +103,18 @@
       }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/seagrass-synergy-collaborate-for-global-observing-and-understanding-10972535.json"
+  "url": "https://zenodo.org/records/10972535",
+  "additionalType": "Presentation",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

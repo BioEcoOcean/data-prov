@@ -1,7 +1,7 @@
 {
-  "@type": "CreativeWork",
-  "name": "EOV Network Clustering Event Nr 2: Collection of the presentations",
-  "url": "https://zenodo.org/record/20325734",
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/eov-network-clustering-event-nr-2-collection-of-the-presentations-20325734.json",
+  "@type": "PresentationDigitalDocument",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,65 +9,301 @@
     "url": "https://doi.org/10.5281/zenodo.20325734",
     "value": "10.5281/zenodo.20325734"
   },
-  "description": "These are the presentations given at the Clustering event Nr 2. Clustering Event Nr 2 re-convened the three sister projects, ObsSea4Clim, BioEcoOcean, and BioGeoSea, in a beautiful setting of the Royal Belgian Institute of Natural Sciences in Brussels. Clustering Event Nr 2 took was held on 20-21 April 2026. The event provided space for discussions and decision-making between the three projects to ensure streamlined project outcomes and policy recommendations. The Clustering Event Nr 2 focused on the following overarching main topics: Interoperability of data and indicators; Coordination of stakeholder and policy engagement, The definition of a&nbsp; legacy pathway anchored in European ocean observing governance through EuroGOOS, The gathering of community feedback on the European Ocean Pact and upcoming policy developments. https://obssea4clim.eu/2026/04/22/clustering-event-nr-2/&nbsp;",
-  "datePublished": "2026-05-21",
+  "name": "EOV Network Clustering Event Nr 2: Collection of the presentations",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Sala Perez, Manuel"
+      "name": "Sala Perez, Manuel",
+      "givenName": "Manuel",
+      "familyName": "Sala Perez",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "European Global Ocean Observing System",
+          "@id": "https://ror.org/01trb8031"
+        }
+      ],
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Olsen, Steffen Malskaer"
+      "name": "Olsen, Steffen Malskaer",
+      "givenName": "Steffen Malskaer",
+      "familyName": "Olsen",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Danish Meteorological Institute",
+          "@id": "https://ror.org/020m6x732"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-5240-9770",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Bekier, Justyna"
+      "name": "Bekier, Justyna",
+      "givenName": "Justyna",
+      "familyName": "Bekier",
+      "@id": "https://orcid.org/0000-0001-5919-440X",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Mtwana Nordlund, Lina"
+      "name": "Mtwana Nordlund, Lina",
+      "givenName": "Lina",
+      "familyName": "Mtwana Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Hashim, Said"
+      "name": "Hashim, Said",
+      "givenName": "Said",
+      "familyName": "Hashim",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5597-1539",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Lepola, Nina"
+      "name": "Lepola, Nina",
+      "givenName": "Nina",
+      "familyName": "Lepola",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0009-0004-3952-3818",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Eparkhina, Dina"
+      "name": "Eparkhina, Dina",
+      "givenName": "Dina",
+      "familyName": "Eparkhina",
+      "@id": "https://orcid.org/0000-0003-3993-0240",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Chellini, Giovanni"
+      "name": "Chellini, Giovanni",
+      "givenName": "Giovanni",
+      "familyName": "Chellini",
+      "@id": "https://orcid.org/0000-0002-7303-0468",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Blanco-Fernández, Alicia"
+      "name": "Blanco-Fernández, Alicia",
+      "givenName": "Alicia",
+      "familyName": "Blanco-Fernández",
+      "@id": "https://orcid.org/0009-0001-2350-1540",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Tanhua, Toste"
+      "name": "Tanhua, Toste",
+      "givenName": "Toste",
+      "familyName": "Tanhua",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
+          "@id": "https://ror.org/02h2x0161"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-0313-2557",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Speich, Sabrina"
+      "name": "Speich, Sabrina",
+      "givenName": "Sabrina",
+      "familyName": "Speich",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Ecole Normale Superieure, Departement des Geosciences, Laboratoire de Météorologie Dynamique, IPSL, PSL"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5452-8287",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Köstner, Nicole"
+      "name": "Köstner, Nicole",
+      "givenName": "Nicole",
+      "familyName": "Köstner",
+      "@id": "https://orcid.org/0000-0002-6199-5756",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Telszewski, Maciej"
+      "name": "Telszewski, Maciej",
+      "givenName": "Maciej",
+      "familyName": "Telszewski",
+      "@id": "https://orcid.org/0000-0002-9139-226X",
+      "@type": "Person"
     }
   ],
-  "license": {
-    "id": "cc-by-4.0"
+  "author": [
+    {
+      "name": "Sala Perez, Manuel",
+      "givenName": "Manuel",
+      "familyName": "Sala Perez",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "European Global Ocean Observing System",
+          "@id": "https://ror.org/01trb8031"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Olsen, Steffen Malskaer",
+      "givenName": "Steffen Malskaer",
+      "familyName": "Olsen",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Danish Meteorological Institute",
+          "@id": "https://ror.org/020m6x732"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-5240-9770",
+      "@type": "Person"
+    },
+    {
+      "name": "Bekier, Justyna",
+      "givenName": "Justyna",
+      "familyName": "Bekier",
+      "@id": "https://orcid.org/0000-0001-5919-440X",
+      "@type": "Person"
+    },
+    {
+      "name": "Mtwana Nordlund, Lina",
+      "givenName": "Lina",
+      "familyName": "Mtwana Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
+    },
+    {
+      "name": "Hashim, Said",
+      "givenName": "Said",
+      "familyName": "Hashim",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5597-1539",
+      "@type": "Person"
+    },
+    {
+      "name": "Lepola, Nina",
+      "givenName": "Nina",
+      "familyName": "Lepola",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0009-0004-3952-3818",
+      "@type": "Person"
+    },
+    {
+      "name": "Eparkhina, Dina",
+      "givenName": "Dina",
+      "familyName": "Eparkhina",
+      "@id": "https://orcid.org/0000-0003-3993-0240",
+      "@type": "Person"
+    },
+    {
+      "name": "Chellini, Giovanni",
+      "givenName": "Giovanni",
+      "familyName": "Chellini",
+      "@id": "https://orcid.org/0000-0002-7303-0468",
+      "@type": "Person"
+    },
+    {
+      "name": "Blanco-Fernández, Alicia",
+      "givenName": "Alicia",
+      "familyName": "Blanco-Fernández",
+      "@id": "https://orcid.org/0009-0001-2350-1540",
+      "@type": "Person"
+    },
+    {
+      "name": "Tanhua, Toste",
+      "givenName": "Toste",
+      "familyName": "Tanhua",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
+          "@id": "https://ror.org/02h2x0161"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-0313-2557",
+      "@type": "Person"
+    },
+    {
+      "name": "Speich, Sabrina",
+      "givenName": "Sabrina",
+      "familyName": "Speich",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Ecole Normale Superieure, Departement des Geosciences, Laboratoire de Météorologie Dynamique, IPSL, PSL"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5452-8287",
+      "@type": "Person"
+    },
+    {
+      "name": "Köstner, Nicole",
+      "givenName": "Nicole",
+      "familyName": "Köstner",
+      "@id": "https://orcid.org/0000-0002-6199-5756",
+      "@type": "Person"
+    },
+    {
+      "name": "Telszewski, Maciej",
+      "givenName": "Maciej",
+      "familyName": "Telszewski",
+      "@id": "https://orcid.org/0000-0002-9139-226X",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
   },
+  "dateCreated": "2026-05-22T10:59:53.008988+00:00",
+  "dateModified": "2026-05-22T11:45:52.228700+00:00",
+  "datePublished": "2026-05-21",
+  "temporal": [
+    "2026-05-21"
+  ],
+  "contentSize": "6.61 MB",
+  "size": "6.61 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "description": "These are the presentations given at the Clustering event Nr 2. Clustering Event Nr 2 re-convened the three sister projects, ObsSea4Clim, BioEcoOcean, and BioGeoSea, in a beautiful setting of the Royal Belgian Institute of Natural Sciences in Brussels. Clustering Event Nr 2 took was held on 20-21 April 2026. The event provided space for discussions and decision-making between the three projects to ensure streamlined project outcomes and policy recommendations. The Clustering Event Nr 2 focused on the following overarching main topics: Interoperability of data and indicators; Coordination of stakeholder and policy engagement, The definition of a legacy pathway anchored in European ocean observing governance through EuroGOOS, The gathering of community feedback on the European Ocean Pact and upcoming policy developments. https://obssea4clim.eu/2026/04/22/clustering-event-nr-2/",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -79,8 +315,46 @@
         "legalName": "European Commission",
         "url": "https://commission.europa.eu/index_en"
       }
+    },
+    {
+      "funder": {
+        "@type": "Organization",
+        "@id": "00k4n6c32",
+        "name": "European Commission"
+      },
+      "name": "Ocean observations and indicators for climate and assessments. (101136548)",
+      "identifier": "00k4n6c32::101136548",
+      "url": {
+        "identifier": "https://cordis.europa.eu/projects/101136548",
+        "scheme": "url"
+      }
+    },
+    {
+      "funder": {
+        "@type": "Organization",
+        "@id": "00k4n6c32",
+        "name": "European Commission"
+      },
+      "name": "Enhancing Biogeochemical Essential Ocean Variables for European and Global Assessments (101216427)",
+      "identifier": "00k4n6c32::101216427",
+      "url": {
+        "identifier": "https://cordis.europa.eu/projects/101216427",
+        "scheme": "url"
+      }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/eov-network-clustering-event-nr-2-collection-of-the-presentations-20325734.json"
+  "url": "https://zenodo.org/records/20325734",
+  "additionalType": "Presentation",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

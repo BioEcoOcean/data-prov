@@ -1,7 +1,7 @@
 {
-  "@type": "CreativeWork",
-  "name": "Report on the Special Session 'Co-creation for advancing ocean observations of marine life – connecting the Baltic Sea to the global ocean'",
-  "url": "https://zenodo.org/record/16966990",
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/report-on-the-special-session-co-creation-for-advancing-ocean-observations-of-marine-life-connecting-the-baltic-sea-to-the-global-ocean-16966990.json",
+  "@type": "ScholarlyArticle",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,37 +9,284 @@
     "url": "https://doi.org/10.5281/zenodo.16966990",
     "value": "10.5281/zenodo.16966990"
   },
-  "description": "The special session entitled &lsquo;Co-creation for advancing ocean observations of marine life &ndash; connecting the Baltic Sea to the global ocean&rsquo; took place on Thursday, 29 May 2025. The session comprised an invited plenary contribution as part of the 2025 Baltic Sea Science Congress, which took place on 26&ndash;30 May 2025 in Sopot, Poland. This report summarizes the proceedings and outcomes of this special session, reflecting on the expert and audience perception of the state and future of Baltic Sea observations with a focus on marine life.",
-  "datePublished": "2025-08-27",
+  "name": "Report on the Special Session 'Co-creation for advancing ocean observations of marine life – connecting the Baltic Sea to the global ocean'",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Hashim, Said"
+      "name": "Hashim, Said",
+      "givenName": "Said",
+      "familyName": "Hashim",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University, Department of Earth Sciences",
+          "@id": "https://edmo.seadatanet.org/report/2217"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5597-1539",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Palacz, Artur"
+      "name": "Palacz, Artur",
+      "givenName": "Artur",
+      "familyName": "Palacz",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1634-7880",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Mtwana Nordlund, Lina"
+      "name": "Mtwana Nordlund, Lina",
+      "givenName": "Lina",
+      "familyName": "Mtwana Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Nina, Lepola"
+      "name": "Nina, Lepola",
+      "givenName": "Lepola",
+      "familyName": "Nina",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University, Department of Earth Sciences",
+          "@id": "https://edmo.seadatanet.org/report/2217"
+        }
+      ],
+      "@id": "https://orcid.org/0009-0004-3952-3818",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Krzymiński, Dominik"
+      "name": "Krzymiński, Dominik",
+      "givenName": "Dominik",
+      "familyName": "Krzymiński",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0009-0001-2678-0960",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Lüskow, Florian"
+      "name": "Lüskow, Florian",
+      "givenName": "Florian",
+      "familyName": "Lüskow",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of British Columbia"
+        },
+        {
+          "@type": "Organization",
+          "name": "Uppsala University, Department of Earth Sciences",
+          "@id": "https://edmo.seadatanet.org/report/2217"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-2100-7012",
+      "@type": "Person"
     }
   ],
-  "license": {
-    "id": "cc-by-4.0"
+  "author": [
+    {
+      "name": "Hashim, Said",
+      "givenName": "Said",
+      "familyName": "Hashim",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University, Department of Earth Sciences",
+          "@id": "https://edmo.seadatanet.org/report/2217"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5597-1539",
+      "@type": "Person"
+    },
+    {
+      "name": "Palacz, Artur",
+      "givenName": "Artur",
+      "familyName": "Palacz",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1634-7880",
+      "@type": "Person"
+    },
+    {
+      "name": "Mtwana Nordlund, Lina",
+      "givenName": "Lina",
+      "familyName": "Mtwana Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
+    },
+    {
+      "name": "Nina, Lepola",
+      "givenName": "Lepola",
+      "familyName": "Nina",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University, Department of Earth Sciences",
+          "@id": "https://edmo.seadatanet.org/report/2217"
+        }
+      ],
+      "@id": "https://orcid.org/0009-0004-3952-3818",
+      "@type": "Person"
+    },
+    {
+      "name": "Krzymiński, Dominik",
+      "givenName": "Dominik",
+      "familyName": "Krzymiński",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0009-0001-2678-0960",
+      "@type": "Person"
+    },
+    {
+      "name": "Lüskow, Florian",
+      "givenName": "Florian",
+      "familyName": "Lüskow",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of British Columbia"
+        },
+        {
+          "@type": "Organization",
+          "name": "Uppsala University, Department of Earth Sciences",
+          "@id": "https://edmo.seadatanet.org/report/2217"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-2100-7012",
+      "@type": "Person"
+    }
+  ],
+  "editor": [
+    {
+      "name": "Hashim, Said",
+      "givenName": "Said",
+      "familyName": "Hashim",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University, Department of Earth Sciences",
+          "@id": "https://edmo.seadatanet.org/report/2217"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5597-1539",
+      "@type": "Person"
+    },
+    {
+      "name": "Palacz, Artur",
+      "givenName": "Artur",
+      "familyName": "Palacz",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1634-7880",
+      "@type": "Person"
+    },
+    {
+      "name": "Mtwana Nordlund, Lina",
+      "givenName": "Lina",
+      "familyName": "Mtwana Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
+    },
+    {
+      "name": "Lepola, Nina",
+      "givenName": "Nina",
+      "familyName": "Lepola",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University, Department of Earth Sciences",
+          "@id": "https://edmo.seadatanet.org/report/2217"
+        }
+      ],
+      "@id": "https://orcid.org/0009-0004-3952-3818",
+      "@type": "Person"
+    },
+    {
+      "name": "Krzymiński, Dominik",
+      "givenName": "Dominik",
+      "familyName": "Krzymiński",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0009-0001-2678-0960",
+      "@type": "Person"
+    },
+    {
+      "name": "Lüskow, Florian",
+      "givenName": "Florian",
+      "familyName": "Lüskow",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University, Department of Earth Sciences",
+          "@id": "https://edmo.seadatanet.org/report/2217"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-2100-7012",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
   },
+  "dateCreated": "2025-10-28T14:24:48.119417+00:00",
+  "dateModified": "2025-11-06T14:07:50.175302+00:00",
+  "datePublished": "2025-08-27",
+  "contentSize": "1.06 MB",
+  "size": "1.06 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "description": "The special session entitled ‘Co-creation for advancing ocean observations of marine life – connecting the Baltic Sea to the global ocean’ took place on Thursday, 29 May 2025. The session comprised an invited plenary contribution as part of the 2025 Baltic Sea Science Congress, which took place on 26–30 May 2025 in Sopot, Poland. This report summarizes the proceedings and outcomes of this special session, reflecting on the expert and audience perception of the state and future of Baltic Sea observations with a focus on marine life.",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -53,6 +300,18 @@
       }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/report-on-the-special-session-co-creation-for-advancing-ocean-observations-of-marine-life-connecting-the-baltic-sea-to-the-global-ocean-16966990.json"
+  "url": "https://zenodo.org/records/16966990",
+  "additionalType": "Report",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/sensing-the-ocean-through-the-exquisite-corpse-artscience-method-18018256.json",
   "@type": "CreativeWork",
-  "name": "Sensing the Ocean through the Exquisite Corpse ArtScience method",
-  "url": "https://zenodo.org/record/18018256",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,48 +9,213 @@
     "url": "https://doi.org/10.1525/elementa.2024.00051",
     "value": "10.1525/elementa.2024.00051"
   },
-  "datePublished": "2025-12-22",
+  "name": "Sensing the Ocean through the Exquisite Corpse ArtScience method",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Jung, Julia"
+      "name": "Jung, Julia",
+      "givenName": "Julia",
+      "familyName": "Jung",
+      "@id": "https://orcid.org/0000-0003-3388-6525",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Cherkasheva, Alexandra"
+      "name": "Cherkasheva, Alexandra",
+      "givenName": "Alexandra",
+      "familyName": "Cherkasheva",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "IOPAN"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-0717-361X",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Corporeau, charlotte"
+      "name": "Corporeau, charlotte",
+      "givenName": "charlotte",
+      "familyName": "Corporeau",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Ifremer Centre de Bretagne"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-1187-358X",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Mistry, Jayalaxshmi"
+      "name": "Mistry, Jayalaxshmi",
+      "givenName": "Jayalaxshmi",
+      "familyName": "Mistry",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Cobra Collective CIC"
+        },
+        {
+          "@type": "Organization",
+          "name": "Royal Holloway University of London Department of Geography"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-7582-3739",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Narvaez, Diego"
+      "name": "Narvaez, Diego",
+      "givenName": "Diego",
+      "familyName": "Narvaez",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Owens, Dwight"
+      "name": "Owens, Dwight",
+      "givenName": "Dwight",
+      "familyName": "Owens",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Victoria",
+          "@id": "https://ror.org/04s5mat29"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-6258-2163",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Parrain, Camille"
+      "name": "Parrain, Camille",
+      "givenName": "Camille",
+      "familyName": "Parrain",
+      "@id": "https://orcid.org/0000-0003-1618-226X",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Riddel, David J"
+      "name": "Riddel, David J",
+      "givenName": "David J",
+      "familyName": "Riddel",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Zivian, Anna"
+      "name": "Zivian, Anna",
+      "givenName": "Anna",
+      "familyName": "Zivian",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Ocean Conservancy"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-6113-8685",
+      "@type": "Person"
     }
   ],
-  "license": {
-    "id": "cc-by-4.0"
+  "author": [
+    {
+      "name": "Jung, Julia",
+      "givenName": "Julia",
+      "familyName": "Jung",
+      "@id": "https://orcid.org/0000-0003-3388-6525",
+      "@type": "Person"
+    },
+    {
+      "name": "Cherkasheva, Alexandra",
+      "givenName": "Alexandra",
+      "familyName": "Cherkasheva",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "IOPAN"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-0717-361X",
+      "@type": "Person"
+    },
+    {
+      "name": "Corporeau, charlotte",
+      "givenName": "charlotte",
+      "familyName": "Corporeau",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Ifremer Centre de Bretagne"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-1187-358X",
+      "@type": "Person"
+    },
+    {
+      "name": "Mistry, Jayalaxshmi",
+      "givenName": "Jayalaxshmi",
+      "familyName": "Mistry",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Cobra Collective CIC"
+        },
+        {
+          "@type": "Organization",
+          "name": "Royal Holloway University of London Department of Geography"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-7582-3739",
+      "@type": "Person"
+    },
+    {
+      "name": "Narvaez, Diego",
+      "givenName": "Diego",
+      "familyName": "Narvaez",
+      "@type": "Person"
+    },
+    {
+      "name": "Owens, Dwight",
+      "givenName": "Dwight",
+      "familyName": "Owens",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Victoria",
+          "@id": "https://ror.org/04s5mat29"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-6258-2163",
+      "@type": "Person"
+    },
+    {
+      "name": "Parrain, Camille",
+      "givenName": "Camille",
+      "familyName": "Parrain",
+      "@id": "https://orcid.org/0000-0003-1618-226X",
+      "@type": "Person"
+    },
+    {
+      "name": "Riddel, David J",
+      "givenName": "David J",
+      "familyName": "Riddel",
+      "@type": "Person"
+    },
+    {
+      "name": "Zivian, Anna",
+      "givenName": "Anna",
+      "familyName": "Zivian",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Ocean Conservancy"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-6113-8685",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
   },
+  "dateCreated": "2025-12-22T13:43:49.663558+00:00",
+  "dateModified": "2025-12-22T13:48:48.866537+00:00",
+  "datePublished": "2025-12-22",
+  "contentSize": "2.59 MB",
+  "size": "2.59 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -62,8 +227,36 @@
         "legalName": "European Commission",
         "url": "https://commission.europa.eu/index_en"
       }
+    },
+    {
+      "funder": {
+        "@type": "Organization",
+        "@id": "00k4n6c32",
+        "name": "European Commission"
+      },
+      "name": "Arctic biodiversity change and its consequences: Assessing, monitoring and predicting the effects of ecosystem tipping cascades on marine ecosystem services and dependent human systems (869383)",
+      "identifier": "00k4n6c32::869383",
+      "url": {
+        "identifier": "https://cordis.europa.eu/projects/869383",
+        "scheme": "url"
+      }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/sensing-the-ocean-through-the-exquisite-corpse-artscience-method-18018256.json"
+  "url": "https://zenodo.org/records/18018256",
+  "container_title": "Elementa: Science of the Anthropocene",
+  "page": "00051",
+  "volume": "13 (1)",
+  "additionalType": "Publication",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

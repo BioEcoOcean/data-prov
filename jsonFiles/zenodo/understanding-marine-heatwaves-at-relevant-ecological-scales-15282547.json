@@ -1,7 +1,7 @@
 {
-  "@type": "CreativeWork",
-  "name": "Understanding marine heatwaves at relevant ecological scales",
-  "url": "https://zenodo.org/record/15282547",
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/understanding-marine-heatwaves-at-relevant-ecological-scales-15282547.json",
+  "@type": "PresentationDigitalDocument",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,16 +9,47 @@
     "url": "https://doi.org/10.5281/zenodo.15282547",
     "value": "10.5281/zenodo.15282547"
   },
-  "datePublished": "2025-04-25",
+  "name": "Understanding marine heatwaves at relevant ecological scales",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Benedetti-Cecchi, Lisandro"
+      "name": "Benedetti-Cecchi, Lisandro",
+      "givenName": "Lisandro",
+      "familyName": "Benedetti-Cecchi",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Department of Biology, University of Pisa"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-5244-5202",
+      "@type": "Person"
     }
   ],
-  "license": {
-    "id": "cc-by-4.0"
+  "author": [
+    {
+      "name": "Benedetti-Cecchi, Lisandro",
+      "givenName": "Lisandro",
+      "familyName": "Benedetti-Cecchi",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Department of Biology, University of Pisa"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-5244-5202",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
   },
+  "dateCreated": "2025-04-25T13:29:54.607547+00:00",
+  "dateModified": "2025-08-29T09:11:07.324181+00:00",
+  "datePublished": "2025-04-25",
+  "contentSize": "22.2 MB",
+  "size": "22.2 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -32,6 +63,18 @@
       }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/understanding-marine-heatwaves-at-relevant-ecological-scales-15282547.json"
+  "url": "https://zenodo.org/records/15282547",
+  "additionalType": "Presentation",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

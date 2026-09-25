@@ -1,7 +1,7 @@
 {
-  "@type": "CreativeWork",
-  "name": "Revising Carbon Uptake Estimates in the European Arctic with a regional satellite algorithm and BGC-Argo data",
-  "url": "https://zenodo.org/record/17779538",
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/revising-carbon-uptake-estimates-in-the-european-arctic-with-a-regional-satellite-algorithm-and-bgc-argo-data-17779538.json",
+  "@type": "PresentationDigitalDocument",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,36 +9,171 @@
     "url": "https://doi.org/10.5281/zenodo.17779538",
     "value": "10.5281/zenodo.17779538"
   },
-  "datePublished": "2025-12-01",
+  "name": "Revising Carbon Uptake Estimates in the European Arctic with a regional satellite algorithm and BGC-Argo data",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Cherkasheva, Alexandra"
+      "name": "Cherkasheva, Alexandra",
+      "givenName": "Alexandra",
+      "familyName": "Cherkasheva",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "IOPAN"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-0717-361X",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Palacz, Artur"
+      "name": "Palacz, Artur",
+      "givenName": "Artur",
+      "familyName": "Palacz",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1634-7880",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Manurov, Rustam"
+      "name": "Manurov, Rustam",
+      "givenName": "Rustam",
+      "familyName": "Manurov",
+      "@id": "https://orcid.org/0000-0001-7320-6534",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Kowalczuk, Piotr"
+      "name": "Kowalczuk, Piotr",
+      "givenName": "Piotr",
+      "familyName": "Kowalczuk",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Institute of Oceanology Polish Academy of Sciences"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-6016-0610",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Loginova, Alexandra"
+      "name": "Loginova, Alexandra",
+      "givenName": "Alexandra",
+      "familyName": "Loginova",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-2805-7386",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Bracher, Astrid"
+      "name": "Bracher, Astrid",
+      "givenName": "Astrid",
+      "familyName": "Bracher",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung",
+          "@id": "https://ror.org/032e6b942"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-3025-5517",
+      "@type": "Person"
     }
   ],
-  "license": {
-    "id": "cc-by-4.0"
+  "author": [
+    {
+      "name": "Cherkasheva, Alexandra",
+      "givenName": "Alexandra",
+      "familyName": "Cherkasheva",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "IOPAN"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-0717-361X",
+      "@type": "Person"
+    },
+    {
+      "name": "Palacz, Artur",
+      "givenName": "Artur",
+      "familyName": "Palacz",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1634-7880",
+      "@type": "Person"
+    },
+    {
+      "name": "Manurov, Rustam",
+      "givenName": "Rustam",
+      "familyName": "Manurov",
+      "@id": "https://orcid.org/0000-0001-7320-6534",
+      "@type": "Person"
+    },
+    {
+      "name": "Kowalczuk, Piotr",
+      "givenName": "Piotr",
+      "familyName": "Kowalczuk",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Institute of Oceanology Polish Academy of Sciences"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-6016-0610",
+      "@type": "Person"
+    },
+    {
+      "name": "Loginova, Alexandra",
+      "givenName": "Alexandra",
+      "familyName": "Loginova",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-2805-7386",
+      "@type": "Person"
+    },
+    {
+      "name": "Bracher, Astrid",
+      "givenName": "Astrid",
+      "familyName": "Bracher",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung",
+          "@id": "https://ror.org/032e6b942"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-3025-5517",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
   },
+  "dateCreated": "2025-12-01T15:48:49.713827+00:00",
+  "dateModified": "2025-12-01T15:48:50.239438+00:00",
+  "datePublished": "2025-12-01",
+  "contentSize": "3.14 MB",
+  "size": "3.14 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -50,8 +185,40 @@
         "legalName": "European Commission",
         "url": "https://commission.europa.eu/index_en"
       }
+    },
+    {
+      "funder": {
+        "@type": "Organization",
+        "@id": "03ha2q922",
+        "name": "National Science Centre"
+      },
+      "name": "YOKATTA (2024/55/D/ST10/02111)"
+    },
+    {
+      "funder": {
+        "@type": "Organization",
+        "@id": "03ha2q922",
+        "name": "National Science Centre"
+      },
+      "name": "MOPAR (2020/37/K/ST10/03254)",
+      "url": {
+        "identifier": "https://www.iopan.gda.pl/projects/MOPAR/",
+        "scheme": "url"
+      }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/revising-carbon-uptake-estimates-in-the-european-arctic-with-a-regional-satellite-algorithm-and-bgc-argo-data-17779538.json"
+  "url": "https://zenodo.org/records/17779538",
+  "additionalType": "Presentation",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

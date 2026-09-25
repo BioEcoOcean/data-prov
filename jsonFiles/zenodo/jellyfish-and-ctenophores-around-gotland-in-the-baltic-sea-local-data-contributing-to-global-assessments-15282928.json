@@ -1,7 +1,7 @@
 {
-  "@type": "CreativeWork",
-  "name": "Jellyfish and Ctenophores Around Gotland in the Baltic Sea—Local Data Contributing to Global Assessments",
-  "url": "https://zenodo.org/record/15282928",
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/jellyfish-and-ctenophores-around-gotland-in-the-baltic-sea-local-data-contributing-to-global-assessments-15282928.json",
+  "@type": "ScholarlyArticle",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,32 +9,121 @@
     "url": "https://doi.org/10.3390/jmse13050852",
     "value": "10.3390/jmse13050852"
   },
-  "description": "In this study, we investigate the diversity and spatiotemporal distribution of gelatinous zooplankton (GZ) in the central Baltic Sea (coastal waters of Gotland and adjacent Eastern and Western Gotland Basins), a region characterised by low salinity and ecological sensitivity. Despite the Baltic Sea being the largest brackish water body globally, knowledge about its GZ, specifically, medusae and ctenophores, is limited. Our research synthesises the existing literature, open-access data, and local reports. Three to five GZ species occur within the studied area, with the common jellyfish Aurelia aurita dominating. Peak sightings of A. aurita happen between July and October, whereas the ctenophore Mertensia ovum and scyphozoan Cyanea capillata display sporadic occurrences. We identify notable gaps in understanding GZ phenology and food web impacts due to historical neglect and insufficient monitoring, particularly under low-salinity conditions (between 5 and 8), which restricts species richness. Jellyfish and ctenophores fall under the Essential Ocean Variable (EOV) &ldquo;Zooplankton Biomass and Diversity&rdquo; governed by the Global Ocean Observing System, UNESCO-IOC. EOVs are an approach for globally usable data and adhere to Findable, Accessible, Interoperable, and Reusable (FAIR) data principles. Including EOVs in routine collection and reporting would significantly enhance regional and global understanding, contributing to a holistic ecosystem view. Thus, we advocate for global ocean observation frameworks to comprehensively monitor GZ populations and their ecological, biogeochemical, and socioeconomic roles. Our findings serve as a crucial step towards understanding the implications of climate change for GZ assemblages in the Baltic Sea, promoting a holistic approach to marine ecosystem management. Associated data has been shared through OBIS: https://doi.org/10.25607/skulof",
-  "datePublished": "2025-04-25",
+  "name": "Jellyfish and Ctenophores Around Gotland in the Baltic Sea—Local Data Contributing to Global Assessments",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Lüskow, Florian"
+      "name": "Lüskow, Florian",
+      "givenName": "Florian",
+      "familyName": "Lüskow",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://edmo.seadatanet.org/report/4980"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-2100-7012",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Neitzel, Philipp"
+      "name": "Neitzel, Philipp",
+      "givenName": "Philipp",
+      "familyName": "Neitzel",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Lawrence, Elizabeth R."
+      "name": "Lawrence, Elizabeth R.",
+      "givenName": "Elizabeth R.",
+      "familyName": "Lawrence",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "UNESCO, Intergovernmental Oceanographic Commission Project Office for IODE",
+          "@id": "https://edmo.seadatanet.org/report/1149"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5304-941X",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Mtwana Nordlund, Lina"
+      "name": "Mtwana Nordlund, Lina",
+      "givenName": "Lina",
+      "familyName": "Mtwana Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
     }
   ],
+  "author": [
+    {
+      "name": "Lüskow, Florian",
+      "givenName": "Florian",
+      "familyName": "Lüskow",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://edmo.seadatanet.org/report/4980"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-2100-7012",
+      "@type": "Person"
+    },
+    {
+      "name": "Neitzel, Philipp",
+      "givenName": "Philipp",
+      "familyName": "Neitzel",
+      "@type": "Person"
+    },
+    {
+      "name": "Lawrence, Elizabeth R.",
+      "givenName": "Elizabeth R.",
+      "familyName": "Lawrence",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "UNESCO, Intergovernmental Oceanographic Commission Project Office for IODE",
+          "@id": "https://edmo.seadatanet.org/report/1149"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5304-941X",
+      "@type": "Person"
+    },
+    {
+      "name": "Mtwana Nordlund, Lina",
+      "givenName": "Lina",
+      "familyName": "Mtwana Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
   "keywords": [
     "Baltic Sea Living Lab"
   ],
-  "license": {
-    "id": "cc-by-4.0"
-  },
+  "dateCreated": "2025-04-25T14:31:25.522205+00:00",
+  "dateModified": "2025-07-15T11:53:25.056304+00:00",
+  "datePublished": "2025-04-25",
+  "contentSize": "2.54 MB",
+  "size": "2.54 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "description": "In this study, we investigate the diversity and spatiotemporal distribution of gelatinous zooplankton (GZ) in the central Baltic Sea (coastal waters of Gotland and adjacent Eastern and Western Gotland Basins), a region characterised by low salinity and ecological sensitivity. Despite the Baltic Sea being the largest brackish water body globally, knowledge about its GZ, specifically, medusae and ctenophores, is limited. Our research synthesises the existing literature, open-access data, and local reports. Three to five GZ species occur within the studied area, with the common jellyfish Aurelia aurita dominating. Peak sightings of A. aurita happen between July and October, whereas the ctenophore Mertensia ovum and scyphozoan Cyanea capillata display sporadic occurrences. We identify notable gaps in understanding GZ phenology and food web impacts due to historical neglect and insufficient monitoring, particularly under low-salinity conditions (between 5 and 8), which restricts species richness. Jellyfish and ctenophores fall under the Essential Ocean Variable (EOV) “Zooplankton Biomass and Diversity” governed by the Global Ocean Observing System, UNESCO-IOC. EOVs are an approach for globally usable data and adhere to Findable, Accessible, Interoperable, and Reusable (FAIR) data principles. Including EOVs in routine collection and reporting would significantly enhance regional and global understanding, contributing to a holistic ecosystem view. Thus, we advocate for global ocean observation frameworks to comprehensively monitor GZ populations and their ecological, biogeochemical, and socioeconomic roles. Our findings serve as a crucial step towards understanding the implications of climate change for GZ assemblages in the Baltic Sea, promoting a holistic approach to marine ecosystem management. Associated data has been shared through OBIS: https://doi.org/10.25607/skulof",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -48,6 +137,21 @@
       }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/jellyfish-and-ctenophores-around-gotland-in-the-baltic-sea-local-data-contributing-to-global-assessments-15282928.json"
+  "url": "https://zenodo.org/records/15282928",
+  "container_title": "Journal of Marine Science and Engineering",
+  "volume": "852",
+  "issue": "13",
+  "additionalType": "Journal article",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

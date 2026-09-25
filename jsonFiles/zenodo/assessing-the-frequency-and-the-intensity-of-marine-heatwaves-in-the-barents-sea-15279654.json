@@ -1,7 +1,7 @@
 {
-  "@type": "CreativeWork",
-  "name": "Assessing the Frequency and the Intensity of Marine Heatwaves in the Barents Sea",
-  "url": "https://zenodo.org/record/15279654",
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/assessing-the-frequency-and-the-intensity-of-marine-heatwaves-in-the-barents-sea-15279654.json",
+  "@type": "PresentationDigitalDocument",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,29 +9,128 @@
     "url": "https://doi.org/10.5281/zenodo.15279654",
     "value": "10.5281/zenodo.15279654"
   },
-  "description": "Presentation on \"Assessing the Frequency and the Intensity of Marine Heatwaves in the Barents Sea\" delivered at the ObsSea4Clim - BioEcoOcean Clustering Event I, that took place on 11-12 March 2025 in Sopot, Poland. The presentation was delivered by Ajith Joseph Kochuparampil (NERCI), presenting work done in ObsSea4Clim project. This presentation was part of Session 3: \"Marine heatwaves (MHW) in space and time: understanding thermal anomalies at ecologically relevant scales\".&nbsp;",
-  "datePublished": "2025-04-25",
+  "name": "Assessing the Frequency and the Intensity of Marine Heatwaves in the Barents Sea",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Joseph Kochuparampil, Ajith"
+      "name": "Joseph Kochuparampil, Ajith",
+      "givenName": "Ajith",
+      "familyName": "Joseph Kochuparampil",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Nansen Environmental Research Centre (India)"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-8797-4937",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Surendran, Saradhy"
+      "name": "Surendran, Saradhy",
+      "givenName": "Saradhy",
+      "familyName": "Surendran",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Nansen Environmental Research Centre India",
+          "@id": "https://ror.org/041yajy32"
+        }
+      ],
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Chatterjee, Sourav"
+      "name": "Chatterjee, Sourav",
+      "givenName": "Sourav",
+      "familyName": "Chatterjee",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "National Centre for Polar and Ocean Research",
+          "@id": "https://ror.org/05af1fm66"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-4003-4371",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "P. Raj, Roshin"
+      "name": "P. Raj, Roshin",
+      "givenName": "Roshin",
+      "familyName": "P. Raj",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Nansen Environmental and Remote Sensing Center",
+          "@id": "https://ror.org/05ey0h058"
+        }
+      ],
+      "@type": "Person"
     }
   ],
-  "license": {
-    "id": "cc-by-4.0"
+  "author": [
+    {
+      "name": "Joseph Kochuparampil, Ajith",
+      "givenName": "Ajith",
+      "familyName": "Joseph Kochuparampil",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Nansen Environmental Research Centre (India)"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-8797-4937",
+      "@type": "Person"
+    },
+    {
+      "name": "Surendran, Saradhy",
+      "givenName": "Saradhy",
+      "familyName": "Surendran",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Nansen Environmental Research Centre India",
+          "@id": "https://ror.org/041yajy32"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Chatterjee, Sourav",
+      "givenName": "Sourav",
+      "familyName": "Chatterjee",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "National Centre for Polar and Ocean Research",
+          "@id": "https://ror.org/05af1fm66"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-4003-4371",
+      "@type": "Person"
+    },
+    {
+      "name": "P. Raj, Roshin",
+      "givenName": "Roshin",
+      "familyName": "P. Raj",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Nansen Environmental and Remote Sensing Center",
+          "@id": "https://ror.org/05ey0h058"
+        }
+      ],
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
   },
+  "dateCreated": "2025-04-25T07:29:25.306324+00:00",
+  "dateModified": "2025-04-25T07:29:25.576702+00:00",
+  "datePublished": "2025-04-25",
+  "contentSize": "704.66 KB",
+  "size": "704.66 KB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "description": "Presentation on \"Assessing the Frequency and the Intensity of Marine Heatwaves in the Barents Sea\" delivered at the ObsSea4Clim - BioEcoOcean Clustering Event I, that took place on 11-12 March 2025 in Sopot, Poland. The presentation was delivered by Ajith Joseph Kochuparampil (NERCI), presenting work done in ObsSea4Clim project. This presentation was part of Session 3: \"Marine heatwaves (MHW) in space and time: understanding thermal anomalies at ecologically relevant scales\".",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -43,8 +142,33 @@
         "legalName": "European Commission",
         "url": "https://commission.europa.eu/index_en"
       }
+    },
+    {
+      "funder": {
+        "@type": "Organization",
+        "@id": "00k4n6c32",
+        "name": "European Commission"
+      },
+      "name": "Ocean observations and indicators for climate and assessments. (101136548)",
+      "identifier": "00k4n6c32::101136548",
+      "url": {
+        "identifier": "https://cordis.europa.eu/projects/101136548",
+        "scheme": "url"
+      }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/assessing-the-frequency-and-the-intensity-of-marine-heatwaves-in-the-barents-sea-15279654.json"
+  "url": "https://zenodo.org/records/15279654",
+  "additionalType": "Presentation",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

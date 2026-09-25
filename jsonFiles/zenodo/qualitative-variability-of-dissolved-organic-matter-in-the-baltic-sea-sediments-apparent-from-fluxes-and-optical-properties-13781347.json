@@ -1,7 +1,7 @@
 {
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/qualitative-variability-of-dissolved-organic-matter-in-the-baltic-sea-sediments-apparent-from-fluxes-and-optical-properties-13781347.json",
   "@type": "CreativeWork",
-  "name": "Qualitative variability of dissolved organic matter in the Baltic Sea sediments apparent from fluxes and optical properties",
-  "url": "https://zenodo.org/record/13781347",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,44 +9,246 @@
     "url": "https://doi.org/10.3389/fmars.2024.1433199",
     "value": "10.3389/fmars.2024.1433199"
   },
-  "datePublished": "2024-09-17",
+  "name": "Qualitative variability of dissolved organic matter in the Baltic Sea sediments apparent from fluxes and optical properties",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Loginova N., Alexandra"
+      "name": "Loginova N., Alexandra",
+      "givenName": "Alexandra",
+      "familyName": "Loginova N.",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Wunsch, Urban J."
+      "name": "Wunsch, Urban J.",
+      "givenName": "Urban J.",
+      "familyName": "Wunsch",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Technical University of Denmark",
+          "@id": "https://ror.org/04qtj9h94"
+        }
+      ],
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Zablocka, Monika"
+      "name": "Zablocka, Monika",
+      "givenName": "Monika",
+      "familyName": "Zablocka",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Cherkasheva, Aleksandra"
+      "name": "Cherkasheva, Aleksandra",
+      "givenName": "Aleksandra",
+      "familyName": "Cherkasheva",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Szymczycha, Beata"
+      "name": "Szymczycha, Beata",
+      "givenName": "Beata",
+      "familyName": "Szymczycha",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Kulinski, Karol"
+      "name": "Kulinski, Karol",
+      "givenName": "Karol",
+      "familyName": "Kulinski",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Winogradow, Aleksandra"
+      "name": "Winogradow, Aleksandra",
+      "givenName": "Aleksandra",
+      "familyName": "Winogradow",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Kowalczuk, Piotr"
+      "name": "Kowalczuk, Piotr",
+      "givenName": "Piotr",
+      "familyName": "Kowalczuk",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@type": "Person"
     }
   ],
-  "license": {
-    "id": "cc-by-4.0"
+  "author": [
+    {
+      "name": "Loginova N., Alexandra",
+      "givenName": "Alexandra",
+      "familyName": "Loginova N.",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Wunsch, Urban J.",
+      "givenName": "Urban J.",
+      "familyName": "Wunsch",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Technical University of Denmark",
+          "@id": "https://ror.org/04qtj9h94"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Zablocka, Monika",
+      "givenName": "Monika",
+      "familyName": "Zablocka",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Cherkasheva, Aleksandra",
+      "givenName": "Aleksandra",
+      "familyName": "Cherkasheva",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Szymczycha, Beata",
+      "givenName": "Beata",
+      "familyName": "Szymczycha",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Kulinski, Karol",
+      "givenName": "Karol",
+      "familyName": "Kulinski",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Winogradow, Aleksandra",
+      "givenName": "Aleksandra",
+      "familyName": "Winogradow",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Kowalczuk, Piotr",
+      "givenName": "Piotr",
+      "familyName": "Kowalczuk",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Frontiers"
   },
+  "dateCreated": "2024-09-18T10:42:06.368316+00:00",
+  "dateModified": "2024-09-18T10:42:06.587070+00:00",
+  "datePublished": "2024-09-17",
+  "temporal": [
+    "2024-09-17"
+  ],
+  "contentSize": "2.42 MB",
+  "size": "2.42 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "url": "https://zenodo.org/records/13781347",
+  "additionalType": "Publication",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -59,7 +261,5 @@
         "url": "https://commission.europa.eu/index_en"
       }
     }
-  ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/qualitative-variability-of-dissolved-organic-matter-in-the-baltic-sea-sediments-apparent-from-fluxes-and-optical-properties-13781347.json"
+  ]
 }

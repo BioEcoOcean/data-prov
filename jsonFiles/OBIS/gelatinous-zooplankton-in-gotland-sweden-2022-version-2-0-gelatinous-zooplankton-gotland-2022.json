@@ -1,8 +1,54 @@
 {
   "@type": "Dataset",
-  "name": "Gelatinous Zooplankton in Gotland, Sweden, 2022 - Version 2.2",
-  "description": "fix duplicate and blank \"organization\" creator",
+  "name": "Gelatinous Zooplankton in Gotland, Sweden, 2022",
+  "description": "Video footage from seagrass meadows around Gotland, originally collected in 2022 to study seagrass-associated fish, was reanalyzed to estimate jellyfish (Aurelia aurita) abundance. Footage was obtained at six sites using a GoPro HERO 5 Black camera towed horizontally over seagrass-dominated soft bottoms at depths of 2.1–6.9 m. The camera, positioned 80–100 cm above the seafloor, captured transects 55 m in length during morning and evening sessions. Sixty transects were recorded, 10 transects per site, with video durations averaging 4 minutes. Jellyfish abundance was estimated by calculating the volume of water filmed, modeled as a triangular prism based on the camera’s field of view and orientation (perpendicular or tilted 70°). Additional measurements included surface and bottom temperatures, as well as wind speed and direction, retrieved from external sources. Full calculation details are provided in the associated paper, Luskow et al 2025.",
   "url": "https://ipt.obis.org/bioecoocean/resource?r=gelatinous-zooplankton-gotland_2022",
+  "additionalType": "Dataset",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "OBIS",
+    "url": "https://ipt.obis.org/bioecoocean/"
+  },
+  "version": "2.2",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Lüskow, Florian",
+      "givenName": "Florian",
+      "familyName": "Lüskow",
+      "@id": "https://orcid.org/0000-0002-2100-7012",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Uppsala University"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Lawrence, Elizabeth",
+      "givenName": "Elizabeth",
+      "familyName": "Lawrence",
+      "@id": "https://orcid.org/0000-0002-5304-941X",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "UNESCO-IOC Project Office for IODE"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Nordlund, Lina Mtwana",
+      "givenName": "Lina Mtwana",
+      "familyName": "Nordlund",
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Uppsala University"
+      }
+    }
+  ],
+  "keywords": [
+    "Observation"
+  ],
+  "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
   "identifier": {
     "@type": "PropertyValue",
     "description": "OBIS IPT resource",
@@ -23,6 +69,13 @@
       "name": "Darwin Core Archive",
       "encodingFormat": "application/zip",
       "contentUrl": "https://ipt.obis.org/bioecoocean/archive.do?r=gelatinous-zooplankton-gotland_2022"
+    }
+  ],
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
     }
   ],
   "funding": [

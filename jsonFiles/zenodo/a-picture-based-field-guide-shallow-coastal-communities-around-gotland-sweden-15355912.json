@@ -1,7 +1,7 @@
 {
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/a-picture-based-field-guide-shallow-coastal-communities-around-gotland-sweden-15355912.json",
   "@type": "CreativeWork",
-  "name": "A picture-based field guide. Shallow coastal communities around Gotland, Sweden.",
-  "url": "https://zenodo.org/record/15355912",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,28 +9,109 @@
     "url": "https://doi.org/10.5281/zenodo.15355912",
     "value": "10.5281/zenodo.15355912"
   },
-  "description": "The shallow coastal environments around Gotland: a vital link between nature and people The island of Gotland lies in the heart of the Baltic Sea, surrounded by shallow coastal waters that are both ecologically rich and deeply connected to local culture and livelihoods. These nearshore environments, with their exposed rocky areas, as well as calm, sheltered bays, underwater meadows, and sandy seafloors, are essential to a wide range of plants, animals, and human activities. For centuries, these ecosystems have provided food, recreation, and natural beauty, and they continue to do so today.",
-  "datePublished": "2025-06-12",
+  "name": "A picture-based field guide. Shallow coastal communities around Gotland, Sweden.",
   "creator": [
     {
-      "@type": "Person",
-      "name": "D'Agata, Chiara"
+      "name": "D'Agata, Chiara",
+      "givenName": "Chiara",
+      "familyName": "D'Agata",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0009-0000-8754-1747",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Lüskow, Florian"
+      "name": "Lüskow, Florian",
+      "givenName": "Florian",
+      "familyName": "Lüskow",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of British Columbia",
+          "@id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-2100-7012",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Mtwana Nordlund, Lina"
+      "name": "Mtwana Nordlund, Lina",
+      "givenName": "Lina",
+      "familyName": "Mtwana Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
     }
   ],
+  "author": [
+    {
+      "name": "D'Agata, Chiara",
+      "givenName": "Chiara",
+      "familyName": "D'Agata",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0009-0000-8754-1747",
+      "@type": "Person"
+    },
+    {
+      "name": "Lüskow, Florian",
+      "givenName": "Florian",
+      "familyName": "Lüskow",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of British Columbia",
+          "@id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-2100-7012",
+      "@type": "Person"
+    },
+    {
+      "name": "Mtwana Nordlund, Lina",
+      "givenName": "Lina",
+      "familyName": "Mtwana Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
   "keywords": [
     "Baltic Sea Living Lab"
   ],
-  "license": {
-    "id": "cc-by-4.0"
-  },
+  "dateCreated": "2025-06-13T07:34:56.061480+00:00",
+  "dateModified": "2025-06-13T07:37:47.858842+00:00",
+  "datePublished": "2025-06-12",
+  "contentSize": "4.23 MB",
+  "size": "4.23 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "description": "The shallow coastal environments around Gotland: a vital link between nature and people The island of Gotland lies in the heart of the Baltic Sea, surrounded by shallow coastal waters that are both ecologically rich and deeply connected to local culture and livelihoods. These nearshore environments, with their exposed rocky areas, as well as calm, sheltered bays, underwater meadows, and sandy seafloors, are essential to a wide range of plants, animals, and human activities. For centuries, these ecosystems have provided food, recreation, and natural beauty, and they continue to do so today.",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -44,6 +125,18 @@
       }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/a-picture-based-field-guide-shallow-coastal-communities-around-gotland-sweden-15355912.json"
+  "url": "https://zenodo.org/records/15355912",
+  "additionalType": "Other",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

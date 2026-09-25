@@ -1,7 +1,7 @@
 {
-  "@type": "CreativeWork",
-  "name": "Sequestration by the biological carbon pump: Do we really know what we are talking about?",
-  "url": "https://zenodo.org/record/16911238",
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/sequestration-by-the-biological-carbon-pump-do-we-really-know-what-we-are-talking-about-16911238.json",
+  "@type": "ScholarlyArticle",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,19 +9,50 @@
     "url": "https://doi.org/10.1002/lol2.70053",
     "value": "10.1002/lol2.70053"
   },
-  "datePublished": "2025-08-20",
+  "name": "Sequestration by the biological carbon pump: Do we really know what we are talking about?",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Visser, Andre W"
+      "name": "Visser, Andre W",
+      "givenName": "Andre W",
+      "familyName": "Visser",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Danmarks Tekniske Universitetet",
+          "@id": "https://edmo.seadatanet.org/report/5716"
+        }
+      ],
+      "@type": "Person"
     }
   ],
+  "author": [
+    {
+      "name": "Visser, Andre W",
+      "givenName": "Andre W",
+      "familyName": "Visser",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Danmarks Tekniske Universitetet",
+          "@id": "https://edmo.seadatanet.org/report/5716"
+        }
+      ],
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
   "keywords": [
     "S-Q WP6"
   ],
-  "license": {
-    "id": "cc-by-4.0"
-  },
+  "dateCreated": "2025-08-21T10:22:27.478045+00:00",
+  "dateModified": "2025-08-28T08:56:52.409487+00:00",
+  "datePublished": "2025-08-20",
+  "contentSize": "523.75 KB",
+  "size": "523.75 KB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -33,8 +64,47 @@
         "legalName": "European Commission",
         "url": "https://commission.europa.eu/index_en"
       }
+    },
+    {
+      "funder": {
+        "@type": "Organization",
+        "@id": "00k4n6c32",
+        "name": "European Commission"
+      },
+      "name": "Blue Carbon production, export and sequestration in emerging polar ecosystems (101136480)",
+      "identifier": "00k4n6c32::101136480",
+      "url": {
+        "identifier": "https://cordis.europa.eu/projects/101136480",
+        "scheme": "url"
+      }
+    },
+    {
+      "funder": {
+        "@type": "Organization",
+        "@id": "00k4n6c32",
+        "name": "European Commission"
+      },
+      "name": "Ocean-ICU Improving Carbon Understanding (101083922)",
+      "identifier": "00k4n6c32::101083922",
+      "url": {
+        "identifier": "https://cordis.europa.eu/projects/101083922",
+        "scheme": "url"
+      }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/sequestration-by-the-biological-carbon-pump-do-we-really-know-what-we-are-talking-about-16911238.json"
+  "url": "https://zenodo.org/records/16911238",
+  "container_title": "Linmology and Oceanography Letters",
+  "additionalType": "Journal article",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

@@ -1,20 +1,20 @@
 {
   "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/the-role-of-earth-observations-in-developing-a-pilot-demonstration-of-the-marine-organic-carbon-atlas-for-the-arctic-ocean-16928353.json",
-  "@type": "PresentationDigitalDocument",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/linking-in-situ-bio-optical-measurements-with-ocean-colour-remote-sensing-for-marine-biodiversity-assessment-in-the-european-arctic-22952584.json",
+  "@type": "CreativeWork",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
     "propertyID": "https://registry.identifiers.org/registry/doi",
-    "url": "https://doi.org/10.5281/zenodo.16928353",
-    "value": "10.5281/zenodo.16928353"
+    "url": "https://doi.org/10.5281/zenodo.22952584",
+    "value": "10.5281/zenodo.22952584"
   },
-  "name": "The Role Of Earth Observations in Developing a Pilot Demonstration of the Marine Organic Carbon Atlas for the Arctic Ocean",
+  "name": "Linking In Situ Bio-Optical Measurements with Ocean Colour Remote Sensing for Marine Biodiversity Assessment in the European Arctic",
   "creator": [
     {
-      "name": "Palacz, Artur",
-      "givenName": "Artur",
-      "familyName": "Palacz",
+      "name": "Draganska-Deja, Katarzyna",
+      "givenName": "Katarzyna",
+      "familyName": "Draganska-Deja",
       "affiliation": [
         {
           "@type": "Organization",
@@ -22,21 +22,7 @@
           "@id": "https://ror.org/03mp6cc45"
         }
       ],
-      "@id": "https://orcid.org/0000-0002-1634-7880",
-      "@type": "Person"
-    },
-    {
-      "name": "Cherkasheva, Aleksandra",
-      "givenName": "Aleksandra",
-      "familyName": "Cherkasheva",
-      "affiliation": [
-        {
-          "@type": "Organization",
-          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
-          "@id": "https://ror.org/03mp6cc45"
-        }
-      ],
-      "@id": "https://orcid.org/0000-0003-0717-361X",
+      "@id": "https://orcid.org/0000-0002-5869-3167",
       "@type": "Person"
     },
     {
@@ -54,37 +40,35 @@
       "@type": "Person"
     },
     {
-      "name": "Stoń-Egiert, Joanna",
-      "givenName": "Joanna",
-      "familyName": "Stoń-Egiert",
+      "name": "Lis, Dominik",
+      "givenName": "Dominik",
+      "familyName": "Lis",
       "affiliation": [
         {
           "@type": "Organization",
-          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
-          "@id": "https://ror.org/03mp6cc45"
+          "name": "Institute of Oceanology, Polish Academy of Sciences",
+          "@id": "https://edmo.seadatanet.org/report/195"
         }
       ],
-      "@id": "https://orcid.org/0000-0002-4274-8979",
       "@type": "Person"
     },
     {
-      "name": "Szeligowska, Marlena",
-      "givenName": "Marlena",
-      "familyName": "Szeligowska",
+      "name": "Kowalczuk, Piotr",
+      "givenName": "Piotr",
+      "familyName": "Kowalczuk",
       "affiliation": [
         {
           "@type": "Organization",
-          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
-          "@id": "https://ror.org/03mp6cc45"
+          "name": "Institute of Oceanology Polish Academy of Sciences"
         }
       ],
-      "@id": "https://orcid.org/0000-0002-4592-8537",
+      "@id": "https://orcid.org/0000-0001-6016-0610",
       "@type": "Person"
     },
     {
-      "name": "Szczepanek, Marta",
-      "givenName": "Marta",
-      "familyName": "Szczepanek",
+      "name": "Meler, Justyna",
+      "givenName": "Justyna",
+      "familyName": "Meler",
       "affiliation": [
         {
           "@type": "Organization",
@@ -92,13 +76,26 @@
           "@id": "https://ror.org/03mp6cc45"
         }
       ],
-      "@id": "https://orcid.org/0000-0002-9225-554X",
+      "@id": "https://orcid.org/0000-0002-7112-5041",
       "@type": "Person"
     },
     {
-      "name": "Telszewski, Maciej",
-      "givenName": "Maciej",
-      "familyName": "Telszewski",
+      "name": "Cherkasheva, Aleksandra",
+      "givenName": "Aleksandra",
+      "familyName": "Cherkasheva",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Institute of Oceanology, Polish Academy of Sciences",
+          "@id": "https://edmo.seadatanet.org/report/195"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Dąbrowska (Kubiszyn), Anna",
+      "givenName": "Anna",
+      "familyName": "Dąbrowska (Kubiszyn)",
       "affiliation": [
         {
           "@type": "Organization",
@@ -106,15 +103,42 @@
           "@id": "https://ror.org/03mp6cc45"
         }
       ],
-      "@id": "https://orcid.org/0000-0002-9139-226X",
+      "@id": "https://orcid.org/0000-0002-0911-3082",
+      "@type": "Person"
+    },
+    {
+      "name": "Zabłocka, Monika",
+      "givenName": "Monika",
+      "familyName": "Zabłocka",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Institute of Oceanology Polish Academy of Sciences"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1803-7042",
+      "@type": "Person"
+    },
+    {
+      "name": "Palacz, Artur",
+      "givenName": "Artur",
+      "familyName": "Palacz",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1634-7880",
       "@type": "Person"
     }
   ],
   "author": [
     {
-      "name": "Palacz, Artur",
-      "givenName": "Artur",
-      "familyName": "Palacz",
+      "name": "Draganska-Deja, Katarzyna",
+      "givenName": "Katarzyna",
+      "familyName": "Draganska-Deja",
       "affiliation": [
         {
           "@type": "Organization",
@@ -122,21 +146,7 @@
           "@id": "https://ror.org/03mp6cc45"
         }
       ],
-      "@id": "https://orcid.org/0000-0002-1634-7880",
-      "@type": "Person"
-    },
-    {
-      "name": "Cherkasheva, Aleksandra",
-      "givenName": "Aleksandra",
-      "familyName": "Cherkasheva",
-      "affiliation": [
-        {
-          "@type": "Organization",
-          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
-          "@id": "https://ror.org/03mp6cc45"
-        }
-      ],
-      "@id": "https://orcid.org/0000-0003-0717-361X",
+      "@id": "https://orcid.org/0000-0002-5869-3167",
       "@type": "Person"
     },
     {
@@ -154,37 +164,35 @@
       "@type": "Person"
     },
     {
-      "name": "Stoń-Egiert, Joanna",
-      "givenName": "Joanna",
-      "familyName": "Stoń-Egiert",
+      "name": "Lis, Dominik",
+      "givenName": "Dominik",
+      "familyName": "Lis",
       "affiliation": [
         {
           "@type": "Organization",
-          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
-          "@id": "https://ror.org/03mp6cc45"
+          "name": "Institute of Oceanology, Polish Academy of Sciences",
+          "@id": "https://edmo.seadatanet.org/report/195"
         }
       ],
-      "@id": "https://orcid.org/0000-0002-4274-8979",
       "@type": "Person"
     },
     {
-      "name": "Szeligowska, Marlena",
-      "givenName": "Marlena",
-      "familyName": "Szeligowska",
+      "name": "Kowalczuk, Piotr",
+      "givenName": "Piotr",
+      "familyName": "Kowalczuk",
       "affiliation": [
         {
           "@type": "Organization",
-          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
-          "@id": "https://ror.org/03mp6cc45"
+          "name": "Institute of Oceanology Polish Academy of Sciences"
         }
       ],
-      "@id": "https://orcid.org/0000-0002-4592-8537",
+      "@id": "https://orcid.org/0000-0001-6016-0610",
       "@type": "Person"
     },
     {
-      "name": "Szczepanek, Marta",
-      "givenName": "Marta",
-      "familyName": "Szczepanek",
+      "name": "Meler, Justyna",
+      "givenName": "Justyna",
+      "familyName": "Meler",
       "affiliation": [
         {
           "@type": "Organization",
@@ -192,13 +200,26 @@
           "@id": "https://ror.org/03mp6cc45"
         }
       ],
-      "@id": "https://orcid.org/0000-0002-9225-554X",
+      "@id": "https://orcid.org/0000-0002-7112-5041",
       "@type": "Person"
     },
     {
-      "name": "Telszewski, Maciej",
-      "givenName": "Maciej",
-      "familyName": "Telszewski",
+      "name": "Cherkasheva, Aleksandra",
+      "givenName": "Aleksandra",
+      "familyName": "Cherkasheva",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Institute of Oceanology, Polish Academy of Sciences",
+          "@id": "https://edmo.seadatanet.org/report/195"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Dąbrowska (Kubiszyn), Anna",
+      "givenName": "Anna",
+      "familyName": "Dąbrowska (Kubiszyn)",
       "affiliation": [
         {
           "@type": "Organization",
@@ -206,7 +227,34 @@
           "@id": "https://ror.org/03mp6cc45"
         }
       ],
-      "@id": "https://orcid.org/0000-0002-9139-226X",
+      "@id": "https://orcid.org/0000-0002-0911-3082",
+      "@type": "Person"
+    },
+    {
+      "name": "Zabłocka, Monika",
+      "givenName": "Monika",
+      "familyName": "Zabłocka",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Institute of Oceanology Polish Academy of Sciences"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1803-7042",
+      "@type": "Person"
+    },
+    {
+      "name": "Palacz, Artur",
+      "givenName": "Artur",
+      "familyName": "Palacz",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1634-7880",
       "@type": "Person"
     }
   ],
@@ -214,14 +262,11 @@
     "@type": "Organization",
     "name": "Zenodo"
   },
-  "keywords": [
-    "Marine Organic Carbon Atlas"
-  ],
-  "dateCreated": "2025-08-22T15:01:04.139108+00:00",
-  "dateModified": "2025-08-22T15:39:37.023773+00:00",
-  "datePublished": "2025-06-25",
-  "contentSize": "4.06 MB",
-  "size": "4.06 MB",
+  "dateCreated": "2026-09-25T12:43:58.864526+00:00",
+  "dateModified": "2026-09-25T13:47:25.802196+00:00",
+  "datePublished": "2026-09-25",
+  "contentSize": "3.28 MB",
+  "size": "3.28 MB",
   "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
   "funding": [
     {
@@ -249,8 +294,8 @@
       }
     }
   ],
-  "url": "https://zenodo.org/records/16928353",
-  "additionalType": "Presentation",
+  "url": "https://zenodo.org/records/22952584",
+  "additionalType": "Poster",
   "includedInDataCatalog": {
     "@type": "DataCatalog",
     "name": "Zenodo",

@@ -1,7 +1,7 @@
 {
-  "@type": "CreativeWork",
-  "name": "Advancing marine conservation through the Marine Organic Carbon Atlas: addressing metazoan roles in ocean carbon sequestration",
-  "url": "https://zenodo.org/record/13967583",
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/advancing-marine-conservation-through-the-marine-organic-carbon-atlas-addressing-metazoan-roles-in-ocean-carbon-sequestration-13967583.json",
+  "@type": "PresentationDigitalDocument",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,39 +9,174 @@
     "url": "https://doi.org/10.5281/zenodo.13967583",
     "value": "10.5281/zenodo.13967583"
   },
-  "description": "Marine conservation efforts targeting metazoans, including plankton, are crucial for maintaining marine ecosystem functions and services, such as ocean carbon sequestration. Vertical migration and trophic interactions involving metazoans significantly contribute to ocean carbon sequestration, with mesopelagic fishes and zooplankton playing key roles. Proposed expansions in fishing, targeting both mesopelagic fishes and krill, raise concerns about ecosystem impacts. However, gaps in data persist regarding how changes in metazoan abundance and biodiversity will affect carbon sequestration. To address this, we present the concept and early implementation steps of a Marine Organic Carbon Atlas which aims to synthesize data and develop ecosystem models for selected Essential Ocean Variables (EOVs) like phyto- and zooplankton, and fish abundance and diversity. Incorporating habitat-forming variables like seagrass and macroalgae highlights their role in carbon sequestration. The atlas pilot demonstration, tested against modeling and science advisory needs, in particular those of integrated ecosystem assessments, aims to inform science-based conservation decisions, such as regulating emerging fishing of krill and mesopelagic fish to ensure ecosystem health and sustainable harvesting levels.",
-  "datePublished": "2024-10-22",
+  "name": "Advancing marine conservation through the Marine Organic Carbon Atlas: addressing metazoan roles in ocean carbon sequestration",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Palacz, Artur P."
+      "name": "Palacz, Artur P.",
+      "givenName": "Artur P.",
+      "familyName": "Palacz",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1634-7880",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Grigoratou, Maria"
+      "name": "Grigoratou, Maria",
+      "givenName": "Maria",
+      "familyName": "Grigoratou",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Mercator Ocean (France)",
+          "@id": "https://ror.org/02754py23"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-0484-1408",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Koski, Marja"
+      "name": "Koski, Marja",
+      "givenName": "Marja",
+      "familyName": "Koski",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Technical University of Denmark"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1860-9768",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Nordlund, Lina Mtwana"
+      "name": "Nordlund, Lina Mtwana",
+      "givenName": "Lina Mtwana",
+      "familyName": "Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Visser, Andre"
+      "name": "Visser, Andre",
+      "givenName": "Andre",
+      "familyName": "Visser",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Technical University of Denmark",
+          "@id": "https://ror.org/04qtj9h94"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1604-7263",
+      "@type": "Person"
     }
   ],
+  "author": [
+    {
+      "name": "Palacz, Artur P.",
+      "givenName": "Artur P.",
+      "familyName": "Palacz",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1634-7880",
+      "@type": "Person"
+    },
+    {
+      "name": "Grigoratou, Maria",
+      "givenName": "Maria",
+      "familyName": "Grigoratou",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Mercator Ocean (France)",
+          "@id": "https://ror.org/02754py23"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-0484-1408",
+      "@type": "Person"
+    },
+    {
+      "name": "Koski, Marja",
+      "givenName": "Marja",
+      "familyName": "Koski",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Technical University of Denmark"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1860-9768",
+      "@type": "Person"
+    },
+    {
+      "name": "Nordlund, Lina Mtwana",
+      "givenName": "Lina Mtwana",
+      "familyName": "Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
+    },
+    {
+      "name": "Visser, Andre",
+      "givenName": "Andre",
+      "familyName": "Visser",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Technical University of Denmark",
+          "@id": "https://ror.org/04qtj9h94"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1604-7263",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
   "keywords": [
     "carbon sequestration",
     "blue carbon",
     "Marine Organic Carbon Atlas",
     "krill"
   ],
-  "license": {
-    "id": "cc-by-4.0"
+  "dateCreated": "2024-10-21T23:14:17.528382+00:00",
+  "dateModified": "2024-12-04T12:42:34.422018+00:00",
+  "datePublished": "2024-10-22",
+  "temporal": [
+    "2024-10-18"
+  ],
+  "inLanguage": {
+    "alternateName": "eng",
+    "@type": "Language",
+    "name": "English"
   },
+  "contentSize": "3.49 MB",
+  "size": "3.49 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "description": "Marine conservation efforts targeting metazoans, including plankton, are crucial for maintaining marine ecosystem functions and services, such as ocean carbon sequestration. Vertical migration and trophic interactions involving metazoans significantly contribute to ocean carbon sequestration, with mesopelagic fishes and zooplankton playing key roles. Proposed expansions in fishing, targeting both mesopelagic fishes and krill, raise concerns about ecosystem impacts. However, gaps in data persist regarding how changes in metazoan abundance and biodiversity will affect carbon sequestration. To address this, we present the concept and early implementation steps of a Marine Organic Carbon Atlas which aims to synthesize data and develop ecosystem models for selected Essential Ocean Variables (EOVs) like phyto- and zooplankton, and fish abundance and diversity. Incorporating habitat-forming variables like seagrass and macroalgae highlights their role in carbon sequestration. The atlas pilot demonstration, tested against modeling and science advisory needs, in particular those of integrated ecosystem assessments, aims to inform science-based conservation decisions, such as regulating emerging fishing of krill and mesopelagic fish to ensure ecosystem health and sustainable harvesting levels.",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -55,6 +190,18 @@
       }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/advancing-marine-conservation-through-the-marine-organic-carbon-atlas-addressing-metazoan-roles-in-ocean-carbon-sequestration-13967583.json"
+  "url": "https://zenodo.org/records/13967583",
+  "additionalType": "Presentation",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

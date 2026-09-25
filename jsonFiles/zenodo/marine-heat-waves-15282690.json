@@ -1,7 +1,7 @@
 {
-  "@type": "CreativeWork",
-  "name": "Marine Heat Waves",
-  "url": "https://zenodo.org/record/15282690",
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/marine-heat-waves-15282690.json",
+  "@type": "PresentationDigitalDocument",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,16 +9,49 @@
     "url": "https://doi.org/10.5281/zenodo.15282690",
     "value": "10.5281/zenodo.15282690"
   },
-  "datePublished": "2025-04-25",
+  "name": "Marine Heat Waves",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Lehodey, Patrick"
+      "name": "Lehodey, Patrick",
+      "givenName": "Patrick",
+      "familyName": "Lehodey",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Mercator Ocean",
+          "@id": "https://edmo.seadatanet.org/report/1524"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-2753-4796",
+      "@type": "Person"
     }
   ],
-  "license": {
-    "id": "cc-by-4.0"
+  "author": [
+    {
+      "name": "Lehodey, Patrick",
+      "givenName": "Patrick",
+      "familyName": "Lehodey",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Mercator Ocean",
+          "@id": "https://edmo.seadatanet.org/report/1524"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-2753-4796",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
   },
+  "dateCreated": "2025-04-25T13:48:00.063255+00:00",
+  "dateModified": "2025-08-28T09:48:16.670276+00:00",
+  "datePublished": "2025-04-25",
+  "contentSize": "1.73 MB",
+  "size": "1.73 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -32,6 +65,18 @@
       }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/marine-heat-waves-15282690.json"
+  "url": "https://zenodo.org/records/15282690",
+  "additionalType": "Presentation",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

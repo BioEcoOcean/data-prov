@@ -2,6 +2,12 @@
   "@type": "Dataset",
   "name": "Greenland Sea primary production for 2021-2022 from oxygen evolution",
   "url": "https://doi.org/10.1594/PANGAEA.965985",
+  "additionalType": "Dataset",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "PANGAEA",
+    "url": "https://www.pangaea.de/"
+  },
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",

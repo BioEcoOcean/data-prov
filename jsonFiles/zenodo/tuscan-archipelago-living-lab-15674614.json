@@ -1,7 +1,7 @@
 {
-  "@type": "CreativeWork",
-  "name": "Tuscan Archipelago Living Lab",
-  "url": "https://zenodo.org/record/15674614",
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/tuscan-archipelago-living-lab-15674614.json",
+  "@type": "PresentationDigitalDocument",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,39 +9,188 @@
     "url": "https://doi.org/10.5281/zenodo.15674614",
     "value": "10.5281/zenodo.15674614"
   },
-  "datePublished": "2025-03-10",
+  "name": "Tuscan Archipelago Living Lab",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Rindi, Luca"
+      "name": "Rindi, Luca",
+      "givenName": "Luca",
+      "familyName": "Rindi",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Pisa",
+          "@id": "https://ror.org/03ad39j10"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-2279-4214",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Mintrone, Caterina"
+      "name": "Mintrone, Caterina",
+      "givenName": "Caterina",
+      "familyName": "Mintrone",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Pisa",
+          "@id": "https://ror.org/03ad39j10"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-8801-0067",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "McGrath, Alexander"
+      "name": "McGrath, Alexander",
+      "givenName": "Alexander",
+      "familyName": "McGrath",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Pisa",
+          "@id": "https://ror.org/03ad39j10"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-9237-6539",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Bertocci, Iacopo"
+      "name": "Bertocci, Iacopo",
+      "givenName": "Iacopo",
+      "familyName": "Bertocci",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Pisa"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1519-1677",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Olatoye, Dolapo Salim"
+      "name": "Olatoye, Dolapo Salim",
+      "givenName": "Dolapo Salim",
+      "familyName": "Olatoye",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Pisa",
+          "@id": "https://ror.org/03ad39j10"
+        }
+      ],
+      "@id": "https://orcid.org/0009-0005-6193-336X",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Benedetti-Cecchi, Lisandro"
+      "name": "Benedetti-Cecchi, Lisandro",
+      "givenName": "Lisandro",
+      "familyName": "Benedetti-Cecchi",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Pisa"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-5244-5202",
+      "@type": "Person"
     }
   ],
+  "author": [
+    {
+      "name": "Rindi, Luca",
+      "givenName": "Luca",
+      "familyName": "Rindi",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Pisa",
+          "@id": "https://ror.org/03ad39j10"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-2279-4214",
+      "@type": "Person"
+    },
+    {
+      "name": "Mintrone, Caterina",
+      "givenName": "Caterina",
+      "familyName": "Mintrone",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Pisa",
+          "@id": "https://ror.org/03ad39j10"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-8801-0067",
+      "@type": "Person"
+    },
+    {
+      "name": "McGrath, Alexander",
+      "givenName": "Alexander",
+      "familyName": "McGrath",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Pisa",
+          "@id": "https://ror.org/03ad39j10"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-9237-6539",
+      "@type": "Person"
+    },
+    {
+      "name": "Bertocci, Iacopo",
+      "givenName": "Iacopo",
+      "familyName": "Bertocci",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Pisa"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1519-1677",
+      "@type": "Person"
+    },
+    {
+      "name": "Olatoye, Dolapo Salim",
+      "givenName": "Dolapo Salim",
+      "familyName": "Olatoye",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Pisa",
+          "@id": "https://ror.org/03ad39j10"
+        }
+      ],
+      "@id": "https://orcid.org/0009-0005-6193-336X",
+      "@type": "Person"
+    },
+    {
+      "name": "Benedetti-Cecchi, Lisandro",
+      "givenName": "Lisandro",
+      "familyName": "Benedetti-Cecchi",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Pisa"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-5244-5202",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
   "keywords": [
     "Tuscan Archipelago Living Lab"
   ],
-  "license": {
-    "id": "cc-by-4.0"
-  },
+  "dateCreated": "2025-06-16T11:58:58.565730+00:00",
+  "dateModified": "2025-06-16T11:58:58.740201+00:00",
+  "datePublished": "2025-03-10",
+  "contentSize": "3.77 MB",
+  "size": "3.77 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -55,6 +204,18 @@
       }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/tuscan-archipelago-living-lab-15674614.json"
+  "url": "https://zenodo.org/records/15674614",
+  "additionalType": "Presentation",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
-  "@type": "CreativeWork",
-  "name": "Marine Organic Carbon Atlas (MOCA) for the Arctic: contributions from EU HE BioEcoOcean & SEA-Quester",
-  "url": "https://zenodo.org/record/16928709",
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/marine-organic-carbon-atlas-moca-for-the-arctic-contributions-from-eu-he-bioecoocean-sea-quester-16928709.json",
+  "@type": "PresentationDigitalDocument",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,47 +9,248 @@
     "url": "https://doi.org/10.5281/zenodo.16928709",
     "value": "10.5281/zenodo.16928709"
   },
-  "datePublished": "2024-12-12",
+  "name": "Marine Organic Carbon Atlas (MOCA) for the Arctic: contributions from EU HE BioEcoOcean & SEA-Quester",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Palacz, Artur"
+      "name": "Palacz, Artur",
+      "givenName": "Artur",
+      "familyName": "Palacz",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1634-7880",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Cherkasheva, Alexandra"
+      "name": "Cherkasheva, Alexandra",
+      "givenName": "Alexandra",
+      "familyName": "Cherkasheva",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Institute of Oceanology, Polish Academy of Sciences",
+          "@id": "https://edmo.seadatanet.org/report/195"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-0717-361X",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Draganska-Deja, Katarzyna"
+      "name": "Draganska-Deja, Katarzyna",
+      "givenName": "Katarzyna",
+      "familyName": "Draganska-Deja",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5869-3167",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Szczepanek, Marta"
+      "name": "Szczepanek, Marta",
+      "givenName": "Marta",
+      "familyName": "Szczepanek",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-9225-554X",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Szeligowska, Marlena"
+      "name": "Szeligowska, Marlena",
+      "givenName": "Marlena",
+      "familyName": "Szeligowska",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4592-8537",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Kedra, Monika"
+      "name": "Kedra, Monika",
+      "givenName": "Monika",
+      "familyName": "Kedra",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-2223-5850",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Krzymiński, Dominik"
+      "name": "Krzymiński, Dominik",
+      "givenName": "Dominik",
+      "familyName": "Krzymiński",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0009-0001-2678-0960",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "GRIGORATOU, MARIA"
+      "name": "GRIGORATOU, MARIA",
+      "givenName": "MARIA",
+      "familyName": "GRIGORATOU",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "European Polar Board",
+          "@id": "https://edmo.seadatanet.org/report/5859"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-0484-1408",
+      "@type": "Person"
     }
   ],
+  "author": [
+    {
+      "name": "Palacz, Artur",
+      "givenName": "Artur",
+      "familyName": "Palacz",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1634-7880",
+      "@type": "Person"
+    },
+    {
+      "name": "Cherkasheva, Alexandra",
+      "givenName": "Alexandra",
+      "familyName": "Cherkasheva",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Institute of Oceanology, Polish Academy of Sciences",
+          "@id": "https://edmo.seadatanet.org/report/195"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-0717-361X",
+      "@type": "Person"
+    },
+    {
+      "name": "Draganska-Deja, Katarzyna",
+      "givenName": "Katarzyna",
+      "familyName": "Draganska-Deja",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5869-3167",
+      "@type": "Person"
+    },
+    {
+      "name": "Szczepanek, Marta",
+      "givenName": "Marta",
+      "familyName": "Szczepanek",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-9225-554X",
+      "@type": "Person"
+    },
+    {
+      "name": "Szeligowska, Marlena",
+      "givenName": "Marlena",
+      "familyName": "Szeligowska",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4592-8537",
+      "@type": "Person"
+    },
+    {
+      "name": "Kedra, Monika",
+      "givenName": "Monika",
+      "familyName": "Kedra",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-2223-5850",
+      "@type": "Person"
+    },
+    {
+      "name": "Krzymiński, Dominik",
+      "givenName": "Dominik",
+      "familyName": "Krzymiński",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0009-0001-2678-0960",
+      "@type": "Person"
+    },
+    {
+      "name": "GRIGORATOU, MARIA",
+      "givenName": "MARIA",
+      "familyName": "GRIGORATOU",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "European Polar Board",
+          "@id": "https://edmo.seadatanet.org/report/5859"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-0484-1408",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
   "keywords": [
     "Marine Organic Carbon Atlas"
   ],
-  "license": {
-    "id": "cc-by-4.0"
-  },
+  "dateCreated": "2025-08-22T15:52:04.329346+00:00",
+  "dateModified": "2025-08-22T15:52:04.709250+00:00",
+  "datePublished": "2024-12-12",
+  "contentSize": "3.26 MB",
+  "size": "3.26 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -61,8 +262,33 @@
         "legalName": "European Commission",
         "url": "https://commission.europa.eu/index_en"
       }
+    },
+    {
+      "funder": {
+        "@type": "Organization",
+        "@id": "00k4n6c32",
+        "name": "European Commission"
+      },
+      "name": "Blue Carbon production, export and sequestration in emerging polar ecosystems (101136480)",
+      "identifier": "00k4n6c32::101136480",
+      "url": {
+        "identifier": "https://cordis.europa.eu/projects/101136480",
+        "scheme": "url"
+      }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/marine-organic-carbon-atlas-moca-for-the-arctic-contributions-from-eu-he-bioecoocean-sea-quester-16928709.json"
+  "url": "https://zenodo.org/records/16928709",
+  "additionalType": "Presentation",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

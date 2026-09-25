@@ -1,7 +1,7 @@
 {
-  "@type": "CreativeWork",
-  "name": "What are biology and ecosystem Essential Ocean Variables (EOVs) and how can they be used in conservation?",
-  "url": "https://zenodo.org/record/13968019",
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/what-are-biology-and-ecosystem-essential-ocean-variables-eovs-and-how-can-they-be-used-in-conservation-13968019.json",
+  "@type": "PresentationDigitalDocument",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,25 +9,95 @@
     "url": "https://doi.org/10.5281/zenodo.13968019",
     "value": "10.5281/zenodo.13968019"
   },
-  "description": "Imagine if we had some key biology and ecosystem variables that are collected in the same way , and made openly available . Then we would be able to use this comparable data from around the world to advance our understanding of the ocean but also to create products that would be very useful in conservation . For example , distribution maps that could indicate areas in decline but also areas that are recovering or flourishing , or as early warning systems of e.g . invasive species.&nbsp; A global view , in other words adopting a global framework , will also provide insights into similarities among areas to find common solutions and learn from each other .&nbsp; The idea&nbsp; behind the biology and ecosystem Essential Ocean Variables ( EOVs ), is to enable this globally coordinated and comparable approach to observations, data management and delivery of products and services. The EOVs are coordinated by the Global Ocean Observing System, IOC- UNESCO, and everyone is encouraged to take part. We will use the Seagrass cover and composition EOV to illustrate this vision and how collaboration can advance our understanding of the ocean and marine conservation .",
-  "datePublished": "2024-10-22",
+  "name": "What are biology and ecosystem Essential Ocean Variables (EOVs) and how can they be used in conservation?",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Nordlund, Lina Mtwana"
+      "name": "Nordlund, Lina Mtwana",
+      "givenName": "Lina Mtwana",
+      "familyName": "Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Palacz, Artur P."
+      "name": "Palacz, Artur P.",
+      "givenName": "Artur P.",
+      "familyName": "Palacz",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1634-7880",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Duffy, J. Emmett"
+      "name": "Duffy, J. Emmett",
+      "givenName": "J. Emmett",
+      "familyName": "Duffy",
+      "@id": "https://orcid.org/0000-0001-8595-6391",
+      "@type": "Person"
     }
   ],
-  "license": {
-    "id": "cc-by-4.0"
+  "author": [
+    {
+      "name": "Nordlund, Lina Mtwana",
+      "givenName": "Lina Mtwana",
+      "familyName": "Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
+    },
+    {
+      "name": "Palacz, Artur P.",
+      "givenName": "Artur P.",
+      "familyName": "Palacz",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1634-7880",
+      "@type": "Person"
+    },
+    {
+      "name": "Duffy, J. Emmett",
+      "givenName": "J. Emmett",
+      "familyName": "Duffy",
+      "@id": "https://orcid.org/0000-0001-8595-6391",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
   },
+  "dateCreated": "2024-10-21T23:22:45.740057+00:00",
+  "dateModified": "2024-10-22T07:34:53.781970+00:00",
+  "datePublished": "2024-10-22",
+  "temporal": [
+    "2024-10-17"
+  ],
+  "contentSize": "2.7 MB",
+  "size": "2.7 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "description": "Imagine if we had some key biology and ecosystem variables that are collected in the same way , and made openly available . Then we would be able to use this comparable data from around the world to advance our understanding of the ocean but also to create products that would be very useful in conservation . For example , distribution maps that could indicate areas in decline but also areas that are recovering or flourishing , or as early warning systems of e.g . invasive species. A global view , in other words adopting a global framework , will also provide insights into similarities among areas to find common solutions and learn from each other . The idea behind the biology and ecosystem Essential Ocean Variables ( EOVs ), is to enable this globally coordinated and comparable approach to observations, data management and delivery of products and services. The EOVs are coordinated by the Global Ocean Observing System, IOC- UNESCO, and everyone is encouraged to take part. We will use the Seagrass cover and composition EOV to illustrate this vision and how collaboration can advance our understanding of the ocean and marine conservation .",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -41,6 +111,18 @@
       }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/what-are-biology-and-ecosystem-essential-ocean-variables-eovs-and-how-can-they-be-used-in-conservation-13968019.json"
+  "url": "https://zenodo.org/records/13968019",
+  "additionalType": "Presentation",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
-  "@type": "CreativeWork",
-  "name": "Blueprint workshop at WIOMSA symposium 2025, Kenya",
-  "url": "https://zenodo.org/record/17581392",
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/blueprint-workshop-at-wiomsa-symposium-2025-kenya-17581392.json",
+  "@type": "PresentationDigitalDocument",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,25 +9,150 @@
     "url": "https://doi.org/10.5281/zenodo.17581392",
     "value": "10.5281/zenodo.17581392"
   },
-  "description": "This presentation was delivered during a workshop at the 13th Western Indian Ocean Marine Science Association (WIOMSA) Scientific Symposium, focusing on the development and implementation of the Blueprint for Integrated Ocean Science (the Blueprint) under the BioEcoOcean project. The session introduced the Blueprint as a co-designed framework aimed at strengthening coordination, interoperability, and collaboration across the various components of the Biological and Ecosystem (BioEco) Ocean Observing System. The presentation highlighted how the Blueprint seeks to bridge gaps between scientific research, policy, and societal needs by fostering communication and collaboration among the various components of the ocean observation system. The workshop provided a platform for participants from diverse sectors&mdash;including science, policy, and management&mdash;to engage in dialogue, share experiences, and identify pathways toward more fit-for-purpose, inclusive, and sustained BioEco ocean observation systems.&nbsp;",
-  "datePublished": "2025-11-11",
+  "name": "Blueprint workshop at WIOMSA symposium 2025, Kenya",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Mtwana Nordlund, Lina"
+      "name": "Mtwana Nordlund, Lina",
+      "givenName": "Lina",
+      "familyName": "Mtwana Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Hashim, Said"
+      "name": "Hashim, Said",
+      "givenName": "Said",
+      "familyName": "Hashim",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University, Department of Earth Sciences",
+          "@id": "https://edmo.seadatanet.org/report/2217"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5597-1539",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Lepola, Nina"
+      "name": "Lepola, Nina",
+      "givenName": "Nina",
+      "familyName": "Lepola",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University, Department of Earth Sciences",
+          "@id": "https://edmo.seadatanet.org/report/2217"
+        }
+      ],
+      "@id": "https://orcid.org/0009-0004-3952-3818",
+      "@type": "Person"
     }
   ],
-  "license": {
-    "id": "cc-by-4.0"
+  "author": [
+    {
+      "name": "Mtwana Nordlund, Lina",
+      "givenName": "Lina",
+      "familyName": "Mtwana Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
+    },
+    {
+      "name": "Hashim, Said",
+      "givenName": "Said",
+      "familyName": "Hashim",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University, Department of Earth Sciences",
+          "@id": "https://edmo.seadatanet.org/report/2217"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5597-1539",
+      "@type": "Person"
+    },
+    {
+      "name": "Lepola, Nina",
+      "givenName": "Nina",
+      "familyName": "Lepola",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University, Department of Earth Sciences",
+          "@id": "https://edmo.seadatanet.org/report/2217"
+        }
+      ],
+      "@id": "https://orcid.org/0009-0004-3952-3818",
+      "@type": "Person"
+    }
+  ],
+  "editor": [
+    {
+      "name": "Mtwana Nordlund, Lina",
+      "givenName": "Lina",
+      "familyName": "Mtwana Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
+    },
+    {
+      "name": "Hashim, Said",
+      "givenName": "Said",
+      "familyName": "Hashim",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University, Department of Earth Sciences",
+          "@id": "https://edmo.seadatanet.org/report/2217"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5597-1539",
+      "@type": "Person"
+    },
+    {
+      "name": "Nina, Lepola",
+      "givenName": "Lepola",
+      "familyName": "Nina",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University, Department of Earth Sciences",
+          "@id": "https://edmo.seadatanet.org/report/2217"
+        }
+      ],
+      "@id": "https://orcid.org/0009-0004-3952-3818",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
   },
+  "dateCreated": "2025-11-11T14:09:48.679688+00:00",
+  "dateModified": "2025-11-12T09:57:50.686271+00:00",
+  "datePublished": "2025-11-11",
+  "contentSize": "4.21 MB",
+  "size": "4.21 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "description": "This presentation was delivered during a workshop at the 13th Western Indian Ocean Marine Science Association (WIOMSA) Scientific Symposium, focusing on the development and implementation of the Blueprint for Integrated Ocean Science (the Blueprint) under the BioEcoOcean project. The session introduced the Blueprint as a co-designed framework aimed at strengthening coordination, interoperability, and collaboration across the various components of the Biological and Ecosystem (BioEco) Ocean Observing System. The presentation highlighted how the Blueprint seeks to bridge gaps between scientific research, policy, and societal needs by fostering communication and collaboration among the various components of the ocean observation system. The workshop provided a platform for participants from diverse sectors—including science, policy, and management—to engage in dialogue, share experiences, and identify pathways toward more fit-for-purpose, inclusive, and sustained BioEco ocean observation systems.",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -41,6 +166,18 @@
       }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/blueprint-workshop-at-wiomsa-symposium-2025-kenya-17581392.json"
+  "url": "https://zenodo.org/records/17581392",
+  "additionalType": "Presentation",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

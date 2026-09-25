@@ -1,7 +1,7 @@
 {
-  "@type": "CreativeWork",
-  "name": "The immeasurable value of plankton to humanity",
-  "url": "https://zenodo.org/record/15855747",
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/the-immeasurable-value-of-plankton-to-humanity-15855747.json",
+  "@type": "ScholarlyArticle",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,200 +9,1303 @@
     "url": "https://doi.org/10.1093/biosci/biaf049",
     "value": "10.1093/biosci/biaf049"
   },
-  "description": "Abstract Plankton, a diverse group of aquatic organisms, make Earth livable, regulate aquatic life, and provide benefits to human societies such as access to clean water, food security, and well-being. They also support economies and inspire biotechnological innovations. This article aims to raise awareness of the value of plankton to humanity and serves as an informative guide for aquatic professionals, policymakers, and anyone interested in plankton. We present the value of plankton across six themes of human interest: biogeochemistry; ecology; climate; the evolution of science; economy; and culture, recreation, and well-being. Guided by the 2022 Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services values assessment, we introduce the six themes under the Life Framework of Values to offer a comprehensive summary of the significance of plankton to humanity. In addition, we provide examples of plankton variables used in policy frameworks and recommendations for enhancing understanding of their value through long-term sustainable research and monitoring.",
-  "datePublished": "2025-06-24",
+  "name": "The immeasurable value of plankton to humanity",
   "creator": [
     {
-      "@type": "Person",
-      "name": "GRIGORATOU, MARIA"
+      "name": "GRIGORATOU, MARIA",
+      "givenName": "MARIA",
+      "familyName": "GRIGORATOU",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "European Polar Board",
+          "@id": "https://edmo.seadatanet.org/report/5859"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-0484-1408",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Menden-Deuer, Susanne"
+      "name": "Menden-Deuer, Susanne",
+      "givenName": "Susanne",
+      "familyName": "Menden-Deuer",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Rhode Island",
+          "@id": "https://ror.org/013ckk937"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-8434-4251",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "McQuatters-Gollop, Abigail"
+      "name": "McQuatters-Gollop, Abigail",
+      "givenName": "Abigail",
+      "familyName": "McQuatters-Gollop",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "School of Biological and Marine Scienceat the University of Plymouth , Plymouth, England , United Kingdom"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-6043-9563",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Arhonditsis, George"
+      "name": "Arhonditsis, George",
+      "givenName": "George",
+      "familyName": "Arhonditsis",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Toronto",
+          "@id": "https://ror.org/03dbr7087"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-5359-8737",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Artigas, Luis Felipe"
+      "name": "Artigas, Luis Felipe",
+      "givenName": "Luis Felipe",
+      "familyName": "Artigas",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Laboratoire d'Océanologie et de Géosciences",
+          "@id": "https://ror.org/05m14rs93"
+        },
+        {
+          "@type": "Organization",
+          "name": "Université du Littoral Cote d'Opale Maison de la Recherche en Environnements Naturels"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-0512-5315",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Ayata, Sakina-Dorothée"
+      "name": "Ayata, Sakina-Dorothée",
+      "givenName": "Sakina-Dorothée",
+      "familyName": "Ayata",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Sorbonne Université",
+          "@id": "https://ror.org/02en5vm52"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-3226-9779",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Bedikoğlu, Dalida"
+      "name": "Bedikoğlu, Dalida",
+      "givenName": "Dalida",
+      "familyName": "Bedikoğlu",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Institute of Marine Sciences and Management, Istanbul University , Istanbul , Turkey"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-5088-7373",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Beisner, Beatrix"
+      "name": "Beisner, Beatrix",
+      "givenName": "Beatrix",
+      "familyName": "Beisner",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Université du Québec à Montréal: Montreal, CA"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-6972-6887",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Chen, Bingzhang"
+      "name": "Chen, Bingzhang",
+      "givenName": "Bingzhang",
+      "familyName": "Chen",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Strathclyde",
+          "@id": "https://ror.org/00n3w3b69"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1573-7473",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "davies, claire"
+      "name": "davies, claire",
+      "givenName": "claire",
+      "familyName": "davies",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Commonwealth Scientific and Industrial Research Organisation",
+          "@id": "https://ror.org/03qn8fb07"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-0424-1835",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Diarra, Lillian"
+      "name": "Diarra, Lillian",
+      "givenName": "Lillian",
+      "familyName": "Diarra",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Mercator Ocean (France)",
+          "@id": "https://ror.org/02754py23"
+        }
+      ],
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Elegbeleye, Owoyemi W"
+      "name": "Elegbeleye, Owoyemi W",
+      "givenName": "Owoyemi W",
+      "familyName": "Elegbeleye",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Department of Marine Sciences, University of Lagos , Lagos , Nigeria"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-6177-8129",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Everett, Jason D."
+      "name": "Everett, Jason D.",
+      "givenName": "Jason D.",
+      "familyName": "Everett",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "School of the Environment, Centre for Biodiversity and Conservation Science of the University of Queensland , Brisbane, Queensland"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-6681-8054",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Garcia, Tatiane M."
+      "name": "Garcia, Tatiane M.",
+      "givenName": "Tatiane M.",
+      "familyName": "Garcia",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Federal University of Ceará: Fortaleza, CE, BR"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-0396-1010",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Gentleman, Wendy C."
+      "name": "Gentleman, Wendy C.",
+      "givenName": "Wendy C.",
+      "familyName": "Gentleman",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Department of Engineering Mathematics, Dalhousie University , Halifax, Nova Scotia , Canada"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-2963-0925",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Gonçalves, Rodrigo Javier"
+      "name": "Gonçalves, Rodrigo Javier",
+      "givenName": "Rodrigo Javier",
+      "familyName": "Gonçalves",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Universidad de Granada",
+          "@id": "https://ror.org/04njjy449"
+        },
+        {
+          "@type": "Organization",
+          "name": "CONICET CENPAT"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4332-2312",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Guy-Haim, Tamar"
+      "name": "Guy-Haim, Tamar",
+      "givenName": "Tamar",
+      "familyName": "Guy-Haim",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Israel Oceanographic and Limnological Research",
+          "@id": "https://ror.org/05rpsf244"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-6962-0262",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Halfter, Svenja"
+      "name": "Halfter, Svenja",
+      "givenName": "Svenja",
+      "familyName": "Halfter",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "National Institute of Water and Atmospheric Research , Auckland , New Zealand"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-0480-0350",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Hinners, Jana"
+      "name": "Hinners, Jana",
+      "givenName": "Jana",
+      "familyName": "Hinners",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Helmholtz-Zentrum Hereon",
+          "@id": "https://ror.org/03qjp1d79"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5145-2539",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Horaeb, Richard R."
+      "name": "Horaeb, Richard R.",
+      "givenName": "Richard R.",
+      "familyName": "Horaeb",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "National Marine Information and Research Centre, Ministry of Fisheries and Marine Resources, Sam Nujoma Marine and Coastal Resources Centre, University of Namibia , Windhoek , Namibia"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-4390-8900",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Huggett, Jenny A."
+      "name": "Huggett, Jenny A.",
+      "givenName": "Jenny A.",
+      "familyName": "Huggett",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Department of Forestry, Fisheries, Environment, Ocean and Coasts, Department of Biological Sciences, University of Cape Town , Cape Town , South Africa"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-9315-8672",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Johnson, Catherine L."
+      "name": "Johnson, Catherine L.",
+      "givenName": "Catherine L.",
+      "familyName": "Johnson",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Fisheries and Oceans Canada, Bedford Institute of Oceanography , Dartmouth, Nova Scotia , Canada"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-5291-3141",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Kavanaugh, Maria T."
+      "name": "Kavanaugh, Maria T.",
+      "givenName": "Maria T.",
+      "familyName": "Kavanaugh",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Oregon State University , Corvallis, Oregon , United States"
+        }
+      ],
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Lindemann, Christian"
+      "name": "Lindemann, Christian",
+      "givenName": "Christian",
+      "familyName": "Lindemann",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Norwegian Institute for Water Research",
+          "@id": "https://ror.org/03hrf8236"
+        },
+        {
+          "@type": "Organization",
+          "name": "University of Bergen",
+          "@id": "https://ror.org/03zga2b32"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-3684-2480",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "López-Abbate, María Celeste"
+      "name": "López-Abbate, María Celeste",
+      "givenName": "María Celeste",
+      "familyName": "López-Abbate",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instituto Argentino de Oceanografía"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-0264-5833",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Messié, Monique"
+      "name": "Messié, Monique",
+      "givenName": "Monique",
+      "familyName": "Messié",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Monterey Bay Aquarium Research Institute",
+          "@id": "https://ror.org/02nb3aq72"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4985-3413",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Möller, Klas Ove"
+      "name": "Möller, Klas Ove",
+      "givenName": "Klas Ove",
+      "familyName": "Möller",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Helmholtz-Zentrum Hereon",
+          "@id": "https://ror.org/03qjp1d79"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-3118-2161",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Montes, Enrique"
+      "name": "Montes, Enrique",
+      "givenName": "Enrique",
+      "familyName": "Montes",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "NOAA Atlantic Oceanographic and Meteorological Laboratories",
+          "@id": "https://ror.org/042r9xb17"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-3103-4479",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Muller-Karger, Frank E."
+      "name": "Muller-Karger, Frank E.",
+      "givenName": "Frank E.",
+      "familyName": "Muller-Karger",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "College of Marine Science, University of South Florida , Tampa, Florida , United States"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-3159-5011",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Neeley, Aimee"
+      "name": "Neeley, Aimee",
+      "givenName": "Aimee",
+      "familyName": "Neeley",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "NASA , Washington, DC , United States"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-5701-0953",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Olaleye, Yusuf"
+      "name": "Olaleye, Yusuf",
+      "givenName": "Yusuf",
+      "familyName": "Olaleye",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Missouri",
+          "@id": "https://ror.org/02ymw8z06"
+        },
+        {
+          "@type": "Organization",
+          "name": "University of Lagos",
+          "@id": "https://ror.org/05rk03822"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-6377-1484",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Palacz, Artur"
+      "name": "Palacz, Artur",
+      "givenName": "Artur",
+      "familyName": "Palacz",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1634-7880",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Poulton, Alex J."
+      "name": "Poulton, Alex J.",
+      "givenName": "Alex J.",
+      "familyName": "Poulton",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Lyell Centre for Earth and Marine Sciences, Heriot-Watt University , Edinburgh, Scotland , United Kingdom"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5149-6961",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Prowe, A. E. Friederike"
+      "name": "Prowe, A. E. Friederike",
+      "givenName": "A. E. Friederike",
+      "familyName": "Prowe",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "GEOMAR Helmholtz Centre for Ocean Research Kiel , Kiel , Germany"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-5281-4696",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Ratnarajah, Lavenia"
+      "name": "Ratnarajah, Lavenia",
+      "givenName": "Lavenia",
+      "familyName": "Ratnarajah",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Tasmania",
+          "@id": "https://ror.org/01nfmeh72"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1021-1923",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "RODRIGUEZ QUISPE, LUZMILA"
+      "name": "RODRIGUEZ QUISPE, LUZMILA",
+      "givenName": "LUZMILA",
+      "familyName": "RODRIGUEZ QUISPE",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Universidad Científica del Sur",
+          "@id": "https://ror.org/04xr5we72"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-6969-5849",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "RODRIGUEZ-FLOREZ, CLARA NATALIA"
+      "name": "RODRIGUEZ-FLOREZ, CLARA NATALIA",
+      "givenName": "CLARA NATALIA",
+      "familyName": "RODRIGUEZ-FLOREZ",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Secretariat of Environment and Sustainable Development , Boyacá , Colombia"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-3808-197X",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Rodriguez-Santiago, Aurea"
+      "name": "Rodriguez-Santiago, Aurea",
+      "givenName": "Aurea",
+      "familyName": "Rodriguez-Santiago",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Taller Ecológico de Puerto Rico, Caribbean Coastal Ocean Observing System , Boquerón, Puerto Rico , United States"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-8273-3149",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Rousseaux, Cecile S."
+      "name": "Rousseaux, Cecile S.",
+      "givenName": "Cecile S.",
+      "familyName": "Rousseaux",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Ocean Ecology Laboratory, NASA , Washington, DC , United States"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-3022-2988",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Saad, Juan Francisco"
+      "name": "Saad, Juan Francisco",
+      "givenName": "Juan Francisco",
+      "familyName": "Saad",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "CONICET"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4482-8892",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Santi, Ioulia"
+      "name": "Santi, Ioulia",
+      "givenName": "Ioulia",
+      "familyName": "Santi",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "European Marine Biological Resource Centre"
+        },
+        {
+          "@type": "Organization",
+          "name": "Hellenic Centre for Marine Research",
+          "@id": "https://ror.org/038kffh84"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-0202-8256",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Soccodato, Alice"
+      "name": "Soccodato, Alice",
+      "givenName": "Alice",
+      "familyName": "Soccodato",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "European Marine Biological Resource Centre , Paris , France"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-4321-9312",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Stern, Rowena"
+      "name": "Stern, Rowena",
+      "givenName": "Rowena",
+      "familyName": "Stern",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Marine Biological Association of the United Kingdom , Plymouth, England , United Kingdom"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-0881-0126",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Våge, Selina"
+      "name": "Våge, Selina",
+      "givenName": "Selina",
+      "familyName": "Våge",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Department of Biological Sciences, University of Bergen , Bergen , Norway"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-9481-8396",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Varkitzi, Ioanna"
+      "name": "Varkitzi, Ioanna",
+      "givenName": "Ioanna",
+      "familyName": "Varkitzi",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Hellenic Centre for Marine Research",
+          "@id": "https://ror.org/038kffh84"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-5076-1199",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Richardson, Anthony"
+      "name": "Richardson, Anthony",
+      "givenName": "Anthony",
+      "familyName": "Richardson",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "CSIRO"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-9289-7366",
+      "@type": "Person"
     }
   ],
+  "author": [
+    {
+      "name": "GRIGORATOU, MARIA",
+      "givenName": "MARIA",
+      "familyName": "GRIGORATOU",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "European Polar Board",
+          "@id": "https://edmo.seadatanet.org/report/5859"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-0484-1408",
+      "@type": "Person"
+    },
+    {
+      "name": "Menden-Deuer, Susanne",
+      "givenName": "Susanne",
+      "familyName": "Menden-Deuer",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Rhode Island",
+          "@id": "https://ror.org/013ckk937"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-8434-4251",
+      "@type": "Person"
+    },
+    {
+      "name": "McQuatters-Gollop, Abigail",
+      "givenName": "Abigail",
+      "familyName": "McQuatters-Gollop",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "School of Biological and Marine Scienceat the University of Plymouth , Plymouth, England , United Kingdom"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-6043-9563",
+      "@type": "Person"
+    },
+    {
+      "name": "Arhonditsis, George",
+      "givenName": "George",
+      "familyName": "Arhonditsis",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Toronto",
+          "@id": "https://ror.org/03dbr7087"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-5359-8737",
+      "@type": "Person"
+    },
+    {
+      "name": "Artigas, Luis Felipe",
+      "givenName": "Luis Felipe",
+      "familyName": "Artigas",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Laboratoire d'Océanologie et de Géosciences",
+          "@id": "https://ror.org/05m14rs93"
+        },
+        {
+          "@type": "Organization",
+          "name": "Université du Littoral Cote d'Opale Maison de la Recherche en Environnements Naturels"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-0512-5315",
+      "@type": "Person"
+    },
+    {
+      "name": "Ayata, Sakina-Dorothée",
+      "givenName": "Sakina-Dorothée",
+      "familyName": "Ayata",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Sorbonne Université",
+          "@id": "https://ror.org/02en5vm52"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-3226-9779",
+      "@type": "Person"
+    },
+    {
+      "name": "Bedikoğlu, Dalida",
+      "givenName": "Dalida",
+      "familyName": "Bedikoğlu",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Institute of Marine Sciences and Management, Istanbul University , Istanbul , Turkey"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-5088-7373",
+      "@type": "Person"
+    },
+    {
+      "name": "Beisner, Beatrix",
+      "givenName": "Beatrix",
+      "familyName": "Beisner",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Université du Québec à Montréal: Montreal, CA"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-6972-6887",
+      "@type": "Person"
+    },
+    {
+      "name": "Chen, Bingzhang",
+      "givenName": "Bingzhang",
+      "familyName": "Chen",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Strathclyde",
+          "@id": "https://ror.org/00n3w3b69"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1573-7473",
+      "@type": "Person"
+    },
+    {
+      "name": "davies, claire",
+      "givenName": "claire",
+      "familyName": "davies",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Commonwealth Scientific and Industrial Research Organisation",
+          "@id": "https://ror.org/03qn8fb07"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-0424-1835",
+      "@type": "Person"
+    },
+    {
+      "name": "Diarra, Lillian",
+      "givenName": "Lillian",
+      "familyName": "Diarra",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Mercator Ocean (France)",
+          "@id": "https://ror.org/02754py23"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Elegbeleye, Owoyemi W",
+      "givenName": "Owoyemi W",
+      "familyName": "Elegbeleye",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Department of Marine Sciences, University of Lagos , Lagos , Nigeria"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-6177-8129",
+      "@type": "Person"
+    },
+    {
+      "name": "Everett, Jason D.",
+      "givenName": "Jason D.",
+      "familyName": "Everett",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "School of the Environment, Centre for Biodiversity and Conservation Science of the University of Queensland , Brisbane, Queensland"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-6681-8054",
+      "@type": "Person"
+    },
+    {
+      "name": "Garcia, Tatiane M.",
+      "givenName": "Tatiane M.",
+      "familyName": "Garcia",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Federal University of Ceará: Fortaleza, CE, BR"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-0396-1010",
+      "@type": "Person"
+    },
+    {
+      "name": "Gentleman, Wendy C.",
+      "givenName": "Wendy C.",
+      "familyName": "Gentleman",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Department of Engineering Mathematics, Dalhousie University , Halifax, Nova Scotia , Canada"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-2963-0925",
+      "@type": "Person"
+    },
+    {
+      "name": "Gonçalves, Rodrigo Javier",
+      "givenName": "Rodrigo Javier",
+      "familyName": "Gonçalves",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Universidad de Granada",
+          "@id": "https://ror.org/04njjy449"
+        },
+        {
+          "@type": "Organization",
+          "name": "CONICET CENPAT"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4332-2312",
+      "@type": "Person"
+    },
+    {
+      "name": "Guy-Haim, Tamar",
+      "givenName": "Tamar",
+      "familyName": "Guy-Haim",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Israel Oceanographic and Limnological Research",
+          "@id": "https://ror.org/05rpsf244"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-6962-0262",
+      "@type": "Person"
+    },
+    {
+      "name": "Halfter, Svenja",
+      "givenName": "Svenja",
+      "familyName": "Halfter",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "National Institute of Water and Atmospheric Research , Auckland , New Zealand"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-0480-0350",
+      "@type": "Person"
+    },
+    {
+      "name": "Hinners, Jana",
+      "givenName": "Jana",
+      "familyName": "Hinners",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Helmholtz-Zentrum Hereon",
+          "@id": "https://ror.org/03qjp1d79"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5145-2539",
+      "@type": "Person"
+    },
+    {
+      "name": "Horaeb, Richard R.",
+      "givenName": "Richard R.",
+      "familyName": "Horaeb",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "National Marine Information and Research Centre, Ministry of Fisheries and Marine Resources, Sam Nujoma Marine and Coastal Resources Centre, University of Namibia , Windhoek , Namibia"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-4390-8900",
+      "@type": "Person"
+    },
+    {
+      "name": "Huggett, Jenny A.",
+      "givenName": "Jenny A.",
+      "familyName": "Huggett",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Department of Forestry, Fisheries, Environment, Ocean and Coasts, Department of Biological Sciences, University of Cape Town , Cape Town , South Africa"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-9315-8672",
+      "@type": "Person"
+    },
+    {
+      "name": "Johnson, Catherine L.",
+      "givenName": "Catherine L.",
+      "familyName": "Johnson",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Fisheries and Oceans Canada, Bedford Institute of Oceanography , Dartmouth, Nova Scotia , Canada"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-5291-3141",
+      "@type": "Person"
+    },
+    {
+      "name": "Kavanaugh, Maria T.",
+      "givenName": "Maria T.",
+      "familyName": "Kavanaugh",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Oregon State University , Corvallis, Oregon , United States"
+        }
+      ],
+      "@type": "Person"
+    },
+    {
+      "name": "Lindemann, Christian",
+      "givenName": "Christian",
+      "familyName": "Lindemann",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Norwegian Institute for Water Research",
+          "@id": "https://ror.org/03hrf8236"
+        },
+        {
+          "@type": "Organization",
+          "name": "University of Bergen",
+          "@id": "https://ror.org/03zga2b32"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-3684-2480",
+      "@type": "Person"
+    },
+    {
+      "name": "López-Abbate, María Celeste",
+      "givenName": "María Celeste",
+      "familyName": "López-Abbate",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instituto Argentino de Oceanografía"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-0264-5833",
+      "@type": "Person"
+    },
+    {
+      "name": "Messié, Monique",
+      "givenName": "Monique",
+      "familyName": "Messié",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Monterey Bay Aquarium Research Institute",
+          "@id": "https://ror.org/02nb3aq72"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4985-3413",
+      "@type": "Person"
+    },
+    {
+      "name": "Möller, Klas Ove",
+      "givenName": "Klas Ove",
+      "familyName": "Möller",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Helmholtz-Zentrum Hereon",
+          "@id": "https://ror.org/03qjp1d79"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-3118-2161",
+      "@type": "Person"
+    },
+    {
+      "name": "Montes, Enrique",
+      "givenName": "Enrique",
+      "familyName": "Montes",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "NOAA Atlantic Oceanographic and Meteorological Laboratories",
+          "@id": "https://ror.org/042r9xb17"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-3103-4479",
+      "@type": "Person"
+    },
+    {
+      "name": "Muller-Karger, Frank E.",
+      "givenName": "Frank E.",
+      "familyName": "Muller-Karger",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "College of Marine Science, University of South Florida , Tampa, Florida , United States"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-3159-5011",
+      "@type": "Person"
+    },
+    {
+      "name": "Neeley, Aimee",
+      "givenName": "Aimee",
+      "familyName": "Neeley",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "NASA , Washington, DC , United States"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-5701-0953",
+      "@type": "Person"
+    },
+    {
+      "name": "Olaleye, Yusuf",
+      "givenName": "Yusuf",
+      "familyName": "Olaleye",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Missouri",
+          "@id": "https://ror.org/02ymw8z06"
+        },
+        {
+          "@type": "Organization",
+          "name": "University of Lagos",
+          "@id": "https://ror.org/05rk03822"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-6377-1484",
+      "@type": "Person"
+    },
+    {
+      "name": "Palacz, Artur",
+      "givenName": "Artur",
+      "familyName": "Palacz",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1634-7880",
+      "@type": "Person"
+    },
+    {
+      "name": "Poulton, Alex J.",
+      "givenName": "Alex J.",
+      "familyName": "Poulton",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Lyell Centre for Earth and Marine Sciences, Heriot-Watt University , Edinburgh, Scotland , United Kingdom"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5149-6961",
+      "@type": "Person"
+    },
+    {
+      "name": "Prowe, A. E. Friederike",
+      "givenName": "A. E. Friederike",
+      "familyName": "Prowe",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "GEOMAR Helmholtz Centre for Ocean Research Kiel , Kiel , Germany"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-5281-4696",
+      "@type": "Person"
+    },
+    {
+      "name": "Ratnarajah, Lavenia",
+      "givenName": "Lavenia",
+      "familyName": "Ratnarajah",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Tasmania",
+          "@id": "https://ror.org/01nfmeh72"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1021-1923",
+      "@type": "Person"
+    },
+    {
+      "name": "RODRIGUEZ QUISPE, LUZMILA",
+      "givenName": "LUZMILA",
+      "familyName": "RODRIGUEZ QUISPE",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Universidad Científica del Sur",
+          "@id": "https://ror.org/04xr5we72"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-6969-5849",
+      "@type": "Person"
+    },
+    {
+      "name": "RODRIGUEZ-FLOREZ, CLARA NATALIA",
+      "givenName": "CLARA NATALIA",
+      "familyName": "RODRIGUEZ-FLOREZ",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Secretariat of Environment and Sustainable Development , Boyacá , Colombia"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-3808-197X",
+      "@type": "Person"
+    },
+    {
+      "name": "Rodriguez-Santiago, Aurea",
+      "givenName": "Aurea",
+      "familyName": "Rodriguez-Santiago",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Taller Ecológico de Puerto Rico, Caribbean Coastal Ocean Observing System , Boquerón, Puerto Rico , United States"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-8273-3149",
+      "@type": "Person"
+    },
+    {
+      "name": "Rousseaux, Cecile S.",
+      "givenName": "Cecile S.",
+      "familyName": "Rousseaux",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Ocean Ecology Laboratory, NASA , Washington, DC , United States"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-3022-2988",
+      "@type": "Person"
+    },
+    {
+      "name": "Saad, Juan Francisco",
+      "givenName": "Juan Francisco",
+      "familyName": "Saad",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "CONICET"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4482-8892",
+      "@type": "Person"
+    },
+    {
+      "name": "Santi, Ioulia",
+      "givenName": "Ioulia",
+      "familyName": "Santi",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "European Marine Biological Resource Centre"
+        },
+        {
+          "@type": "Organization",
+          "name": "Hellenic Centre for Marine Research",
+          "@id": "https://ror.org/038kffh84"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-0202-8256",
+      "@type": "Person"
+    },
+    {
+      "name": "Soccodato, Alice",
+      "givenName": "Alice",
+      "familyName": "Soccodato",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "European Marine Biological Resource Centre , Paris , France"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-4321-9312",
+      "@type": "Person"
+    },
+    {
+      "name": "Stern, Rowena",
+      "givenName": "Rowena",
+      "familyName": "Stern",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Marine Biological Association of the United Kingdom , Plymouth, England , United Kingdom"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-0881-0126",
+      "@type": "Person"
+    },
+    {
+      "name": "Våge, Selina",
+      "givenName": "Selina",
+      "familyName": "Våge",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Department of Biological Sciences, University of Bergen , Bergen , Norway"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-9481-8396",
+      "@type": "Person"
+    },
+    {
+      "name": "Varkitzi, Ioanna",
+      "givenName": "Ioanna",
+      "familyName": "Varkitzi",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Hellenic Centre for Marine Research",
+          "@id": "https://ror.org/038kffh84"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-5076-1199",
+      "@type": "Person"
+    },
+    {
+      "name": "Richardson, Anthony",
+      "givenName": "Anthony",
+      "familyName": "Richardson",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "CSIRO"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-9289-7366",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
   "keywords": [
     "Plankton"
   ],
-  "license": {
-    "id": "cc-by-4.0"
-  },
+  "dateCreated": "2025-07-10T14:49:41.110201+00:00",
+  "dateModified": "2025-08-29T08:59:42.590920+00:00",
+  "datePublished": "2025-06-24",
+  "contentSize": "2.09 MB",
+  "size": "2.09 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "description": "Abstract Plankton, a diverse group of aquatic organisms, make Earth livable, regulate aquatic life, and provide benefits to human societies such as access to clean water, food security, and well-being. They also support economies and inspire biotechnological innovations. This article aims to raise awareness of the value of plankton to humanity and serves as an informative guide for aquatic professionals, policymakers, and anyone interested in plankton. We present the value of plankton across six themes of human interest: biogeochemistry; ecology; climate; the evolution of science; economy; and culture, recreation, and well-being. Guided by the 2022 Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services values assessment, we introduce the six themes under the Life Framework of Values to offer a comprehensive summary of the significance of plankton to humanity. In addition, we provide examples of plankton variables used in policy frameworks and recommendations for enhancing understanding of their value through long-term sustainable research and monitoring.",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -216,6 +1319,19 @@
       }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/the-immeasurable-value-of-plankton-to-humanity-15855747.json"
+  "url": "https://zenodo.org/records/15855747",
+  "container_title": "BioScience",
+  "additionalType": "Journal article",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

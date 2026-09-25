@@ -1,7 +1,7 @@
 {
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/novel-monitoring-technologies-an-integrated-overview-of-traditional-and-emerging-methods-for-monitoring-marine-biodiversity-deliverable-3-1-bioecoocean-16630482.json",
   "@type": "CreativeWork",
-  "name": "Novel Monitoring Technologies -  an integrated overview of traditional and emerging methods for monitoring marine biodiversity. Deliverable 3.1_BioEcoOcean",
-  "url": "https://zenodo.org/record/16630482",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,53 +9,249 @@
     "url": "https://doi.org/10.5281/zenodo.16630482",
     "value": "10.5281/zenodo.16630482"
   },
-  "description": "This report provides an integrated overview of traditional and emerging methods for monitoring marine biodiversity, with emphasis on Essential Ocean Variables (EOVs). Traditional visual sampling methods such as underwater visual census (UVC), quadrat surveys, and net tows have long formed the backbone of biodiversity monitoring, offering high taxonomic resolution and compatibility with historical data. Emerging technologies&mdash;including environmental DNA (eDNA), imaging&nbsp;combined with Artificial Intelligence (AI) analysis, and remote sensing (satellites and drones)&mdash;promise to boost biodiversity observations by increasing spatial and temporal coverage, automating labor-intensive processes, and reducing environmental impact. eDNA enables non-invasive detection of cryptic species, while AI image analysis automates species identification and habitat quantification. Remote platforms such as Unmanned Aerial Vehicles (UAVs) and Remotely Operated Vehicles (ROVs) extend survey capabilities into deep or otherwise inaccessible environments. Key findings highlight the strengths and limitations of each method. eDNA excels in sensitivity but faces challenges in assigning species to sampling sites and in abundance estimation. AI imaging supports scalable monitoring, but requires large, annotated training sets. Acoustic methods offer large-scale tracking of biomass via proxies, but they still lack taxonomic precision. Hybrid approaches are emerging as best practice: combining traditional methods with novel tools is necessary for cross-validation and to maximize spatial and temporal coverage. Calibration remains essential, as it requires reference libraries and standardized protocols. The combination of traditional and emerging biodiversity observing technologies aligns with ethical research principles, such as the 3Rs (Replacement, Reduction, Refinement), especially by reducing the impact associated with destructive sampling. We recommend adopting integrated monitoring frameworks that combine in situ, genetic, and remote sensing data collection, tailored to the goals and constraints of each project. Supporting policy development and training efforts will be key to mainstreaming these approaches across the EU and global marine monitoring networks. &nbsp; &nbsp; &nbsp;",
-  "datePublished": "2025-07-31",
+  "name": "Novel Monitoring Technologies -  an integrated overview of traditional and emerging methods for monitoring marine biodiversity. Deliverable 3.1_BioEcoOcean",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Benedetti-Cecchi, Lisandro"
+      "name": "Benedetti-Cecchi, Lisandro",
+      "givenName": "Lisandro",
+      "familyName": "Benedetti-Cecchi",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Pisa"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-5244-5202",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Rindi, Luca"
+      "name": "Rindi, Luca",
+      "givenName": "Luca",
+      "familyName": "Rindi",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Pisa",
+          "@id": "https://ror.org/03ad39j10"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-2279-4214",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "McGrath, Alexander"
+      "name": "McGrath, Alexander",
+      "givenName": "Alexander",
+      "familyName": "McGrath",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Pisa",
+          "@id": "https://ror.org/03ad39j10"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-9237-6539",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Olatoye, Dolapo Salim"
+      "name": "Olatoye, Dolapo Salim",
+      "givenName": "Dolapo Salim",
+      "familyName": "Olatoye",
+      "@id": "https://orcid.org/0009-0005-6193-336X",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Lüskow, Florian"
+      "name": "Lüskow, Florian",
+      "givenName": "Florian",
+      "familyName": "Lüskow",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of British Columbia",
+          "@id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-2100-7012",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Lehodey, Patrick"
+      "name": "Lehodey, Patrick",
+      "givenName": "Patrick",
+      "familyName": "Lehodey",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "mercator-ocean"
+        },
+        {
+          "@type": "Organization",
+          "name": "Pacific Community",
+          "@id": "https://ror.org/05ewdm369"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-2753-4796",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Borges, Débora"
+      "name": "Borges, Débora",
+      "givenName": "Débora",
+      "familyName": "Borges",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Reis, Bianca"
+      "name": "Reis, Bianca",
+      "givenName": "Bianca",
+      "familyName": "Reis",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Valente, André"
+      "name": "Valente, André",
+      "givenName": "André",
+      "familyName": "Valente",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Mtwana Nordlund, Lina"
+      "name": "Mtwana Nordlund, Lina",
+      "givenName": "Lina",
+      "familyName": "Mtwana Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
     }
   ],
-  "license": {
-    "id": "cc-by-4.0"
+  "author": [
+    {
+      "name": "Benedetti-Cecchi, Lisandro",
+      "givenName": "Lisandro",
+      "familyName": "Benedetti-Cecchi",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Pisa"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-5244-5202",
+      "@type": "Person"
+    },
+    {
+      "name": "Rindi, Luca",
+      "givenName": "Luca",
+      "familyName": "Rindi",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Pisa",
+          "@id": "https://ror.org/03ad39j10"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-2279-4214",
+      "@type": "Person"
+    },
+    {
+      "name": "McGrath, Alexander",
+      "givenName": "Alexander",
+      "familyName": "McGrath",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Pisa",
+          "@id": "https://ror.org/03ad39j10"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-9237-6539",
+      "@type": "Person"
+    },
+    {
+      "name": "Olatoye, Dolapo Salim",
+      "givenName": "Dolapo Salim",
+      "familyName": "Olatoye",
+      "@id": "https://orcid.org/0009-0005-6193-336X",
+      "@type": "Person"
+    },
+    {
+      "name": "Lüskow, Florian",
+      "givenName": "Florian",
+      "familyName": "Lüskow",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of British Columbia",
+          "@id": "https://ror.org/03rmrcq20"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-2100-7012",
+      "@type": "Person"
+    },
+    {
+      "name": "Lehodey, Patrick",
+      "givenName": "Patrick",
+      "familyName": "Lehodey",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "mercator-ocean"
+        },
+        {
+          "@type": "Organization",
+          "name": "Pacific Community",
+          "@id": "https://ror.org/05ewdm369"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-2753-4796",
+      "@type": "Person"
+    },
+    {
+      "name": "Borges, Débora",
+      "givenName": "Débora",
+      "familyName": "Borges",
+      "@type": "Person"
+    },
+    {
+      "name": "Reis, Bianca",
+      "givenName": "Bianca",
+      "familyName": "Reis",
+      "@type": "Person"
+    },
+    {
+      "name": "Valente, André",
+      "givenName": "André",
+      "familyName": "Valente",
+      "@type": "Person"
+    },
+    {
+      "name": "Mtwana Nordlund, Lina",
+      "givenName": "Lina",
+      "familyName": "Mtwana Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
   },
+  "keywords": [
+    "Ocean"
+  ],
+  "dateCreated": "2025-12-11T14:38:35.253001+00:00",
+  "dateModified": "2025-12-11T14:38:35.563518+00:00",
+  "datePublished": "2025-07-31",
+  "contentSize": "1.54 MB",
+  "size": "1.54 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "description": "This report provides an integrated overview of traditional and emerging methods for monitoring marine biodiversity, with emphasis on Essential Ocean Variables (EOVs). Traditional visual sampling methods such as underwater visual census (UVC), quadrat surveys, and net tows have long formed the backbone of biodiversity monitoring, offering high taxonomic resolution and compatibility with historical data. Emerging technologies—including environmental DNA (eDNA), imaging combined with Artificial Intelligence (AI) analysis, and remote sensing (satellites and drones)—promise to boost biodiversity observations by increasing spatial and temporal coverage, automating labor-intensive processes, and reducing environmental impact. eDNA enables non-invasive detection of cryptic species, while AI image analysis automates species identification and habitat quantification. Remote platforms such as Unmanned Aerial Vehicles (UAVs) and Remotely Operated Vehicles (ROVs) extend survey capabilities into deep or otherwise inaccessible environments. Key findings highlight the strengths and limitations of each method. eDNA excels in sensitivity but faces challenges in assigning species to sampling sites and in abundance estimation. AI imaging supports scalable monitoring, but requires large, annotated training sets. Acoustic methods offer large-scale tracking of biomass via proxies, but they still lack taxonomic precision. Hybrid approaches are emerging as best practice: combining traditional methods with novel tools is necessary for cross-validation and to maximize spatial and temporal coverage. Calibration remains essential, as it requires reference libraries and standardized protocols. The combination of traditional and emerging biodiversity observing technologies aligns with ethical research principles, such as the 3Rs (Replacement, Reduction, Refinement), especially by reducing the impact associated with destructive sampling. We recommend adopting integrated monitoring frameworks that combine in situ, genetic, and remote sensing data collection, tailored to the goals and constraints of each project. Supporting policy development and training efforts will be key to mainstreaming these approaches across the EU and global marine monitoring networks.",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -69,6 +265,18 @@
       }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/novel-monitoring-technologies-an-integrated-overview-of-traditional-and-emerging-methods-for-monitoring-marine-biodiversity-deliverable-3-1-bioecoocean-16630482.json"
+  "url": "https://zenodo.org/records/16630482",
+  "additionalType": "Project deliverable",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

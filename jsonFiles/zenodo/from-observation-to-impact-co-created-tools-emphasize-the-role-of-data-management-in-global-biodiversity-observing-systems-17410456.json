@@ -1,7 +1,7 @@
 {
-  "@type": "CreativeWork",
-  "name": "From Observation to Impact:  Co-created tools emphasize the role of data management in global biodiversity observing systems",
-  "url": "https://zenodo.org/record/17410456",
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/from-observation-to-impact-co-created-tools-emphasize-the-role-of-data-management-in-global-biodiversity-observing-systems-17410456.json",
+  "@type": "PresentationDigitalDocument",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,21 +9,83 @@
     "url": "https://doi.org/10.5281/zenodo.17410456",
     "value": "10.5281/zenodo.17410456"
   },
-  "description": "Presentation given during Living Data 2025 conference, Bogota, Colombia. Presentation was part of the session #6803154 A Global Ocean Biodiversity Observing System supporting governance framework implementation.",
-  "datePublished": "2025-10-21",
+  "name": "From Observation to Impact:  Co-created tools emphasize the role of data management in global biodiversity observing systems",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Lawrence, Elizabeth"
+      "name": "Lawrence, Elizabeth",
+      "givenName": "Elizabeth",
+      "familyName": "Lawrence",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Intergovernmental Oceanographic Commission of UNESCO",
+          "@id": "https://ror.org/01qk7v094"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5304-941X",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Mtwana Nordlund, Lina"
+      "name": "Mtwana Nordlund, Lina",
+      "givenName": "Lina",
+      "familyName": "Mtwana Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
     }
   ],
-  "license": {
-    "id": "cc-by-4.0"
+  "author": [
+    {
+      "name": "Lawrence, Elizabeth",
+      "givenName": "Elizabeth",
+      "familyName": "Lawrence",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Intergovernmental Oceanographic Commission of UNESCO",
+          "@id": "https://ror.org/01qk7v094"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5304-941X",
+      "@type": "Person"
+    },
+    {
+      "name": "Mtwana Nordlund, Lina",
+      "givenName": "Lina",
+      "familyName": "Mtwana Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
   },
+  "dateCreated": "2025-10-23T06:54:44.959933+00:00",
+  "dateModified": "2025-10-23T06:54:45.306840+00:00",
+  "datePublished": "2025-10-21",
+  "inLanguage": {
+    "alternateName": "eng",
+    "@type": "Language",
+    "name": "English"
+  },
+  "contentSize": "1.46 MB",
+  "size": "1.46 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "description": "Presentation given during Living Data 2025 conference, Bogota, Colombia. Presentation was part of the session #6803154 A Global Ocean Biodiversity Observing System supporting governance framework implementation.",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -37,6 +99,18 @@
       }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/from-observation-to-impact-co-created-tools-emphasize-the-role-of-data-management-in-global-biodiversity-observing-systems-17410456.json"
+  "url": "https://zenodo.org/records/17410456",
+  "additionalType": "Presentation",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

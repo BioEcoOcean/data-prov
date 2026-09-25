@@ -1,7 +1,7 @@
 {
-  "@type": "CreativeWork",
-  "name": "Summarising the main findings of a Global Survey to Advance Ocean Observations",
-  "url": "https://zenodo.org/record/15662449",
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/summarising-the-main-findings-of-a-global-survey-to-advance-ocean-observations-15662449.json",
+  "@type": "ScholarlyArticle",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,22 +9,136 @@
     "url": "https://doi.org/10.5281/zenodo.15662449",
     "value": "10.5281/zenodo.15662449"
   },
-  "description": "This is a summary of a global survey conducted to gather the perspectives of diverse stakeholders on the current state of ocean observations worldwide. The survey formed part of the BioEcoOcean project: Co-Creating Transformative Pathways to Biological and Ecosystem Ocean Observations, funded by Horizon Europe (Grant Agreement Number: 101136748). The survey represented the initial, foundational step towards identifying the gaps, challenges, and opportunities that the Blueprint needs to address.",
-  "datePublished": "2025-06-14",
+  "name": "Summarising the main findings of a Global Survey to Advance Ocean Observations",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Hashim, Said"
+      "name": "Hashim, Said",
+      "givenName": "Said",
+      "familyName": "Hashim",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University, Department of Earth Sciences",
+          "@id": "https://edmo.seadatanet.org/report/2217"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5597-1539",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Palacz, Artur"
+      "name": "Palacz, Artur",
+      "givenName": "Artur",
+      "familyName": "Palacz",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1634-7880",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Mtwana Nordlund, Lina"
+      "name": "Mtwana Nordlund, Lina",
+      "givenName": "Lina",
+      "familyName": "Mtwana Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
     }
   ],
+  "author": [
+    {
+      "name": "Hashim, Said",
+      "givenName": "Said",
+      "familyName": "Hashim",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University, Department of Earth Sciences",
+          "@id": "https://edmo.seadatanet.org/report/2217"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5597-1539",
+      "@type": "Person"
+    },
+    {
+      "name": "Palacz, Artur",
+      "givenName": "Artur",
+      "familyName": "Palacz",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1634-7880",
+      "@type": "Person"
+    },
+    {
+      "name": "Mtwana Nordlund, Lina",
+      "givenName": "Lina",
+      "familyName": "Mtwana Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
+    }
+  ],
+  "editor": [
+    {
+      "name": "Hashim, Said",
+      "givenName": "Said",
+      "familyName": "Hashim",
+      "@id": "https://orcid.org/0000-0002-5597-1539",
+      "@type": "Person"
+    },
+    {
+      "name": "Mtwana Nordlund, Lina",
+      "givenName": "Lina",
+      "familyName": "Mtwana Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
+    },
+    {
+      "name": "Palacz, Artur",
+      "givenName": "Artur",
+      "familyName": "Palacz",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1634-7880",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
   "keywords": [
     "Biological and ecosystem ocean observation",
     "Findable Accessible Interoperable and Reusable (FAIR) data",
@@ -33,9 +147,13 @@
     "Citizen Science",
     "Ocean observing stakeholders"
   ],
-  "license": {
-    "id": "cc-by-4.0"
-  },
+  "dateCreated": "2025-08-05T14:22:17.228566+00:00",
+  "dateModified": "2025-11-06T12:46:54.915026+00:00",
+  "datePublished": "2025-06-14",
+  "contentSize": "237.48 KB",
+  "size": "237.48 KB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "description": "This is a summary of a global survey conducted to gather the perspectives of diverse stakeholders on the current state of ocean observations worldwide. The survey formed part of the BioEcoOcean project: Co-Creating Transformative Pathways to Biological and Ecosystem Ocean Observations, funded by Horizon Europe (Grant Agreement Number: 101136748). The survey represented the initial, foundational step towards identifying the gaps, challenges, and opportunities that the Blueprint needs to address.",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -49,6 +167,18 @@
       }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/summarising-the-main-findings-of-a-global-survey-to-advance-ocean-observations-15662449.json"
+  "url": "https://zenodo.org/records/15662449",
+  "additionalType": "Report",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

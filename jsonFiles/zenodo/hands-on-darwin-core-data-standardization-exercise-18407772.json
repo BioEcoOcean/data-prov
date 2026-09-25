@@ -1,7 +1,7 @@
 {
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/hands-on-darwin-core-data-standardization-exercise-18407772.json",
   "@type": "CreativeWork",
-  "name": "Hands On Darwin Core Data Standardization Exercise",
-  "url": "https://zenodo.org/record/18407772",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,20 +9,61 @@
     "url": "https://doi.org/10.5281/zenodo.18407772",
     "value": "10.5281/zenodo.18407772"
   },
-  "description": "Instructional materials for a hands-on workshop designed to practice standardizing field biodiversity data to Darwin Core (DwC). The materials include an instructional presentation, a printable exercise where participants manually map data into Darwin Core tables, and a document with completed solutions.",
-  "datePublished": "2026-01-28",
+  "name": "Hands On Darwin Core Data Standardization Exercise",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Lawrence, Elizabeth"
+      "name": "Lawrence, Elizabeth",
+      "givenName": "Elizabeth",
+      "familyName": "Lawrence",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Intergovernmental Oceanographic Commission of UNESCO",
+          "@id": "https://ror.org/01qk7v094"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5304-941X",
+      "@type": "Person"
     }
   ],
+  "author": [
+    {
+      "name": "Lawrence, Elizabeth",
+      "givenName": "Elizabeth",
+      "familyName": "Lawrence",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Intergovernmental Oceanographic Commission of UNESCO",
+          "@id": "https://ror.org/01qk7v094"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5304-941X",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
   "keywords": [
     "Darwin Core"
   ],
-  "license": {
-    "id": "cc-by-4.0"
+  "dateCreated": "2026-01-29T10:51:12.297772+00:00",
+  "dateModified": "2026-01-29T10:51:13.289260+00:00",
+  "datePublished": "2026-01-28",
+  "temporal": [
+    "2025-03-07"
+  ],
+  "inLanguage": {
+    "alternateName": "eng",
+    "@type": "Language",
+    "name": "English"
   },
+  "contentSize": "598.79 KB",
+  "size": "598.79 KB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "description": "Instructional materials for a hands-on workshop designed to practice standardizing field biodiversity data to Darwin Core (DwC). The materials include an instructional presentation, a printable exercise where participants manually map data into Darwin Core tables, and a document with completed solutions.",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -36,6 +77,18 @@
       }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/hands-on-darwin-core-data-standardization-exercise-18407772.json"
+  "url": "https://zenodo.org/records/18407772",
+  "additionalType": "Other",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

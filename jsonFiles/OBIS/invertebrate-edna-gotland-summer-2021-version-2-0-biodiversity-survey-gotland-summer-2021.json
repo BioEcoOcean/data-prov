@@ -1,8 +1,53 @@
 {
   "@type": "Dataset",
-  "name": "Invertebrate eDNA Gotland Summer 2021 - Version 2.1",
-  "description": "eDNA sampling of invertebrates in summer 2021 around Gotland, the central Baltic Sea",
+  "name": "Invertebrate eDNA Gotland Summer 2021",
+  "description": "This study used environmental DNA (eDNA) metabarcoding of the 18S rRNA gene to characterise invertebrate assemblages from nine water samples (depths < 0.5 m) collected at three coastal sites around Gotland, Sweden, in summer 2021. Sequencing yielded 506,424 high-quality reads representing 42 invertebrate taxa across eight phyla. Arthropoda dominated both taxon richness and sequence abundance, with the copepod Acartia (Acanthacartia) tonsa detected in nearly all samples. For more details see the associated paper Lüskow and Nordlund 2026 https://doi.org/10.1007/s12526-026-01696-4.",
   "url": "https://ipt.obis.org/bioecoocean/resource?r=biodiversity_survey_gotland_summer_2021",
+  "additionalType": "Dataset",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "OBIS",
+    "url": "https://ipt.obis.org/bioecoocean/"
+  },
+  "version": "2.2",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Nordlund, Lina Mtwana",
+      "givenName": "Lina Mtwana",
+      "familyName": "Nordlund",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Uppsala University"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Lüskow, Florian",
+      "givenName": "Florian",
+      "familyName": "Lüskow",
+      "@id": "https://orcid.org/0000-0002-2100-7012",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Uppsala University"
+      }
+    },
+    {
+      "@type": "Person",
+      "name": "Lawrence, Elizabeth",
+      "givenName": "Elizabeth",
+      "familyName": "Lawrence",
+      "@id": "https://orcid.org/0000-0002-5304-941X",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "IOC-UNESCO/OBIS Secretariat"
+      }
+    }
+  ],
+  "keywords": [
+    "Benthic invertebrates"
+  ],
+  "license": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
   "identifier": {
     "@type": "PropertyValue",
     "description": "OBIS IPT resource",
@@ -10,7 +55,7 @@
     "url": "https://ipt.obis.org/bioecoocean/eml.do?r=biodiversity_survey_gotland_summer_2021",
     "value": "https://ipt.obis.org/bioecoocean/eml.do?r=biodiversity_survey_gotland_summer_2021"
   },
-  "datePublished": "2026-06-21",
+  "datePublished": "2026-09-15",
   "distribution": [
     {
       "@type": "DataDownload",

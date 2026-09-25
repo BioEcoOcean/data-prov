@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/OBIS/gelatinous-zooplankton-in-gotland-sweden-2022-version-2-0-gelatinous-zooplankton-gotland-2022.json</loc></url>
   <url><loc>https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/OBIS/invertebrate-edna-gotland-summer-2021-version-2-0-biodiversity-survey-gotland-summer-2021.json</loc></url>
+  <url><loc>https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/pangaea/greenland-sea-primary-production-for-2021-2022-from-oxygen-evolution-pangaea965985.json</loc></url>
   <url><loc>https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/a-picture-based-field-guide-shallow-coastal-communities-around-gotland-sweden-15355912.json</loc></url>
   <url><loc>https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/adaptation-of-global-primary-production-model-to-the-greenland-sea-conditions-parameterization-and-monitoring-for-1998-2022-14610655.json</loc></url>
   <url><loc>https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/advancing-marine-conservation-through-the-marine-organic-carbon-atlas-addressing-metazoan-roles-in-ocean-carbon-sequestration-13967583.json</loc></url>
@@ -28,6 +29,7 @@
   <url><loc>https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/integrating-land-and-coastal-systems-linking-glacier-runoff-and-atmospheric-inputs-with-marine-data-arctic-case-studies-15275398.json</loc></url>
   <url><loc>https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/jellyfish-and-ctenophores-around-gotland-in-the-baltic-sea-local-data-contributing-to-global-assessments-15282928.json</loc></url>
   <url><loc>https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/knowns-and-unknowns-of-gelatinous-zooplankton-in-the-central-baltic-sea-a-comprehensive-overview-15527675.json</loc></url>
+  <url><loc>https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/linking-in-situ-bio-optical-measurements-with-ocean-colour-remote-sensing-for-marine-biodiversity-assessment-in-the-european-arctic-22952584.json</loc></url>
   <url><loc>https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/marine-heat-waves-15282690.json</loc></url>
   <url><loc>https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/marine-heatwaves-in-the-baltic-sea-15282851.json</loc></url>
   <url><loc>https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/marine-organic-carbon-atlas-moca-for-the-arctic-contributions-from-eu-he-bioecoocean-sea-quester-16928709.json</loc></url>
@@ -58,6 +60,7 @@
   <url><loc>https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/the-immeasurable-value-of-plankton-to-humanity-15855747.json</loc></url>
   <url><loc>https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/the-marine-organic-carbon-atlas-living-lab-moca-16928804.json</loc></url>
   <url><loc>https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/the-role-of-earth-observations-in-developing-a-pilot-demonstration-of-the-marine-organic-carbon-atlas-for-the-arctic-ocean-16928353.json</loc></url>
+  <url><loc>https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/the-unknown-known-coastal-brackish-water-invertebrate-diversity-of-gotland-central-baltic-sea-22892735.json</loc></url>
   <url><loc>https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/towards-a-blueprint-for-integrated-ocean-science-10927052.json</loc></url>
   <url><loc>https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/towards-a-marine-organic-carbon-atlas-a-case-study-for-the-arctic-ocean-10908471.json</loc></url>
   <url><loc>https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/tuscan-archipelago-living-lab-15674614.json</loc></url>

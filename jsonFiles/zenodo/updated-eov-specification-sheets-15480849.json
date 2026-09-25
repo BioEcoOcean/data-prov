@@ -1,7 +1,7 @@
 {
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/updated-eov-specification-sheets-15480849.json",
   "@type": "CreativeWork",
-  "name": "Updated EOV specification sheets",
-  "url": "https://zenodo.org/record/15480849",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,16 +9,47 @@
     "url": "https://doi.org/10.5281/zenodo.15480849",
     "value": "10.5281/zenodo.15480849"
   },
-  "datePublished": "2025-05-21",
+  "name": "Updated EOV specification sheets",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Lara-Lopez, Ana"
+      "name": "Lara-Lopez, Ana",
+      "givenName": "Ana",
+      "familyName": "Lara-Lopez",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "IOC-UNESCO"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-2896-1367",
+      "@type": "Person"
     }
   ],
-  "license": {
-    "id": "cc-by-4.0"
+  "author": [
+    {
+      "name": "Lara-Lopez, Ana",
+      "givenName": "Ana",
+      "familyName": "Lara-Lopez",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "IOC-UNESCO"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-2896-1367",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
   },
+  "dateCreated": "2025-12-19T13:08:09.706486+00:00",
+  "dateModified": "2025-12-19T13:08:10.603129+00:00",
+  "datePublished": "2025-05-21",
+  "contentSize": "1.6 MB",
+  "size": "1.6 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -32,6 +63,18 @@
       }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/updated-eov-specification-sheets-15480849.json"
+  "url": "https://zenodo.org/records/15480849",
+  "additionalType": "Project deliverable",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
-  "@type": "CreativeWork",
-  "name": "Report of the workshop \"Data Product Development for Modeling Benthic Carbon Processes in the Arctic\"",
-  "url": "https://zenodo.org/record/17864822",
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/report-of-the-workshop-data-product-development-for-modeling-benthic-carbon-processes-in-the-arctic-17864822.json",
+  "@type": "ScholarlyArticle",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,44 +9,221 @@
     "url": "https://doi.org/10.5281/zenodo.17864822",
     "value": "10.5281/zenodo.17864822"
   },
-  "description": "The workshop &ldquo;Data Product Development for Modelling Benthic Carbon Processes in the Arctic&rdquo; was held online on 8th and 10th October 2025. It was organised by the EU-funded BioEcoOcean project in collaboration with EU funded projects POMP, SEA-Quester and NECCTON. The workshop gathered experts in Arctic marine biogeochemistry, benthic ecology, and modeling to identify gaps and develop a roadmap for generating benthic carbon data products suitable for model applications. The event consisted of two 3-hour online sessions combining plenary discussions and collaborative group work using Miro boards. In total 30 participants from 15 countries and 20 institutions attended.",
-  "datePublished": "2025-12-09",
+  "name": "Report of the workshop \"Data Product Development for Modeling Benthic Carbon Processes in the Arctic\"",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Szczepanek, Marta"
+      "name": "Szczepanek, Marta",
+      "givenName": "Marta",
+      "familyName": "Szczepanek",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Institute of Oceanology, Polish Academy of Sciences",
+          "@id": "https://edmo.seadatanet.org/report/195"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-9225-554X",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Palacz, Artur"
+      "name": "Palacz, Artur",
+      "givenName": "Artur",
+      "familyName": "Palacz",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1634-7880",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Kedra, Monika"
+      "name": "Kedra, Monika",
+      "givenName": "Monika",
+      "familyName": "Kedra",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-2223-5850",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Krzymiński, Dominik"
+      "name": "Krzymiński, Dominik",
+      "givenName": "Dominik",
+      "familyName": "Krzymiński",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0009-0001-2678-0960",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Bluhm, Bodil"
+      "name": "Bluhm, Bodil",
+      "givenName": "Bodil",
+      "familyName": "Bluhm",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "UiT The Arctic University of Norway",
+          "@id": "https://ror.org/00wge5k78"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4584-7796",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Dannheim, Jennifer"
+      "name": "Dannheim, Jennifer",
+      "givenName": "Jennifer",
+      "familyName": "Dannheim",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung",
+          "@id": "https://ror.org/032e6b942"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-3737-5872",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Gregoire, Marilaure"
+      "name": "Gregoire, Marilaure",
+      "givenName": "Marilaure",
+      "familyName": "Gregoire",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Liège",
+          "@id": "https://ror.org/00afp2z80"
+        }
+      ],
+      "@id": "https://orcid.org/0009-0008-3112-4256",
+      "@type": "Person"
     }
   ],
+  "author": [
+    {
+      "name": "Szczepanek, Marta",
+      "givenName": "Marta",
+      "familyName": "Szczepanek",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Institute of Oceanology, Polish Academy of Sciences",
+          "@id": "https://edmo.seadatanet.org/report/195"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-9225-554X",
+      "@type": "Person"
+    },
+    {
+      "name": "Palacz, Artur",
+      "givenName": "Artur",
+      "familyName": "Palacz",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1634-7880",
+      "@type": "Person"
+    },
+    {
+      "name": "Kedra, Monika",
+      "givenName": "Monika",
+      "familyName": "Kedra",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-2223-5850",
+      "@type": "Person"
+    },
+    {
+      "name": "Krzymiński, Dominik",
+      "givenName": "Dominik",
+      "familyName": "Krzymiński",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0009-0001-2678-0960",
+      "@type": "Person"
+    },
+    {
+      "name": "Bluhm, Bodil",
+      "givenName": "Bodil",
+      "familyName": "Bluhm",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "UiT The Arctic University of Norway",
+          "@id": "https://ror.org/00wge5k78"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4584-7796",
+      "@type": "Person"
+    },
+    {
+      "name": "Dannheim, Jennifer",
+      "givenName": "Jennifer",
+      "familyName": "Dannheim",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Alfred-Wegener-Institut Helmholtz-Zentrum für Polar- und Meeresforschung",
+          "@id": "https://ror.org/032e6b942"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-3737-5872",
+      "@type": "Person"
+    },
+    {
+      "name": "Gregoire, Marilaure",
+      "givenName": "Marilaure",
+      "familyName": "Gregoire",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Liège",
+          "@id": "https://ror.org/00afp2z80"
+        }
+      ],
+      "@id": "https://orcid.org/0009-0008-3112-4256",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
   "keywords": [
     "Marine Organic Carbon Atlas"
   ],
-  "license": {
-    "id": "cc-by-4.0"
-  },
+  "dateCreated": "2025-12-10T16:55:05.365230+00:00",
+  "dateModified": "2026-03-26T09:16:20.107142+00:00",
+  "datePublished": "2025-12-09",
+  "contentSize": "3.75 MB",
+  "size": "3.75 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "description": "The workshop “Data Product Development for Modelling Benthic Carbon Processes in the Arctic” was held online on 8th and 10th October 2025. It was organised by the EU-funded BioEcoOcean project in collaboration with EU funded projects POMP, SEA-Quester and NECCTON. The workshop gathered experts in Arctic marine biogeochemistry, benthic ecology, and modeling to identify gaps and develop a roadmap for generating benthic carbon data products suitable for model applications. The event consisted of two 3-hour online sessions combining plenary discussions and collaborative group work using Miro boards. In total 30 participants from 15 countries and 20 institutions attended.",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -58,8 +235,59 @@
         "legalName": "European Commission",
         "url": "https://commission.europa.eu/index_en"
       }
+    },
+    {
+      "funder": {
+        "@type": "Organization",
+        "@id": "00k4n6c32",
+        "name": "European Commission"
+      },
+      "name": "Blue Carbon production, export and sequestration in emerging polar ecosystems (101136480)",
+      "identifier": "00k4n6c32::101136480",
+      "url": {
+        "identifier": "https://cordis.europa.eu/projects/101136480",
+        "scheme": "url"
+      }
+    },
+    {
+      "funder": {
+        "@type": "Organization",
+        "@id": "00k4n6c32",
+        "name": "European Commission"
+      },
+      "name": "New Copernicus capability for trophic ocean networks (101081273)",
+      "identifier": "00k4n6c32::101081273",
+      "url": {
+        "identifier": "https://cordis.europa.eu/projects/101081273",
+        "scheme": "url"
+      }
+    },
+    {
+      "funder": {
+        "@type": "Organization",
+        "@id": "00k4n6c32",
+        "name": "European Commission"
+      },
+      "name": "Polar Ocean Mitigation Potential (101136875)",
+      "identifier": "00k4n6c32::101136875",
+      "url": {
+        "identifier": "https://cordis.europa.eu/projects/101136875",
+        "scheme": "url"
+      }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/report-of-the-workshop-data-product-development-for-modeling-benthic-carbon-processes-in-the-arctic-17864822.json"
+  "url": "https://zenodo.org/records/17864822",
+  "additionalType": "Report",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

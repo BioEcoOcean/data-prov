@@ -1,7 +1,7 @@
 {
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/guide-on-eovs-deliverable-2-1-bioecoocean-17776002.json",
   "@type": "CreativeWork",
-  "name": "Guide on EOVs. Deliverable 2.1_BioEcoOcean",
-  "url": "https://zenodo.org/record/17776002",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,29 +9,132 @@
     "url": "https://doi.org/10.5281/zenodo.17776002",
     "value": "10.5281/zenodo.17776002"
   },
-  "description": "The purpose of the Essential Ocean Variables specification guide is to outline and translate the information requested in each field of the EOV specification sheets to facilitate their update and use. The process to create this guide included a complete re-structure of the EOV specification sheet template to simplify the information provided. The creation of this new template considered the following: 1) The audiences it aims to inform, including decision-makers and policymakers, funders, ocean observers, technologists, and data managers. 2) The needs of the different expert panels, i.e. physics, biogeochemistry (BGC) and biology and ecosystems panels, who will be using this standardised template 3) Simplification of the terminology used to make the information more accessible 4) The addition of a thorough metadata and data management section that provides the necessary information to contribute data to global ocean observing. From the restructuring of the EOV specification sheet template, an interactive guide (this deliverable) was created. The guide allows users to understand the information within the EOV specification sheets. Further refinements may be undertaken from additional feedback from the BGC and physics expert panels or from within the BioEcoOcean consortium. &nbsp; &nbsp; &nbsp;",
-  "datePublished": "2025-01-17",
+  "name": "Guide on EOVs. Deliverable 2.1_BioEcoOcean",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Lara-Lopez, Ana"
+      "name": "Lara-Lopez, Ana",
+      "givenName": "Ana",
+      "familyName": "Lara-Lopez",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "IOC-UNESCO"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-2896-1367",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Lawrence, Elizabeth"
+      "name": "Lawrence, Elizabeth",
+      "givenName": "Elizabeth",
+      "familyName": "Lawrence",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Intergovernmental Oceanographic Commission of UNESCO",
+          "@id": "https://ror.org/01qk7v094"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5304-941X",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Appeltans, Ward"
+      "name": "Appeltans, Ward",
+      "givenName": "Ward",
+      "familyName": "Appeltans",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Intergovernmental Oceanographic Commission of UNESCO",
+          "@id": "https://ror.org/01qk7v094"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-3237-4547",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Heslop, Emma"
+      "name": "Heslop, Emma",
+      "givenName": "Emma",
+      "familyName": "Heslop",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Intergovernmental Oceanographic Commission of UNESCO",
+          "@id": "https://ror.org/01qk7v094"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-3534-9742",
+      "@type": "Person"
     }
   ],
-  "license": {
-    "id": "cc-by-4.0"
+  "author": [
+    {
+      "name": "Lara-Lopez, Ana",
+      "givenName": "Ana",
+      "familyName": "Lara-Lopez",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "IOC-UNESCO"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-2896-1367",
+      "@type": "Person"
+    },
+    {
+      "name": "Lawrence, Elizabeth",
+      "givenName": "Elizabeth",
+      "familyName": "Lawrence",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Intergovernmental Oceanographic Commission of UNESCO",
+          "@id": "https://ror.org/01qk7v094"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5304-941X",
+      "@type": "Person"
+    },
+    {
+      "name": "Appeltans, Ward",
+      "givenName": "Ward",
+      "familyName": "Appeltans",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Intergovernmental Oceanographic Commission of UNESCO",
+          "@id": "https://ror.org/01qk7v094"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-3237-4547",
+      "@type": "Person"
+    },
+    {
+      "name": "Heslop, Emma",
+      "givenName": "Emma",
+      "familyName": "Heslop",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Intergovernmental Oceanographic Commission of UNESCO",
+          "@id": "https://ror.org/01qk7v094"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-3534-9742",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
   },
+  "dateCreated": "2025-12-05T12:56:57.179159+00:00",
+  "dateModified": "2025-12-05T12:56:57.693924+00:00",
+  "datePublished": "2025-01-17",
+  "contentSize": "3.95 MB",
+  "size": "3.95 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "description": "The purpose of the Essential Ocean Variables specification guide is to outline and translate the information requested in each field of the EOV specification sheets to facilitate their update and use. The process to create this guide included a complete re-structure of the EOV specification sheet template to simplify the information provided. The creation of this new template considered the following: 1) The audiences it aims to inform, including decision-makers and policymakers, funders, ocean observers, technologists, and data managers. 2) The needs of the different expert panels, i.e. physics, biogeochemistry (BGC) and biology and ecosystems panels, who will be using this standardised template 3) Simplification of the terminology used to make the information more accessible 4) The addition of a thorough metadata and data management section that provides the necessary information to contribute data to global ocean observing. From the restructuring of the EOV specification sheet template, an interactive guide (this deliverable) was created. The guide allows users to understand the information within the EOV specification sheets. Further refinements may be undertaken from additional feedback from the BGC and physics expert panels or from within the BioEcoOcean consortium.",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -45,6 +148,18 @@
       }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/guide-on-eovs-deliverable-2-1-bioecoocean-17776002.json"
+  "url": "https://zenodo.org/records/17776002",
+  "additionalType": "Project deliverable",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

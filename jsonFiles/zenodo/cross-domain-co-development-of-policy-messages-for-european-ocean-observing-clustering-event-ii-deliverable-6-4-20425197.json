@@ -1,7 +1,7 @@
 {
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/cross-domain-co-development-of-policy-messages-for-european-ocean-observing-clustering-event-ii-deliverable-6-4-20425197.json",
   "@type": "CreativeWork",
-  "name": "Cross-domain co-development of policy messages for European ocean observing - Clustering Event II - Deliverable 6.4",
-  "url": "https://zenodo.org/record/20425197",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,41 +9,227 @@
     "url": "https://doi.org/10.5281/zenodo.20425197",
     "value": "10.5281/zenodo.20425197"
   },
-  "description": "How can collaboration across biology &amp; ecosystems, biogeochemistry, and physics be operationalised to support integrated ocean observing? This deliverable presents the outcomes of Clustering Event II, a cross-domain co-design and co-production process developed through the EOV Network by the Horizon Europe projects BioEcoOcean, ObsSea4Clim, and BioGeoSea. While the need for integration across ocean observing domains is widely recognised, practical examples of how such collaboration can be organised remain limited. This report provides one such example. Through a sequence of workshops, policy dialogues, and stakeholder engagement activities, participants jointly identified barriers, enabling conditions, and priorities for a more integrated, operational, and policy-relevant European Ocean Observing System. The resulting policy messages highlight the importance of phenomena-based observing approaches, interoperability and FAIR data, stronger science-policy interfaces, sustained governance and investment, and closer collaboration across observing communities. The deliverable contributes to ongoing European discussions on ocean observation, marine knowledge, climate resilience, biodiversity conservation, and sustainable ocean management, while demonstrating the value of structured cross-domain collaboration for co-developing policy messages.",
-  "datePublished": "2026-05-29",
+  "name": "Cross-domain co-development of policy messages for European ocean observing - Clustering Event II - Deliverable 6.4",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Eparkhina, Dina"
+      "name": "Eparkhina, Dina",
+      "givenName": "Dina",
+      "familyName": "Eparkhina",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "European Global Ocean Observing System",
+          "@id": "https://ror.org/01trb8031"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-3993-0240",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Hashim, Said"
+      "name": "Hashim, Said",
+      "givenName": "Said",
+      "familyName": "Hashim",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5597-1539",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Chellini, Giovanni"
+      "name": "Chellini, Giovanni",
+      "givenName": "Giovanni",
+      "familyName": "Chellini",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "European Global Ocean Observing System",
+          "@id": "https://ror.org/01trb8031"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-7303-0468",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Lawrence, Elizabeth"
+      "name": "Lawrence, Elizabeth",
+      "givenName": "Elizabeth",
+      "familyName": "Lawrence",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Intergovernmental Oceanographic Commission of UNESCO",
+          "@id": "https://ror.org/01qk7v094"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5304-941X",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Soares, Joana"
+      "name": "Soares, Joana",
+      "givenName": "Joana",
+      "familyName": "Soares",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Atlantic International Research Centre - EO Lab",
+          "@id": "https://edmo.seadatanet.org/report/5834"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-3261-9890",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Mtwana Nordlund, Lina"
+      "name": "Mtwana Nordlund, Lina",
+      "givenName": "Lina",
+      "familyName": "Mtwana Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
     }
   ],
+  "author": [
+    {
+      "name": "Eparkhina, Dina",
+      "givenName": "Dina",
+      "familyName": "Eparkhina",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "European Global Ocean Observing System",
+          "@id": "https://ror.org/01trb8031"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-3993-0240",
+      "@type": "Person"
+    },
+    {
+      "name": "Hashim, Said",
+      "givenName": "Said",
+      "familyName": "Hashim",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5597-1539",
+      "@type": "Person"
+    },
+    {
+      "name": "Chellini, Giovanni",
+      "givenName": "Giovanni",
+      "familyName": "Chellini",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "European Global Ocean Observing System",
+          "@id": "https://ror.org/01trb8031"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-7303-0468",
+      "@type": "Person"
+    },
+    {
+      "name": "Lawrence, Elizabeth",
+      "givenName": "Elizabeth",
+      "familyName": "Lawrence",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Intergovernmental Oceanographic Commission of UNESCO",
+          "@id": "https://ror.org/01qk7v094"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5304-941X",
+      "@type": "Person"
+    },
+    {
+      "name": "Soares, Joana",
+      "givenName": "Joana",
+      "familyName": "Soares",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Atlantic International Research Centre - EO Lab",
+          "@id": "https://edmo.seadatanet.org/report/5834"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-3261-9890",
+      "@type": "Person"
+    },
+    {
+      "name": "Mtwana Nordlund, Lina",
+      "givenName": "Lina",
+      "familyName": "Mtwana Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
+    }
+  ],
+  "editor": [
+    {
+      "name": "Lepola, Nina",
+      "givenName": "Nina",
+      "familyName": "Lepola",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0009-0004-3952-3818",
+      "@type": "Person"
+    },
+    {
+      "name": "Krzymiński, Dominik",
+      "givenName": "Dominik",
+      "familyName": "Krzymiński",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0009-0001-2678-0960",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
   "keywords": [
     "Essential Ocean Variables",
     "Global Ocean Observing System"
   ],
-  "license": {
-    "id": "cc-by-4.0"
-  },
+  "dateCreated": "2026-06-03T10:44:17.788654+00:00",
+  "dateModified": "2026-06-03T10:44:18.102851+00:00",
+  "datePublished": "2026-05-29",
+  "temporal": [
+    "2026-05-31"
+  ],
+  "contentSize": "1.12 MB",
+  "size": "1.12 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "description": "How can collaboration across biology & ecosystems, biogeochemistry, and physics be operationalised to support integrated ocean observing? This deliverable presents the outcomes of Clustering Event II, a cross-domain co-design and co-production process developed through the EOV Network by the Horizon Europe projects BioEcoOcean, ObsSea4Clim, and BioGeoSea. While the need for integration across ocean observing domains is widely recognised, practical examples of how such collaboration can be organised remain limited. This report provides one such example. Through a sequence of workshops, policy dialogues, and stakeholder engagement activities, participants jointly identified barriers, enabling conditions, and priorities for a more integrated, operational, and policy-relevant European Ocean Observing System. The resulting policy messages highlight the importance of phenomena-based observing approaches, interoperability and FAIR data, stronger science-policy interfaces, sustained governance and investment, and closer collaboration across observing communities. The deliverable contributes to ongoing European discussions on ocean observation, marine knowledge, climate resilience, biodiversity conservation, and sustainable ocean management, while demonstrating the value of structured cross-domain collaboration for co-developing policy messages.",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -57,6 +243,18 @@
       }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/cross-domain-co-development-of-policy-messages-for-european-ocean-observing-clustering-event-ii-deliverable-6-4-20425197.json"
+  "url": "https://zenodo.org/records/20425197",
+  "additionalType": "Project deliverable",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

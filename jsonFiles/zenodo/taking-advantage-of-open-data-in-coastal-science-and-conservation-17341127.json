@@ -1,7 +1,7 @@
 {
-  "@type": "CreativeWork",
-  "name": "Taking advantage of open data in coastal science and conservation",
-  "url": "https://zenodo.org/record/17341127",
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/taking-advantage-of-open-data-in-coastal-science-and-conservation-17341127.json",
+  "@type": "ScholarlyArticle",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,37 +9,174 @@
     "url": "https://doi.org/10.1016/j.scitotenv.2025.180276",
     "value": "10.1016/j.scitotenv.2025.180276"
   },
-  "description": "Abstract Human society relies on, and interacts with, a diverse assortment of organisms and ecological systems, from the local to the global level. Research and management of these coupled social-ecological systems requires data that speaks to the variety of processes, statuses, and situations defined by them. Effective stewardship is enhanced by interdisciplinary thinking and, critically, access to interoperable data describing human society and governance and ecological and environmental conditions. Such approaches are inherently challenging, especially for those without broad training. In this paper, we propose a workflow harnessing the Social-Ecological System Framework to identify, access, and utilize geospatial data from across a spectrum of social and ecological indicators. We demonstrate the application of this workflow using Tropical Indo-Pacific seagrasses as an example system and in doing so, demonstrate the wealth of available open-data which can support an enhanced understanding of social-ecological system dynamics. With this workflow, we provide a readily applicable tool for use by coastal researchers and managers to support more inclusive social-ecological decision making.",
-  "datePublished": "2025-09-01",
+  "name": "Taking advantage of open data in coastal science and conservation",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Hoad, Nicholas"
+      "name": "Hoad, Nicholas",
+      "givenName": "Nicholas",
+      "familyName": "Hoad",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0009-0001-6653-2670",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Lefcheck, Jonathan"
+      "name": "Lefcheck, Jonathan",
+      "givenName": "Jonathan",
+      "familyName": "Lefcheck",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Maryland Center for Environmental Science",
+          "@id": "https://ror.org/04dqdxm60"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-8787-1786",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Alexandridis, Nikolaos"
+      "name": "Alexandridis, Nikolaos",
+      "givenName": "Nikolaos",
+      "familyName": "Alexandridis",
+      "@id": "https://orcid.org/0000-0001-6031-1175",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Jones, Benjamin Lawrence Hopper"
+      "name": "Jones, Benjamin Lawrence Hopper",
+      "givenName": "Benjamin Lawrence Hopper",
+      "familyName": "Jones",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Project Seagrass"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-6058-9692",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Eklöf, Johan"
+      "name": "Eklöf, Johan",
+      "givenName": "Johan",
+      "familyName": "Eklöf",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Stockholm University",
+          "@id": "https://ror.org/05f0yaq80"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-6936-0926",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Mtwana Nordlund, Lina"
+      "name": "Mtwana Nordlund, Lina",
+      "givenName": "Lina",
+      "familyName": "Mtwana Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
     }
   ],
-  "license": {
-    "id": "cc-by-4.0"
+  "author": [
+    {
+      "name": "Hoad, Nicholas",
+      "givenName": "Nicholas",
+      "familyName": "Hoad",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0009-0001-6653-2670",
+      "@type": "Person"
+    },
+    {
+      "name": "Lefcheck, Jonathan",
+      "givenName": "Jonathan",
+      "familyName": "Lefcheck",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "University of Maryland Center for Environmental Science",
+          "@id": "https://ror.org/04dqdxm60"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-8787-1786",
+      "@type": "Person"
+    },
+    {
+      "name": "Alexandridis, Nikolaos",
+      "givenName": "Nikolaos",
+      "familyName": "Alexandridis",
+      "@id": "https://orcid.org/0000-0001-6031-1175",
+      "@type": "Person"
+    },
+    {
+      "name": "Jones, Benjamin Lawrence Hopper",
+      "givenName": "Benjamin Lawrence Hopper",
+      "familyName": "Jones",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Project Seagrass"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-6058-9692",
+      "@type": "Person"
+    },
+    {
+      "name": "Eklöf, Johan",
+      "givenName": "Johan",
+      "familyName": "Eklöf",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Stockholm University",
+          "@id": "https://ror.org/05f0yaq80"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0001-6936-0926",
+      "@type": "Person"
+    },
+    {
+      "name": "Mtwana Nordlund, Lina",
+      "givenName": "Lina",
+      "familyName": "Mtwana Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
   },
+  "dateCreated": "2025-10-13T13:29:17.537107+00:00",
+  "dateModified": "2025-10-13T13:29:17.862907+00:00",
+  "datePublished": "2025-09-01",
+  "contentSize": "9.52 MB",
+  "size": "9.52 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "description": "Abstract Human society relies on, and interacts with, a diverse assortment of organisms and ecological systems, from the local to the global level. Research and management of these coupled social-ecological systems requires data that speaks to the variety of processes, statuses, and situations defined by them. Effective stewardship is enhanced by interdisciplinary thinking and, critically, access to interoperable data describing human society and governance and ecological and environmental conditions. Such approaches are inherently challenging, especially for those without broad training. In this paper, we propose a workflow harnessing the Social-Ecological System Framework to identify, access, and utilize geospatial data from across a spectrum of social and ecological indicators. We demonstrate the application of this workflow using Tropical Indo-Pacific seagrasses as an example system and in doing so, demonstrate the wealth of available open-data which can support an enhanced understanding of social-ecological system dynamics. With this workflow, we provide a readily applicable tool for use by coastal researchers and managers to support more inclusive social-ecological decision making.",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -51,8 +188,30 @@
         "legalName": "European Commission",
         "url": "https://commission.europa.eu/index_en"
       }
+    },
+    {
+      "funder": {
+        "@type": "Organization",
+        "@id": "03zttf063",
+        "name": "Swedish Research Council"
+      },
+      "name": "VR-2021-03773"
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/taking-advantage-of-open-data-in-coastal-science-and-conservation-17341127.json"
+  "url": "https://zenodo.org/records/17341127",
+  "container_title": "Science of The Total Environment",
+  "volume": "999",
+  "additionalType": "Journal article",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

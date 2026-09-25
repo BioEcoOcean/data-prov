@@ -1,7 +1,7 @@
 {
-  "@type": "CreativeWork",
-  "name": "Integrating land and coastal systems: Linking glacier runoff and atmospheric inputs with marine data – Arctic case studies.",
-  "url": "https://zenodo.org/record/15275398",
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/integrating-land-and-coastal-systems-linking-glacier-runoff-and-atmospheric-inputs-with-marine-data-arctic-case-studies-15275398.json",
+  "@type": "PresentationDigitalDocument",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,16 +9,70 @@
     "url": "https://doi.org/10.5281/zenodo.15275398",
     "value": "10.5281/zenodo.15275398"
   },
-  "datePublished": "2025-04-24",
+  "name": "Integrating land and coastal systems: Linking glacier runoff and atmospheric inputs with marine data – Arctic case studies.",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Draganska-Deja, Katarzyna"
+      "name": "Draganska-Deja, Katarzyna",
+      "givenName": "Katarzyna",
+      "familyName": "Draganska-Deja",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5869-3167",
+      "@type": "Person"
     }
   ],
-  "license": {
-    "id": "cc-by-4.0"
+  "author": [
+    {
+      "name": "Draganska-Deja, Katarzyna",
+      "givenName": "Katarzyna",
+      "familyName": "Draganska-Deja",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5869-3167",
+      "@type": "Person"
+    }
+  ],
+  "editor": [
+    {
+      "name": "Deja, Kajetan",
+      "givenName": "Kajetan",
+      "familyName": "Deja",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Institute of Oceanology, Polish Academy of Sciences",
+          "@id": "https://edmo.seadatanet.org/report/195"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-6707-3883",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
   },
+  "dateCreated": "2025-04-25T13:19:03.985751+00:00",
+  "dateModified": "2025-08-29T09:47:00.572423+00:00",
+  "datePublished": "2025-04-24",
+  "inLanguage": {
+    "alternateName": "eng",
+    "@type": "Language",
+    "name": "English"
+  },
+  "contentSize": "104.9 MB",
+  "size": "104.9 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -32,6 +86,18 @@
       }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/integrating-land-and-coastal-systems-linking-glacier-runoff-and-atmospheric-inputs-with-marine-data-arctic-case-studies-15275398.json"
+  "url": "https://zenodo.org/records/15275398",
+  "additionalType": "Presentation",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

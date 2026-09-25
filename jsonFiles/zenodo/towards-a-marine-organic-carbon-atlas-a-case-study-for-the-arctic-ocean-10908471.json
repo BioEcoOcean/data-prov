@@ -1,7 +1,7 @@
 {
-  "@type": "CreativeWork",
-  "name": "Towards a Marine Organic Carbon Atlas: A case study for the Arctic Ocean",
-  "url": "https://zenodo.org/record/10908471",
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/towards-a-marine-organic-carbon-atlas-a-case-study-for-the-arctic-ocean-10908471.json",
+  "@type": "PresentationDigitalDocument",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,50 +9,255 @@
     "url": "https://doi.org/10.5281/zenodo.10908471",
     "value": "10.5281/zenodo.10908471"
   },
-  "description": "Oral presentation given during the Joint Community Meeting for the pan-Arctic network of Distributed Biological Observatories (DBOs) organized as part of the 2024 Arctic Science Summit Week (ASSW) on 21 March 2024 in Edinburgh, the UK.&nbsp;",
-  "datePublished": "2024-04-02",
+  "name": "Towards a Marine Organic Carbon Atlas: A case study for the Arctic Ocean",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Palacz, Artur Piotr"
+      "name": "Palacz, Artur Piotr",
+      "givenName": "Artur Piotr",
+      "familyName": "Palacz",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1634-7880",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "GRIGORATOU, MARIA"
+      "name": "GRIGORATOU, MARIA",
+      "givenName": "MARIA",
+      "familyName": "GRIGORATOU",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Gulf of Maine Research Institute"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-0484-1408",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Kędra, Monika"
+      "name": "Kędra, Monika",
+      "givenName": "Monika",
+      "familyName": "Kędra",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-2223-5850",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Koski, Marja"
+      "name": "Koski, Marja",
+      "givenName": "Marja",
+      "familyName": "Koski",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Technical University of Denmark"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1860-9768",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Kuliński, Karol"
+      "name": "Kuliński, Karol",
+      "givenName": "Karol",
+      "familyName": "Kuliński",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5403-6629",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Nordlund, Lina Mtwana"
+      "name": "Nordlund, Lina Mtwana",
+      "givenName": "Lina Mtwana",
+      "familyName": "Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Telszewski, Maciej"
+      "name": "Telszewski, Maciej",
+      "givenName": "Maciej",
+      "familyName": "Telszewski",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-9139-226X",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Visser, Andre"
+      "name": "Visser, Andre",
+      "givenName": "Andre",
+      "familyName": "Visser",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Technical University of Denmark",
+          "@id": "https://ror.org/04qtj9h94"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1604-7263",
+      "@type": "Person"
     }
   ],
+  "author": [
+    {
+      "name": "Palacz, Artur Piotr",
+      "givenName": "Artur Piotr",
+      "familyName": "Palacz",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1634-7880",
+      "@type": "Person"
+    },
+    {
+      "name": "GRIGORATOU, MARIA",
+      "givenName": "MARIA",
+      "familyName": "GRIGORATOU",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Gulf of Maine Research Institute"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0003-0484-1408",
+      "@type": "Person"
+    },
+    {
+      "name": "Kędra, Monika",
+      "givenName": "Monika",
+      "familyName": "Kędra",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-2223-5850",
+      "@type": "Person"
+    },
+    {
+      "name": "Koski, Marja",
+      "givenName": "Marja",
+      "familyName": "Koski",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Technical University of Denmark"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1860-9768",
+      "@type": "Person"
+    },
+    {
+      "name": "Kuliński, Karol",
+      "givenName": "Karol",
+      "familyName": "Kuliński",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-5403-6629",
+      "@type": "Person"
+    },
+    {
+      "name": "Nordlund, Lina Mtwana",
+      "givenName": "Lina Mtwana",
+      "familyName": "Nordlund",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Uppsala University",
+          "@id": "https://ror.org/048a87296"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-4450-2331",
+      "@type": "Person"
+    },
+    {
+      "name": "Telszewski, Maciej",
+      "givenName": "Maciej",
+      "familyName": "Telszewski",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Instytut Oceanologii Polskiej Akademii Nauk",
+          "@id": "https://ror.org/03mp6cc45"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-9139-226X",
+      "@type": "Person"
+    },
+    {
+      "name": "Visser, Andre",
+      "givenName": "Andre",
+      "familyName": "Visser",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Technical University of Denmark",
+          "@id": "https://ror.org/04qtj9h94"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-1604-7263",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
   "keywords": [
     "Marine Organic Carbon Atlas",
     "Arctic",
     "S-Q WP7"
   ],
-  "license": {
-    "id": "cc-by-4.0"
+  "dateCreated": "2024-04-03T15:03:32.086219+00:00",
+  "dateModified": "2025-05-13T10:40:15.637556+00:00",
+  "datePublished": "2024-04-02",
+  "temporal": [
+    "2024-03-21"
+  ],
+  "inLanguage": {
+    "alternateName": "eng",
+    "@type": "Language",
+    "name": "English"
   },
+  "contentSize": "2.8 MB",
+  "size": "2.8 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "description": "Oral presentation given during the Joint Community Meeting for the pan-Arctic network of Distributed Biological Observatories (DBOs) organized as part of the 2024 Arctic Science Summit Week (ASSW) on 21 March 2024 in Edinburgh, the UK.",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -64,8 +269,41 @@
         "legalName": "European Commission",
         "url": "https://commission.europa.eu/index_en"
       }
+    },
+    {
+      "funder": {
+        "@type": "Organization",
+        "@id": "00k4n6c32",
+        "name": "European Commission"
+      },
+      "name": "Arctic biodiversity change and its consequences: Assessing, monitoring and predicting the effects of ecosystem tipping cascades on marine ecosystem services and dependent human systems (869383)",
+      "identifier": "00k4n6c32::869383",
+      "url": {
+        "identifier": "https://cordis.europa.eu/projects/869383",
+        "scheme": "url"
+      }
+    },
+    {
+      "funder": {
+        "@type": "Organization",
+        "@id": "00k4n6c32",
+        "name": "European Commission"
+      },
+      "name": "Blue Carbon production, export and sequestration in emerging polar ecosystems (SEA-Quester) (101136480)"
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/towards-a-marine-organic-carbon-atlas-a-case-study-for-the-arctic-ocean-10908471.json"
+  "url": "https://zenodo.org/records/10908471",
+  "additionalType": "Presentation",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

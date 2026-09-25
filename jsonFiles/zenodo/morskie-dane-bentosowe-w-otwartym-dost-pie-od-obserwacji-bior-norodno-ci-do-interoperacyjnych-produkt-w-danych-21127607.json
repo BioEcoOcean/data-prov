@@ -1,7 +1,7 @@
 {
-  "@type": "CreativeWork",
-  "name": "Morskie dane bentosowe w otwartym dostępie: od obserwacji bioróżnorodności do interoperacyjnych produktów danych",
-  "url": "https://zenodo.org/record/21127607",
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/morskie-dane-bentosowe-w-otwartym-dost-pie-od-obserwacji-bior-norodno-ci-do-interoperacyjnych-produkt-w-danych-21127607.json",
+  "@type": "PresentationDigitalDocument",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,20 +9,58 @@
     "url": "https://doi.org/10.5281/zenodo.21127607",
     "value": "10.5281/zenodo.21127607"
   },
-  "description": "Marine benthic biodiversity data provide a clear example of ecological observations whose value depends on more than open access alone. Benthic records are embedded in complex sampling workflows and are linked to quantitative measurements, methodological information, environmental context, and ecological interpretation. This contribution discusses the transition from accessible biodiversity records toward interoperable ecological data products. It highlights the importance of taxonomic consistency, harmonized observations, ecological information, and links between biological and environmental data layers. Marine benthos is used as a case example to show why well-documented, multi-layered data are essential for ecosystem assessment, benthic carbon research, and future environmental modeling.",
-  "datePublished": "2026-07-02",
+  "name": "Morskie dane bentosowe w otwartym dostępie: od obserwacji bioróżnorodności do interoperacyjnych produktów danych",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Szczepanek, Marta"
+      "name": "Szczepanek, Marta",
+      "givenName": "Marta",
+      "familyName": "Szczepanek",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Institute of Oceanology, Polish Academy of Sciences",
+          "@id": "https://edmo.seadatanet.org/report/195"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-9225-554X",
+      "@type": "Person"
     }
   ],
+  "author": [
+    {
+      "name": "Szczepanek, Marta",
+      "givenName": "Marta",
+      "familyName": "Szczepanek",
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Institute of Oceanology, Polish Academy of Sciences",
+          "@id": "https://edmo.seadatanet.org/report/195"
+        }
+      ],
+      "@id": "https://orcid.org/0000-0002-9225-554X",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
   "keywords": [
     "Marine Organic Carbon Atlas"
   ],
-  "license": {
-    "id": "cc-by-4.0"
+  "dateCreated": "2026-07-03T11:14:36.800078+00:00",
+  "dateModified": "2026-07-03T11:30:36.842472+00:00",
+  "datePublished": "2026-07-02",
+  "inLanguage": {
+    "alternateName": "pol",
+    "@type": "Language",
+    "name": "Polish"
   },
+  "contentSize": "3.0 MB",
+  "size": "3.0 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "description": "Marine benthic biodiversity data provide a clear example of ecological observations whose value depends on more than open access alone. Benthic records are embedded in complex sampling workflows and are linked to quantitative measurements, methodological information, environmental context, and ecological interpretation. This contribution discusses the transition from accessible biodiversity records toward interoperable ecological data products. It highlights the importance of taxonomic consistency, harmonized observations, ecological information, and links between biological and environmental data layers. Marine benthos is used as a case example to show why well-documented, multi-layered data are essential for ecosystem assessment, benthic carbon research, and future environmental modeling.",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -36,6 +74,18 @@
       }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/morskie-dane-bentosowe-w-otwartym-dost-pie-od-obserwacji-bior-norodno-ci-do-interoperacyjnych-produkt-w-danych-21127607.json"
+  "url": "https://zenodo.org/records/21127607",
+  "additionalType": "Presentation",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }

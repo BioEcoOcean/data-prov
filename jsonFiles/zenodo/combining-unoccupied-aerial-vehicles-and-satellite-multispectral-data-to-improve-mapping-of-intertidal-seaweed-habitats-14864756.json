@@ -1,7 +1,7 @@
 {
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/combining-unoccupied-aerial-vehicles-and-satellite-multispectral-data-to-improve-mapping-of-intertidal-seaweed-habitats-14864756.json",
   "@type": "CreativeWork",
-  "name": "Combining Unoccupied Aerial Vehicles and Satellite Multispectral Data to Improve Mapping of Intertidal Seaweed Habitats",
-  "url": "https://zenodo.org/record/14864756",
   "identifier": {
     "@type": "PropertyValue",
     "description": "DOI",
@@ -9,36 +9,85 @@
     "url": "https://doi.org/10.5281/zenodo.14864756",
     "value": "10.5281/zenodo.14864756"
   },
-  "description": "Seaweed assemblages are essential components of coastal ecosystems, providing numerous ecological, economic, and social benefits. Unoccupied Aerial Vehicles (UAV) with different sensors, have been increasingly applied in the recent years to locally map seaweed coverage and habitats. Satellite multispectral data, on the other hand, covers wide areas but has coarser resolutions which limits their use in the narrow and complex intertidal zones. Our methodology combines high-resolution UAV multispectral data, in situ precise georeferencing and lower-resolution Sentinel 2 imagery from Copernicus to provide improved spatial estimates of intertidal seaweed habitats over larger areas.",
-  "datePublished": "2025-02-13",
+  "name": "Combining Unoccupied Aerial Vehicles and Satellite Multispectral Data to Improve Mapping of Intertidal Seaweed Habitats",
   "creator": [
     {
-      "@type": "Person",
-      "name": "Borges, Débora"
+      "name": "Borges, Débora",
+      "givenName": "Débora",
+      "familyName": "Borges",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Gonçalves, José Alberto"
+      "name": "Gonçalves, José Alberto",
+      "givenName": "José Alberto",
+      "familyName": "Gonçalves",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Sousa-Pinto, Isabel"
+      "name": "Sousa-Pinto, Isabel",
+      "givenName": "Isabel",
+      "familyName": "Sousa-Pinto",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Giusti, Andrea"
+      "name": "Giusti, Andrea",
+      "givenName": "Andrea",
+      "familyName": "Giusti",
+      "@type": "Person"
     },
     {
-      "@type": "Person",
-      "name": "Valente, André"
+      "name": "Valente, André",
+      "givenName": "André",
+      "familyName": "Valente",
+      "@type": "Person"
     }
   ],
+  "author": [
+    {
+      "name": "Borges, Débora",
+      "givenName": "Débora",
+      "familyName": "Borges",
+      "@type": "Person"
+    },
+    {
+      "name": "Gonçalves, José Alberto",
+      "givenName": "José Alberto",
+      "familyName": "Gonçalves",
+      "@type": "Person"
+    },
+    {
+      "name": "Sousa-Pinto, Isabel",
+      "givenName": "Isabel",
+      "familyName": "Sousa-Pinto",
+      "@type": "Person"
+    },
+    {
+      "name": "Giusti, Andrea",
+      "givenName": "Andrea",
+      "familyName": "Giusti",
+      "@type": "Person"
+    },
+    {
+      "name": "Valente, André",
+      "givenName": "André",
+      "familyName": "Valente",
+      "@type": "Person"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
   "keywords": [
     "Atlantic Living Lab"
   ],
-  "license": {
-    "id": "cc-by-4.0"
-  },
+  "dateCreated": "2025-02-14T12:03:34.458478+00:00",
+  "dateModified": "2025-04-03T15:34:50.411657+00:00",
+  "datePublished": "2025-02-13",
+  "contentSize": "2.0 MB",
+  "size": "2.0 MB",
+  "license": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "description": "Seaweed assemblages are essential components of coastal ecosystems, providing numerous ecological, economic, and social benefits. Unoccupied Aerial Vehicles (UAV) with different sensors, have been increasingly applied in the recent years to locally map seaweed coverage and habitats. Satellite multispectral data, on the other hand, covers wide areas but has coarser resolutions which limits their use in the narrow and complex intertidal zones. Our methodology combines high-resolution UAV multispectral data, in situ precise georeferencing and lower-resolution Sentinel 2 imagery from Copernicus to provide improved spatial estimates of intertidal seaweed habitats over larger areas.",
   "funding": [
     {
       "@type": "MonetaryGrant",
@@ -52,6 +101,18 @@
       }
     }
   ],
-  "@context": "https://schema.org/",
-  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/zenodo/combining-unoccupied-aerial-vehicles-and-satellite-multispectral-data-to-improve-mapping-of-intertidal-seaweed-habitats-14864756.json"
+  "url": "https://zenodo.org/records/14864756",
+  "additionalType": "Poster",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "Zenodo",
+    "url": "https://zenodo.org/communities/bioecoocean"
+  },
+  "publishingPrinciples": [
+    {
+      "@type": "CreativeWork",
+      "name": "CC-BY: Creative Commons Attribution 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
 }
