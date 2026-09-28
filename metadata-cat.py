@@ -1,7 +1,9 @@
 """
-Metadata catalogue: harvest Zenodo (BioEcoOcean) and OBIS IPT, export JSON-LD.
+Metadata catalogue: harvest Zenodo (BioEcoOcean), OBIS IPT, PANGAEA and
+GitHub, export JSON-LD.
 
-Lists community records via Zenodo API, maps OBIS IPT RSS items, enriches each
+Lists community records via Zenodo API, maps OBIS IPT RSS items, PANGAEA
+datasets and GitHub repositories tagged with the BioEcoOcean output topic, enriches each
 entry (funding, DOI identifier, license) and writes a combined @graph catalogue
 and optional per-record JSON files.
 """
@@ -11,6 +13,7 @@ from __future__ import annotations
 import argparse
 import html
 import json
+import os
 import re
 import sys
 import time
@@ -44,8 +47,12 @@ REQUEST_DELAY_S = 1.2
 DEFAULT_ZENODO_DIR = Path("jsonFiles/zenodo")
 DEFAULT_OBIS_DIR = Path("jsonFiles/OBIS")
 DEFAULT_PANGAEA_DIR = Path("jsonFiles/pangaea")
+DEFAULT_GITHUB_DIR = Path("jsonFiles/github")
 DEFAULT_BASE_URL = "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main"
 PANGAEA_QUERY = "BioEcoOcean"
+# GitHub repositories (any owner) carrying this topic are catalogued as code outputs
+GITHUB_TOPIC = "bioecoocean-output"
+GITHUB_SEARCH_URL = "https://api.github.com/search/repositories"
 
 # Source catalogues, attached to each record as schema.org includedInDataCatalog
 ZENODO_CATALOG: dict[str, Any] = {
@@ -62,6 +69,11 @@ PANGAEA_CATALOG: dict[str, Any] = {
     "@type": "DataCatalog",
     "name": "PANGAEA",
     "url": "https://www.pangaea.de/",
+}
+GITHUB_CATALOG: dict[str, Any] = {
+    "@type": "DataCatalog",
+    "name": "GitHub",
+    "url": f"https://github.com/topics/{GITHUB_TOPIC}",
 }
 
 BIOECOOCEAN_FUNDING: dict[str, Any] = {
@@ -606,6 +618,144 @@ def harvest_pangaea(query: str = PANGAEA_QUERY) -> list[dict]:
     return datasets
 
 
+def _github_headers() -> dict[str, str]:
+    """GitHub API headers; GITHUB_TOKEN raises the search rate limit."""
+    headers = {"Accept": "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28"}
+    token = os.environ.get("GITHUB_TOKEN")
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    return headers
+
+
+def _github_repo_to_schema(repo: dict[str, Any], topic: str) -> dict[str, Any]:
+    """Map a GitHub API repository object to a schema.org SoftwareSourceCode stub."""
+    html_url = repo.get("html_url") or ""
+    owner = repo.get("owner") or {}
+
+    record: dict[str, Any] = {
+        "@type": "SoftwareSourceCode",
+        "name": repo.get("name") or repo.get("full_name") or "GitHub repository",
+        "url": html_url,
+        "codeRepository": html_url,
+        "additionalType": "Software",
+        "includedInDataCatalog": GITHUB_CATALOG,
+    }
+
+    if repo.get("description"):
+        record["description"] = repo["description"]
+    if owner.get("login"):
+        record["creator"] = [{
+            "@type": "Organization" if owner.get("type") == "Organization" else "Person",
+            "name": owner["login"],
+            "url": owner.get("html_url") or f"https://github.com/{owner['login']}",
+        }]
+    if repo.get("created_at"):
+        record["datePublished"] = repo["created_at"][:10]
+    if repo.get("pushed_at"):
+        record["dateModified"] = repo["pushed_at"][:10]
+    if repo.get("language"):
+        record["programmingLanguage"] = repo["language"]
+
+    # The harvest topic itself says nothing about the content
+    keywords = [t for t in repo.get("topics") or [] if t != topic]
+    if keywords:
+        record["keywords"] = keywords
+
+    spdx = (repo.get("license") or {}).get("spdx_id")
+    if spdx and spdx != "NOASSERTION":
+        record["license"] = f"https://spdx.org/licenses/{spdx}"
+
+    parent = repo.get("parent") or {}
+    if parent.get("html_url"):
+        record["isBasedOn"] = {
+            "@type": "SoftwareSourceCode",
+            "name": parent.get("full_name") or parent.get("name") or "",
+            "url": parent["html_url"],
+            "codeRepository": parent["html_url"],
+        }
+
+    return record
+
+
+def _github_fork_parent(repo: dict[str, Any]) -> dict[str, Any] | None:
+    """Upstream repository of a fork (search results omit it); None if unavailable."""
+    try:
+        r = requests.get(repo["url"], headers=_github_headers(), timeout=30)
+        r.raise_for_status()
+        return r.json().get("parent")
+    except (requests.RequestException, KeyError, ValueError) as exc:
+        print(f"Warning: could not look up fork parent of {repo.get('full_name')} ({exc})", file=sys.stderr)
+        return None
+
+
+def _github_rate_limit_wait(r: requests.Response) -> float | None:
+    """Seconds to wait before retrying a rate-limited GitHub response, or None if not rate-limited."""
+    if r.status_code not in (403, 429):
+        return None
+    if r.headers.get("Retry-After"):
+        return float(r.headers["Retry-After"])
+    if r.headers.get("X-RateLimit-Remaining") == "0" and r.headers.get("X-RateLimit-Reset"):
+        return max(0.0, float(r.headers["X-RateLimit-Reset"]) - time.time()) + 1
+    return None
+
+
+def _github_search_page(params: dict[str, Any], retries: int = 2) -> dict:
+    """GET one page of GitHub search results, waiting out short rate limits."""
+    for attempt in range(retries + 1):
+        r = requests.get(GITHUB_SEARCH_URL, params=params, headers=_github_headers(), timeout=30)
+        wait = _github_rate_limit_wait(r)
+        # Search limits reset every minute; anything longer is not worth blocking on
+        if wait is not None and wait <= 90 and attempt < retries:
+            print(f"GitHub rate limit reached; retrying in {wait:.0f}s", file=sys.stderr)
+            time.sleep(wait)
+            continue
+        r.raise_for_status()
+        return r.json()
+    raise requests.HTTPError("GitHub rate limit still exceeded after retries")
+
+
+def harvest_github(topic: str = GITHUB_TOPIC) -> list[dict] | None:
+    """
+    Search GitHub for public repositories tagged with topic and return schema.org records.
+    Returns None if the search failed, so callers can keep previously harvested records.
+    """
+    # Search leaves out forks unless asked; project code is often a fork of a partner's repo
+    params: dict[str, Any] = {"q": f"topic:{topic} fork:true", "per_page": 100, "page": 1}
+    repos: list[dict] = []
+
+    while True:
+        try:
+            data = _github_search_page(params)
+        except requests.RequestException as exc:
+            hint = "" if os.environ.get("GITHUB_TOKEN") else " Set GITHUB_TOKEN to raise the rate limit."
+            print(f"Warning: GitHub search failed on page {params['page']} ({exc}).{hint}", file=sys.stderr)
+            return None
+
+        items = data.get("items") or []
+        repos.extend(items)
+        if not items or len(repos) >= int(data.get("total_count") or 0):
+            break
+        params["page"] += 1
+        time.sleep(REQUEST_DELAY_S)
+
+    if not repos:
+        print(f"GitHub: no repositories found with topic '{topic}'", file=sys.stderr)
+    for repo in repos:
+        if repo.get("fork"):
+            repo["parent"] = _github_fork_parent(repo)
+            time.sleep(REQUEST_DELAY_S)
+    return [_github_repo_to_schema(repo, topic) for repo in repos]
+
+
+def _github_full_name_from_record(record: dict) -> str | None:
+    """'owner/repo' from a GitHub repository record's codeRepository or url."""
+    for field in ("codeRepository", "url"):
+        m = re.match(r"https?://github\.com/([^/?#]+/[^/?#]+)", str(record.get(field) or ""))
+        if m:
+            return m.group(1).removesuffix(".git")
+    return None
+
+
 def _obis_resource_slug(url: str) -> str | None:
     if "resource?r=" in url:
         return url.split("resource?r=", 1)[1].split("&", 1)[0]
@@ -641,6 +791,9 @@ def _stable_record_key(record: dict) -> str | None:
     pangaea_id = _pangaea_id_from_record(record)
     if pangaea_id:
         return f"pangaea:{pangaea_id}"
+    gh_name = _github_full_name_from_record(record)
+    if gh_name:
+        return f"github:{gh_name}"
     return None
 
 
@@ -668,6 +821,11 @@ def _find_existing_path(record_dir: Path, record: dict) -> Path | None:
         matches = sorted(record_dir.glob(f"*-pangaea{pangaea_id}.json"))
         if matches:
             return matches[0]
+    gh_name = _github_full_name_from_record(record)
+    if gh_name:
+        path = record_dir / f"{slugify(gh_name)}.json"
+        if path.is_file():
+            return path
     return None
 
 
@@ -719,6 +877,10 @@ def _record_filename(record: dict) -> str:
     pangaea_id = _pangaea_id_from_record(record)
     if pangaea_id:
         return f"{base_slug}-pangaea{pangaea_id}.json"
+    gh_name = _github_full_name_from_record(record)
+    if gh_name:
+        # owner-repo, since the same repo name can exist under different owners
+        return f"{slugify(gh_name)}.json"
     return f"{base_slug}.json"
 
 
@@ -769,6 +931,7 @@ def build_catalogue(
     zenodo_dir: Path | None = DEFAULT_ZENODO_DIR,
     obis_dir: Path | None = DEFAULT_OBIS_DIR,
     pangaea_dir: Path | None = DEFAULT_PANGAEA_DIR,
+    github_dir: Path | None = DEFAULT_GITHUB_DIR,
     base_url: str | None = None,
     cwd: Path | None = None,
     write_json: bool = True,
@@ -825,6 +988,27 @@ def build_catalogue(
         if pangaea_records:
             print(f"Processed {len(pangaea_records)} Pangaea dataset(s)", file=sys.stderr)
 
+        github_records = harvest_github(GITHUB_TOPIC)
+        if github_records is None:
+            # Search failed: keep last run's records in the catalogue rather than dropping them
+            github_records = []
+            if github_dir is not None and github_dir.is_dir():
+                kept = sorted(github_dir.glob("*.json"))
+                for path in kept:
+                    with path.open(encoding="utf-8") as f:
+                        catalogue.append(json.load(f))
+                print(f"GitHub: kept {len(kept)} previously harvested record(s)", file=sys.stderr)
+        for repo in github_records:
+            record = enrich_record(repo, add_funding=add_funding)
+            if write_json and github_dir is not None:
+                record, action = _sync_record_file(
+                    record, github_dir, base_url=base_url, cwd=cwd, source_label="github"
+                )
+                stats[action] += 1
+            catalogue.append(record)
+        if github_records:
+            print(f"Processed {len(github_records)} GitHub repositories", file=sys.stderr)
+
     if write_json:
         print(
             f"JSON files: {stats['created']} created, {stats['updated']} updated, "
@@ -837,7 +1021,7 @@ def build_catalogue(
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Harvest Zenodo + OBIS IPT metadata and export as JSON-LD catalogue."
+        description="Harvest Zenodo, OBIS IPT, PANGAEA and GitHub metadata and export as JSON-LD catalogue."
     )
     parser.add_argument("--community", default=DEFAULT_COMMUNITY)
     parser.add_argument(
@@ -862,6 +1046,12 @@ def main() -> int:
         type=Path,
         default=DEFAULT_PANGAEA_DIR,
         help=f"Directory for Pangaea JSON files (default: {DEFAULT_PANGAEA_DIR}).",
+    )
+    parser.add_argument(
+        "--github-dir",
+        type=Path,
+        default=DEFAULT_GITHUB_DIR,
+        help=f"Directory for GitHub repository JSON files (default: {DEFAULT_GITHUB_DIR}).",
     )
     parser.add_argument(
         "--no-json-files",
@@ -894,6 +1084,7 @@ def main() -> int:
         zenodo_dir=None if args.no_json_files else args.zenodo_dir,
         obis_dir=None if args.no_json_files else args.obis_dir,
         pangaea_dir=None if args.no_json_files else args.pangaea_dir,
+        github_dir=None if args.no_json_files else args.github_dir,
         base_url=base_url,
         write_json=not args.no_json_files,
         add_funding=not args.no_funding,
@@ -913,6 +1104,7 @@ def main() -> int:
         print(f"Zenodo JSON: {args.zenodo_dir}", file=sys.stderr)
         print(f"OBIS JSON: {args.obis_dir}", file=sys.stderr)
         print(f"Pangaea JSON: {args.pangaea_dir}", file=sys.stderr)
+        print(f"GitHub JSON: {args.github_dir}", file=sys.stderr)
         print("Run update_sitemap.py after harvest to refresh sitemap.xml.", file=sys.stderr)
 
     return 0

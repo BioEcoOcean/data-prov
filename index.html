@@ -45,8 +45,8 @@
       const typeFiltersEl = document.getElementById('type-filters');
       const sourceFiltersEl = document.getElementById('source-filters');
 
-      const TYPE_ORDER = ['Dataset', 'Document', 'Presentation', 'Poster', 'Other'];
-      const SOURCE_ORDER = ['Zenodo', 'OBIS', 'PANGAEA'];
+      const TYPE_ORDER = ['Dataset', 'Software', 'Document', 'Presentation', 'Poster', 'Other'];
+      const SOURCE_ORDER = ['Zenodo', 'OBIS', 'PANGAEA', 'GitHub'];
 
       let items = [];
       let activeType = '';
@@ -57,6 +57,7 @@
         const t = String(record['@type'] || '');
         const a = String(record.additionalType || '').toLowerCase();
         if (t === 'Dataset' || a.includes('dataset')) return 'Dataset';
+        if (t === 'SoftwareSourceCode' || t === 'SoftwareApplication' || a === 'software') return 'Software';
         if (t === 'PresentationDigitalDocument' || a.includes('presentation')) return 'Presentation';
         if (a.includes('poster')) return 'Poster';
         if (a === 'other') return 'Other';
@@ -70,6 +71,7 @@
         if (url.includes('zenodo.org')) return 'Zenodo';
         if (url.includes('obis.org')) return 'OBIS';
         if (url.includes('pangaea.de')) return 'PANGAEA';
+        if (url.includes('github.com')) return 'GitHub';
         return 'Other';
       }
 
@@ -109,6 +111,7 @@
         if (desc && typeof desc === 'string' && desc.length > 280) desc = desc.slice(0, 277) + '…';
         const creators = Array.isArray(record.creator) ? record.creator : (record.creator ? [record.creator] : []);
         const firstAuthor = (creators[0] && creators[0].name) ? creators[0].name : '';
+        const language = typeof record.programmingLanguage === 'string' ? record.programmingLanguage : '';
         const date = record.datePublished || '';
         const year = (typeof date === 'string' && date.length >= 4) ? date.slice(0, 4) : '';
         const keywordsRaw = Array.isArray(record.keywords) ? record.keywords : [];
@@ -127,6 +130,7 @@
             '<span class="badge badge-source badge-' + escapeAttr(source.toLowerCase()) + '">' + escapeHtml(source) + '</span>' +
             (doi ? '<a href="' + escapeAttr(doi) + '" target="_blank" rel="noopener">' + escapeHtml(shortDoi(doi)) + '</a>' : '') +
             (firstAuthor ? '<span>' + escapeHtml(firstAuthor) + '</span>' : '') +
+            (language ? '<span>' + escapeHtml(language) + '</span>' : '') +
             (year ? '<span>' + escapeHtml(year) + '</span>' : (date ? '<span>' + escapeHtml(date) + '</span>' : '')) +
           '</div>' +
           (keywords.length ? '<div class="card-keywords">' + keywords.slice(0, 8).map(k => '<span class="tag">' + escapeHtml(k) + '</span>').join('') + '</div>' : '');

@@ -1,0 +1,40 @@
+{
+  "@type": "SoftwareSourceCode",
+  "name": "oceanis-dev",
+  "url": "https://github.com/BioEcoOcean/oceanis-dev",
+  "codeRepository": "https://github.com/BioEcoOcean/oceanis-dev",
+  "additionalType": "Software",
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "name": "GitHub",
+    "url": "https://github.com/topics/bioecoocean-output"
+  },
+  "description": "Sandbox for developing Blueprint product",
+  "creator": [
+    {
+      "@type": "Organization",
+      "name": "BioEcoOcean",
+      "url": "https://github.com/BioEcoOcean"
+    }
+  ],
+  "datePublished": "2025-02-06",
+  "dateModified": "2026-09-28",
+  "programmingLanguage": "JavaScript",
+  "license": "https://spdx.org/licenses/CC0-1.0",
+  "identifier": "https://github.com/BioEcoOcean/oceanis-dev",
+  "funding": [
+    {
+      "@type": "MonetaryGrant",
+      "name": "BioEcoOcean (Horizon Europe)",
+      "identifier": "101136748",
+      "funder": {
+        "@type": "FundingAgency",
+        "name": "European Commission",
+        "legalName": "European Commission",
+        "url": "https://commission.europa.eu/index_en"
+      }
+    }
+  ],
+  "@context": "https://schema.org/",
+  "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/github/bioecoocean-oceanis-dev.json"
+}

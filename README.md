@@ -30,6 +30,9 @@ The script `metadata-cat.py` connects to the Zenodo REST API, lists all records 
    - `jsonFiles/zenodo/*.json` — one file per Zenodo record
    - `jsonFiles/OBIS/*.json` — one file per OBIS IPT dataset
    - `jsonFiles/pangaea/*.json` — one file per PANGAEA dataset matching "BioEcoOcean"
+   - `jsonFiles/github/*.json` — one file per public GitHub repository (any owner) tagged with the `bioecoocean-output` topic, including forks (whose upstream repository is recorded as `isBasedOn`)
+
+   To add a code repository to the catalogue, add the topic `bioecoocean-output` to it on GitHub (repo page → ⚙ next to "About" → Topics). It is picked up on the next weekly run. Set a `GITHUB_TOKEN` environment variable to raise the GitHub API rate limit (the GitHub Action does this automatically).
 
    Re-runs **update only changed** per-record JSON files (matched by Zenodo record id or OBIS resource slug). The terminal prints `created`, `updated`, or `skipped` for each file, plus a summary count.
 
@@ -37,12 +40,12 @@ The script `metadata-cat.py` connects to the Zenodo REST API, lists all records 
    ```bash
    python update_sitemap.py --base-url "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main"
    ```
-   Writes `sitemap.xml` with one `<loc>` per JSON file under `jsonFiles/zenodo/`, `jsonFiles/OBIS/` and `jsonFiles/pangaea/`.
+   Writes `sitemap.xml` with one `<loc>` per JSON file under `jsonFiles/zenodo/`, `jsonFiles/OBIS/`, `jsonFiles/pangaea/` and `jsonFiles/github/`.
 
 4. Options (`metadata-cat.py`):
    - `--community ID` — Zenodo community identifier (default: `bioecoocean`)
    - `-o FILE` — Output catalogue path (default: `bioecoocean-catalogue.jsonld`)
-   - `--zenodo-dir` / `--obis-dir` / `--pangaea-dir` — Output folders (defaults: `jsonFiles/zenodo`, `jsonFiles/OBIS`, `jsonFiles/pangaea`)
+   - `--zenodo-dir` / `--obis-dir` / `--pangaea-dir` / `--github-dir` — Output folders (defaults: `jsonFiles/zenodo`, `jsonFiles/OBIS`, `jsonFiles/pangaea`, `jsonFiles/github`)
    - `--base-url URL` — Prefix for each record’s `@id` (defaults to raw GitHub URL of that JSON file; see `DEFAULT_BASE_URL` in `metadata-cat.py`)
    - `--no-json-files` — Skip writing per-record JSON files
    - `--max-pages N` — Limit Zenodo pages (testing; 25 records per page)
@@ -53,7 +56,7 @@ The script `metadata-cat.py` connects to the Zenodo REST API, lists all records 
    python metadata-cat.py --no-json-files
    ```
 
-The output is a JSON-LD document with an `@graph` of schema.org entries. Zenodo entries come from Zenodo's JSON-LD export (`/records/{id}/export/json-ld`), so `@type` follows the upload (`ScholarlyArticle`, `PresentationDigitalDocument`, `CreativeWork`, `Dataset`, …); OBIS IPT and PANGAEA resources are `Dataset`. Each entry includes `@id`, `name`, `identifier` (DOI as `PropertyValue` when available), `url`, `additionalType` (the Zenodo resource type, e.g. "Poster", "Project deliverable", or "Dataset"), `includedInDataCatalog` (Zenodo, OBIS or PANGAEA), and when available `description`, `datePublished`, `creator` (with ORCID and affiliation from Zenodo), plain-string `keywords`, `publishingPrinciples` (from license), and `funding` (BioEcoOcean grant first, plus any co-funders listed on Zenodo). Use `--no-funding` to omit the funding block. No API token is required for public records.
+The output is a JSON-LD document with an `@graph` of schema.org entries. Zenodo entries come from Zenodo's JSON-LD export (`/records/{id}/export/json-ld`), so `@type` follows the upload (`ScholarlyArticle`, `PresentationDigitalDocument`, `CreativeWork`, `Dataset`, …); OBIS IPT and PANGAEA resources are `Dataset`; GitHub repositories are `SoftwareSourceCode` (with `codeRepository`, `programmingLanguage`, `dateModified`, the repo owner as `creator`, and the SPDX license URL). Each entry includes `@id`, `name`, `identifier` (DOI as `PropertyValue` when available), `url`, `additionalType` (the Zenodo resource type, e.g. "Poster", "Project deliverable", or "Dataset"), `includedInDataCatalog` (Zenodo, OBIS, PANGAEA or GitHub), and when available `description`, `datePublished`, `creator` (with ORCID and affiliation from Zenodo), plain-string `keywords`, `publishingPrinciples` (from license), and `funding` (BioEcoOcean grant first, plus any co-funders listed on Zenodo). Use `--no-funding` to omit the funding block. No API token is required for public records.
 
 ### Landing page (list and search outputs)
 

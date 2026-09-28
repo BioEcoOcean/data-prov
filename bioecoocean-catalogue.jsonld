@@ -13156,6 +13156,90 @@
       ],
       "@context": "https://schema.org/",
       "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/pangaea/greenland-sea-primary-production-for-2021-2022-from-oxygen-evolution-pangaea965985.json"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "oceanis-dev",
+      "url": "https://github.com/BioEcoOcean/oceanis-dev",
+      "codeRepository": "https://github.com/BioEcoOcean/oceanis-dev",
+      "additionalType": "Software",
+      "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GitHub",
+        "url": "https://github.com/topics/bioecoocean-output"
+      },
+      "description": "Sandbox for developing Blueprint product",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "BioEcoOcean",
+          "url": "https://github.com/BioEcoOcean"
+        }
+      ],
+      "datePublished": "2025-02-06",
+      "dateModified": "2026-09-28",
+      "programmingLanguage": "JavaScript",
+      "license": "https://spdx.org/licenses/CC0-1.0",
+      "identifier": "https://github.com/BioEcoOcean/oceanis-dev",
+      "funding": [
+        {
+          "@type": "MonetaryGrant",
+          "name": "BioEcoOcean (Horizon Europe)",
+          "identifier": "101136748",
+          "funder": {
+            "@type": "FundingAgency",
+            "name": "European Commission",
+            "legalName": "European Commission",
+            "url": "https://commission.europa.eu/index_en"
+          }
+        }
+      ],
+      "@context": "https://schema.org/",
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/github/bioecoocean-oceanis-dev.json"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "Greenland-Sea-Satellite-Primary-Production-Algorithm-Raw_Version",
+      "url": "https://github.com/BioEcoOcean/Greenland-Sea-Satellite-Primary-Production-Algorithm-Raw_Version",
+      "codeRepository": "https://github.com/BioEcoOcean/Greenland-Sea-Satellite-Primary-Production-Algorithm-Raw_Version",
+      "additionalType": "Software",
+      "includedInDataCatalog": {
+        "@type": "DataCatalog",
+        "name": "GitHub",
+        "url": "https://github.com/topics/bioecoocean-output"
+      },
+      "description": "Scripts used to compute Greenland Sea Primary Production for \"Adaptation of global primary production model to the Greenland Sea conditions: parameterization and monitoring for 1998-2022\". Scripts created by Rustam Manurov under instruction and supervision of Aleksandra Cherkasheva. See details at https://doi.org/10.3389/fmars.2024.1491180",
+      "creator": [
+        {
+          "@type": "Organization",
+          "name": "BioEcoOcean",
+          "url": "https://github.com/BioEcoOcean"
+        }
+      ],
+      "datePublished": "2025-09-09",
+      "dateModified": "2025-09-08",
+      "isBasedOn": {
+        "@type": "SoftwareSourceCode",
+        "name": "acherkasheva/Greenland-Sea-Satellite-Primary-Production-Algorithm-Raw_Version",
+        "url": "https://github.com/acherkasheva/Greenland-Sea-Satellite-Primary-Production-Algorithm-Raw_Version",
+        "codeRepository": "https://github.com/acherkasheva/Greenland-Sea-Satellite-Primary-Production-Algorithm-Raw_Version"
+      },
+      "identifier": "https://github.com/BioEcoOcean/Greenland-Sea-Satellite-Primary-Production-Algorithm-Raw_Version",
+      "funding": [
+        {
+          "@type": "MonetaryGrant",
+          "name": "BioEcoOcean (Horizon Europe)",
+          "identifier": "101136748",
+          "funder": {
+            "@type": "FundingAgency",
+            "name": "European Commission",
+            "legalName": "European Commission",
+            "url": "https://commission.europa.eu/index_en"
+          }
+        }
+      ],
+      "@context": "https://schema.org/",
+      "@id": "https://raw.githubusercontent.com/BioEcoOcean/data-prov/refs/heads/main/jsonFiles/github/bioecoocean-greenland-sea-satellite-primary-production-algorithm-raw-version.json"
     }
   ]
 }

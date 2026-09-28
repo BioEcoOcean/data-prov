@@ -34,6 +34,7 @@ jobs:
 
       - name: Run catalogue harvest
         env:
+          GITHUB_TOKEN: ${{ github.token }}
           BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/refs/heads/${{ github.ref_name }}
         run: python metadata-cat.py --base-url "$BASE_URL"
 
@@ -45,7 +46,7 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          if git diff --quiet -- bioecoocean-catalogue.jsonld jsonFiles/zenodo jsonFiles/OBIS jsonFiles/pangaea sitemap.xml; then
+          if git diff --quiet -- bioecoocean-catalogue.jsonld jsonFiles/zenodo jsonFiles/OBIS jsonFiles/pangaea jsonFiles/github sitemap.xml; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else
             echo "has_changes=true" >> $GITHUB_OUTPUT
@@ -56,7 +57,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add bioecoocean-catalogue.jsonld jsonFiles/zenodo jsonFiles/OBIS jsonFiles/pangaea sitemap.xml
+          git add bioecoocean-catalogue.jsonld jsonFiles/zenodo jsonFiles/OBIS jsonFiles/pangaea jsonFiles/github sitemap.xml
           git commit -m "chore: update BioEcoOcean catalogue, JSON files, and sitemap"
           git push
 

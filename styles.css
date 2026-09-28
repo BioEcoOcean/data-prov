@@ -135,6 +135,7 @@
   .badge-source { color: var(--text-muted); background: var(--surface); }
   .badge-obis { color: #0b5d3b; background: #e6f4ec; border-color: #c4e3d1; }
   .badge-pangaea { color: #7a3d00; background: #fdf0e1; border-color: #f2d6b3; }
+  .badge-github { color: #24292f; background: #f0f1f3; border-color: #d0d7de; }
   .count {
     font-size: 0.875rem;
     color: var(--text-muted);
