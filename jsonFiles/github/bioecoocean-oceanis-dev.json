@@ -9,7 +9,7 @@
     "name": "GitHub",
     "url": "https://github.com/topics/bioecoocean-output"
   },
-  "description": "Sandbox for developing Blueprint product",
+  "description": "Development of OCEANIS platform",
   "creator": [
     {
       "@type": "Organization",
@@ -18,7 +18,7 @@
     }
   ],
   "datePublished": "2025-02-06",
-  "dateModified": "2026-10-08",
+  "dateModified": "2026-10-21",
   "programmingLanguage": "JavaScript",
   "license": "https://spdx.org/licenses/CC0-1.0",
   "identifier": "https://github.com/BioEcoOcean/oceanis-dev",
